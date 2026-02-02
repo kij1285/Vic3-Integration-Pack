@@ -1,0 +1,49 @@
+﻿l_english:
+ # Korea
+ HUB_NAME_STATE_BUSAN_city: "Daegu"
+ HUB_NAME_STATE_BUSAN_port: "Busan"
+ HUB_NAME_STATE_BUSAN_mine: "Sangju"
+ HUB_NAME_STATE_BUSAN_farm: "Andong"
+ HUB_NAME_STATE_BUSAN_wood: "Jinju"
+
+ HUB_NAME_STATE_HWANGHAE_city: "Hwangju"
+ HUB_NAME_STATE_HWANGHAE_port: "Haeju"
+ HUB_NAME_STATE_HWANGHAE_mine: "Goksan"
+ HUB_NAME_STATE_HWANGHAE_farm: "Gangyeon"
+ HUB_NAME_STATE_HWANGHAE_wood: "Ongjin"
+
+ HUB_NAME_STATE_GANGWON_city: "Gangneung"
+ HUB_NAME_STATE_GANGWON_port: "Donghae"
+ HUB_NAME_STATE_GANGWON_mine: "Yangyang"
+ HUB_NAME_STATE_GANGWON_farm: "Hoengseong"
+ HUB_NAME_STATE_GANGWON_wood: "Cheorwon"
+
+ HUB_NAME_STATE_CHUNGCHEONG_city: "Cheonan"
+ HUB_NAME_STATE_CHUNGCHEONG_port: "Seosan"
+ HUB_NAME_STATE_CHUNGCHEONG_mine: "Jecheon"
+ HUB_NAME_STATE_CHUNGCHEONG_farm: "Boryeong"
+ HUB_NAME_STATE_CHUNGCHEONG_wood: "Yeongdong"
+
+ HUB_NAME_STATE_SEOUL_city: "Hanseong"
+ HUB_NAME_STATE_SEOUL_port: "Incheon"
+ HUB_NAME_STATE_SEOUL_mine: "Yeoju"
+ HUB_NAME_STATE_SEOUL_farm: "Hwaseong"
+ HUB_NAME_STATE_SEOUL_wood: "Pocheon"
+
+ HUB_NAME_STATE_SARIWON_city: "Hamheung"
+ HUB_NAME_STATE_SARIWON_port: "Chungjin"  # '충진' 표기가 청진일 가능성 높음
+ HUB_NAME_STATE_SARIWON_mine: "Musan"
+ HUB_NAME_STATE_SARIWON_farm: "Gilju"
+ HUB_NAME_STATE_SARIWON_wood: "Hyesan"
+
+ HUB_NAME_STATE_PYONGYANG_city: "Pyongyang"
+ HUB_NAME_STATE_PYONGYANG_port: "Nampo"
+ HUB_NAME_STATE_PYONGYANG_mine: "Jaseong"
+ HUB_NAME_STATE_PYONGYANG_farm: "Daegwan"
+ HUB_NAME_STATE_PYONGYANG_wood: "Uiju"
+
+ HUB_NAME_STATE_YANGHO_city: "Jeonju"
+ HUB_NAME_STATE_YANGHO_port: "Mokpo"
+ HUB_NAME_STATE_YANGHO_mine: "Yeosu"
+ HUB_NAME_STATE_YANGHO_farm: "Naju"
+ HUB_NAME_STATE_YANGHO_wood: "Wanju"

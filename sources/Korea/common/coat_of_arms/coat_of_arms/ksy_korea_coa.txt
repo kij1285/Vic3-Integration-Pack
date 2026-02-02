@@ -1,0 +1,9 @@
+﻿KDH_FLAG = {
+    pattern = "pattern_solid.tga"
+    color1 = { 79 5 18 }   # 0.31 0.02 0.07을 0~255로 환산한 값(대략)
+
+    textured_emblem = {
+        texture = "samjogo_black.dds"
+        instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 } }
+    }
+}

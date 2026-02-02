@@ -1,0 +1,23 @@
+﻿KDH = {
+    states = {
+        STATE_SEOUL
+    }
+    required_states_fraction = 1.0
+
+    possible = {
+    country = { has_tag = KOR }
+    is_subject = no
+}
+
+
+    ai_will_do = { always = no }
+
+    effect = {
+    country = {
+        set_variable = { name = kdh_formed value = 1 }
+        change_country_tag = KDH
+        trigger_event = ksy_kdh.1
+    }
+}
+
+}

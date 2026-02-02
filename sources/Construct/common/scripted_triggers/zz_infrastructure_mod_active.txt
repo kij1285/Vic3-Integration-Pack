@@ -1,0 +1,22 @@
+﻿##############################
+# Building Expansion Mod Trigger #
+##############################
+
+# You can use this trigger to see if Building Expansion Mod Trigger is active for in a playset.
+# This is useful if you want your mod to interact with Building Expansion Mod Trigger.
+
+# You can use it by adding a scripted_trigger_file in your mod.
+# The File name should start with "00_", so that it gets loaded before this file.
+# Add this to your file (without the "#" obviously):
+
+#bem_is_active = {
+#	always = no
+#}
+
+# Now you can use the trigger like this: "bem_is_active = yes".
+# If Building Expansion Mod Trigger is active the Trigger here will take priority and it will result in a "yes".
+# If Building Expansion Mod Trigger is not active your Trigger will be used and the Trigger will return "no".
+
+bem_is_active = {
+    always = yes
+}

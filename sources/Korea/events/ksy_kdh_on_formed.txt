@@ -1,0 +1,38 @@
+﻿namespace = ksy_kdh
+
+country_event = {
+    id = ksy_kdh.1 
+	placement = ROOT
+
+    title = ksy_kdh.1.t
+	desc = ksy_kdh.1.d
+	flavor = ksy_kdg.1.f
+
+    trigger = {
+        country = { has_tag = KDH }
+    }
+
+     immediate = {
+        country = { remove_variable = kdh_formed }
+    }
+
+    event_image = {
+		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
+	}
+
+    on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/signed_contract"
+
+    option = {
+
+        name = "다민족 제국 형성"
+
+        country = {
+            add_accepted_culture = culture:han
+            add_accepted_culture = culture:japanese
+            add_accepted_culture = culture:manchu
+            add_accepted_culture = culture:mongol
+            add_accepted_culture = culture:siberian
+        }
+    }
+}

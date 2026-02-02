@@ -1,0 +1,45 @@
+﻿l_korean:
+#KOREA
+
+ STATE_SEOUL: "경기"
+ STATE_BUSAN: "경상"
+ STATE_SARIWON: "함경"
+ STATE_PYONGYANG: "평안"
+ STATE_YANGHO: "전라"
+
+##NEW STATE
+
+ STATE_HOSEO: "충청"
+ STATE_GWANDONG: "강원"
+ STATE_HAESEO: "황해"
+ STATE_JEJU_ISLAND: "제주도"
+
+#Manchuria
+
+ STATE_SHENGJING: "요령"
+ STATE_SOUTHERN_MANCHURIA: "길림" 
+ STATE_NORTHERN_MANCHURIA: "눈강"
+ STATE_OUTER_MANCHURIA: "연해"
+ STATE_AMUR: "아무르"
+
+##NEW STATE
+
+ STATE_JEHOL: "열하"
+ STATE_YOBUK: "요북"
+ STATE_ANDONG: "안동"
+ STATE_HEUNGAN: "흥안"
+ STATE_SONGGANG: "송강"
+ STATE_HAPGANG: "합강"
+ STATE_BLACK_DRAGON_GANG: "흑룡강"
+ 
+ 
+ 
+ 
+ #HINGGAN
+ #beijing
+ 
+ 
+
+  
+  
+ 

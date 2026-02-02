@@ -1,0 +1,25 @@
+﻿# KDH_declare_daehan_empire = {
+
+#     is_shown = {
+#         c:KOR ?= THIS
+#     }
+
+#     possible = {
+#         is_subject = no
+#         # 필요하면 조건 추가
+#         # has_technology_researched = nationalism
+#         # has_law = law_type:law_monarchy
+#     }
+
+#     when_taken = {
+#         form_country = KDH
+#         # 수용문화(원하면)
+#         add_accepted_culture = manchu
+#         add_accepted_culture = siberian
+#         add_accepted_culture = han
+#         add_accepted_culture = mongol
+#         add_accepted_culture = japanese
+#     }
+
+#     ai_chance = { value = 0 }
+# }

@@ -1,0 +1,33 @@
+﻿ l_english:
+ #KOREA
+
+ STATE_SEOUL: "Gyeonggi"
+ STATE_BUSAN: "Gyeongsang"
+ STATE_SARIWON: "Hamgyeong"
+ STATE_PYONGYANG: "Pyeongan"
+ STATE_YANGHO: "Jeolla"
+
+ ##NEW STATE
+
+ STATE_HOSEO: "Chungcheong"
+ STATE_GWANDONG: "Gangwon"
+ STATE_HAESEO: "Hwanghae"
+ STATE_JEJU_ISLAND: "Jeju Island"
+
+ #Manchuria
+
+ STATE_SHENGJING: "Liaoning"
+ STATE_SOUTHERN_MANCHURIA: "Jilin" 
+ STATE_NORTHERN_MANCHURIA: "Nunkiang"
+ STATE_OUTER_MANCHURIA: "Primorsky"
+ STATE_AMUR: "Amur"
+
+ ##NEW STATE
+
+ STATE_JEHOL: "Rehe"
+ STATE_YOBUK: "Liaobei"
+ STATE_ANDONG: "Antung"
+ STATE_HEUNGAN: "Hsingan"
+ STATE_SONGGANG: "Sungkiang"
+ STATE_HAPGANG: "Hokiang"
+ STATE_BLACK_DRAGON_GANG: "Heilongjiang"

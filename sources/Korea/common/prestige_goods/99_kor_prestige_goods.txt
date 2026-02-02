@@ -1,0 +1,108 @@
+﻿# KOREA PRESTIGE GOODS (Cheat Mod)
+
+prestige_good_kor_tungsten_iron = {
+    base_good = iron
+    prestige_bonus = 0.1
+    texture = "gfx/interface/icons/goods_icons/prestige_goods/kor_tungsten_iron.dds"
+}
+prestige_good_kor_hanbok_clothes ={
+    base_good = clothes
+    prestige_bonus = 0.1
+    texture = "gfx/interface/icons/goods_icons/prestige_goods/kor_hanbok_clothes.dds"
+}
+prestige_good_kor_genesis_automobiles = {
+    base_good = automobiles
+    prestige_bonus = 0.1
+    texture = "gfx/interface/icons/goods_icons/prestige_goods/kor_genesis_automobiles.dds"
+}
+
+prestige_good_kor_myeongtae_fish = {
+    base_good = fish
+    prestige_bonus = 0.1
+    texture = "gfx/interface/icons/goods_icons/prestige_goods/kor_myeongtae_fish.dds"
+}
+
+prestige_good_kor_baekban_groceries = {
+    base_good = groceries
+    prestige_bonus = 0.1
+    texture = "gfx/interface/icons/goods_icons/prestige_goods/kor_baekban_groceries.dds"
+}
+
+prestige_good_kor_haedeul_grain = {
+    base_good = grain
+    prestige_bonus = 0.1
+    texture = "gfx/interface/icons/goods_icons/prestige_goods/kor_haedeul_grain.dds"
+}
+
+prestige_good_kor_heroin_opium = {
+    base_good = opium
+    prestige_bonus = 0.1
+    texture = "gfx/interface/icons/goods_icons/prestige_goods/kor_heroin_opium.dds"
+}
+
+prestige_good_kor_gombangdae_tobacco = {
+    base_good = tobacco
+    prestige_bonus = 0.1
+    texture = "gfx/interface/icons/goods_icons/prestige_goods/kor_gombangdae_tobacco.dds"
+}
+
+prestige_good_kor_arabica_coffee = {
+    base_good = coffee
+    prestige_bonus = 0.1
+    texture = "gfx/interface/icons/goods_icons/prestige_goods/kor_arabica_coffee.dds"
+}
+
+prestige_good_kor_k2_small_arms = {
+    base_good = small_arms
+    prestige_bonus = 0.1
+    texture = "gfx/interface/icons/goods_icons/prestige_goods/kor_k2_small_arms.dds"
+}
+
+prestige_good_kor_k9_artillery = {
+    base_good = artillery
+    prestige_bonus = 0.1
+    texture = "gfx/interface/icons/goods_icons/prestige_goods/kor_k9_artillery.dds"
+}
+
+prestige_good_kor_najeon_furniture = {
+    base_good = furniture
+    prestige_bonus = 0.1
+    texture = "gfx/interface/icons/goods_icons/prestige_goods/kor_najeon_furniture.dds"
+}
+
+prestige_good_kor_hanji_paper = {
+    base_good = paper
+    prestige_bonus = 0.1
+    texture = "gfx/interface/icons/goods_icons/prestige_goods/kor_hanji_paper.dds"
+}
+
+prestige_good_kor_goryeo_celadon = {
+    base_good = porcelain
+    prestige_bonus = 0.1
+    texture = "gfx/interface/icons/goods_icons/prestige_goods/kor_goryeo_celadon.dds"
+}
+
+prestige_good_kor_jet_engine = {
+    base_good = engines
+    prestige_bonus = 0.2
+    texture = "gfx/interface/icons/goods_icons/prestige_goods/kor_jet_engine.dds"
+}
+
+prestige_good_kor_zelkova_wood = {
+    base_good = wood
+    prestige_bonus = 0.1
+    texture = "gfx/interface/icons/goods_icons/prestige_goods/kor_zelkova_wood.dds"
+}
+
+prestige_good_kor_bituminous_coal = {
+    base_good = coal
+    prestige_bonus = 0.1
+    texture = "gfx/interface/icons/goods_icons/prestige_goods/kor_bituminous_coal.dds"
+}
+
+prestige_good_kor_ktx_transportation = {
+    base_good = transportation
+    prestige_bonus = 0.2
+    texture = "gfx/interface/icons/goods_icons/prestige_goods/ktx_transportation.dds"
+}
+

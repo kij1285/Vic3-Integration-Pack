@@ -1,0 +1,56 @@
+﻿reinforced_concrete = {
+	# +10% construction throughput
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/reinforced_concrete.dds"
+	category = production
+
+	modifier = {
+		building_construction_sector_throughput_add = 0.10
+	}
+
+	unlocking_technologies = {
+		bessemer_process
+	}
+
+	ai_weight = {
+		value = 1
+	}
+}
+
+industrial_construction_methods = {
+    # +10% construction throughput
+    era = era_3
+    texture = "gfx/interface/icons/invention_icons/industrial_construction_methods.dds"
+    category = production
+
+    modifier = {
+        building_construction_sector_throughput_add = 0.1
+        country_construction_goods_cost_mult = -0.075
+    }
+
+    unlocking_technologies = {
+        reinforced_concrete
+    }
+
+    ai_weight = {
+        value = 1
+    }
+}
+
+rotary_kiln = {
+    era = era_3
+    texture = "gfx/interface/icons/invention_icons/rotary_kiln_tech.dds"
+    category = production
+
+    modifier = {
+        building_group_bg_mining_throughput_add = 0.10
+    }
+
+    unlocking_technologies = {
+        watertube_boiler
+    }
+
+    ai_weight = {
+        value = 1
+    }
+}

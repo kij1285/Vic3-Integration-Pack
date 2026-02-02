@@ -1,0 +1,9 @@
+﻿l_english:
+ STATE_CHUNGCHEONG: "Chungcheong"
+ STATE_GANGWON: "Gangwon"
+ STATE_HWANGHAE: "Hwanghae"
+ STATE_SEOUL: "Gyeonggi"
+ STATE_BUSAN: "Gyeongsang"
+ STATE_SARIWON: "Hamgyong"
+ STATE_PYONGYANG: "Pyeongan"
+ STATE_YANGHO: "Jeolla"

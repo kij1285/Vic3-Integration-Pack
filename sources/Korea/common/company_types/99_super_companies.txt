@@ -1,0 +1,240 @@
+# 1. 나무, 공구, 철, 석탄
+company_resources = {
+	icon = "gfx/interface/icons/company_icons/basic_metal_mining.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_mining.dds"
+	
+	building_types = {
+		building_logging_camp
+		building_tooling_workshop
+		building_iron_mine
+	}
+
+
+	extension_building_types = {
+		building_coal_mine
+	}
+
+	possible_prestige_goods = {
+		prestige_good_generic_tools
+		prestige_good_kor_zelkova_wood
+		prestige_good_kor_tungsten_iron
+		prestige_good_kor_bituminous_coal
+	}
+
+	possible = {
+		country_has_tag = KOR
+	}
+
+	prosperity_modifier = {
+       		country_max_companies_add = 1
+        	country_weekly_innovation_mult = 0.5
+      		building_group_bg_mining_throughput_add = 0.5
+        	building_group_bg_logging_throughput_add = 0.5
+        	building_tooling_workshop_throughput_add = 0.5
+    }
+
+}
+
+
+# 2. 강철, 철도, 원동기, 자동차
+company_heavy_industry = {
+	icon = "gfx/interface/icons/company_icons/basic_construction.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
+	
+	building_types = {
+		building_steel_mill
+		building_railway
+		building_motor_industry
+		
+	}
+
+	extension_building_types = {
+		building_automotive_industry
+	}
+
+	possible_prestige_goods = {
+		prestige_good_generic_steel
+		prestige_good_kor_jet_engine
+		prestige_good_kor_ktx_transportation
+		prestige_good_kor_genesis_automobiles
+	}
+
+	possible = {
+		country_has_tag = KOR
+	}
+
+	prosperity_modifier = {
+		country_tech_spread_mult = 0.5 
+		building_steel_mill_throughput_add = 0.5
+		building_railway_throughput_add = 0.5
+		building_motor_industry_throughput_add = 0.5
+		building_automotive_industry_throughput_add = 0.5 
+	}
+}
+
+
+# 3. 식량 / 농업
+company_food_supply = {
+	icon = "gfx/interface/icons/company_icons/basic_food.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
+	
+	building_types = {
+		building_rice_farm
+		building_livestock_ranch
+		building_food_industry
+		building_wheat_farm
+	}
+
+	extension_building_types = {
+		building_fishing_wharf
+	}
+
+	possible_prestige_goods = {
+		prestige_good_acorn_fed_pork
+		prestige_good_kor_haedeul_grain
+		prestige_good_kor_myeongtae_fish
+		prestige_good_kor_baekban_groceries
+	}
+
+	possible = {
+		country_has_tag = KOR
+	}
+
+	prosperity_modifier = {
+		country_max_companies_add = 1
+        		building_group_bg_agriculture_throughput_add = 0.5      
+        		building_livestock_ranch_throughput_add = 0.5
+        		building_food_industry_throughput_add = 0.5
+        		state_birth_rate_mult = 0.25
+		country_weekly_innovation_max_add = 50
+    }
+}
+
+
+# 4. 플랜테이션/화학 기업
+company_colonial_goods = {
+	icon = "gfx/interface/icons/company_icons/basic_colonial_plantations_1.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
+	
+	building_types = {
+		building_opium_plantation
+		building_tobacco_plantation
+		building_coffee_plantation
+	}
+
+	extension_building_types = {
+		building_chemical_plant
+	}
+
+	possible_prestige_goods = {
+		prestige_good_kor_heroin_opium
+		prestige_good_kor_gombangdae_tobacco
+		prestige_good_kor_arabica_coffee
+		prestige_good_generic_fertilizer
+	}
+
+	possible = {
+		country_has_tag = KOR
+	}
+
+	prosperity_modifier = {
+		building_group_bg_plantations_throughput_add=0.5
+		building_chemical_plant_throughput_add = 0.5 
+		state_infrastructure_from_population_add = 2
+		state_infrastructure_from_population_max_add = 100
+		state_infrastructure_mult = 0.3
+    }
+}
+
+
+# 5. 군수 기업 
+company_military_ind = {
+	icon = "gfx/interface/icons/company_icons/basic_weapons.dds" 
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
+	
+	building_types = {
+		building_arms_industry
+		building_artillery_foundry
+		building_munition_plant
+	}
+
+	extension_building_types = {
+		building_explosives_factory
+	}
+
+	possible_prestige_goods = {
+		prestige_good_kor_k2_small_arms
+		prestige_good_kor_k9_artillery
+		prestige_good_generic_explosives
+	}
+
+	possible = {
+		country_has_tag = KOR
+	}
+
+	prosperity_modifier = {
+        		unit_army_offense_mult = 0.2                     
+        		unit_army_defense_mult = 0.5                     
+        		building_group_bg_military_throughput_add = 0.5 
+        		building_explosives_factory_throughput_add = 0.5
+    }
+}
+
+
+# 6. 전기/석유/고무
+company_new_energy = {
+	icon = "gfx/interface/icons/company_icons/basic_construction.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_oil_drills.dds"
+	
+	building_types = {
+		building_power_plant
+		building_rubber_plantation
+		building_oil_rig
+	}
+	possible = {
+		country_has_tag = KOR
+	}
+
+	prosperity_modifier = {
+		country_tax_income_add = 100000
+		building_power_plant_throughput_add = 0.5
+		building_group_bg_oil_extraction_throughput_add = 0.5
+		building_rubber_plantation_throughput_add = 0.5
+		state_trade_advantage_mult = 0.5
+	}
+}
+
+
+# 7. 생활재/소비재 (가구/유리/종이/방직)
+company_consumer_goods = {
+	icon = "gfx/interface/icons/company_icons/basic_textiles.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+	
+	building_types = {
+		building_furniture_manufactory
+		building_glassworks
+		building_paper_mill
+	}
+	extension_building_types = {
+		building_textile_mill
+	}
+
+	possible_prestige_goods = {
+		prestige_good_kor_najeon_furniture       
+		prestige_good_kor_hanji_paper             
+		prestige_good_kor_goryeo_celadon
+		prestige_good_kor_hanbok_clothes
+	}
+
+	possible = {
+		country_has_tag = KOR
+	}
+
+	prosperity_modifier = {
+		building_group_bg_light_industry_throughput_add = 0.3
+		building_furniture_manufactory_throughput_add = 0.5
+		building_glassworks_throughput_add = 0.5
+		building_paper_mill_throughput_add = 0.5
+		building_textile_mill_throughput_add = 0.5
+	}
+}

@@ -1,0 +1,8 @@
+﻿KDH = {
+    country_type = recognized
+    tier = empire
+    capital = STATE_SEOUL
+    cultures = { korean }
+    religion = confucian
+    color = { 0.31 0.02 0.07 }
+}

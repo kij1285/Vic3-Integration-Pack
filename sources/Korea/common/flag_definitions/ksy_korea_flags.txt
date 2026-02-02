@@ -1,0 +1,3 @@
+﻿KDH = {
+    flag_definition = { coa = KDH_FLAG }
+}

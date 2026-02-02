@@ -1,0 +1,60 @@
+﻿l_simp_chinese:
+  # 建筑
+  building_aggregate_mine:0 "骨料矿"
+  building_construction_materials_factory:0 "建筑材料厂"
+
+  # 建筑描述
+  building_aggregate_mine_desc:0 "一个加工厂，将石料和其他矿物破碎成骨料，用于建筑和混凝土搅拌。"
+  building_construction_materials_factory_desc:0 "一个工厂，将原始骨料加工成精炼建筑材料用于施工。"
+
+  # 生产方式
+  pmg_mining_equipment_building_aggregate_mine:0 "开采设备"
+  pm_picks_and_shovels_building_aggregate_mine:0 "镐与铲"
+  pm_steam_drills_building_aggregate_mine:0 "蒸汽动力钻机"
+  pm_pneumatic_drills_building_aggregate_mine:0 "气动钻机"
+
+  pmg_steam_automation_building_aggregate_mine:0 "自动化"
+  pm_no_steam_automation_bem:0 "无自动化"
+  pm_steam_powered_hoists_building_aggregate_mine:0 "蒸汽动力升降机"
+  pm_diesel_excavators_building_aggregate_mine:0 "柴油挖掘机"
+
+  pmg_material_handling_building_aggregate_mine:0 "物料处理"
+  pm_manual_material_handling:0 "人工搬运"
+  pm_rail_cart_transport:0 "轨道车运输"
+  pm_conveyor_systems:0 "传送带系统"
+  pm_grading_and_sorting:0 "分级与筛选设备"
+
+  pmg_material_processing_building_materials_factory:0 "加工设备"
+  pm_manual_crushing:0 "手工破碎"
+  pm_steam_powered_crushing:0 "蒸汽动力机械"
+  pm_rotary_kiln_processing:0 "回转窑加工"
+  pm_dry_kiln_electrification:0 "电力干燥窑"
+
+  pmg_material_additives_building_materials_factory:0 "添加剂"
+  pm_no_additives:0 "无添加剂"
+  pm_reinforced_materials:0 "强化铁材"
+  pm_high_quality_refinement:0 "强化钢材"
+
+  pmg_material_utilization_construction_sector:0 "建筑材料利用"
+  pm_no_supplementary_materials:0 "本地采购"
+  pm_aggregate_supplementation:0 "骨料补充"
+  pm_reinforced_construction:0 "强化建筑"
+  pm_high_strength_construction:0 "高强度工程"
+
+  # 货物
+  aggregate:0 "骨料"
+  aggregate_desc:0 "由碎石、砂、石灰石和砾石等混合物组成的建筑材料。"
+
+  refined_construction_materials:0 "建筑材料"
+  refined_construction_materials_desc:0 "比原始骨料更坚固、更可靠，这些精炼建筑材料可增强基础设施并加速建筑工程。"
+
+  # 科技
+  industrial_construction_methods:0 "工业化建筑方法"
+  industrial_construction_methods_desc:0 "通过标准化施工技术并结合新材料工艺，工业化建筑方法可实现更快、更高效、更坚固的建筑。"
+
+  rotary_kiln:0 "回转窑加工"
+  rotary_kiln_desc:0 "回转窑的引入使原材料能够在高温下持续加工，大幅提升水泥、石灰及其他建筑原材料的生产效率。"
+
+  # 州特性
+  building_aggregate_mine_throughput_add:0 "$building_aggregate_mine$ 建筑 [concept_throughput]"
+  building_aggregate_mine_throughput_add_desc:0 "$building_aggregate_mine$ 的输入和输出可获得加成或惩罚。"
