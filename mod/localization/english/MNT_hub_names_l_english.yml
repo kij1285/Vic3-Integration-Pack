@@ -2,37 +2,24 @@
 
 #Gyeonggi STATE_SEOUL id =536
  HUB_NAME_STATE_SEOUL_city: "Seoul"
- HUB_NAME_STATE_SEOUL_port: "Incheon"
  HUB_NAME_STATE_SEOUL_mine: "Yeoju"
  HUB_NAME_STATE_SEOUL_farm: "Suwon"
- HUB_NAME_STATE_SEOUL_wood: "Gwangju"
  
 #Gyeongsang STATE_BUSAN id = 537
- HUB_NAME_STATE_BUSAN_city: "Daegu"
  HUB_NAME_STATE_BUSAN_port: "Busan"
  HUB_NAME_STATE_BUSAN_mine: "Ulsan"
- HUB_NAME_STATE_BUSAN_farm: "Andong"
- HUB_NAME_STATE_BUSAN_wood: "Jinju"
  
 #Hamgyeong STATE_SARIWON id = 538
  HUB_NAME_STATE_SARIWON_city: "Hamhung"
- HUB_NAME_STATE_SARIWON_port: "Chongjin"
- HUB_NAME_STATE_SARIWON_mine: "Musan"
- HUB_NAME_STATE_SARIWON_farm: "Kilju"
  HUB_NAME_STATE_SARIWON_wood: "Hyesan"
  
 #Pyeongan STATE_PYONGYANG id = 539
- HUB_NAME_STATE_PYONGYANG_city: "Pyongyang"
  HUB_NAME_STATE_PYONGYANG_port: "Sinuiju"
- HUB_NAME_STATE_PYONGYANG_mine: "Kanggye"
  HUB_NAME_STATE_PYONGYANG_farm: "Jeongju"
  HUB_NAME_STATE_PYONGYANG_wood: "Samsu"
  
 #Jeolla STATE_YANGHO id =690
- HUB_NAME_STATE_YANGHO_city: "Jeonju"
- HUB_NAME_STATE_YANGHO_port: "Mokpo"
  HUB_NAME_STATE_YANGHO_mine: "Gwangyang"
- HUB_NAME_STATE_YANGHO_farm: "Naju"	
  HUB_NAME_STATE_YANGHO_wood: "Sunchang"
 
 #Gangwon STATE_GWANDONG id = 8007
@@ -77,7 +64,6 @@
 
 
 #Liaoning STATE_SHENGJING id =680
- HUB_NAME_STATE_SHENGJING_city: "Mukden"
  HUB_NAME_STATE_SHENGJING_port: "Dalian"
  HUB_NAME_STATE_SHENGJING_mine: "Fushun"
  HUB_NAME_STATE_SHENGJING_farm: "Liaoyang"
