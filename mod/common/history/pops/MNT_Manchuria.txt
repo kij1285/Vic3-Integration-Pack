@@ -140,7 +140,7 @@
 #china
 
 	s:STATE_SHENGJING = {
-		region_state:CHI = {
+		region_state:KOR = {
 			create_pop = {
 				culture = han # nanfaren
 				size = 1091006
@@ -163,7 +163,7 @@
 	}
 	
 	s:STATE_SOUTHERN_MANCHURIA = {
-		region_state:CHI = {
+		region_state:KOR = {
 			create_pop = {
 				culture = manchu
 				size = 1667456
@@ -185,7 +185,7 @@
 	}
 
 	s:STATE_NORTHERN_MANCHURIA = {
-		region_state:CHI = {
+		region_state:KOR = {
 			create_pop = {
 				culture = manchu
 				size = 1228480
@@ -194,7 +194,7 @@
 	}
 	
 	s:STATE_JEHOL = {
-		region_state:CHI = {
+		region_state:KOR = {
 			create_pop = {
 				culture = mongol
 				size = 167567
@@ -216,7 +216,7 @@
 	}
 
 	s:STATE_YOBUK = {
-		region_state:CHI = {
+		region_state:KOR = {
 			create_pop = {
 				culture = mongol
 				size = 140000
@@ -238,7 +238,7 @@
 	}
 
 	s:STATE_ANDONG = {
-		region_state:CHI = {
+		region_state:KOR = {
 			create_pop = {
 				culture = manchu
 				size = 1202376
@@ -261,7 +261,7 @@
 
 	
 	s:STATE_HEUNGAN = {
-		region_state:CHI = {
+		region_state:KOR = {
 			create_pop = {
 				culture = manchu
 				size = 605300
@@ -274,7 +274,7 @@
 	}
 
 	s:STATE_SONGGANG = {
-		region_state:CHI = {
+		region_state:KOR = {
 			create_pop = {
 				culture = manchu
 				size = 1449183
@@ -296,7 +296,7 @@
 	}
 
 	s:STATE_HAPGANG = {
-		region_state:CHI = {
+		region_state:KOR = {
 			create_pop = {
 				culture = manchu
 				size = 1142541 
@@ -309,7 +309,7 @@
 	}
 
 	s:STATE_BLACK_DRAGON_GANG = {
-		region_state:CHI = {
+		region_state:KOR = {
 			create_pop = {
 				culture = manchu
 				size = 846360
@@ -320,7 +320,42 @@
 			}
 		}
 	}
-
+	s:STATE_AMUR = {#아무르
+		region_state:KOR = {
+			create_pop = {
+				culture = siberian
+				size = 81123
+			}
+			create_pop = {
+				culture = manchu
+				size = 1040
+			}
+			create_pop = {
+				culture = russian
+				size = 450
+			}
+			create_pop = {
+   				 culture = korean
+   				 size = 1500000
+			}
+		}
+	}
+s:STATE_OUTER_MANCHURIA = {#연해
+		region_state:KOR = {
+			create_pop = {
+				culture = siberian
+				size = 67800
+			}
+			create_pop = {
+				culture = manchu
+				size = 8200
+			}
+			create_pop = {
+   				 culture = korean
+   				 size = 2000000
+			}
+		}
+	}
 
 
 
