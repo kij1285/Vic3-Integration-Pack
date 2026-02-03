@@ -518,7 +518,6 @@
 		
 		}
 	}
-
   
 #제주 - Just one port
 
@@ -538,19 +537,18 @@
 		}
 	}
 	
-	
-	
-	
-	
-	
 #china
 
 	s:STATE_SHENGJING={
-		region_state:CHI={
+		region_state:KOR={
 		}
 	}
 	s:STATE_OUTER_MANCHURIA={
-		region_state:CHI={
+		region_state:KOR={
+		}
+	}
+	s:STATE_AMUR={
+		region_state:KOR={
 		}
 	}
 	s:STATE_SOUTHERN_MANCHURIA={#갈림성 > 송강성에 일부 할당
@@ -559,7 +557,7 @@
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:CHI"
+						country="c:KOR"
 						levels=2
 					}
 				}
@@ -571,7 +569,7 @@
 				add_ownership={
 					building={
 						type="building_iron_mine"
-						country="c:CHI"
+						country="c:KOR"
 						levels=2
 						region="STATE_SOUTHERN_MANCHURIA"
 					}
@@ -584,7 +582,7 @@
 				add_ownership={
 					building={
 						type="building_logging_camp"
-						country="c:CHI"
+						country="c:KOR"
 						levels=5
 						region="STATE_SOUTHERN_MANCHURIA"
 					}
@@ -597,7 +595,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:CHI"
+						country="c:KOR"
 						levels=2
 						region="STATE_SOUTHERN_MANCHURIA"
 					}
@@ -614,7 +612,7 @@
 				add_ownership={
 					building={
 						type="building_logging_camp"
-						country="c:CHI"
+						country="c:KOR"
 						levels=4
 						region="STATE_NORTHERN_MANCHURIA"
 					}
@@ -627,7 +625,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:CHI"
+						country="c:KOR"
 						levels=1
 						region="STATE_NORTHERN_MANCHURIA"
 					}
@@ -654,35 +652,35 @@
 #열하 - empty
 
 	s:STATE_JEHOL ={
-	 	region_state:CHI={
+	 	region_state:KOR={
 		}
 	}
 	
 #요북 - empty
 
 	s:STATE_YOBUK ={
-	 	region_state:CHI={
+	 	region_state:KOR={
 		}
 	}
 
 #흥안 - empty
 
 	s:STATE_HEUNGAN ={
-	 	region_state:CHI={
+	 	region_state:KOR={
 		}
 	}
 	
 #안동 - empty
 	
 	s:STATE_ANDONG = {
-		 	region_state:CHI={
+		 	region_state:KOR={
 		}
 	}
  
 #흑룡강 이남 - empty
 
 	s:STATE_BLACK_DRAGON_GANG= {
-		 	region_state:CHI={
+		 	region_state:KOR={
 		}
 	}
  
@@ -694,7 +692,7 @@
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:CHI"
+						country="c:KOR"
 						levels=2
 					}
 				}
@@ -706,7 +704,7 @@
 				add_ownership={
 					building={
 						type="building_iron_mine"
-						country="c:CHI"
+						country="c:KOR"
 						levels=2
 						region="STATE_SONGGANG"
 					}
@@ -719,7 +717,7 @@
 				add_ownership={
 					building={
 						type="building_logging_camp"
-						country="c:CHI"
+						country="c:KOR"
 						levels=5
 						region="STATE_SONGGANG"
 					}
@@ -732,7 +730,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:CHI"
+						country="c:KOR"
 						levels=2
 						region="STATE_SONGGANG"
 					}
@@ -753,7 +751,7 @@
 				add_ownership={
 					building={
 						type="building_logging_camp"
-						country="c:CHI"
+						country="c:KOR"
 						levels=4
 						region="STATE_HAPGANG"
 					}
@@ -766,7 +764,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:CHI"
+						country="c:KOR"
 						levels=1
 						region="STATE_HAPGANG"
 					}
