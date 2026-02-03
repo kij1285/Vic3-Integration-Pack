@@ -1,0 +1,127 @@
+﻿l_english:
+
+#Gyeonggi STATE_SEOUL id =536
+ HUB_NAME_STATE_SEOUL_city: "Seoul"
+ HUB_NAME_STATE_SEOUL_port: "Incheon"
+ HUB_NAME_STATE_SEOUL_mine: "Yeoju"
+ HUB_NAME_STATE_SEOUL_farm: "Suwon"
+ HUB_NAME_STATE_SEOUL_wood: "Gwangju"
+ 
+#Gyeongsang STATE_BUSAN id = 537
+ HUB_NAME_STATE_BUSAN_city: "Daegu"
+ HUB_NAME_STATE_BUSAN_port: "Busan"
+ HUB_NAME_STATE_BUSAN_mine: "Ulsan"
+ HUB_NAME_STATE_BUSAN_farm: "Andong"
+ HUB_NAME_STATE_BUSAN_wood: "Jinju"
+ 
+#Hamgyeong STATE_SARIWON id = 538
+ HUB_NAME_STATE_SARIWON_city: "Hamhung"
+ HUB_NAME_STATE_SARIWON_port: "Chongjin"
+ HUB_NAME_STATE_SARIWON_mine: "Musan"
+ HUB_NAME_STATE_SARIWON_farm: "Kilju"
+ HUB_NAME_STATE_SARIWON_wood: "Hyesan"
+ 
+#Pyeongan STATE_PYONGYANG id = 539
+ HUB_NAME_STATE_PYONGYANG_city: "Pyongyang"
+ HUB_NAME_STATE_PYONGYANG_port: "Sinuiju"
+ HUB_NAME_STATE_PYONGYANG_mine: "Kanggye"
+ HUB_NAME_STATE_PYONGYANG_farm: "Jeongju"
+ HUB_NAME_STATE_PYONGYANG_wood: "Samsu"
+ 
+#Jeolla STATE_YANGHO id =690
+ HUB_NAME_STATE_YANGHO_city: "Jeonju"
+ HUB_NAME_STATE_YANGHO_port: "Mokpo"
+ HUB_NAME_STATE_YANGHO_mine: "Gwangyang"
+ HUB_NAME_STATE_YANGHO_farm: "Naju"	
+ HUB_NAME_STATE_YANGHO_wood: "Sunchang"
+
+#Gangwon STATE_GWANDONG id = 8007
+ HUB_NAME_STATE_GWANDONG_city: "Wonju"
+ HUB_NAME_STATE_GWANDONG_port: "Gangneung"
+ HUB_NAME_STATE_GWANDONG_mine: "Samcheok"
+ HUB_NAME_STATE_GWANDONG_farm: "Hoengseong"
+ HUB_NAME_STATE_GWANDONG_wood: "Chuncheon"
+  
+#Chungcheong STATE_HOSEO id = 8008
+ HUB_NAME_STATE_HOSEO_city: "Gongju"
+ HUB_NAME_STATE_HOSEO_port: "Seosan"
+ HUB_NAME_STATE_HOSEO_mine: "Chungju"
+ HUB_NAME_STATE_HOSEO_farm: "Hongju"
+ HUB_NAME_STATE_HOSEO_wood: "Danyang"
+
+#Hwanghae STATE_HAESEO id = 8009
+ HUB_NAME_STATE_HAESEO_city: "Haeju"
+ HUB_NAME_STATE_HAESEO_port: "Yonon"
+ HUB_NAME_STATE_HAESEO_mine: "Koksan"
+ HUB_NAME_STATE_HAESEO_farm: "Hwangju"
+ HUB_NAME_STATE_HAESEO_wood: "Ongjin"
+ 
+#Jeju STATE_JEJU_ISLAND id = 8010
+ HUB_NAME_STATE_JEJU_ISLAND_city: "Jeju"
+ HUB_NAME_STATE_JEJU_ISLAND_port: "Jeju Port"
+ HUB_NAME_STATE_JEJU_ISLAND_farm: "Daejeong"
+ HUB_NAME_STATE_JEJU_ISLAND_wood: "Jeongui"
+
+
+#Jilin STATE_SOUTHERN_MANCHURIA id =489
+ HUB_NAME_STATE_SOUTHERN_MANCHURIA_city: "Kirin"
+ HUB_NAME_STATE_SOUTHERN_MANCHURIA_mine: "Baishan"
+ HUB_NAME_STATE_SOUTHERN_MANCHURIA_farm: "Changchun"
+ HUB_NAME_STATE_SOUTHERN_MANCHURIA_wood: "Yanji"
+
+#Nunkiang STATE_NORTHERN_MANCHURIA = 490
+ HUB_NAME_STATE_NORTHERN_MANCHURIA_city: "Tsitsihar"
+ HUB_NAME_STATE_NORTHERN_MANCHURIA_mine: "Baicheng"
+ HUB_NAME_STATE_NORTHERN_MANCHURIA_farm: "Suihua"
+ HUB_NAME_STATE_NORTHERN_MANCHURIA_wood: "Daqing"
+
+
+#Liaoning STATE_SHENGJING id =680
+ HUB_NAME_STATE_SHENGJING_city: "Mukden"
+ HUB_NAME_STATE_SHENGJING_port: "Dalian"
+ HUB_NAME_STATE_SHENGJING_mine: "Fushun"
+ HUB_NAME_STATE_SHENGJING_farm: "Liaoyang"
+ HUB_NAME_STATE_SHENGJING_wood: "Benxi"
+
+#Rehe STATE_JEHOL id = 8000
+ HUB_NAME_STATE_JEHOL_city: "Chengde"
+ HUB_NAME_STATE_JEHOL_mine: "Chaoyang"
+ HUB_NAME_STATE_JEHOL_farm: "Chifeng"
+ HUB_NAME_STATE_JEHOL_wood: "Fuxin"
+
+#Liaobei STATE_YOBUK id = 8001
+ HUB_NAME_STATE_YOBUK_city: "Liaoyuan"
+ HUB_NAME_STATE_YOBUK_mine: "Siping"
+ HUB_NAME_STATE_YOBUK_farm: "Tongliao"
+ HUB_NAME_STATE_YOBUK_wood: "Tieling"
+ 
+#Hsingan STATE_HEUNGAN id = 8002
+ HUB_NAME_STATE_HEUNGAN_city: "Hailar"
+ HUB_NAME_STATE_HEUNGAN_mine: "Zalantun"
+ HUB_NAME_STATE_HEUNGAN_farm: "Ulanhot"
+ HUB_NAME_STATE_HEUNGAN_wood: "Arxan"
+
+#Antung STATE_ANDONG id = 8003
+ HUB_NAME_STATE_ANDONG_city: "Antung"
+ HUB_NAME_STATE_ANDONG_port: "Antung Port"
+ HUB_NAME_STATE_ANDONG_mine: "Fengcheng"
+ HUB_NAME_STATE_ANDONG_farm: "Tonghua"
+ HUB_NAME_STATE_ANDONG_wood: "Ji'an"
+
+#Sungkiang STATE_SONGGANG id = 8004
+ HUB_NAME_STATE_SONGGANG_city: "Harbin"
+ HUB_NAME_STATE_SONGGANG_mine: "Mudanjiang"
+ HUB_NAME_STATE_SONGGANG_farm: "Acheng"
+ HUB_NAME_STATE_SONGGANG_wood: "Shangzhi"
+
+#Hokiang STATE_HAPGANG id = 8005
+ HUB_NAME_STATE_HAPGANG_city: "Kiamusze"
+ HUB_NAME_STATE_HAPGANG_mine: "Hegang"
+ HUB_NAME_STATE_HAPGANG_farm: "Shuangyashan"
+ HUB_NAME_STATE_HAPGANG_wood: "Qitaihe"
+
+#Heilongjiang STATE_BLACK_DRAGON_GANG id = 8006
+ HUB_NAME_STATE_BLACK_DRAGON_GANG_city: "Bei'an"
+ HUB_NAME_STATE_BLACK_DRAGON_GANG_mine: "Heihe"
+ HUB_NAME_STATE_BLACK_DRAGON_GANG_farm: "Baiquan"
+ HUB_NAME_STATE_BLACK_DRAGON_GANG_wood: "Tieli"

@@ -1,0 +1,385 @@
+﻿assign_state_name_region_manchuria = {
+
+	if = {
+        limit = {
+            state_region = {
+                s:STATE_SEOUL ?= this
+            }
+        }
+        STATE_SEOUL_state_name_assign = yes
+    }
+	
+    if = {
+        limit = {
+            state_region = {
+                s:STATE_BUSAN ?= this
+            }
+        }
+        STATE_BUSAN_state_name_assign = yes
+    }
+	
+	if = {
+        limit = {
+            state_region = {
+                s:STATE_SARIWON ?= this
+            }
+        }
+        STATE_SARIWON_state_name_assign = yes
+    }
+	
+    if = {
+        limit = {
+            state_region = {
+                s:STATE_PYONGYANG ?= this
+            }
+        }
+        STATE_PYONGYANG_state_name_assign = yes
+    }
+	
+	if = {
+        limit = {
+            state_region = {
+                s:STATE_YANGHO ?= this
+            }
+        }
+        STATE_YANGHO_state_name_assign = yes
+    }
+	
+    if = {
+        limit = {
+            state_region = {
+                s:STATE_HOSEO ?= this
+            }
+        }
+        STATE_HOSEO_state_name_assign = yes
+    }
+	
+	if = {
+        limit = {
+            state_region = {
+                s:STATE_GWANDONG ?= this
+            }
+        }
+        STATE_GWANDONG_state_name_assign = yes
+    }
+	
+    if = {
+        limit = {
+            state_region = {
+                s:STATE_HAESEO ?= this
+            }
+        }
+        STATE_HAESEO_state_name_assign = yes
+    }	
+	
+	if = {
+        limit = {
+            state_region = {
+                s:STATE_JEJU_ISLAND ?= this
+            }
+        }
+        STATE_JEJU_ISLAND_state_name_assign = yes
+    }
+	
+    if = {
+        limit = {
+            state_region = {
+                s:STATE_SHENGJING ?= this
+            }
+        }
+        STATE_SHENGJING_state_name_assign = yes
+    }	
+	
+	if = {
+        limit = {
+            state_region = {
+                s:STATE_SOUTHERN_MANCHURIA ?= this
+            }
+        }
+        STATE_SOUTHERN_MANCHURIA_state_name_assign = yes
+    }
+	
+    if = {
+        limit = {
+            state_region = {
+                s:STATE_NORTHERN_MANCHURIA ?= this
+            }
+        }
+        STATE_NORTHERN_MANCHURIA_state_name_assign = yes
+    }	
+	
+	if = {
+        limit = {
+            state_region = {
+                s:STATE_AMUR ?= this
+            }
+        }
+        STATE_AMUR_state_name_assign = yes
+    }
+	
+    if = {
+        limit = {
+            state_region = {
+                s:STATE_OUTER_MANCHURIA ?= this
+            }
+        }
+        STATE_OUTER_MANCHURIA_state_name_assign = yes
+    }	
+	
+	if = {
+        limit = {
+            state_region = {
+                s:STATE_JEHOL ?= this
+            }
+        }
+        STATE_JEHOL_state_name_assign = yes
+    }
+	
+    if = {
+        limit = {
+            state_region = {
+                s:STATE_YOBUK ?= this
+            }
+        }
+        STATE_YOBUK_state_name_assign = yes
+    }	
+	
+	if = {
+        limit = {
+            state_region = {
+                s:STATE_ANDONG ?= this
+            }
+        }
+        STATE_ANDONG_state_name_assign = yes
+    }
+	
+    if = {
+        limit = {
+            state_region = {
+                s:STATE_HEUNGAN ?= this
+            }
+        }
+        STATE_HEUNGAN_state_name_assign = yes
+    }	
+	
+	if = {
+        limit = {
+            state_region = {
+                s:STATE_SONGGANG ?= this
+            }
+        }
+        STATE_SONGGANG_state_name_assign = yes
+    }
+	
+    if = {
+        limit = {
+            state_region = {
+                s:STATE_HAPGANG ?= this
+            }
+        }
+        STATE_HAPGANG_state_name_assign = yes
+    }
+	
+    if = {
+        limit = {
+            state_region = {
+                s:STATE_BLACK_DRAGON_GANG ?= this
+            }
+        }
+        STATE_BLACK_DRAGON_GANG_state_name_assign = yes
+    }
+	
+}
+
+
+
+# --- 조선/한국 권역 ---
+
+# --- 조선/한국 권역 ---
+
+# 기전 (SEOUL)
+STATE_SEOUL_state_name_assign = {
+    if = { limit = { owner = { country_has_primary_culture = cu:korean } } set_state_name = STATE_SEOUL_korean set_hub_names = korean }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:manchu } } set_state_name = STATE_SEOUL_manchu set_hub_names = manchu }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:han } } set_state_name = STATE_SEOUL_han set_hub_names = han }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:japanese } } set_state_name = STATE_SEOUL_japanese set_hub_names = japanese }
+    else = { reset_state_name = yes reset_hub_names = yes }
+}
+
+# 영남 (BUSAN)
+STATE_BUSAN_state_name_assign = {
+    if = { limit = { owner = { country_has_primary_culture = cu:korean } } set_state_name = STATE_BUSAN_korean set_hub_names = korean }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:manchu } } set_state_name = STATE_BUSAN_manchu set_hub_names = manchu }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:han } } set_state_name = STATE_BUSAN_han set_hub_names = han }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:japanese } } set_state_name = STATE_BUSAN_japanese set_hub_names = japanese }
+    else = { reset_state_name = yes reset_hub_names = yes }
+}
+
+# 관북 (SARIWON)
+STATE_SARIWON_state_name_assign = {
+    if = { limit = { owner = { country_has_primary_culture = cu:korean } } set_state_name = STATE_SARIWON_korean set_hub_names = korean }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:manchu } } set_state_name = STATE_SARIWON_manchu set_hub_names = manchu }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:han } } set_state_name = STATE_SARIWON_han set_hub_names = han }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:japanese } } set_state_name = STATE_SARIWON_japanese set_hub_names = japanese }
+    else = { reset_state_name = yes reset_hub_names = yes }
+}
+
+# 관서 (PYONGYANG)
+STATE_PYONGYANG_state_name_assign = {
+    if = { limit = { owner = { country_has_primary_culture = cu:korean } } set_state_name = STATE_PYONGYANG_korean set_hub_names = korean }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:manchu } } set_state_name = STATE_PYONGYANG_manchu set_hub_names = manchu }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:han } } set_state_name = STATE_PYONGYANG_han set_hub_names = han }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:japanese } } set_state_name = STATE_PYONGYANG_japanese set_hub_names = japanese }
+    else = { reset_state_name = yes reset_hub_names = yes }
+}
+
+# 호남 (YANGHO)
+STATE_YANGHO_state_name_assign = {
+    if = { limit = { owner = { country_has_primary_culture = cu:korean } } set_state_name = STATE_YANGHO_korean set_hub_names = korean }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:manchu } } set_state_name = STATE_YANGHO_manchu set_hub_names = manchu }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:han } } set_state_name = STATE_YANGHO_han set_hub_names = han }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:japanese } } set_state_name = STATE_YANGHO_japanese set_hub_names = japanese }
+    else = { reset_state_name = yes reset_hub_names = yes }
+}
+
+# 호서 (HOSEO)
+STATE_HOSEO_state_name_assign = {
+    if = { limit = { owner = { country_has_primary_culture = cu:korean } } set_state_name = STATE_HOSEO_korean set_hub_names = korean }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:manchu } } set_state_name = STATE_HOSEO_manchu set_hub_names = manchu }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:han } } set_state_name = STATE_HOSEO_han set_hub_names = han }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:japanese } } set_state_name = STATE_HOSEO_japanese set_hub_names = japanese }
+    else = { reset_state_name = yes reset_hub_names = yes }
+}
+
+# 관동 (GWANDONG)
+STATE_GWANDONG_state_name_assign = {
+    if = { limit = { owner = { country_has_primary_culture = cu:korean } } set_state_name = STATE_GWANDONG_korean set_hub_names = korean }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:manchu } } set_state_name = STATE_GWANDONG_manchu set_hub_names = manchu }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:han } } set_state_name = STATE_GWANDONG_han set_hub_names = han }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:japanese } } set_state_name = STATE_GWANDONG_japanese set_hub_names = japanese }
+    else = { reset_state_name = yes reset_hub_names = yes }
+}
+
+# 해서 (HAESEO)
+STATE_HAESEO_state_name_assign = {
+    if = { limit = { owner = { country_has_primary_culture = cu:korean } } set_state_name = STATE_HAESEO_korean set_hub_names = korean }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:manchu } } set_state_name = STATE_HAESEO_manchu set_hub_names = manchu }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:han } } set_state_name = STATE_HAESEO_han set_hub_names = han }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:japanese } } set_state_name = STATE_HAESEO_japanese set_hub_names = japanese }
+    else = { reset_state_name = yes reset_hub_names = yes }
+}
+
+# 제주 (JEJU)
+STATE_JEJU_ISLAND_state_name_assign = {
+    if = { limit = { owner = { country_has_primary_culture = cu:korean } } set_state_name = STATE_JEJU_ISLAND_korean set_hub_names = korean }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:manchu } } set_state_name = STATE_JEJU_ISLAND_manchu set_hub_names = manchu }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:han } } set_state_name = STATE_JEJU_ISLAND_han set_hub_names = han }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:japanese } } set_state_name = STATE_JEJU_ISLAND_japanese set_hub_names = japanese }
+    else = { reset_state_name = yes reset_hub_names = yes }
+}
+
+# --- 만주 권역 ---
+
+# 요령 (SHENGJING)
+STATE_SHENGJING_state_name_assign = {
+    if = { limit = { owner = { country_has_primary_culture = cu:korean } } set_state_name = STATE_SHENGJING_korean set_hub_names = korean }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:manchu } } set_state_name = STATE_SHENGJING_manchu set_hub_names = manchu }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:han } } set_state_name = STATE_SHENGJING_han set_hub_names = han }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:japanese } } set_state_name = STATE_SHENGJING_japanese set_hub_names = japanese }
+    else = { reset_state_name = yes reset_hub_names = yes }
+}
+
+# 길림 (SOUTHERN_MANCHURIA)
+STATE_SOUTHERN_MANCHURIA_state_name_assign = {
+    if = { limit = { owner = { country_has_primary_culture = cu:korean } } set_state_name = STATE_SOUTHERN_MANCHURIA_korean set_hub_names = korean }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:manchu } } set_state_name = STATE_SOUTHERN_MANCHURIA_manchu set_hub_names = manchu }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:han } } set_state_name = STATE_SOUTHERN_MANCHURIA_han set_hub_names = han }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:japanese } } set_state_name = STATE_SOUTHERN_MANCHURIA_japanese set_hub_names = japanese }
+    else = { reset_state_name = yes reset_hub_names = yes }
+}
+
+# 눈강 (NORTHERN_MANCHURIA)
+STATE_NORTHERN_MANCHURIA_state_name_assign = {
+    if = { limit = { owner = { country_has_primary_culture = cu:korean } } set_state_name = STATE_NORTHERN_MANCHURIA_korean set_hub_names = korean }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:manchu } } set_state_name = STATE_NORTHERN_MANCHURIA_manchu set_hub_names = manchu }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:han } } set_state_name = STATE_NORTHERN_MANCHURIA_han set_hub_names = han }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:japanese } } set_state_name = STATE_NORTHERN_MANCHURIA_japanese set_hub_names = japanese }
+    else = { reset_state_name = yes reset_hub_names = yes }
+}
+
+# 연해 (OUTER_MANCHURIA)
+STATE_OUTER_MANCHURIA_state_name_assign = {
+    if = { limit = { owner = { country_has_primary_culture = cu:korean } } set_state_name = STATE_OUTER_MANCHURIA_korean set_hub_names = korean }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:manchu } } set_state_name = STATE_OUTER_MANCHURIA_manchu set_hub_names = manchu }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:han } } set_state_name = STATE_OUTER_MANCHURIA_han set_hub_names = han }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:japanese } } set_state_name = STATE_OUTER_MANCHURIA_japanese set_hub_names = japanese }
+    else = { reset_state_name = yes reset_hub_names = yes }
+}
+
+# 흑룡강 이북 (AMUR)
+STATE_AMUR_state_name_assign = {
+    if = { limit = { owner = { country_has_primary_culture = cu:korean } } set_state_name = STATE_AMUR_korean set_hub_names = korean }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:manchu } } set_state_name = STATE_AMUR_manchu set_hub_names = manchu }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:han } } set_state_name = STATE_AMUR_han set_hub_names = han }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:japanese } } set_state_name = STATE_AMUR_japanese set_hub_names = japanese }
+    else = { reset_state_name = yes reset_hub_names = yes }
+}
+
+# 열하 (JEHOL)
+STATE_JEHOL_state_name_assign = {
+    if = { limit = { owner = { country_has_primary_culture = cu:korean } } set_state_name = STATE_JEHOL_korean set_hub_names = korean }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:manchu } } set_state_name = STATE_JEHOL_manchu set_hub_names = manchu }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:han } } set_state_name = STATE_JEHOL_han set_hub_names = han }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:japanese } } set_state_name = STATE_JEHOL_japanese set_hub_names = japanese }
+    else = { reset_state_name = yes reset_hub_names = yes }
+}
+
+# 요북 (YOBUK)
+STATE_YOBUK_state_name_assign = {
+    if = { limit = { owner = { country_has_primary_culture = cu:korean } } set_state_name = STATE_YOBUK_korean set_hub_names = korean }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:manchu } } set_state_name = STATE_YOBUK_manchu set_hub_names = manchu }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:han } } set_state_name = STATE_YOBUK_han set_hub_names = han }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:japanese } } set_state_name = STATE_YOBUK_japanese set_hub_names = japanese }
+    else = { reset_state_name = yes reset_hub_names = yes }
+}
+
+# 안동 (ANDONG)
+STATE_ANDONG_state_name_assign = {
+    if = { limit = { owner = { country_has_primary_culture = cu:korean } } set_state_name = STATE_ANDONG_korean set_hub_names = korean }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:manchu } } set_state_name = STATE_ANDONG_manchu set_hub_names = manchu }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:han } } set_state_name = STATE_ANDONG_han set_hub_names = han }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:japanese } } set_state_name = STATE_ANDONG_japanese set_hub_names = japanese }
+    else = { reset_state_name = yes reset_hub_names = yes }
+}
+
+# 흥안 (HEUNGAN)
+STATE_HEUNGAN_state_name_assign = {
+    if = { limit = { owner = { country_has_primary_culture = cu:korean } } set_state_name = STATE_HEUNGAN_korean set_hub_names = korean }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:manchu } } set_state_name = STATE_HEUNGAN_manchu set_hub_names = manchu }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:han } } set_state_name = STATE_HEUNGAN_han set_hub_names = han }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:japanese } } set_state_name = STATE_HEUNGAN_japanese set_hub_names = japanese }
+    else = { reset_state_name = yes reset_hub_names = yes }
+}
+
+# 송강 (SONGGANG)
+STATE_SONGGANG_state_name_assign = {
+    if = { limit = { owner = { country_has_primary_culture = cu:korean } } set_state_name = STATE_SONGGANG_korean set_hub_names = korean }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:manchu } } set_state_name = STATE_SONGGANG_manchu set_hub_names = manchu }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:han } } set_state_name = STATE_SONGGANG_han set_hub_names = han }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:japanese } } set_state_name = STATE_SONGGANG_japanese set_hub_names = japanese }
+    else = { reset_state_name = yes reset_hub_names = yes }
+}
+
+# 합강 (HAPGANG)
+STATE_HAPGANG_state_name_assign = {
+    if = { limit = { owner = { country_has_primary_culture = cu:korean } } set_state_name = STATE_HAPGANG_korean set_hub_names = korean }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:japanese } } set_state_name = STATE_HAPGANG_japanese set_hub_names = japanese }
+    else = { reset_state_name = yes reset_hub_names = yes }
+}
+
+# 흑룡강 이남 (BLACK_DRAGON_GANG)
+STATE_BLACK_DRAGON_GANG_state_name_assign = {
+    if = { limit = { owner = { country_has_primary_culture = cu:korean } } set_state_name = STATE_BLACK_DRAGON_GANG_korean set_hub_names = korean }
+    else_if = { limit = { owner = { country_has_primary_culture = cu:japanese } } set_state_name = STATE_BLACK_DRAGON_GANG_japanese set_hub_names = japanese }
+    else = { reset_state_name = yes reset_hub_names = yes }
+}
