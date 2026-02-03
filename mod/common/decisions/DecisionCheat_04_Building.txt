@@ -1,0 +1,42 @@
+﻿CreateBuildingAndLevel_Increase_building_tooling_workshops_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = CreateBuildingAndLevel_variable
+		
+		has_technology_researched = manufacturies
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		value = 0
+    }
+	when_taken = {
+		DC_CreateBuildingLevel_Effect = {
+			building_type = building_tooling_workshop
+		}
+	}
+}
+CreateBuildingAndLevel_Increase_building_steel_mills_Decision = {
+	is_shown = {
+		has_variable = openCheatDecision_variable
+		has_variable = BuildingModifierCheat_variable
+		has_variable = CreateBuildingAndLevel_variable
+		
+		has_technology_researched = steelworking
+	}
+	possible = {
+
+	}
+
+	ai_chance = {
+		value = 0
+    }
+	when_taken = {
+		DC_CreateBuildingLevel_Effect = {
+			building_type = building_steel_mill
+		}
+	}
+}
