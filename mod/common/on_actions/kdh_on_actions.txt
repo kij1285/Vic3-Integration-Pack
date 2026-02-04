@@ -1,0 +1,8 @@
+﻿on_country_formed = {
+	effect = {
+		if = {
+			limit = { c:KDH ?= THIS }
+			country_event = { id = formation.99 }
+		}
+	}
+}

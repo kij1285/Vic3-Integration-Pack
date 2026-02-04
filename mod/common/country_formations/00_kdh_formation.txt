@@ -9,23 +9,4 @@
 		is_country_type = recognized
 		country_has_primary_culture = cu:korean
 	}
-
-	effect = {
-		add_acceptance = { culture = cu:manchu   value = 10 }
-		add_acceptance = { culture = cu:han      value = 10 }
-		add_acceptance = { culture = cu:mongol   value = 10 }
-		add_acceptance = { culture = cu:japanese value = 10 }
-		add_acceptance = { culture = cu:siberian value = 10 }
-		add_acceptance = { culture = cu:ainu value = 10 }
-
-        add_claim = s:STATE_SAKHALIN
-        add_claim = s:STATE_HOKKAIDO
-        add_claim = s:STATE_TOHOKU
-        add_claim = s:STATE_CHUBU
-        add_claim = s:STATE_KANSAI
-        add_claim = s:STATE_CHUGOKU
-        add_claim = s:STATE_SHIKOKU
-        add_claim = s:STATE_KYUSHU
-        add_claim = s:STATE_RYUKYU_ISLANDS
-	}
 }
