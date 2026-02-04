@@ -1,12 +1,22 @@
-﻿KDH = {
-	use_culture_states = yes
-	required_states_fraction = 0.9
+﻿#KDH = {
+#	use_culture_states = yes
+#
+#	required_states_fraction = 0.9
+#
+#	ai_will_do = { always = yes }
+#
+#	possible = {
+#		has_technology_researched = pan-nationalism
+#		is_country_type = recognized
+#		country_has_primary_culture = cu:korean
+#	}
+#}
+
+KDH = {
+
+	 states = { STATE_PYONGYANG }
+
+	required_states_fraction = 1
 
 	ai_will_do = { always = yes }
-
-	possible = {
-		has_technology_researched = pan-nationalism
-		is_country_type = recognized
-		country_has_primary_culture = cu:korean
-	}
 }

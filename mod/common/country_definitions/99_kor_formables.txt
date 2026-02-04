@@ -1,0 +1,12 @@
+﻿KDH = {
+    color = { 0.31 0.02 0.07 }
+
+    country_type = recognized
+
+    tier = empire
+
+    cultures = { korean }
+    capital = STATE_PYONGYANG
+}
+
+

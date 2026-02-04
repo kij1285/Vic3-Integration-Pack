@@ -945,7 +945,6 @@ STATE_KANSAI = {
         building_logging_camp = 9
         building_fishing_wharf = 10
         building_aggregate_mine = 36
-        building_aggregate_mine = 36
     }
     naval_exit_id = 3059
 }
@@ -971,7 +970,6 @@ STATE_KYUSHU = {
         building_sulfur_mine = 40
         building_fishing_wharf = 18
         building_aggregate_mine = 36
-        building_aggregate_mine = 36
     }
     naval_exit_id = 3058
 }
@@ -989,7 +987,6 @@ STATE_RYUKYU_ISLANDS = {
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" }
     capped_resources = {
         building_fishing_wharf = 5
-        building_aggregate_mine = 36
         building_aggregate_mine = 36
     }
     naval_exit_id = 3058
@@ -1013,7 +1010,6 @@ STATE_CHUGOKU = {
         building_logging_camp = 20
         building_fishing_wharf = 12
         building_aggregate_mine = 36
-        building_aggregate_mine = 36
     }
     naval_exit_id = 3059
 }
@@ -1035,7 +1031,6 @@ STATE_SHIKOKU = {
         building_sulfur_mine = 32
         building_logging_camp = 11
         building_fishing_wharf = 9
-        building_aggregate_mine = 36
         building_aggregate_mine = 36
     }
     naval_exit_id = 3059

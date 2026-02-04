@@ -296,7 +296,7 @@ STATE_HAPGANG = {
     capped_resources = {
         building_coal_mine = 10
         building_iron_mine = 18
-        uilding_lead_mine = 13
+        building_lead_mine = 13
         building_logging_camp = 28
         building_aggregate_mine = 36
     }
