@@ -18,6 +18,7 @@ STATE_HINGGAN = {
         building_iron_mine = 36
         building_lead_mine = 24
         building_logging_camp = 6
+        building_aggregate_mine = 20
     }
 }
 
@@ -40,6 +41,7 @@ STATE_BEIJING = {
         building_lead_mine = 15
         building_logging_camp = 2
         building_fishing_wharf = 3
+        building_aggregate_mine = 10
     }
     naval_exit_id = 3057
 }
@@ -63,6 +65,7 @@ STATE_SHENGJING = {
         building_lead_mine = 15
         building_logging_camp = 20
         building_fishing_wharf = 8
+        building_aggregate_mine = 36
     }
     resource = {
         type = "building_oil_rig"
@@ -90,6 +93,7 @@ STATE_OUTER_MANCHURIA = {
         building_lead_mine = 24
         building_logging_camp = 40
         building_fishing_wharf = 10
+        building_aggregate_mine = 36
     }
     resource = {
         type = "building_gold_field"
@@ -119,6 +123,7 @@ STATE_AMUR = {
         building_coal_mine = 20
         building_logging_camp = 45
         building_fishing_wharf = 6
+        building_aggregate_mine = 36
     }
     resource = {
         type = "building_gold_field"
@@ -144,6 +149,7 @@ STATE_SOUTHERN_MANCHURIA = {
         building_iron_mine = 35
         building_lead_mine = 27
         building_logging_camp = 28
+        building_aggregate_mine = 36
     }
 }
 
@@ -163,6 +169,7 @@ STATE_NORTHERN_MANCHURIA = {
         building_coal_mine = 22
         building_iron_mine = 20
         building_logging_camp = 30
+        building_aggregate_mine = 36
     }
 }
 #내몽골 3주 - 남만주 북만주 성경 3주 외적인 보너스 자원 및 경작지
@@ -182,6 +189,7 @@ STATE_JEHOL = {
         building_iron_mine = 20
         building_lead_mine = 12
         building_logging_camp = 24
+        building_aggregate_mine = 36
     }
 }
 
@@ -202,6 +210,7 @@ STATE_YOBUK = {
         building_coal_mine = 26
         building_iron_mine = 22
         building_logging_camp = 22
+        building_aggregate_mine = 36
     }
 }
 
@@ -223,6 +232,7 @@ STATE_HEUNGAN = {
         building_coal_mine = 18
         building_iron_mine = 21
         building_logging_camp = 58
+        building_aggregate_mine = 36
     }
 }
 #만주 추가된 4개주
@@ -244,6 +254,7 @@ STATE_ANDONG = {
         building_iron_mine = 27
         building_lead_mine = 11
         building_logging_camp = 23
+        building_aggregate_mine = 36
     }
 
     naval_exit_id = 3057
@@ -266,6 +277,7 @@ STATE_SONGGANG = {
         building_iron_mine = 25
         building_lead_mine = 12
         building_logging_camp = 22
+        building_aggregate_mine = 36
     }
 }
 
@@ -286,6 +298,7 @@ STATE_HAPGANG = {
         building_iron_mine = 18
         uilding_lead_mine = 13
         building_logging_camp = 28
+        building_aggregate_mine = 36
     }
 }
 
@@ -305,6 +318,7 @@ STATE_BLACK_DRAGON_GANG = {
         building_coal_mine = 30
         building_iron_mine = 20
         building_logging_camp = 46
+        building_aggregate_mine = 36
     }
 }
 #korea
@@ -328,6 +342,7 @@ STATE_SEOUL = {
         building_logging_camp = 13
         building_whaling_station = 5
         building_fishing_wharf = 8
+        building_aggregate_mine = 36
     }
     naval_exit_id = 3057
 }
@@ -350,6 +365,7 @@ STATE_BUSAN = {
         building_logging_camp = 12
         building_whaling_station = 5
         building_fishing_wharf = 7
+        building_aggregate_mine = 36
     }
     naval_exit_id = 3058
 }
@@ -372,6 +388,7 @@ STATE_YANGHO = {
         building_logging_camp = 12
         building_whaling_station = 5
         building_fishing_wharf = 7
+        building_aggregate_mine = 36
     }
     naval_exit_id = 3058
 }
@@ -396,6 +413,7 @@ STATE_SARIWON = {
         building_sulfur_mine = 38
         building_logging_camp = 13
         building_fishing_wharf = 6
+        building_aggregate_mine = 36
     }
     resource = {
         type = "building_gold_field"
@@ -425,6 +443,7 @@ STATE_PYONGYANG = {
         building_sulfur_mine = 6
         building_logging_camp = 7
         building_fishing_wharf = 2
+        building_aggregate_mine = 36
     }
     resource = {
         type = "building_gold_field"
@@ -455,6 +474,7 @@ STATE_GWANDONG = {
         building_logging_camp = 27
         building_whaling_station = 5
         building_fishing_wharf = 12
+        building_aggregate_mine = 36
     }
     resource = {
         type = "building_gold_field"
@@ -482,6 +502,7 @@ STATE_HOSEO = {
         building_logging_camp = 14
         building_whaling_station = 5
         building_fishing_wharf = 8
+        building_aggregate_mine = 36
     }
     naval_exit_id = 3057
 }
@@ -505,6 +526,7 @@ STATE_HAESEO = {
         building_sulfur_mine = 17
         building_logging_camp = 12
         building_fishing_wharf = 14
+        building_aggregate_mine = 36
     }
     resource = {
         type = "building_gold_field"
@@ -529,6 +551,7 @@ STATE_JEJU_ISLAND = {
         building_logging_camp = 5
         building_whaling_station = 2
         building_fishing_wharf = 5
+        building_aggregate_mine = 36
     }
     naval_exit_id = 3057
 }
