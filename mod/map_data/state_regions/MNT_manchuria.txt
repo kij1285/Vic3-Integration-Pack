@@ -418,9 +418,9 @@ STATE_SARIWON = {
     resource = {
         type = "building_gold_field"
         depleted_type = "building_gold_mine"
-        undiscovered_amount = ２
+        undiscovered_amount = 2
     }
-    naval_exit_id = 3059
+    naval_exit_id = 305
 }
 
 STATE_PYONGYANG = {
@@ -448,7 +448,7 @@ STATE_PYONGYANG = {
     resource = {
         type = "building_gold_field"
         depleted_type = "building_gold_mine"
-        undiscovered_amount = ４
+        undiscovered_amount = 4
     }
     naval_exit_id = 3057
 }
