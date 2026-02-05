@@ -1,0 +1,23 @@
+﻿building_aggregate_mine = {
+    building_group = bg_aggregate_mining
+
+    icon = "gfx/interface/icons/building_icons/aggregate_mine.dds"
+
+    city_type = mine
+    levels_per_mesh = 5
+    required_construction = construction_cost_low
+    terrain_manipulator = mining
+    ownership_type = self
+
+    unlocking_technologies = {
+        shaft_mining
+    }
+
+    production_method_groups = {
+        pmg_mining_equipment_building_aggregate_mine
+        pmg_material_handling_building_aggregate_mine
+        pmg_steam_automation_building_aggregate_mine
+    }
+
+    background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_quarry.dds"
+}

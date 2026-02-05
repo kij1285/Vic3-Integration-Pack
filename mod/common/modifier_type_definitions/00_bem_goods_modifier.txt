@@ -1,0 +1,49 @@
+﻿goods_input_aggregate_add = {
+    decimals=1
+    color=bad
+    game_data={
+        ai_value=0
+    }
+}
+
+goods_output_aggregate_add = {
+    decimals=1
+    color=bad
+    game_data={
+        ai_value=0
+    }
+}
+
+goods_input_refined_construction_materials_add = {
+    decimals=1
+    color=bad
+    game_data={
+        ai_value=0
+    }
+}
+
+goods_output_refined_construction_materials_add = {
+    decimals=1
+    color=bad
+    game_data={
+        ai_value=0
+    }
+}
+
+goods_output_aggregate_mult = {
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+
+building_aggregate_mine_throughput_add={
+    decimals=0
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}

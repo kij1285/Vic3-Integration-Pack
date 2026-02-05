@@ -1,0 +1,60 @@
+﻿l_english:
+  # Buildings
+  building_aggregate_mine:0 "Aggregate Mine"
+  building_construction_materials_factory:0 "Building Materials"
+
+  # Building Descriptions
+  building_aggregate_mine_desc:0 "A processing plant that crushes stone and other minerals into aggregates, used in construction and concrete mixing."
+  building_construction_materials_factory_desc:0 "A factory that processes raw aggregate into refined building materials for construction."
+  
+  # Production Methods
+  pmg_mining_equipment_building_aggregate_mine:0 "Excavation Equipment"
+  pm_picks_and_shovels_building_aggregate_mine:0 "Picks and Shovels"
+  pm_steam_drills_building_aggregate_mine:0 "Steam Powered Drills"
+  pm_pneumatic_drills_building_aggregate_mine:0 "Pneumatic Drills"
+
+  pmg_steam_automation_building_aggregate_mine:0 "Automation"
+  pm_no_steam_automation_bem:0 "No Automation"
+  pm_steam_powered_hoists_building_aggregate_mine:0 "Steam Powered Hoists"
+  pm_diesel_excavators_building_aggregate_mine:0 "Diesel Excavation"
+
+  pmg_material_handling_building_aggregate_mine:0 "Goods Processing"
+  pm_manual_material_handling:0 "Manual Labor"
+  pm_rail_cart_transport:0 "Rail Cart Systems"
+  pm_conveyor_systems:0 "Conveyor Belts"
+  pm_grading_and_sorting:0 "Grading and Sorting Machines"
+
+  pmg_material_processing_building_materials_factory:0 "Processing Equipment"
+  pm_manual_crushing:0 "Manual Crushing"
+  pm_steam_powered_crushing:0 "Steam Powered Machinery"
+  pm_rotary_kiln_processing:0 "Rotary Kiln"
+  pm_dry_kiln_electrification:0 "Electric Powered Dry Kiln"
+
+  pmg_material_additives_building_materials_factory:0 "Additives"
+  pm_no_additives:0 "No Additives"
+  pm_reinforced_materials:0 "Reinforced with Iron"
+  pm_high_quality_refinement:0 "Reinforced with Steel"
+
+  pmg_material_utilization_construction_sector:0 "Building Material Utilization"
+  pm_no_supplementary_materials:0 "Locally Sourced"
+  pm_aggregate_supplementation:0 "Aggregate Supplementation"
+  pm_reinforced_construction:0 "Reinforced Construction"
+  pm_high_strength_construction:0 "High-Strength Engineering"
+
+  # Goods
+  aggregate:0 "Aggregate"
+  aggregate_desc:0 "Various compounds of crushed stone, sand, limestone and gravel that are used in construction."
+
+  refined_construction_materials:0 "Building Materials"
+  refined_construction_materials_desc:0 "Stronger and more reliable than raw aggregate, these refined construction materials enhance infrastructure and accelerate building projects."
+
+  # Technology
+  industrial_construction_methods:0 "Industrial Construction Methods"
+  industrial_construction_methods_desc:0 "By standardizing construction techniques and incorporating new material processes, industrial construction methods allow for faster, more efficient, and structurally superior buildings."
+
+  rotary_kiln:0 "Rotary Kiln Processing"
+  rotary_kiln_desc:0 "The introduction of the rotary kiln allows for continuous processing of raw materials at high temperatures, significantly improving the production of cement, lime, and other raw construction materials."
+
+  # State Traits
+  building_aggregate_mine_throughput_add:0 "$building_aggregate_mine$ building [concept_throughput]"
+  building_aggregate_mine_throughput_add_desc:0 "A bonus or penalty to both input and output of $building_aggregate_mine$"

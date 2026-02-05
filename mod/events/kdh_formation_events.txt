@@ -1,0 +1,39 @@
+﻿namespace = formation
+
+formation.99 = {
+    type = country_event
+    placement = ROOT
+    title = formation.kdh.t
+    desc  = formation.kdh.d
+    is_triggered_only = yes
+
+    trigger = {
+        c:KDH ?= ROOT
+        NOT = { has_global_variable = has_formed_kdh }
+    }
+
+    option = {
+        name = formation.kdh.a
+        default_option = yes
+
+        add_acceptance = { culture = cu:manchu   value = 10 }
+        add_acceptance = { culture = cu:han      value = 10 }
+        add_acceptance = { culture = cu:mongol   value = 10 }
+        add_acceptance = { culture = cu:japanese value = 10 }
+        add_acceptance = { culture = cu:siberian value = 10 }
+        add_acceptance = { culture = cu:ainu     value = 10 }
+
+        add_claim = { state_region = s:STATE_SAKHALIN }
+        add_claim = { state_region = s:STATE_HOKKAIDO }
+        add_claim = { state_region = s:STATE_TOHOKU }
+        add_claim = { state_region = s:STATE_CHUBU }
+        add_claim = { state_region = s:STATE_KANSAI }
+        add_claim = { state_region = s:STATE_CHUGOKU }
+        add_claim = { state_region = s:STATE_SHIKOKU }
+        add_claim = { state_region = s:STATE_KYUSHU }
+        add_claim = { state_region = s:STATE_RYUKYU_ISLANDS }
+
+
+        set_global_variable = has_formed_kdh
+    }
+}
