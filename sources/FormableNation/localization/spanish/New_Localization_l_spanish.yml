@@ -1,0 +1,1432 @@
+﻿l_spanish:
+je_formable_nations_plus: "Naciones Formables Plus"
+#HRE
+ HRE:0 "Sacro Imperio Romano"
+ HRE_ADJ:0 "del Sacro Imperio Romano"
+ HRE_FLAVOR_TEXT:0 "Este imperio es poderoso, vasto y diverso, ¿será capaz de mantenerse unido y gobernar el continente como lo hizo en épocas pasadas?"
+
+ HRE-formation-modifier-01:0 "En el Corazón de Europa"
+  
+ HRE-unification-journal:0 "Un Imperio Renacido"
+ HRE-unification-journal-complete:0 "Es el Sacro Imperio Romano"
+ 
+ HRE-unification-event-title:0 "El Sacro Imperio Romano Renacido"
+ HRE-unification-event-description:0 "El renacimiento del águila bicéfala."
+ HRE-unification-event-flavor:0 "Durante casi un milenio el Sacro Imperio Romano creció y cayó con el golpe final viniendo de Napoleón. Este error finalmente ha sido rectificado y todas las personas en este imperio estarán más fuertes juntas. El futuro se muestra favorable para todos nosotros."
+ HRE-unification-option-01:0 "El nacimiento de una superpotencia europea."
+ HRE-unification-journal_reason:0 "Formando el Sacro Imperio Romano"
+ HRE-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],HRE-modifier-effect-tt $HRE-formation-modifier-01$#!" 
+ HRE-modifier-effect-tt: "[GetStaticModifier('HRE-formation-modifier-01').GetName|v]\n[GetStaticModifier('HRE-formation-modifier-01').GetDesc]"
+
+#Benelux
+ BNL:0 "Benelux"
+ BNL_ADJ:0 "Benelux"
+ BNL_FLAVOR_TEXT:0 "Puede parecer pequeño pero el Benelux tiene la oportunidad de convertirse en un gran jugador en Europa. Todo lo que tiene que hacer es tomarla."
+
+ BNL-formation-modifier-01:0 "Acorralado Entre Grandes Potencias"
+  
+ BNL-unification-journal:0 "Las Tierras Bajas Unidas"
+ BNL-unification-journal-complete:0 "Es el Benelux"
+ 
+ BNL-unification-event-title:0 "El Benelux Finalmente Reunificado"
+ BNL-unification-event-description:0 "El nuevo león ruge."
+ BNL-unification-event-flavor:0 "Las tierras bajas finalmente están juntas de nuevo después de ser separadas a la fuerza. Está claro que somos más fuertes juntos pero somos jóvenes y estamos rodeados. Se deben encontrar alianzas y se deben aplastar rivales si queremos sobrevivir a la embestida venidera."
+ BNL-unification-option-01:0 "¿Cómo competiremos con las otras grandes potencias en Europa?"
+ BNL-unification-journal_reason:0 "Formando el Benelux"
+ BNL-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],BNL-modifier-effect-tt $BNL-formation-modifier-01$#!" 
+ BNL-modifier-effect-tt: "[GetStaticModifier('BNL-formation-modifier-01').GetName|v]\n[GetStaticModifier('BNL-formation-modifier-01').GetDesc]"
+
+#UCB
+ UCB:0 "Caribe Unido"
+ UCB_ADJ:0 "Caribe Unido"
+ UCB_FLAVOR_TEXT:0 "Con todas sus islas bajo una sola bandera, el Caribe Unido enfrentará un futuro desafiante. Está rodeado de grandes potencias que están más que dispuestas a ejercer control sobre él."
+
+ UCB-formation-modifier-01:0 "Un Reino Pirata Moderno"
+  
+ UCB-unification-journal:0 "Unificación del Caribe"
+ UCB-unification-journal-complete:0 "Es el Caribe Unido"
+ 
+ UCB-unification-event-title:0 "El Caribe Bajo Una Sola Bandera"
+ UCB-unification-event-description:0 "La segunda edad de oro de la piratería ha comenzado."
+ UCB-unification-event-flavor:0 "Durante siglos el caribe ha estado bajo el control de extranjeros, ¡ya no más! Tenemos algunas de las capitales piratas más antiguas del mundo y lo serán de nuevo. ¡Inauguraremos una nueva era de piratería!"
+ UCB-unification-option-01:0 "¡Construyan los astilleros y entrenen a los marineros!"
+ UCB-unification-journal_reason:0 "Formando el Caribe Unido"
+ UCB-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],UCB-modifier-effect-tt $UCB-formation-modifier-01$#!" 
+ UCB-modifier-effect-tt: "[GetStaticModifier('UCB-formation-modifier-01').GetName|v]\n[GetStaticModifier('UCB-formation-modifier-01').GetDesc]"
+
+#IFR
+ IFR:0 "Federación Imperial"
+ IFR_ADJ:0 "Federación Imperial"
+ IFR_FLAVOR_TEXT:0 "Un imperio federal global, el primero de su tipo. Tiene mucho poder pero esto viene con muchos problemas y áreas de control. ¿Puede el imperio mantenerse unido y realmente gobernar las olas?"
+
+ IFR-formation-modifier-01:0 "Un Imperio Federal Global"
+  
+ IFR-unification-journal:0 "Un Imperio Global"
+ IFR-unification-journal-complete:0 "Es la Federación Imperial"
+ 
+ IFR-unification-event-title:0 "Todo el Imperio Bajo una Bandera"
+ IFR-unification-event-description:0 "Una nueva era de diplomacia ha comenzado."
+ IFR-unification-event-flavor:0 "Cuanto más crecía el imperio, más difícil se volvía controlarlo. Ahora tenemos todos los países dentro del imperio en el mismo parlamento. Juntos llevaremos a todos bajo una misma identidad y país."
+ IFR-unification-option-01:0 "¡Tendremos que expandir la cámara de los comunes!"
+ IFR-unification-journal_reason:0 "Formando la Federación Imperial"
+ IFR-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],IFR-modifier-effect-tt $IFR-formation-modifier-01$#!" 
+ IFR-modifier-effect-tt: "[GetStaticModifier('IFR-formation-modifier-01').GetName|v]\n[GetStaticModifier('IFR-formation-modifier-01').GetDesc]"
+
+#INC
+ INC:0 "Indochina"
+ INC_ADJ:0 "Indochina"
+ INC_FLAVOR_TEXT:0 "La gente en Indochina ha luchado entre sí durante mucho tiempo pero ese tiempo ha terminado. Unidos enfrentaremos al mundo y sus tribulaciones."
+
+ INC-formation-modifier-01:0 "Un País Diverso"
+  
+ INC-unification-journal:0 "Un Nuevo Poder en Asia"
+ INC-unification-journal-complete:0 "Es Indochina"
+ 
+ INC-unification-event-title:0 "Levantarse Contra Nuestros Opresores"
+ INC-unification-event-description:0 "Un camino difícil por delante."
+ INC-unification-event-flavor:0 "Durante demasiado tiempo los países en Indochina han sido intimidados y reprimidos por potencias más grandes fuera de la península. A pesar de nuestras diferencias tendremos que trabajar juntos para enfrentar los peligros externos."
+ INC-unification-option-01:0 "¿Serán nuestras culturas capaces de trabajar juntas?"
+ INC-unification-journal_reason:0 "Formando Indochina"
+ INC-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],INC-modifier-effect-tt $INC-formation-modifier-01$#!" 
+ INC-modifier-effect-tt: "[GetStaticModifier('INC-formation-modifier-01').GetName|v]\n[GetStaticModifier('INC-formation-modifier-01').GetDesc]"
+ 
+#TCC
+ TCC:0 "Transcaucasia"
+ TCC_ADJ:0 "Transcaucasia"
+ TCC_FLAVOR_TEXT:0 "La gente en el cáucaso ha sido oprimida durante mucho tiempo por el pueblo ruso, ¡pero no más! Han sido unidos para enfrentar a su enemigo final en estos tiempos difíciles."
+
+ TCC-formation-modifier-01:0 "Listos para una Pelea"
+  
+ TCC-unification-journal:0 "El Cáucaso está Unido"
+ TCC-unification-journal-complete:0 "Es Transcaucasia"
+ 
+ TCC-unification-event-title:0 "Para Enfrentar a Nuestro Enemigo Final"
+ TCC-unification-event-description:0 "Los rusos ya no nos subyugarán."
+ TCC-unification-event-flavor:0 "Durante muchos años los pueblos aquí en el Cáucaso han estado sujetos a muchos otros grupos, siendo los rusos los principales ofensores. Ya no nos inclinaremos, nos prepararemos para su invasión. Porque sabemos que vendrá."
+ TCC-unification-option-01:0 "Unidos seremos lo suficientemente fuertes para enfrentar cualquier amenaza."
+ TCC-unification-journal_reason:0 "Formando Transcaucasia"
+ TCC-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],TCC-modifier-effect-tt $TCC-formation-modifier-01$#!" 
+ TCC-modifier-effect-tt: "[GetStaticModifier('TCC-formation-modifier-01').GetName|v]\n[GetStaticModifier('TCC-formation-modifier-01').GetDesc]"
+ 
+#RME
+ RME:0 "Imperio Romano"
+ RME_ADJ:0 "Imperio Romano"
+ RME_FLAVOR_TEXT:0 "El imperio romano perduró durante más de mil años... y bajo nuestro nuevo liderazgo continuará perdurando por otros mil. Pero aun así, no debemos subestimar los cambios de este nuevo mundo industrial."
+
+ RME-formation-modifier-01:0 "Por la Gloria de Roma"
+  
+ RME-unification-journal:0 "El Renacimiento de un Imperio"
+ RME-unification-journal-complete:0 "Es el Imperio Romano"
+ 
+ RME-unification-event-title:0 "El Águila Se Eleva Una Vez Más"
+ RME-unification-event-description:0 "Lo que una vez se perdió ha sido encontrado de nuevo"
+ RME-unification-event-flavor:0 "Hace más de 1500 años Roma fue destruida por nuestra burocracia fallida y los pueblos germánicos. ¡Con el imperio renacido aprenderemos de nuestros errores y tendremos nuestra venganza!"
+ RME-unification-option-01:0 "¡Esos bárbaros del norte obtendrán lo que merecen!"
+ RME-unification-journal_reason:0 "Formando el Imperio Romano"
+ RME-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],RME-modifier-effect-tt $RME-formation-modifier-01$#!" 
+ RME-modifier-effect-tt: "[GetStaticModifier('RME-formation-modifier-01').GetName|v]\n[GetStaticModifier('RME-formation-modifier-01').GetDesc]"
+ RME-decision-maghrebi-explanation: "#;bold Opciones:#!# \nIntegrar Magrebí por Burocracia y Autoridad\nIntegrar Magrebí por Burocracia y Capacidad Fiscal\nCancelar Integración"
+ 
+#MGB
+ MGB:0 "Magreb"
+ MGB_ADJ:0 "Magreb"
+ MGB_FLAVOR_TEXT:0 "Los musulmanes en África Occidental están unidos y ahora depende de ellos dónde centrarán su atención. Norte hacia el Mediterráneo o sur hacia el resto de África"
+
+ MGB-formation-modifier-01:0 "Desafío por el Mediterráneo"
+ MGB-formation-modifier-02:0 "África Occidental es Nuestra"
+  
+ MGB-unification-journal:0 "Uniendo a los Musulmanes Occidentales"
+ MGB-unification-journal-complete:0 "Es Magreb"
+ 
+ MGB-unification-event-title:0 "Un Nuevo Poder en el Norte de África"
+ MGB-unification-event-description:0 "¿En qué nos enfocaremos?"
+ MGB-unification-event-flavor:0 "Con los musulmanes occidentales unidos debemos elegir dónde centraremos nuestra atención. Podríamos enfocarnos en el norte y nuestro control del Mediterráneo. O podríamos enfocarnos en el sur y continuar más adentro de África"
+ MGB-unification-option-01:0 "El Nuevo Poder en el Mediterráneo."
+ MGB-unification-option-02:0 "Controlaremos Toda África Occidental."
+ MGB-unification-journal_reason:0 "Formando Magreb"
+ MGB-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],MGB-modifier-effect-tt $MGB-formation-modifier-01$#! \n or \n• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],MGB-modifier-effect-tt-2 $MGB-formation-modifier-02$#!" 
+ MGB-modifier-effect-tt: "[GetStaticModifier('MGB-formation-modifier-01').GetName|v]\n[GetStaticModifier('MGB-formation-modifier-01').GetDesc]"
+ MGB-modifier-effect-tt-2: "[GetStaticModifier('MGB-formation-modifier-01').GetName|v]\n[GetStaticModifier('MGB-formation-modifier-02').GetDesc]"
+ 
+#BSA
+ BSA:0 "Baltoscandia"
+ BSA_ADJ:0 "Baltoscandia"
+ BSA_FLAVOR_TEXT:0 "La gente en los países nórdicos se ha unido para defenderse de amenazas externas a su existencia. Enfrentarán al mundo juntos, ¿pero cómo responderá el mundo?"
+
+ BSA-formation-modifier-01:0 "Unidos Permanecemos"
+  
+ BSA-unification-journal:0 "Uniendo a Todos los Pueblos Nórdicos"
+ BSA-unification-journal-complete:0 "Es Baltoscandia"
+ 
+ BSA-unification-event-title:0 "El Estado del Norte No Se Inclinará Ante Nadie"
+ BSA-unification-event-description:0 "Solo unidos resistiremos."
+ BSA-unification-event-flavor:0 "Muchas culturas diferentes viven en el norte de Europa y solos somos propensos a ser conquistados. Pero juntos somos una fuerza a tener en cuenta. Nadie nos detendrá más."
+ BSA-unification-option-01:0 "Necesitamos Unir a Nuestra Gente"
+ BSA-unification-journal_reason:0 "Formando Baltoscandia"
+ BSA-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],BSA-modifier-effect-tt $BSA-formation-modifier-01$#!" 
+ BSA-modifier-effect-tt: "[GetStaticModifier('BSA-formation-modifier-01').GetName|v]\n[GetStaticModifier('BSA-formation-modifier-01').GetDesc]"
+ 
+#BKU
+ BKU:0 "Unión Balcánica"
+ BKU_ADJ:0 "Unión Balcánica"
+ BKU_FLAVOR_TEXT:0 "Durante muchos siglos han luchado, pero sus diferencias han sido dejadas de lado para formar una unión. Muchos estados miran a los Balcanes como una tierra dividida pero les demostrarán que están equivocados."
+
+ BKU-formation-modifier-01:0 "Nadie Nos Invadirá de Nuevo"
+  
+ BKU-unification-journal:0 "La Gente en los Balcanes está Unida"
+ BKU-unification-journal-complete:0 "Es la Unión Balcánica"
+ 
+ BKU-unification-event-title:0 "Ya No es un Polvorín"
+ BKU-unification-event-description:0 "Debemos aprender a enfrentar al mundo juntos."
+ BKU-unification-event-flavor:0 "Durante demasiado tiempo los pueblos en los Balcanes han luchado entre sí. Esto nos mantuvo débiles y abiertos a invasiones desde el exterior. Bajo esta unión esto ya no sucederá."
+ BKU-unification-option-01:0 "Debemos Mantener Nuestra Soberanía"
+ BKU-unification-journal_reason:0 "Formando la Unión Balcánica"
+ BKU-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],BKU-modifier-effect-tt $BKU-formation-modifier-01$#!" 
+ BKU-modifier-effect-tt: "[GetStaticModifier('BKU-formation-modifier-01').GetName|v]\n[GetStaticModifier('BKU-formation-modifier-01').GetDesc]"
+ 
+#NSE
+ NSE:0 "Imperio del Mar del Norte"
+ NSE_ADJ:0 "Imperio del Mar del Norte"
+ NSE_FLAVOR_TEXT:0 "El viejo imperio vikingo se formó pero ¿será capaz de mantenerse unido y mantener su control sobre el Mar del Norte?"
+
+ NSE-formation-modifier-01:0 "El Poder de Nuestra Armada"
+  
+ NSE-unification-journal:0 "Inaugurando una Nueva Era Vikinga"
+ NSE-unification-journal-complete:0 "Es el Imperio del Mar del Norte"
+ 
+ NSE-unification-event-title:0 "El Viejo Imperio Vikingo Se Mantiene de Nuevo"
+ NSE-unification-event-description:0 "El Rey Cnut estaría orgulloso."
+ NSE-unification-event-flavor:0 "Durante el apogeo de la era vikinga los reinos de Noruega, Dinamarca e Inglaterra estaban unidos bajo una corona vikinga. Esta unión fue una de las más fuertes en Europa en ese momento, ahora tenemos que recuperar ese título y proteger nuestro mar."
+ NSE-unification-option-01:0 "El Mar del Norte es Nuestro Territorio"
+ NSE-unification-journal_reason:0 "Formando el Imperio del Mar del Norte"
+ NSE-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],NSE-modifier-effect-tt $NSE-formation-modifier-01$#!" 
+ NSE-modifier-effect-tt: "[GetStaticModifier('NSE-formation-modifier-01').GetName|v]\n[GetStaticModifier('NSE-formation-modifier-01').GetDesc]"
+
+#FBU
+ FBU:0 "Unión Franco-Británica"
+ FBU_ADJ:0 "Unión Franco-Británica"
+ FBU_FLAVOR_TEXT:0 "Pueden haber sido rivales durante mil años pero sus países siempre han estado conectados. Esta conexión finalmente se ha formalizado en una unión real."
+
+ FBU-formation-modifier-01:0 "Nuestra Gente Debe Trabajar Junta"
+  
+ FBU-unification-journal:0 "Las Consecuencias de la Conquista Normanda"
+ FBU-unification-journal-complete:0 "Es la Unión Franco-Británica"
+ 
+ FBU-unification-event-title:0 "Siglos de Conflicto Han Terminado"
+ FBU-unification-event-description:0 "Una unión histórica finalmente realizada"
+ FBU-unification-event-flavor:0 "Desde la Conquista Normanda, Inglaterra y Francia han estado conectados de alguna manera. Ahora esta conexión se ha realizado y su gente se ha unido bajo una unión. ¿Aceptarán los otros países en Europa esta fusión?"
+ FBU-unification-option-01:0 "Debemos Mantener Esta Unión Junta."
+ FBU-unification-journal_reason:0 "Formando la Unión Franco-Británica"
+ FBU-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],FBU-modifier-effect-tt $FBU-formation-modifier-01$#!" 
+ FBU-modifier-effect-tt: "[GetStaticModifier('FBU-formation-modifier-01').GetName|v]\n[GetStaticModifier('FBU-formation-modifier-01').GetDesc]"
+ 
+#ICE
+ ICE:0 "Imperio Inca"
+ ICE_ADJ:0 "Imperio Inca"
+ ICE_FLAVOR_TEXT:0 "Hace unos cientos de años el Imperio Inca fue destruido por invasores. Ahora está de vuelta junto y les toca a ellos ver si están dispuestos a trabajar con ellos o luchar contra ellos."
+ 
+ ICE-formation-modifier-01:0 "Debemos Trabajar para Asimilarlos"
+ ICE-formation-modifier-02:0 "Muerte a los Colonizadores"
+  
+ ICE-unification-journal:0 "El Antiguo Imperio Se Forma de Nuevo"
+ ICE-unification-journal-complete:0 "Es el Imperio Inca"
+ 
+ ICE-unification-event-title:0 "Grandes Cambios Están en Marcha"
+ ICE-unification-event-description:0 "¿Cómo miraremos hacia el futuro?"
+ ICE-unification-event-flavor:0 "Cuando los españoles vinieron a colonizar esta tierra el Imperio Inca gobernaba estas tierras. Ahora están unidos de nuevo. Al discutir cómo proceder, varios miembros indígenas estaban tratando de entrar para tomar el control de varios edificios gubernamentales. ¿Debería permitirse esto?"
+ ICE-unification-option-01:0 "No, Les Mostraremos Cómo Podríamos Trabajar Juntos."
+ ICE-unification-option-02:0 "Sí, ¡Tendremos Nuestra Venganza Contra los Colonizadores!"
+ ICE-culture-warning:0 "¡ADVERTENCIA! CAMBIO CULTURAL IMPORTANTE"
+ ICE-unification-journal_reason:0 "Formando el Imperio Inca"
+ ICE-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],ICE-modifier-effect-tt $ICE-formation-modifier-01$#! \n or \n• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],ICE-modifier-effect-tt-2 $ICE-formation-modifier-02$#! \n Major Culture Change" 
+ ICE-modifier-effect-tt: "[GetStaticModifier('ICE-formation-modifier-01').GetName|v]\n[GetStaticModifier('ICE-formation-modifier-01').GetDesc]"
+ ICE-modifier-effect-tt-2: "[GetStaticModifier('ICE-formation-modifier-01').GetName|v]\n[GetStaticModifier('ICE-formation-modifier-02').GetDesc]"
+ 
+#CRT
+ CRT:0 "Cartago"
+ CRT_ADJ:0 "Cartago"
+ CRT_FLAVOR_TEXT:0 "En su apogeo Cartago fue el gobernante del Mediterráneo y lo serán de nuevo. Sin embargo, hay varias naciones más antiguas y grandes que apuntan a cosas similares. ¡Debemos detenerlas!"
+ 
+ CRT-formation-modifier-01:0 "Debemos Volver a Nuestras Raíces"
+  
+ CRT-unification-journal:0 "El Imperio Comercial se Reforma"
+ CRT-unification-journal-complete:0 "Es Cartago"
+ 
+ CRT-unification-event-title:0 "Debemos Obtener el Control Total del Mediterráneo"
+ CRT-unification-event-description:0 "Todo el comercio fluirá a través de nosotros."
+ CRT-unification-event-flavor:0 "Hace más de 2000 años el Imperio Cartaginés fue destruido por los romanos. ¡Pero finalmente hemos resurgido para tomar nuestro lugar legítimo alrededor del Mediterráneo! Nuestra fuerza fue nuestro comercio y lo será de nuevo."
+ CRT-unification-option-01:0 "El Poder de Nuestro Comercio Dominará"
+ CRT-unification-journal_reason:0 "Formando Cartago"
+ CRT-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],CRT-modifier-effect-tt $CRT-formation-modifier-01$#!" 
+ CRT-modifier-effect-tt: "[GetStaticModifier('CRT-formation-modifier-01').GetName|v]\n[GetStaticModifier('CRT-formation-modifier-01').GetDesc]"
+ 
+#APC
+ APCF:0 "Confederación Alpina"
+ APCF_ADJ:0 "Confederación Alpina"
+ APCF_FLAVOR_TEXT:0 "La gente alrededor de los Alpes se ha unido en una confederación. ¿Será esta unión lo suficientemente fuerte para mantener a raya a las potencias extranjeras que buscan su valiosa tierra?"
+ 
+ APCF-formation-modifier-01:0 "Una Economía de Montaña"
+  
+ APCF-unification-journal:0 "La Confederación de Montaña"
+ APCF-unification-journal-complete:0 "Es la Confederación Alpina"
+ 
+ APCF-unification-event-title:0 "Nuestro País en el Cielo"
+ APCF-unification-event-description:0 "Nadie será dueño de la montaña excepto nosotros."
+ APCF-unification-event-flavor:0 "Los Alpes en el centro de Europa han sido una línea divisoria durante siglos. Muchas potencias extranjeras han intentado controlarlo para llegar al otro lado. Esto termina hoy, la gente alrededor de los alpes se ha unido en una sola confederación."
+ APCF-unification-option-01:0 "Usaremos las Riquezas Bajo Nuestros Pies"
+ APCF-unification-journal_reason:0 "Formando la Confederación Alpina"
+ APCF-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],APCF-modifier-effect-tt $APCF-formation-modifier-01$#!" 
+ APCF-modifier-effect-tt: "[GetStaticModifier('APCF-formation-modifier-01').GetName|v]\n[GetStaticModifier('APCF-formation-modifier-01').GetDesc]"
+ 
+#LTR
+ LTR:0 "Lotaringia"
+ LTR_ADJ:0 "Lotaringia"
+ LTR_FLAVOR_TEXT:0 ""
+ 
+ LTR-formation-modifier-01:0 "Entre Grandes Potencias"
+  
+ LTR-unification-journal:0 "El Legado Carolingio"
+ LTR-unification-journal-complete:0 "Es Lotaringia"
+ 
+ LTR-unification-event-title:0 "Lotaringia Se Forma de Nuevo"
+ LTR-unification-event-description:0 "El reino medio vive."
+ LTR-unification-event-flavor:0 "Después del tiempo del imperio Carolingio, Lotaringia fue el medio de los reinos separados. Entre los reinos franco y germánico. Eventualmente Lotaringia fue devorada por estos reinos pero ya no más. Actuaremos como un estado fronterizo entre los franceses y los alemanes."
+ LTR-unification-option-01:0 "¿Seremos Capaces de Resistir los Ataques de Ambos Lados?"
+ LTR-unification-journal_reason:0 "Formando Lotaringia"
+ LTR-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],LTR-modifier-effect-tt $LTR-formation-modifier-01$#!" 
+ LTR-modifier-effect-tt: "[GetStaticModifier('LTR-formation-modifier-01').GetName|v]\n[GetStaticModifier('LTR-formation-modifier-01').GetDesc]"
+
+#MDZ
+ MDZ:0 "Międzymorze"
+ MDZ_ADJ:0 "Międzymorze"
+ MDZ_FLAVOR_TEXT:0 "El concepto del Międzymorze ha sido durante mucho tiempo una cooperación entre el pueblo eslavo. ¿Resistirá esta unión la prueba del tiempo?"
+ 
+ MDZ-formation-modifier-01:0 "Enmendando Nuestras Diferencias"
+  
+ MDZ-unification-journal:0 "Una Mancomunidad Moderna"
+ MDZ-unification-journal-complete:0 "Es el Międzymorze"
+ 
+ MDZ-unification-event-title:0 "Un Estado Paneslavo"
+ MDZ-unification-event-description:0 "Europa del Este se une."
+ MDZ-unification-event-flavor:0 "La idea del Międzymorze fue originalmente concebida como un estado sucesor de la Mancomunidad Polaco-Lituana y eso es lo que seremos. Sin embargo, aceptaremos a todos los diferentes pueblos eslavos para una unión más fuerte."
+ MDZ-unification-option-01:0 "¿Se Mantendrá Unido Este Experimento?"
+ MDZ-unification-journal_reason:0 "Formando el Międzymorze"
+ MDZ-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],MDZ-modifier-effect-tt $MDZ-formation-modifier-01$#!" 
+ MDZ-modifier-effect-tt: "[GetStaticModifier('MDZ-formation-modifier-01').GetName|v]\n[GetStaticModifier('MDZ-formation-modifier-01').GetDesc]"
+ 
+#TMD
+ TMD:0 "Imperio Timúrida"
+ TMD_ADJ:0 "Imperio Timúrida"
+ TMD_FLAVOR_TEXT:0 "El fundador original del Imperio Timúrida se veía a sí mismo como el heredero oficial del imperio mongol. Con estas tierras de vuelta juntas nos orientaremos tanto hacia el este como hacia el oeste."
+ 
+ TMD-formation-modifier-01:0 "Puente Entre Este y Oeste"
+  
+ TMD-unification-journal:0 "Heredero del Imperio Mongol"
+ TMD-unification-journal-complete:0 "Es el Imperio Timúrida"
+ 
+ TMD-unification-event-title:0 "El Viejo Imperio de Vuelta Junto"
+ TMD-unification-event-description:0 "Irán-u-Turán reina de nuevo."
+ TMD-unification-event-flavor:0 "El fundador original del Imperio Timúrida se veía a sí mismo como el heredero del Imperio Mongol y tenía razón. Al igual que nosotros hoy. Con nuestro imperio en pie actuaremos como un puente entre este y oeste, seremos la tierra que conecte todas las demás tierras."
+ TMD-unification-option-01:0 "Conectando el Mundo"
+ TMD-unification-journal_reason:0 "Formando el Imperio Timúrida"
+ TMD-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],TMD-modifier-effect-tt $TMD-formation-modifier-01$#!" 
+ TMD-modifier-effect-tt: "[GetStaticModifier('TMD-formation-modifier-01').GetName|v]\n[GetStaticModifier('TMD-formation-modifier-01').GetDesc]"
+
+#MCE
+ MCE:0 "Imperio Macedonio"
+ MCE_ADJ:0 "Imperio Macedonio"
+ MCE_FLAVOR_TEXT:0 "Hace más de 2000 años Alejandro Magno formó uno de los imperios más grandes del mundo antiguo. Su tiempo fue cortado y su imperio se desmoronó. Se ha formado de nuevo y ha cambiado la historia para siempre."
+ 
+ MCE-formation-modifier-01:0 "Antigua Fuerza Macedonia"
+  
+ MCE-unification-journal:0 "El Heredero de Alejandro"
+ MCE-unification-journal-complete:0 "Es el Imperio Macedonio"
+ 
+ MCE-unification-event-title:0 "Alejandro Estaría Orgulloso"
+ MCE-unification-event-description:0 "El Poder de Macedonia Se Muestra de Nuevo."
+ MCE-unification-event-flavor:0 "Alejandro Magno formó uno de los imperios más grandes del mundo antiguo. Pero su muerte prematura causó que se fragmentara y colapsara. ¡Continuaremos su legado!"
+ MCE-unification-option-01:0 "El Legado de Alejandro"
+ MCE-unification-journal_reason:0 "Formando el Imperio Macedonio"
+ MCE-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],MCE-modifier-effect-tt $MCE-formation-modifier-01$#!" 
+ MCE-modifier-effect-tt: "[GetStaticModifier('MCE-formation-modifier-01').GetName|v]\n[GetStaticModifier('MCE-formation-modifier-01').GetDesc]"
+
+#FUG
+ FUG:0 "Finougria"
+ FUG_ADJ:0 "Finougria"
+ FUG_FLAVOR_TEXT:0 "La gente del norte de Escandinavia y el norte de Rusia ha estado conectada durante mucho tiempo a lo largo de la historia. ¿Serán capaces de resistir a las otras grandes potencias en su bastión del norte?"
+ 
+ FUG-formation-modifier-01:0 "Fuerza del Norte"
+  
+ FUG-unification-journal:0 "Uniendo a la Gente del Norte"
+ FUG-unification-journal-complete:0 "Es Finougria"
+ 
+ FUG-unification-event-title:0 "Dos Culturas Fusionadas"
+ FUG-unification-event-description:0 "Somos un pueblo fuerte."
+ FUG-unification-event-flavor:0 "Los pueblos finlandés y úgrico tienen una conexión cultural y lingüística que se remonta miles de años. Ahora estamos conectados en un solo estado para enfrentar los peligros del exterior."
+ FUG-unification-option-01:0 "Proteger Nuestras Culturas"
+ FUG-unification-journal_reason:0 "Formando Finougria"
+ FUG-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],FUG-modifier-effect-tt $FUG-formation-modifier-01$#!" 
+ FUG-modifier-effect-tt: "[GetStaticModifier('FUG-formation-modifier-01').GetName|v]\n[GetStaticModifier('FUG-formation-modifier-01').GetDesc]"
+
+#POLY
+ POLY:0 "Polinesia"
+ POLY_ADJ:0 "Polinesia"
+ POLY_FLAVOR_TEXT:0 "Polinesia controla una gran área del globo pero solo un poco de tierra. Muchas potencias extranjeras buscan explotar esto para su propio beneficio. ¿Será capaz Polinesia de resistir a cualquier invasor y buscar un futuro independiente?"
+ 
+ POLY-formation-modifier-01:0 "Nuestras islas son nuestra fuerza"
+  
+ POLY-unification-journal:0 "Uniendo las Islas Polinesias"
+ POLY-unification-journal-complete:0 "Es Polinesia"
+ 
+ POLY-unification-event-title:0 "Un Océano Juntos"
+ POLY-unification-event-description:0 "No seremos colonizados."
+ POLY-unification-event-flavor:0 "Los pueblos en Polinesia son solo unos pocos pero unidos tenemos la oportunidad de luchar contra cualquier invasor potencial. Debemos proteger nuestra cultura porque es diversa."
+ POLY-unification-option-01:0 "El Poder del Mar Nos Protegerá"
+ POLY-unification-journal_reason:0 "Formando Polinesia"
+ POLY-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],POLY-modifier-effect-tt $POLY-formation-modifier-01$#!" 
+ POLY-modifier-effect-tt: "[GetStaticModifier('POLY-formation-modifier-01').GetName|v]\n[GetStaticModifier('POLY-formation-modifier-01').GetDesc]"
+
+#GLE
+ GLE:0 "Imperio de los Grandes Lagos"
+ GLE_ADJ:0 "Imperio de los Grandes Lagos"
+ GLE_FLAVOR_TEXT:0 "África es un lugar diverso y la tierra alrededor de los grandes lagos no es diferente. Los pueblos de allí lograron unirse a pesar de sus diferencias y ahora deben mirar hacia afuera para mantener su independencia."
+ 
+ GLE-formation-modifier-01:0 "Luchar por los Lagos"
+  
+ GLE-unification-journal:0 "El Imperio de los Lagos"
+ GLE-unification-journal-complete:0 "Es el Imperio de los Grandes Lagos"
+ 
+ GLE-unification-event-title:0 "Unidos Alrededor del Lago"
+ GLE-unification-event-description:0 "Las aguas nos dan fuerza"
+ GLE-unification-event-flavor:0 "Muchos reinos pequeños se formaron alrededor de los grandes lagos pero ahora ellos y las tierras circundantes están unidos como uno. Las amenazas a nuestras tierras son muchas pero prevaleceremos contra todos los que se atrevan a interponerse en nuestro camino."
+ GLE-unification-option-01:0 "Debemos Proteger Nuestra Forma de Vida"
+ GLE-unification-journal_reason:0 "Formando el Imperio de los Grandes Lagos"
+ GLE-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],GLE-modifier-effect-tt $GLE-formation-modifier-01$#!" 
+ GLE-modifier-effect-tt: "[GetStaticModifier('GLE-formation-modifier-01').GetName|v]\n[GetStaticModifier('GLE-formation-modifier-01').GetDesc]"
+
+#HAF
+ HAF:0 "Cuerno de África"
+ HAF_ADJ:0 "Cuerno de África"
+ HAF_FLAVOR_TEXT:0 "El Cuerno de África se ha unido y con eso vienen muchas nuevas posibilidades. Su ubicación está en el centro del comercio entre el este y el oeste. ¿Usarán esto para impulsar nuestra influencia hacia ambos lados o irán por otro camino?"
+ 
+ HAF-formation-modifier-01:0 "Expandir Nuestros Puertos Comerciales"
+  
+ HAF-unification-journal:0 "El Cuerno Se Unirá"
+ HAF-unification-journal-complete:0 "Es el Cuerno de África"
+ 
+ HAF-unification-event-title:0 "La Encrucijada del Comercio"
+ HAF-unification-event-description:0 "Ya no explotados"
+ HAF-unification-event-flavor:0 "Durante mucho tiempo el cuerno de África ha sido la conexión entre Oriente Medio, Europa e India en el Este debido a nuestra ubicación. Esto creó explotación y conquista por potencias extranjeras. Ya no más, el cuerno se ha unido y ahora controlamos el flujo de comercio nosotros mismos."
+ HAF-unification-option-01:0 "El Comercio Debe Fluir"
+ HAF-unification-journal_reason:0 "Formando el Cuerno de África"
+ HAF-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],HAF-modifier-effect-tt $HAF-formation-modifier-01$#!" 
+ HAF-modifier-effect-tt: "[GetStaticModifier('HAF-formation-modifier-01').GetName|v]\n[GetStaticModifier('HAF-formation-modifier-01').GetDesc]"
+
+#CLE
+ CLE:0 "Imperio Carolingio"
+ CLE_ADJ:0 "Imperio Carolingio"
+ CLE_FLAVOR_TEXT:0 "El Imperio Carolingio se ha formado una vez más después de mucho tiempo, Carlomagno estaría orgulloso. ¿Será capaz este superestado de Europa occidental de prevenir el surgimiento del radicalismo y otra división?"
+ 
+ CLE-formation-modifier-01:0 "Mantener a Todos los Pueblos Felices"
+  
+ CLE-unification-journal:0 "El Reino de Carlomagno"
+ CLE-unification-journal-complete:0 "Es el Imperio Carolingio"
+ 
+ CLE-unification-event-title:0 "Heredero del Imperio Romano"
+ CLE-unification-event-description:0 "Ascenso de los Francos"
+ CLE-unification-event-flavor:0 "Después de la caída del Imperio Romano, los francos conquistaron gran parte de Europa occidental. Este país fue estabilizado bajo Carlomagno y prosperó. Estaría orgulloso ya que el Imperio Carolingio nace de nuevo. Sin embargo, al igual que en ese entonces, el imperio consta de muchos pueblos diferentes que podrían causar una división una vez más."
+ CLE-unification-option-01:0 "Prevenir Otra División del Estado"
+ CLE-unification-journal_reason:0 "Formando el Imperio Carolingio"
+ CLE-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],CLE-modifier-effect-tt $CLE-formation-modifier-01$#!" 
+ CLE-modifier-effect-tt: "[GetStaticModifier('CLE-formation-modifier-01').GetName|v]\n[GetStaticModifier('CLE-formation-modifier-01').GetDesc]"
+
+#BRM
+ BRM:0 "Bulgaria-Rumania"
+ BRM_ADJ:0 "Bulgaria-Rumania"
+ BRM_FLAVOR_TEXT:0 ""
+ 
+ BRM-formation-modifier-01:0 "Seguir Luchando por Nuestra Libertad"
+  
+ BRM-unification-journal:0 "Mejor Juntos"
+ BRM-unification-journal-complete:0 "Es Bulgaria-Rumania"
+ 
+ BRM-unification-event-title:0 "Unidos Contra los Invasores"
+ BRM-unification-event-description:0 "Hermanos de los Balcanes"
+ BRM-unification-event-flavor:0 "Los rumanos y búlgaros han sido oprimidos durante mucho tiempo por extranjeros, ya sean rusos o turcos. ¡Pero ahora se han unido bajo una sola bandera para evitar que esto vuelva a suceder!"
+ BRM-unification-option-01:0 "Tendremos Que Seguir Luchando"
+ BRM-unification-journal_reason:0 "Formando Bulgaria-Rumania"
+ BRM-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],BRM-modifier-effect-tt $BRM-formation-modifier-01$#!" 
+ BRM-modifier-effect-tt: "[GetStaticModifier('BRM-formation-modifier-01').GetName|v]\n[GetStaticModifier('BRM-formation-modifier-01').GetDesc]"
+
+#SLU
+ SLU:0 "Unión Eslava"
+ SLU_ADJ:0 "Unión Eslava"
+ SLU_FLAVOR_TEXT:0 "Los eslavos han estado dispersos por Europa durante mucho tiempo, luchando contra foráneos y entre ellos mismos. Unidos son una fuerza que iguala a las otras grandes potencias, ¿pero las aceptarán?"
+ 
+ SLU-formation-modifier-01:0 "Supremacía Rusa"
+ SLU-formation-modifier-02:0 "Gobierno Multiétnico"
+  
+ SLU-unification-journal:0 "Eslavos Juntos Fuertes"
+ SLU-unification-journal-complete:0 "Es la Unión Eslava"
+ 
+ SLU-unification-event-title:0 "Todos los Eslavos Están Juntos"
+ SLU-unification-event-description:0 "Nadie volverá a hablar de un polvorín"
+ SLU-unification-event-flavor:0 "Los eslavos son un gran grupo de diferentes culturas, siendo los rusos los más grandes. Con los eslavos unificados, ¿quién tomará el control de este nuevo país? ¿Los propios rusos o un grupo multiétnico que represente a todos los eslavos?"
+ SLU-unification-option-01:0 "Los Rusos Liderarán"
+ SLU-unification-option-02:0 "Ningún Grupo Liderará Solo"
+ SLU-unification-journal_reason:0 "Formando la Unión Eslava"
+ SLU-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],SLU-modifier-effect-tt $SLU-formation-modifier-01$#! (Fewer Integrated Cultures) \n or \n• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],SLU-modifier-effect-tt-2 $SLU-formation-modifier-02$#! (More Integrated Cultures)" 
+ SLU-modifier-effect-tt: "[GetStaticModifier('SLU-formation-modifier-01').GetName|v]\n[GetStaticModifier('SLU-formation-modifier-01').GetDesc]"
+ SLU-modifier-effect-tt-2: "[GetStaticModifier('SLU-formation-modifier-01').GetName|v]\n[GetStaticModifier('SLU-formation-modifier-02').GetDesc]"
+
+#GAC
+ GAC:0 "Gran América"
+ GAC_ADJ:0 "Gran América"
+ GAC_FLAVOR_TEXT:0 "Las Américas del Norte se han unido bajo una sola bandera. Juntos enfrentarán el próximo siglo, ¿pero los aceptará el resto del mundo?"
+ 
+ GAC-formation-modifier-01:0 "Aislacionismo Moderado"
+ GAC-formation-modifier-02:0 "Aceptar Comercio"
+  
+ GAC-unification-journal:0 "Uniendo el Nuevo Mundo"
+ GAC-unification-journal-complete:0 "Es Gran América"
+ 
+ GAC-unification-event-title:0 "Las Américas para los Americanos"
+ GAC-unification-event-description:0 "¡El viejo mundo no tiene influencia sobre nosotros!"
+ GAC-unification-event-flavor:0 "Toda la gente en las Américas del norte se ha unido para rechazar cualquier fuerza externa. Muchas personas, alborotadas por este sentimiento, están pidiendo una reducción importante en la comunicación con el viejo mundo y solo enfocarse en las Américas. Otros sin embargo buscan más comercio para reforzar nuestra nación en crecimiento."
+ GAC-unification-option-01:0 "No Necesitamos Foráneos"
+ GAC-unification-option-02:0 "Buscar Más Comercio"
+ GAC-unification-journal_reason:0 "Formando Gran América"
+ GAC-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],GAC-modifier-effect-tt $GAC-formation-modifier-01$#!\n or \n• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],GAC-modifier-effect-tt-2 $GAC-formation-modifier-02$#!" 
+ GAC-modifier-effect-tt: "[GetStaticModifier('GAC-formation-modifier-01').GetName|v]\n[GetStaticModifier('GAC-formation-modifier-01').GetDesc]"
+ GAC-modifier-effect-tt-2: "[GetStaticModifier('GAC-formation-modifier-01').GetName|v]\n[GetStaticModifier('GAC-formation-modifier-02').GetDesc]"
+
+#GOGU
+ GOGU:0 "Goguryeo"
+ GOGU_ADJ:0 "Goguryeo"
+ GOGU_FLAVOR_TEXT:0 "El pueblo coreano ha recuperado tierras que les pertenecieron hace mucho tiempo. ¿Tolerarán los chinos esto o intentarán aplastarnos una vez más?"
+ 
+ GOGU-formation-modifier-01:0 "Defensa a Toda Costa"
+  
+ GOGU-unification-journal:0 "Restaurando la Antigua Dinastía"
+ GOGU-unification-journal-complete:0 "Es Goguryeo"
+ 
+ GOGU-unification-event-title:0 "Los Coreanos Se Levantan de Nuevo"
+ GOGU-unification-event-description:0 "Viejas tierras de vuelta una vez más."
+ GOGU-unification-event-flavor:0 "¡El pueblo coreano ha sido forzado a esta península durante demasiado tiempo! Hace mucho tiempo teníamos grandes tierras en el norte y las tenemos de nuevo. Pero los chinos seguramente querrán sus tierras de vuelta. Debemos prepararnos y protegernos."
+ GOGU-unification-option-01:0 "Defender Nuestras Fronteras"
+ GOGU-unification-journal_reason:0 "Formando Goguryeo"
+ GOGU-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],GOGU-modifier-effect-tt $GOGU-formation-modifier-01$#!" 
+ GOGU-modifier-effect-tt: "[GetStaticModifier('GOGU-formation-modifier-01').GetName|v]\n[GetStaticModifier('GOGU-formation-modifier-01').GetDesc]"
+
+#CPH
+ CPH:0 "El Califato"
+ CPH_ADJ:0 "El Califato"
+ CPH_FLAVOR_TEXT:0 "El Califato fue uno de los primeros grandes imperios en Oriente Medio pero eventualmente perdió su poder e influencia. Renacido de nuevo, el Califato está listo para continuar su masacre, destrucción y conquista."
+ 
+ CPH-formation-modifier-01:0 "Abajo con los Infieles"
+  
+ CPH-unification-journal:0 "Restaurando el Apogeo del Islam"
+ CPH-unification-journal-complete:0 "Es El Califato"
+ 
+ CPH-unification-event-title:0 "Todos Bajo el Islam Unidos"
+ CPH-unification-event-description:0 "Infieles, témanos."
+ CPH-unification-event-flavor:0 "El gran profeta comenzó hace más de un milenio con su pillaje, violación y conquista de estas tierras y lo hemos hecho de nuevo. Ahora todos se inclinarán ante nosotros o morirán."
+ CPH-unification-option-01:0 "El Islam Gobernará Oriente Medio"
+ CPH-unification-journal_reason:0 "Formando el Califato"
+ CPH-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],CPH-modifier-effect-tt $CPH-formation-modifier-01$#!" 
+ CPH-modifier-effect-tt: "[GetStaticModifier('CPH-formation-modifier-01').GetName|v]\n[GetStaticModifier('CPH-formation-modifier-01').GetDesc]"
+
+#GCA
+ GCA:0 "Gran Confederación de América"
+ GCA_ADJ:0 "Gran Confederación de América"
+ GCA_FLAVOR_TEXT:0 "Los nativos en América han recuperado sus tierras y ahora están liderando todo el continente. ¿Serán capaces de mantenerse en el poder y liderar una América muy diferente hacia el siglo XX?"
+ 
+ GCA-formation-modifier-01:0 "Debemos Protegernos"
+ GCA-formation-modifier-02:0 "Recuperando Lo Que Es Nuestro"
+  
+ GCA-unification-journal:0 "Los Nativos Recuperan el Control"
+ GCA-unification-journal-complete:0 "Es La Gran Confederación de América"
+ 
+ GCA-unification-event-title:0 "Un Continente Reunificado"
+ GCA-unification-event-description:0 "Los dioses nos favorecen."
+ GCA-unification-event-flavor:0 "Las tierras al oeste han sido recuperadas por el pueblo nativo de la tierra. Pero los gobernantes no están seguros de cómo continuar, algunos dicen que deberíamos tratar de coexistir con los europeos mientras que otros están pidiendo continuar nuestra conquista más al este."
+ GCA-unification-option-01:0 "Hemos avanzado lo suficiente"
+ GCA-unification-option-02:0 "¡Ni siquiera hemos empezado!"
+
+ offer_brittain_new_england_for_help:0 "Ofrecer a Gran Bretaña Nueva Inglaterra Por Apoyo"
+ offer_brittain_new_england_for_help_desc:0 "Ofreceremos a Gran Bretaña sus antiguas tierras de 'Nueva Inglaterra' con la esperanza de que ayuden nuestra lucha."
+ GCA-unification-journal_reason:0 "Formando la Gran Confederación de América"
+ GCA-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],GCA-modifier-effect-tt $GCA-formation-modifier-01$#!\n or \n• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],GCA-modifier-effect-tt-2 $GCA-formation-modifier-02$#! (Gain American Claims) " 
+ GCA-modifier-effect-tt: "[GetStaticModifier('GCA-formation-modifier-01').GetName|v]\n[GetStaticModifier('GCA-formation-modifier-01').GetDesc]"
+ GCA-modifier-effect-tt-2: "[GetStaticModifier('GCA-formation-modifier-01').GetName|v]\n[GetStaticModifier('GCA-formation-modifier-02').GetDesc]"
+
+#TUGO
+ TUGO:0 "Imperio de Toungoo"
+ TUGO_ADJ:0 "Imperio de Toungoo"
+ TUGO_FLAVOR_TEXT:0 "El imperio de Toungoo es grande pero todavía tiene muchos vecinos aún más grandes. ¿Sobrevivirán a la tormenta venidera?"
+ 
+ TUGO-formation-modifier-01:0 "Esta Tierra es Nuestra"
+  
+ TUGO-unification-journal:0 "El Imperio de Corta Vida Se Levanta de Nuevo"
+ TUGO-unification-journal-complete:0 "Es El Imperio de Toungoo"
+ 
+ TUGO-unification-event-title:0 "Reconstruir el Colapso"
+ TUGO-unification-event-description:0 "Una dinastía restaurada."
+ TUGO-unification-event-flavor:0 "El primer Imperio de Toungoo surgió y cayó en un corto período de tiempo. Esta vez perduraremos, pero debemos protegernos de nuestros vecinos más grandes. Ahora surge el segundo Imperio de Toungoo."
+ TUGO-unification-option-01:0 "Estamos rodeados"
+
+ TUGO-unification-journal_reason:0 "Formando el Imperio de Toungoo"
+ TUGO-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],TUGO-modifier-effect-tt $TUGO-formation-modifier-01$#!" 
+ TUGO-modifier-effect-tt: "[GetStaticModifier('TUGO-formation-modifier-01').GetName|v]\n[GetStaticModifier('TUGO-formation-modifier-01').GetDesc]"
+
+#TURA
+ TURA:0 "Turán"
+ TURA_ADJ:0 "Turán"
+ TURA_FLAVOR_TEXT:0 "Turán es una gran unificación de los pueblos túrquicos. Sus tierras se extienden por todas partes y sus fronteras deben ser protegidas."
+ 
+ TURA-formation-modifier-01:0 "Abarcando el Globo"
+  
+ TURA-unification-journal:0 "El Pueblo Túrquico Unido"
+ TURA-unification-journal-complete:0 "Es Turán"
+ 
+ TURA-unification-event-title:0 "Juntos Pero Lejos"
+ TURA-unification-event-description:0 "No podemos enfrentar al mundo solos."
+ TURA-unification-event-flavor:0 "La idea de unir al pueblo túrquico es antigua pero esta es la primera vez que se ha logrado. Juntos somos fuertes para los desafíos por venir."
+ TURA-unification-option-01:0 "Cerca pero lejos"
+
+ TURA-unification-journal_reason:0 "Formando Turán"
+ TURA-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],TURA-modifier-effect-tt $TURA-formation-modifier-01$#!" 
+ TURA-modifier-effect-tt: "[GetStaticModifier('TURA-formation-modifier-01').GetName|v]\n[GetStaticModifier('TURA-formation-modifier-01').GetDesc]"
+
+#NEPR
+ NEPR:0 "Países Bajos-Prusia"
+ NEPR_ADJ:0 "Países Bajos-Prusia"
+ NEPR_FLAVOR_TEXT:0 "Los holandeses y alemanes del norte han formado una Unión, alimentando una poderosa combinación de fuerza marítima y del ejército. ¿Se mantendrán como la nueva gran potencia en el mundo?"
+ 
+ NEPR-formation-modifier-01:0 "Tradiciones Holandesas"
+ NEPR-formation-modifier-02:0 "Tradiciones Prusianas"
+  
+ NEPR-unification-journal:0 "Fusión de los Sajones Bajos"
+ NEPR-unification-journal-complete:0 "Es Países Bajos-Prusia"
+ 
+ NEPR-unification-event-title:0 "La Unión No Obvia"
+ NEPR-unification-event-description:0 "El Poder de Tanto la Armada como el Ejército."
+ NEPR-unification-event-flavor:0 "La integración con los alemanes del sur no ha funcionado como todos habíamos esperado, aunque los holandeses y alemanes del norte han estado conectados a través de la cultura y el idioma durante siglos. Esto ha resultado en una poderosa y nueva unión, pero ¿cuál de las dos culturas debería tomar el centro del escenario?"
+ NEPR-unification-option-01:0 "Seguir la Tradición Marítima Holandesa"
+ NEPR-unification-option-02:0 "Seguir la Tradición del Ejército Prusiano"
+
+ NEPR-unification-claim-event-title:0 "¿Reclamaciones Extranjeras?"
+ NEPR-unification-claim-event-description:0 "Tantas opciones."
+ NEPR-unification-claim-event-flavor:0 "Ambas partes del nuevo imperio tienen reclamaciones extranjeras de antes de la unificación. Con esta formación debemos elegir cuál de estas continuaremos persiguiendo. Otros países seguramente estarán cautelosos si decidimos ser demasiado agresivos."
+
+ NEPR-unification-option-claims-01:0 "Perseguir Reclamaciones Holandesas de las Tierras Bajas"
+ NEPR-unification-option-claims-02:0 "Perseguir Reclamaciones Prusianas del Sur de Alemania"
+ NEPR-unification-option-claims-03:0 "Perseguir Todas las Reclamaciones"
+
+ NEPR-unification-journal_reason:0 "Formando Países Bajos-Prusia"
+ NEPR-has-formed-germany:0 "Ha formado Alemania"
+ NEPR-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],NEPR-modifier-effect-tt $NEPR-formation-modifier-01$#!\n or \n• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],NEPR-modifier-effect-tt-2 $NEPR-formation-modifier-02$#!" 
+ NEPR-modifier-effect-tt: "[GetStaticModifier('NEPR-formation-modifier-01').GetName|v]\n[GetStaticModifier('NEPR-formation-modifier-01').GetDesc]"
+ NEPR-modifier-effect-tt-2: "[GetStaticModifier('NEPR-formation-modifier-01').GetName|v]\n[GetStaticModifier('NEPR-formation-modifier-02').GetDesc]"
+
+#BMY
+ BMY:0 "Malasia Británica"
+ BMY_ADJ:0 "Malasia Británica"
+ BMY_FLAVOR_TEXT:0 "Malasia Británica es una combinación de territorios del Sudeste Asiático gobernados bajo el Imperio Británico. ¿Serán estos territorios fragmentados capaces de crecer y prosperar bajo todas las presiones de este mundo?"
+ 
+ BMY-formation-modifier-01:0 "Influencia Británica"
+  
+ BMY-unification-journal:0 "Una Nueva Colonia Británica"
+ BMY-unification-journal-complete:0 "Es Malasia Británica"
+ 
+ BMY-unification-event-title:0 "Juntos Pero Lejos"
+ BMY-unification-event-description:0 "Nuestros hermanos al otro lado del océano."
+ BMY-unification-event-flavor:0 "Los británicos han tenido un punto de apoyo en esta región durante un tiempo. Era solo cuestión de tiempo antes de que intentaran imponer sus formas expansionistas en estas tierras."
+ BMY-unification-option-01:0 "¡Los Británicos Están Llegando!"
+
+ BMY-unification-journal_reason:0 "Formando Malasia Británica"
+
+ BMY-greater-malaysia:0 "Gran Malasia"
+
+ BMY-unification-event-title-2:0 "Expansión del Control Británico"
+ BMY-unification-event-description-2:0 "Nuevas Tierras."
+ BMY-unification-event-flavor-2:0 "Con la expansión de estas nuevas tierras de Borneo debemos asegurar que estas personas puedan ser productivas para la colonia. Es hora de cambiar algunas leyes y aceptar a estas personas como los otros pueblos malayos."
+ BMY-unification-option-02:0 "Demos la Bienvenida a Nuestros Nuevos Amigos"
+ BMY-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],BMY-modifier-effect-tt $BMY-formation-modifier-01$#!" 
+ BMY-modifier-effect-tt: "[GetStaticModifier('BMY-formation-modifier-01').GetName|v]\n[GetStaticModifier('BMY-formation-modifier-01').GetDesc]"
+ 
+
+#GBMY
+ GBMY:0 "Gran Malasia"
+ GBMY_ADJ:0 "Gran Malasia"
+ GBMY_FLAVOR_TEXT:0 "Malasia Británica es una combinación de territorios del Sudeste Asiático gobernados bajo el Imperio Británico. ¿Serán estos territorios fragmentados capaces de crecer y prosperar bajo todas las presiones de este mundo?"
+ BMY-journal-completed-effects_tt.2: "• Obtiene Borneo como cultura primaria \n• Se convierte en la Gran Malasia" 
+
+#IJP
+ IJP:0 "Japón Imperial"
+ IJP_ADJ:0 "Japón Imperial"
+ IJP_FLAVOR_TEXT:0 "Japón Imperial ha salido de sus cadenas preindustriales en tiempo récord y ha conquistado una gran parte de Asia. ¿Será capaz de mantener toda esta tierra y poder competir con las potencias occidentales?"
+ 
+ IJP-formation-modifier-01:0 "Sueños de una Gran Esfera"
+  
+ IJP-unification-journal:0 "Japón Se Mantiene Orgulloso"
+ IJP-unification-journal-complete:0 "Es Japón Imperial"
+ 
+ IJP-unification-event-title:0 "Poder para Japón y su Gente"
+ IJP-unification-event-description:0 "Ningún poder puede enfrentarnos."
+ IJP-unification-event-flavor:0 "De los fuegos de la preindustrialización al maestro de Asia Oriental. El pueblo japonés está listo y capaz como igual a las otras potencias imperiales occidentales. Desde esta posición debemos crear nuestra propia esfera para cementar nuestra influencia."
+ IJP-unification-option-01:0 "Mirando hacia afuera"
+
+ IJP-unification-journal_reason:0 "Formando Japón Imperial"
+ IJP-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],IJP-modifier-effect-tt $IJP-formation-modifier-01$#!" 
+ IJP-modifier-effect-tt: "[GetStaticModifier('IJP-formation-modifier-01').GetName|v]\n[GetStaticModifier('IJP-formation-modifier-01').GetDesc]"
+
+#SIKH
+ SIKH:0 "Imperio Sij"
+ SIKH_ADJ:0 "Imperio Sij"
+ SIK_FLAVOR_TEXT:0 "Los sijs han reclamado su lugar en el mundo, pero están rodeados de muchos enemigos más grandes. China y la India Británica siendo los más graves de todos. ¿Será capaz esta joven nación de mantenerse por sí sola?"
+ 
+ SIKH-formation-modifier-01:0 "Conversiones Forzadas"
+  
+ SIKH-unification-journal:0 "Renacimiento de un Estado Sij Mayor"
+ SIKH-unification-journal-complete:0 "Es el Imperio Sij"
+ 
+ SIKH-unification-event-title:0 "Un Lugar al que Llamar Nuestro"
+ SIKH-unification-event-description:0 "Rodeados Por Otras Fes."
+ SIKH-unification-event-flavor:0 "Incluso con la proclamación de nuestro estado sij, todavía somos una minoría en algunas áreas. Tenemos que asegurar nuestras propias creencias ya que estamos rodeados por varias otras religiones que no nos ven con buenos ojos."
+ SIKH-unification-option-01:0 "Nuestra Fe Nos Guiará"
+
+ SIKH-unification-journal_reason:0 "Formando el Imperio Sij"
+ SIKH-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],SIKH-modifier-effect-tt $SIKH-formation-modifier-01$#!" 
+ SIKH-modifier-effect-tt: "[GetStaticModifier('SIKH-formation-modifier-01').GetName|v]\n[GetStaticModifier('SIKH-formation-modifier-01').GetDesc]"
+
+#GCAN
+ GCAN:0 "Gran Canadá"
+ GCAN_ADJ:0 "Gran Canadá"
+ GCAN_FLAVOR_TEXT:0 "Canadá ha surgido mucho más allá de ser solo el norte congelado, actualmente es una de las potencias que compiten por el continente norteamericano. ¿Cómo usará Canadá esta nueva posición en el escenario mundial?"
+ 
+ GCAN-formation-modifier-01:0 "Nueva Cultura Canadiense"
+  
+ GCAN-unification-journal:0 "Un Nuevo Poder en Norteamérica"
+ GCAN-unification-journal-complete:0 "Es Gran Canadá"
+ 
+ GCAN-unification-event-title:0 "Dejando Atrás las Cadenas de Nuestro Pasado"
+ GCAN-unification-event-description:0 "El Siglo del Castor."
+ GCAN-unification-event-flavor:0 "Durante mucho tiempo hemos estado atascados y reprimidos por otros. Los británicos nos mantuvieron separados y débiles mientras que América nos obligó a las tierras frías del Norte, ¡ya no más! Mostraremos al mundo nuestro poder canadiense, ¿eh?"
+ GCAN-unification-option-01:0 "Nuestro Lugar En el Mundo"
+
+ GCAN-unification-journal_reason:0 "Formando el Gran Canadá"
+ GCAN-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],GCAN-modifier-effect-tt $GCAN-formation-modifier-01$#!" 
+ GCAN-modifier-effect-tt: "[GetStaticModifier('GCAN-formation-modifier-01').GetName|v]\n[GetStaticModifier('GCAN-formation-modifier-01').GetDesc]"
+
+#BREP
+ BREP:0 "República Bóer"
+ BREP_ADJ:0 "República Bóer"
+ BREP_FLAVOR_TEXT:0 "Habiendo llegado a la punta sur de África hace unos cientos de años, los bóers finalmente tienen un lugar estable al que llamar hogar. ¿Serán capaces de mantenerlo así o ser barridos bajo la alfombra de la historia?"
+ 
+ BREP-formation-modifier-01:0 "Pocos en Número"
+  
+ BREP-unification-journal:0 "Los Bóers Reclaman Su Lugar en África"
+ BREP-unification-journal-complete:0 "Es la República Bóer"
+ 
+ BREP-unification-event-title:0 "Superados en Número y Armamento"
+ BREP-unification-event-description:0 "Tenemos Mucho que Demostrar."
+ BREP-unification-event-flavor:0 "Siempre hemos sido una minoría desde que nos mudamos aquí hace unos cientos de años. Finalmente hemos reclamado nuestro pedazo del mundo, pero tenemos que asegurar que todos en esta república lo vean de la misma manera."
+ BREP-unification-option-01:0 "Mostrarles el Camino"
+
+ BREP-unification-journal_reason:0 "Formando la República Bóer"
+ BREP-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],BREP-modifier-effect-tt $BREP-formation-modifier-01$#!" 
+ BREP-modifier-effect-tt: "[GetStaticModifier('BREP-formation-modifier-01').GetName|v]\n[GetStaticModifier('BREP-formation-modifier-01').GetDesc]"
+
+#PAGR
+ PAGR:0 "Patria Grande"
+ PAGR_ADJ:0 "Patria Grande"
+ PAGR_FLAVOR_TEXT:0 ""
+  
+ PAGR-unification-journal:0 "América Española Unida Junta"
+ PAGR-unification-journal-complete:0 "Es Patria Grande"
+ 
+ PAGR-unification-event-title:0 "Superando Todas las Expectativas"
+ PAGR-unification-event-description:0 "Un Gran Imperio logrado"
+ PAGR-unification-event-flavor:0 "Desde nuestra independencia de España, la idea de una América española unida ha ganado tracción. Con esta idea realizada ahora podemos mirar hacia afuera hacia otras tierras."
+ PAGR-unification-option-01:0 "Regresar a Nuestras Tierras Natales"
+ PAGR-unification-option-02:0 "Unir el Resto de Sudamérica"
+
+ PAGR-unification-journal_reason:0 "Formando Patria Grande"
+ PAGR-journal-completed-effects_tt.1: "• Obtiene reclamaciones sobre España \n o \n• Obtiene reclamaciones en Sudamérica" 
+
+#HURO
+ HURO:0 "Hungría-Rumania"
+ HURO_ADJ:0 "Hungría-Rumania"
+ HURO_FLAVOR_TEXT:0 ""
+  
+ HURO-unification-journal:0 "Rivales Trabajando Juntos"
+ HURO-unification-journal-complete:0 "Es Hungría-Rumania"
+ 
+ HURO-unification-event-title:0 "¿Durará Esta Unión?"
+ HURO-unification-event-description:0 "Enemigos Comunes Verdaderamente Unen"
+ HURO-unification-event-flavor:0 "Aunque los pueblos húngaro y rumano rara vez han estado de acuerdo en el pasado. Estos tiempos tumultuosos crean soluciones desesperadas. ¿Ahora solo tenemos que decidir dónde estará la capital?"
+ HURO-unification-option-01:0 "Mover la Capital a Rumania"
+ HURO-unification-option-02:0 "Mover la Capital a Hungría"
+ HURO-unification-option-03:0 "Comprometer por una Ubicación Central"
+
+ HURO-unification-journal_reason:0 "Formando Hungría-Rumania"
+ HURO-journal-completed-effects_tt.1: "• Mueve la capital a Rumania \n o \n• Mueve la capital a Hungria \n o \n• Trasladar el capital a una ubicación más central" 
+
+#GRBR
+ GRBR:0 "Gran Brasil"
+ GRBR_ADJ:0 "Gran Brasil"
+ GRBR_FLAVOR_TEXT:0 "Brasil siempre ha sido el país más grande de Sudamérica, pero ahora hemos asegurado suficiente control sobre el continente que nadie puede siquiera acercarse a competir con nosotros."
+  
+ GRBR-unification-journal:0 "Hegemonía Sobre Un Continente"
+ GRBR-unification-journal-complete:0 "Es Gran Brasil"
+ 
+ GRBR-unification-event-title:0 "Brasil Ha Logrado Grandeza"
+ GRBR-unification-event-description:0 "Um Grande Brasil"
+ GRBR-unification-event-flavor:0 "Aunque hemos sido los más grandes en el continente durante un tiempo, siempre hubo otras potencias capaces de competir con nosotros. Esto ya no sucederá, estamos en nuestro punto más fuerte y somos capaces de mirar hacia afuera."
+ GRBR-unification-option-01:0 "Regresar a Nuestras Tierras Natales"
+ GRBR-unification-option-02:0 "Unir el Resto de Sudamérica"
+
+ GRBR-unification-journal_reason:0 "Formando Gran Brasil"
+ GRBR-journal-completed-effects_tt.1: "• Obtiene reclamaciones en Portugal \n o \n• Obtiene reclamaciones en Sur America" 
+
+#AUST
+ AUST:0 "Austrasia"
+ AUST_ADJ:0 "Austrasia"
+ AUST_FLAVOR_TEXT:0 ""
+
+ AUST-formation-modifier-01:0 "Persiguiendo la Grandeza"
+  
+ AUST-unification-journal:0 "Ancestro de Carlomagno"
+ AUST-unification-journal-complete:0 "Es Austrasia"
+ 
+ AUST-unification-event-title:0 "Regreso de los Merovingios"
+ AUST-unification-event-description:0 "Comienzo del Imperio Franco"
+ AUST-unification-event-flavor:0 "Uno de los reinos originales en el Imperio Franco y el precursor de los carolingios. Tenemos muchas tierras ricas a lo largo del Rin y Mosa. Ahora tenemos la opción de perseguir las alturas de Carlomagno."
+ AUST-unification-option-01:0 "Regresar a Nuestras Tierras Natales"
+
+ AUST-unification-journal_reason:0 "Formando Austrasia"
+ AUST-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],AUST-modifier-effect-tt $AUST-formation-modifier-01$#!" 
+ AUST-modifier-effect-tt: "[GetStaticModifier('AUST-formation-modifier-01').GetName|v]\n[GetStaticModifier('AUST-formation-modifier-01').GetDesc]"
+
+#TIPE
+ TIPE:0 "Imperio Tibetano"
+ TIPE_ADJ:0 "Imperio Tibetano"
+ TIPE_FLAVOR_TEXT:0 "Habiendo desechado la opresión de sus señores chinos, los tibetanos deben establecerse en el escenario mundial y proteger lo suyo."
+
+ TIPE-formation-modifier-01:0 "Restablecer Nuestra Cultura"
+  
+ TIPE-unification-journal:0 "Un Nuevo Poder Budista Se Levanta"
+ TIPE-unification-journal-complete:0 "Es el Imperio Tibetano"
+ 
+ TIPE-unification-event-title:0 "Un Imperio Se Levanta Desde los Himalayas"
+ TIPE-unification-event-description:0 "El segundo Imperio Tibetano."
+ TIPE-unification-event-flavor:0 "Durante muchos años los chinos mantuvieron la cultura tibetana bajo su pulgar, ¡pero no más! Nosotros los tibetanos hemos regresado y estamos listos para restablecernos en el mundo."
+ TIPE-unification-option-01:0 "Recuperando Nuestra Cultura"
+
+ TIPE-unification-journal_reason:0 "Formando el Imperio Tibetano"
+ TIPE-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],TIPE-modifier-effect-tt $TIPE-formation-modifier-01$#!" 
+ TIPE-modifier-effect-tt: "[GetStaticModifier('TIPE-formation-modifier-01').GetName|v]\n[GetStaticModifier('TIPE-formation-modifier-01').GetDesc]"
+
+#SONG
+ SONG:0 "Imperio Songhai"
+ SONG_ADJ:0 "Imperio Songhai"
+ SONG_FLAVOR_TEXT:0 "Habiendo desechado la opresión de sus señores chinos, los tibetanos deben establecerse en el escenario mundial y proteger lo suyo."
+
+ SONG-formation-modifier-01:0 "Conquistando Otras Tribus"
+  
+ SONG-unification-journal:0 "El Más Grande en África Occidental"
+ SONG-unification-journal-complete:0 "Es el Imperio Songhai"
+ 
+ SONG-unification-event-title:0 "Uno de los Imperios Más Grandes de África"
+ SONG-unification-event-description:0 "Siguiendo los pasos de Askia el Grande."
+ SONG-unification-event-flavor:0 "El Imperio Songhai fue capaz de gobernar e influenciar África occidental durante varios siglos, pero después de una división debido a herederos en disputa colapsó. Es hora de corregir ese error."
+ SONG-unification-option-01:0 "Expandir Nuestra Influencia"
+
+ SONG-unification-journal_reason:0 "Formando el Imperio Songhai"
+ SONG-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],SONG-modifier-effect-tt $SONG-formation-modifier-01$#!" 
+ SONG-modifier-effect-tt: "[GetStaticModifier('SONG-formation-modifier-01').GetName|v]\n[GetStaticModifier('SONG-formation-modifier-01').GetDesc]"
+
+#EASA
+ EASA:0 "Asia Oriental"
+ EASA_ADJ:0 "Asia Oriental"
+ EASA_FLAVOR_TEXT:0 "Asia Oriental ha tomado el control de la mayor parte de Asia, ahora es hora de trabajar hacia el verdadero estado del yo llamado 'La Obliteración del Yo'."
+
+ EASA-formation-modifier-01:0 "Levantarse y Aniquilar"
+ EASA-formation-modifier-02:0 "El Yo Debe Ser Destruido"
+  
+ EASA-unification-journal:0 "Ascenso del Culto a la Muerte"
+ EASA-unification-journal-complete:0 "Es Asia Oriental"
+ 
+ EASA-unification-event-title:0 "Asia Unida"
+ EASA-unification-event-description:0 "El Poder en el Este."
+ EASA-unification-event-flavor:0 "Asia Oriental originalmente surgiría como un desafío a otras grandes potencias, con su fuerza encontrada en la población y la ideología. ¿En qué nos enfocaremos?"
+ EASA-unification-option-01:0 "Iniciar el Culto a la Muerte"
+ EASA-unification-option-02:0 "Enfocarnos en Nuestra Política"
+
+ EASA-unification-journal_reason:0 "Formando Asia Oriental"
+ EASA-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],EASA-modifier-effect-tt $EASA-formation-modifier-01$#!\n or \n• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],EASA-modifier-effect-tt-2 $EASA-formation-modifier-02$#!" 
+ EASA-modifier-effect-tt: "[GetStaticModifier('EASA-formation-modifier-01').GetName|v]\n[GetStaticModifier('EASA-formation-modifier-01').GetDesc]"
+ EASA-modifier-effect-tt-2: "[GetStaticModifier('EASA-formation-modifier-01').GetName|v]\n[GetStaticModifier('EASA-formation-modifier-02').GetDesc]"
+
+#EUSA
+ EUSA:0 "Eurasia"
+ EUSA_ADJ:0 "Eurasia"
+ EUSA_FLAVOR_TEXT:0 "Eurasia posee toda Europa, ¿avanzará hacia una forma de Neo-Bolchevismo o se reformará para este mundo actual?"
+
+ EUSA-formation-modifier-01:0 "El Ascenso del Nuevo Comunismo"
+ EUSA-formation-modifier-02:0 "Prepararse para la Guerra Constante"
+  
+ EUSA-unification-journal:0 "Ascenso del Hegemón Continental"
+ EUSA-unification-journal-complete:0 "Es Eurasia"
+ 
+ EUSA-unification-event-title:0 "Europa Unida"
+ EUSA-unification-event-description:0 "El Poder del Viejo Mundo."
+ EUSA-unification-event-flavor:0 "Con el Ascenso de Eurasia, debemos elegir dónde ponemos nuestro enfoque, ¿Política o Industria?"
+ EUSA-unification-option-01:0 "Solo el Comunismo No Es Suficiente"
+ EUSA-unification-option-02:0 "Mantener a los Proles Abajo"
+
+ EUSA-unification-journal_reason:0 "Formando Asia Oriental"
+ EUSA-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],EUSA-modifier-effect-tt $EUSA-formation-modifier-01$#!\n or \n• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],EUSA-modifier-effect-tt-2 $EUSA-formation-modifier-02$#!" 
+ EUSA-modifier-effect-tt: "[GetStaticModifier('EUSA-formation-modifier-01').GetName|v]\n[GetStaticModifier('EUSA-formation-modifier-01').GetDesc]"
+ EUSA-modifier-effect-tt-2: "[GetStaticModifier('EUSA-formation-modifier-01').GetName|v]\n[GetStaticModifier('EUSA-formation-modifier-02').GetDesc]"
+
+#OCIA
+ OCIA:0 "Oceanía"
+ OCIA_ADJ:0 "Oceanía"
+ OCIA_FLAVOR_TEXT:0 "Con las amenazas en el escenario mundial, gran parte del mundo de habla inglesa y las Américas han decidido trabajar juntos para formar un frente unido."
+
+ OCIA-formation-modifier-01:0 "Los Proles Deben Ser Gobernados"
+ OCIA-formation-modifier-02:0 "El Socialismo Inglés Debe Ser Logrado"
+  
+ OCIA-unification-journal:0 "Ascenso del Gran Hermano"
+ OCIA-unification-journal-complete:0 "Es Oceanía"
+ 
+ OCIA-unification-event-title:0 "Siempre Vigilando"
+ OCIA-unification-event-description:0 "El Poder del Mundo."
+ OCIA-unification-event-flavor:0 "Oceanía surgiría bajo la ideología del Socialismo Inglés o INGSOC con el Gran Hermano como su líder. ¿Cómo cuidaremos de nuestra población?"
+ OCIA-unification-option-01:0 "La Ignorancia es Fuerza"
+ OCIA-unification-option-02:0 "Controlar a la Población"
+
+ OCIA-unification-journal_reason:0 "Formando Oceanía"
+ OCIA-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],OCIA-modifier-effect-tt $OCIA-formation-modifier-01$#!\n or \n• Enact laws to control the population" 
+ OCIA-modifier-effect-tt: "[GetStaticModifier('OCIA-formation-modifier-01').GetName|v]\n[GetStaticModifier('OCIA-formation-modifier-01').GetDesc]"
+ OCIA-modifier-effect-tt-2: "[GetStaticModifier('OCIA-formation-modifier-01').GetName|v]\n[GetStaticModifier('OCIA-formation-modifier-02').GetDesc]"
+
+#ASTO
+ ASTO:0 "Pista de Aterrizaje Uno"
+ ASTO_ADJ:0 "Pista de Aterrizaje Uno"
+ ASTO_FLAVOR_TEXT:0 "Pista de Aterrizaje Uno es una de las áreas bajo Oceanía. ¿Serán capaces de resistir la tormenta venidera?"
+
+#GZUL
+ GZUL:0 "Gran Zulú"
+ GZUL_ADJ:0 "Gran Zulú"
+ GZUL_FLAVOR_TEXT:0 "Las grandes conquistas han expandido mucho el territorio zulú, pero con los europeos tan cerca, ¿serán capaces de mantener su independencia?"
+
+ GZUL-formation-modifier-01:0 "Los zulúes se expandirán"
+ GZUL-formation-modifier-02:0 "Conquistando a nuestros vecinos"
+  
+ GZUL-unification-journal:0 "La venganza de Shaka"
+ GZUL-unification-journal-complete:0 "¿Es Greater Zulu?"
+ 
+ GZUL-unification-event-title:0 "Planes de expansión"
+ GZUL-unification-event-description:0 "¿A dónde irá el zulú ahora?"
+ GZUL-unification-event-flavor:0 "Gracias a las tácticas hiperagresivas e inteligentes ideadas por la mente genial de Shaka Zulu, hemos logrado expandir nuestras fronteras mucho más allá de donde comenzamos. ¡Ahora solo podemos mirar hacia afuera!"
+ GZUL-unification-option-01:0 "Prepárense para la marcha hacia el sur."
+ GZUL-unification-option-02:0 "Hacia el oeste"
+
+ GZUL-unification-journal_reason:0 "Formando el Gran Zulu"
+ GZUL-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],GZUL-modifier-effect-tt $GZUL-formation-modifier-01$#!\n o \n• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],GZUL-modifier-effect-tt-2 $GZUL-formation-modifier-02$#!" 
+ GZUL-modifier-effect-tt: "[GetStaticModifier('GZUL-formation-modifier-01').GetName|v]\n[GetStaticModifier('GZUL-formation-modifier-01').GetDesc]"
+ GZUL-modifier-effect-tt-2: "[GetStaticModifier('GZUL-formation-modifier-02').GetName|v]\n[GetStaticModifier('GZUL-formation-modifier-02').GetDesc]"
+
+GZUL_south_africa:0 "Consolidar el dominio zulú"
+GZUL_south_africa_reason:0 "Los zulúes han ocupado su lugar en el extremo sur de África. Ahora es el momento de expandirse y expulsar a los invasores europeos. "
+
+GZUL-conquest-event-title:0 "El sur de África unido"
+GZUL-conquest-event-description:0 "Los nativos conquistados y los europeos expulsados."
+GZUL-conquest-event-flavor:0 "Nos ha llevado mucho tiempo y esfuerzo, pero ahora somos los amos del sur de África. ¿Cómo continuaremos?"
+
+GZUL-conquest-option-01:0 "¡Seguiremos siendo zulúes!"
+GZUL-conquest-option-02:0 "Abrazaremos nuestro nuevo futuro"
+
+SAFR:0 "Sudáfrica"
+SAFR_ADJ:0 "Sudáfrica"
+SAFR_FLAVOR_TEXT:0 "Después de expulsar a los europeos del extremo sur de África, ahora les corresponde a ellos crear una sociedad que funcione. "
+
+GZUL-conquest-modifier-01:0 "Todo será zulú."
+GZUL-conquest-modifier-02:0 "África para los africanos"
+
+#MAPH
+MAPH:0 "Maphilindo"
+MAPH_ADJ:0 "Maphilindo"
+MAPH_FLAVOR_TEXT:0 "Maphilindo, que incluye la mayor parte del sudeste asiático, es una unión incierta. ¿Sobrevivirá a la tumultuosa época victoriana?"
+
+MAPH-formation-modifier-01:0 "Imperio Comercial Oriental"
+MAPH-formation-modifier-02:0 "Historia de la navegación marítima"
+ 
+MAPH-unification-journal:0 "El gigante insular del sudeste asiático"
+MAPH-unification-journal-complete:0 "¿Es Maphilindo?"
+ 
+MAPH-unification-event-title:0 "El gigante de la isla"
+MAPH-unification-event-description:0 "Entre dos mundos."
+MAPH-unification-event-flavor:0 "Maphilindo es un puente entre la prosperidad de Occidente y el potencial de Oriente. ¿Cómo vamos a aprovechar nuestra posición?"
+MAPH-unification-option-01:0 "El comercio es nuestra fortaleza"
+MAPH-unification-option-02:0 "Protejamos nuestras costas"
+
+MAPH-unification-journal_reason:0 "Formación de Maphilindo"
+MAPH-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],MAPH-modifier-effect-tt $MAPH-formation-modifier-01$#!\n o \n• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],MAPH-modifier-effect-tt-2 $MAPH-formation-modifier-02$#!" 
+MAPH-modifier-effect-tt: "[GetStaticModifier('MAPH-formation-modifier-01').GetName|v]\n[GetStaticModifier('MAPH-formation-modifier-01').GetDesc]"
+MAPH-modifier-effect-tt-2: "[GetStaticModifier('MAPH-formation-modifier-02').GetName|v]\n[GetStaticModifier('MAPH-formation-modifier-02').GetDesc]"
+
+#FRSP
+FRSP:0 "Unión Franco-Española"
+FRSP_ADJ:0 "Unión Franco-Española"
+FRSP_FLAVOR_TEXT:0 "Los franceses y los españoles han estado unidos durante mucho tiempo por la cultura y el idioma, pero separados por los Pirineos. Ahora son uno, ¿cómo cambiará esto el futuro de Europa? "
+
+FRSP-formation-modifier-01:0 "Todos nos seguirán"
+ 
+FRSP-unification-journal:0 "Auge de la cultura latina"
+FRSP-unification-journal-complete:0 "¿Es la Unión Franco-Española?"
+ 
+FRSP-unification-event-title:0 "La cultura latina debe difundirse"
+FRSP-unification-event-description:0 "Más personas deben caer ante nosotros."
+FRSP-unification-event-flavor:0 "El pueblo franco-español ha sido consciente del dominio cultural que ha ejercido a lo largo de la historia y se ha dado cuenta de que debe difundirlo. "
+FRSP-unification-option-01:0 "Todo será latín"
+
+FRSP-unification-journal_reason:0 "Formación de la Unión Franco-Española"
+FRSP-journal-completed-effects_tt.1: "• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],FRSP-modifier-effect-tt $FRSP-formation-modifier-01$#!\n o \n• Obtiene #tooltippable;tooltip:[GetPlayer.GetTooltipTag],FRSP-modifier-effect-tt-2 $FRSP-formation-modifier-02$#!" 
+FRSP-modifier-effect-tt: "[GetStaticModifier('FRSP-formation-modifier-01').GetName|v]\n[GetStaticModifier('FRSP-formation-modifier-01').GetDesc]"
+
+#Rome Decisions
+form_rome_BYZ:0 "Formar Roma"
+form_rome_BYZ_desc:0 "Para formar Roma necesitas poseer toda la tierra en el apogeo del Poder de Roma"
+form_rome_HRE:0 "Formar Roma"
+form_rome_HRE_desc:0 "Para formar Roma necesitas poseer toda la tierra en el apogeo del Poder de Roma"
+claim_the_mantle_of_the_roman_empire:0 "Reclamar el Manto del Imperio Romano"
+claim_the_mantle_of_the_roman_empire_desc:0 "Hemos asegurado nuestro lugar en el escenario mundial. Ahora es el momento de reclamar una vez más nuestro derecho histórico sobre el Imperio Romano"
+claimed_roman_heritage:0 "Herencia Romana Reclamada"
+forming_rome_complete:0 "Roma Formada"
+je_formation_of_the_roman_empire:0 "Formación del Imperio Romano"
+je_formation_of_the_roman_empire_reason:0 "Reformar nuestras tierras perdidas será un viaje largo y arduo. Podemos reclamar oficialmente estos territorios para ayudarnos en nuestra conquista pero las naciones circundantes podrían resistir estas acciones."
+
+je_button_rome_iberia:0 "Reclamar Iberia"
+je_button_rome_iberia_desc:0 "La Península Ibérica fue gobernada por Roma durante mucho tiempo y todavía son nuestros hermanos latinos. Deberían aceptar su integración."
+je_button_rome_iberia_claim_states:0 "Obtener reclamaciones sobre todos los estados en Iberia"
+claimed_iberia:0 "Iberia Reclamada"
+
+je_button_rome_gaul:0 "Reclamar Galia"
+je_button_rome_gaul_desc:0 "Julio César originalmente conquistó la Galia para la república, es hora de que se unan a Roma una vez más."
+je_button_rome_gaul_claim_states:0 "Obtener reclamaciones sobre todos los estados en Galia"
+claimed_gaul:0 "Galia Reclamada"
+
+je_button_rome_north_africa:0 "Reclamar el Norte de África"
+je_button_rome_north_africa_desc:0 "Las tierras de Cartago y Egipto, una vez el granero de nuestro imperio, tendrán sus usos una vez más."
+je_button_rome_north_africa_claim_states:0 "Obtener reclamaciones sobre todos los estados en el Norte de África"
+claimed_north_africa:0 "Norte de África Reclamado"
+
+je_button_rome_byzantium:0 "Reclamar Bizancio"
+je_button_rome_byzantium_desc:0 "Bizancio permaneció fuerte durante mucho tiempo después de la caída de Roma. Deben ser reintegrados para reclamar el prestigio de este acto histórico."
+je_button_rome_byzantium_claim_states:0 "Obtener reclamaciones sobre todos los estados griegos bizantinos"
+claimed_byzantium:0 "Bizancio Reclamado"
+
+je_button_rome_levant:0 "Reclamar el Levante"
+je_button_rome_levant_desc:0 "Nuestra conexión terrestre más importante entre los lados norte y sur del Mediterráneo debe ser asegurada."
+je_button_rome_levant_claim_states:0 "Obtener reclamaciones sobre todos los estados en el Levante"
+claimed_levant:0 "Levante Reclamado"
+
+je_button_rome_balkans:0 "Reclamar los Balcanes"
+je_button_rome_balkans_desc:0 "Los Balcanes fueron una importante zona de amortiguamiento para nuestras tierras centrales. Debemos reclamarlos de nuevo."
+je_button_rome_balkans_claim_states:0 "Obtener reclamaciones sobre todos los estados en los Balcanes"
+claimed_balkans:0 "Balcanes Reclamados"
+
+je_button_rome_britain:0 "Reclamar Britania"
+je_button_rome_britain_desc:0 "En el pasado fueron una expedición costosa pero hoy en día son un corazón industrial. Britania será nuestra una vez más."
+je_button_rome_britain_claim_states:0 "Obtener reclamaciones sobre todos los estados en el sur de Britania"
+claimed_britain:0 "Britania Reclamada"
+
+je_button_rome_germania:0 "Reclamar Germania"
+je_button_rome_germania_desc:0 "En el pasado las tierras al norte estaban pobladas por tribus germánicas pero ahora son parte de la tierra llamada Alemania. Es nuestra última frontera por reclamar."
+je_button_rome_germania_claim_states:0 "Obtener reclamaciones sobre todos los estados en la antigua Germania romana"
+claimed_germania:0 "Germania Reclamada"
+
+integrate_magrebi_into_rome:0 "Integrar Magrebí"
+integrate_magrebi_into_rome_desc:0 "Los norteafricanos se han distanciado más de nosotros en los siglos tras la caída de Roma. Debemos hacer esfuerzos para integrarlos en el imperio."
+RME_magrebi_integration-title:0 "La Integración de Magrebí"
+RME_magrebi_integration-description:0 "Se deben hacer nuevos esfuerzos para asegurar que los norteafricanos acepten nuestro gobierno."
+RME_magrebi_integration-flavor:0 "Los norteafricanos se han alejado mucho de la cultura romana original, pero son una parte esencial del imperio. Se deben hacer algunos cambios."
+RME_magrebi_integration-option-01:0 "Nuestros burócratas trabajarán arduamente para cambiar las leyes"
+RME_magrebi_integration-option-02:0 "Hacer inversiones masivas en las tierras magrebíes"
+RME_magrebi_integration-option-03:0 "No estamos interesados"
+maghrebi_integration_efforts_1:0 "Integrando Magrebí"
+maghrebi_integration_efforts_2:0 "Integrando Magrebí"
+
+je_form_rome:0 "Formando Roma"
+je_form_rome_reason:0 "En nuestro estado actual somos un sucesor de la antigua Roma. Si poseemos su tierra ancestral, entonces podríamos reclamar el renacimiento del águila dorada una vez más." 
+je_form_rome_tt_1: "#tooltippable #tooltip:iberia_tt #bold Iberia#!#!#! es poseída por [SCOPE.GetRootScope.GetCountry.GetName] o sus súbditos."
+iberia_tt: "Required [Concept('concept_state_region','$concept_state_regions$')]:\n$STATE_CATALONIA$\n$STATE_ARAGON$\n$STATE_VALENCIA$\n$STATE_ANDALUSIA$\n$STATE_BADAJOZ$\n$STATE_ASTURIAS$\n$STATE_TOLEDO$\n$STATE_CASTILE$\n$STATE_GALICIA$\n$STATE_BEIRA$\n$STATE_ESTREMADURA$\n$STATE_ALENTEJO$\n$STATE_BALEARES$\n$STATE_GRANADA$"
+je_form_rome_tt_2: "#tooltippable #tooltip:gaul_tt #bold Galia#!#!#! es poseída por [SCOPE.GetRootScope.GetCountry.GetName] o sus súbditos."
+gaul_tt: "Required [Concept('concept_state_region','$concept_state_regions$')]:\n$STATE_PROVENCE$\n$STATE_RHONE$\n$STATE_LANGUEDOC$\n$STATE_AQUITAINE$\n$STATE_GUYENNE$\n$STATE_AUVERGNE_LIMOUSIN$\n$STATE_POITOU$\n$STATE_BRITTANY$\n$STATE_MAINE_ANJOU$\n$STATE_NORMANDY$\n$STATE_ORLEANS$\n$STATE_BURGUNDY$\n$STATE_FRANCHE_COMTE$\n$STATE_ALSACE_LORRAINE$\n$STATE_LORRAINE$\n$STATE_CHAMPAGNE$\n$STATE_PICARDY$\n$STATE_FRENCH_LOW_COUNTRIES$\n$STATE_ILE_DE_FRANCE$"
+je_form_rome_tt_3: "#tooltippable #tooltip:north_africa_tt #bold Norte de África#!#!#! es poseída por [SCOPE.GetRootScope.GetCountry.GetName] o sus súbditos."
+north_africa_tt: "Required [Concept('concept_state_region','$concept_state_regions$')]:\n$STATE_TUNISIA$\n$STATE_CONSTANTINE$\n$STATE_ALGIERS$\n$STATE_ORAN$\n$STATE_AL_RIF$\n$STATE_TRIPOLI$\n$STATE_LIBYA$\n$STATE_MATRUH$\n$STATE_LOWER_EGYPT$\n$STATE_MIDDLE_EGYPT$\n$STATE_UPPER_EGYPT$\n$STATE_SINAI$\n$STATE_MALTA$"
+je_form_rome_tt_4: "#tooltippable #tooltip:byzantium_tt #bold Bizancio#!#!#! es poseída por [SCOPE.GetRootScope.GetCountry.GetName] o sus súbditos."
+byzantium_tt: "Required [Concept('concept_state_region','$concept_state_regions$')]:\n$STATE_PELOPONNESE$\n$STATE_ATTICA$\n$STATE_IONIAN_ISLANDS$\n$STATE_THESSALIA$\n$STATE_MACEDONIA$\n$STATE_WESTERN_THRACE$\n$STATE_EASTERN_THRACE$\n$STATE_WEST_AEGEAN_ISLANDS$\n$STATE_EAST_AEGEAN_ISLANDS$\n$STATE_CRETE$\n$STATE_KONYA$\n$STATE_ANKARA$\n$STATE_NORTHERN_THRACE$\n$STATE_SKOPIA$\n$STATE_ALBANIA$\n$STATE_AYDIN$\n$STATE_HUDAVENDIGAR$\n$STATE_KASTAMONU$"
+je_form_rome_tt_5: "#tooltippable #tooltip:levant_tt #bold Levante#!#!#! es poseída por [SCOPE.GetRootScope.GetCountry.GetName] o sus súbditos."
+levant_tt: "Required [Concept('concept_state_region','$concept_state_regions$')]:\n$STATE_PALESTINE$\n$STATE_TRANSJORDAN$\n$STATE_LEBANON$\n$STATE_SYRIA$\n$STATE_ALEPPO$\n$STATE_ADANA$\n$STATE_DIYARBAKIR$\n$STATE_ERZURUM$\n$STATE_TRABZON$\n$STATE_DEIR_EZ_ZOR$\n$STATE_MOSUL$\n$STATE_BAGHDAD$\n$STATE_BASRA$\n$STATE_KARS$\n$STATE_ARMENIA$\n$STATE_GREATER_CAUCASUS$\n$STATE_AZERBAIJAN$\n$STATE_CYPRUS$\n$STATE_ELIZAVETPOL$"
+je_form_rome_tt_6: "#tooltippable #tooltip:balkans_tt #bold Balcanes#!#!#! es poseída por [SCOPE.GetRootScope.GetCountry.GetName] o sus súbditos."
+balkans_tt: "Required [Concept('concept_state_region','$concept_state_regions$')]:\n$STATE_BULGARIA$\n$STATE_EASTERN_SERBIA$\n$STATE_WALLACHIA$\n$STATE_DOBRUDJA$\n$STATE_WESTERN_SERBIA$\n$STATE_KOSOVO$\n$STATE_MONTENEGRO$\n$STATE_BOSNIA$\n$STATE_DALMATIA$\n$STATE_CROATIA$\n$STATE_SLAVONIA$\n$STATE_BANAT$\n$STATE_DELVIDEK$\n$STATE_SOUTHERN_TRANSYLVANIA$\n$STATE_NORTHERN_TRANSYLVANIA$\n$STATE_BEKES$\n$STATE_CENTRAL_HUNGARY$\n$STATE_TRANSDANUBIA$\n$STATE_SLOVENIA$"
+je_form_rome_tt_7: "#tooltippable #tooltip:britain_tt #bold Britania#!#!#! es poseída por [SCOPE.GetRootScope.GetCountry.GetName] o sus súbditos."
+britain_tt: "Required [Concept('concept_state_region','$concept_state_regions$')]:\n$STATE_WALES$\n$STATE_WEST_COUNTRY$\n$STATE_EAST_ANGLIA$\n$STATE_MIDLANDS$\n$STATE_WALES$\n$STATE_YORKSHIRE$\n$STATE_LANCASHIRE$"
+je_form_rome_tt_8: "#tooltippable #tooltip:germania_tt #bold Germania#!#!#! es poseída por [SCOPE.GetRootScope.GetCountry.GetName] o sus súbditos."
+germania_tt: "Required [Concept('concept_state_region','$concept_state_regions$')]:\n$STATE_AUSTRIA$\n$STATE_STYRIA$\n$STATE_TYROL$\n$STATE_WEST_SWITZERLAND$\n$STATE_EAST_SWITZERLAND$\n$STATE_BAVARIA$\n$STATE_BADEN$\n$STATE_WURTTEMBERG$\n$STATE_RHINELAND$\n$STATE_NORTH_RHINE$\n$STATE_RUHR$\n$STATE_WALLONIA$\n$STATE_FLANDERS$\n$STATE_GELRE$\n$STATE_HOLLAND$"
+je_form_rome_tt_9: "#tooltippable #tooltip:italia_tt #bold Italia#!#!#! es poseída por [SCOPE.GetRootScope.GetCountry.GetName] o sus súbditos."
+italia_tt: "Required [Concept('concept_state_region','$concept_state_regions$')]:\n$STATE_PIEDMONT$\n$STATE_LOMBARDY$\n$STATE_VENETIA$\n$STATE_ISTRIA$\n$STATE_EMILIA$\n$STATE_ROMAGNA$\n$STATE_TUSCANY$\n$STATE_UMBRIA$\n$STATE_LAZIO$\n$STATE_ABRUZZO$\n$STATE_CAMPANIA$\n$STATE_APULIA$\n$STATE_CALABRIA$\n$STATE_SICILY$\n$STATE_SARDINIA$\n$STATE_CORSICA$"
+
+je_bnl_religion:0 "El Asunto de la Religión"
+je_bnl_religion_reason:0 "Estuvimos unidos en el pasado pero los conflictos sobre religión rápidamente siguieron. Estos problemas deben ser abordados, porque no seremos verdaderamente una nación unida hasta ese momento."
+je_bnl_religion_goal: "Menos del 25% de agitación en las regiones #tooltippable #tooltip:bnl_core #bold centrales#!#!#! de [SCOPE.GetRootScope.GetCountry.GetName] durante 10 años."
+bnl_core: "$STATE_HOLLAND$\n$STATE_FRIESLAND$\n$STATE_GELRE$\n$STATE_FLANDERS$\n$STATE_WALLONIA$\n$STATE_FRENCH_LOW_COUNTRIES$"
+
+BNL-religion-event-title:0 "Los Peores Conflictos Han Terminado"
+BNL-religion-event-description:0 "Los conflictos religiosos se reducen a un mínimo."
+BNL-religion-event-flavor:0 "El norte protestante y el sur católico han estado opuestos durante mucho tiempo. Pero a través del trabajo diligente la mayoría de los conflictos han disminuido. ¿Puede la nación alguna vez verdaderamente seguir adelante?"
+BNL-religion-option-01:0 "Unificados Bajo Diferentes Religiones"
+BNL-religion-modifier-01:0 "Conflictos Religiosos Reducidos"
+
+je_bnl_trade_or_industry:0 "¿Enfoque en Comercio o Industria?"
+je_bnl_trade_or_industry_reason: "El norte de nuestro país se ha enfocado en el comercio durante los últimos 200 años, pero nuestro sur ha sido una potencia industrial desde la edad media.\n\n¿Cuál de estas identidades perseguiremos para impulsarnos hacia esta nueva era? Solo podemos elegir una así que debemos elegir cuidadosamente."
+bnl_trade_or_industry_industry:0 "Nos hemos enfocado en la industria"
+bnl_trade_or_industry_trade:0 "Nos hemos enfocado en el comercio"
+
+je_bnl_industry: "Enfoque: Industria"
+je_bnl_industry_reason:0 "La industria es lo que está permitiendo a países como Gran Bretaña y Francia crecer y convertirse en verdaderas Grandes Potencias. Debemos seguir este ejemplo y permitir que nuestra industria nos impulse hacia la siguiente era."
+je_bnl_industry_goal:0 "Completar todas las políticas industriales."
+je_bnl_industry_1: "Política Industrial: Producción Doméstica"
+je_bnl_industry_1_reason:0 "Para impulsar nuestras industrias locales debemos ser en su mayoría autosuficientes en los 2 bienes más importantes de esta era, Hierro y Carbón."
+je_bnl_industry_2: "Política Industrial: Crecimiento Económico"
+je_bnl_industry_2_reason:0 "Para competir con las otras grandes potencias debemos mantener un cierto nivel de crecimiento para asegurar nuestro lugar en la mesa de negociación."
+je_bnl_industry_3: "Política Industrial: Proteger Nuestra Industria"
+je_bnl_industry_3_reason:0 "No podemos tener a otros países vendiendo todas sus mercancías a nosotros a un precio más bajo. Esto socavará nuestras propias industrias, debemos poner salvaguardas en su lugar."
+
+je_bnl_trade: "Enfoque: Comercio"
+je_bnl_trade_reason:0 "El mundo se está volviendo cada vez más global y el comercio está facilitando esto. Al ser uno de los pioneros de este movimiento podemos estar adelante de la curva y cosechar los beneficios."
+je_bnl_trade_goal:0 "Completar todas las políticas comerciales."
+
+bnl_industry_complete:0 "Progreso en el Camino de la Industria"
+bnl_trade_complete:0 "Progreso en el Camino del Comercio"
+
+je_bnl_trade_1: "Política Comercial: Buques Comerciales"
+je_bnl_trade_1_reason:0 "Para conducir comercio mundial necesitamos suficientes buques para tolerar este volumen aumentado."
+je_bnl_trade_2: "Política Comercial: Capacidad Comercial"
+je_bnl_trade_2_reason:0 "Gestionar el comercio y recoger sus ganancias toma tiempo y gente, tenemos que asegurar que tengamos la infraestructura requerida para facilitar esto."
+je_bnl_trade_3: "Política Comercial: Libre Comercio"
+je_bnl_trade_3_reason:0 "La libertad del comercio globalizado es el futuro. Nuestras leyes deben estar listas para entrar en este nuevo mundo."
+
+BNL-industry-event-title:0 "Una Potencia Industrial"
+BNL-industry-event-description:0 "Hemos elegido el camino de la industrialización masiva."
+BNL-industry-event-flavor:0 "El bullicio de la industria y los sonidos de máquinas de vapor masivas. Esto se puede escuchar en todo el país, ha tomado mucho tiempo y esfuerzo pero podemos contarnos entre las potencias industriales del mundo."
+BNL-industry-option-01:0 "Un Brindis por el Poder de la Máquina de Vapor"
+BNL-industry-modifier-01:0 "La Industria Pesada es el Futuro"
+
+BNL-trade-event-title:0 "El Primer Centro de Comercio Mundial"
+BNL-trade-event-description:0 "Hemos elegido el camino del comercio global."
+BNL-trade-event-flavor:0 "Nuestros barcos alcanzan cada rincón del mundo, desde los yermos fríos de Siberia hasta los bulliciosos puertos de Londres y Nueva York. Nuestro logo es conocido por cada hogar, ya que la mayoría de los productos pasan por nuestros puertos al menos una vez."
+BNL-trade-option-01:0 "Nadie Nos Derribará"
+BNL-trade-modifier-01:0 "Comercio Interminable"
+
+#Malay Decisions
+trade_malay_for_subject:0 "Entrar en la Esfera Británica"
+trade_malay_for_subject_desc:0 "Gran Bretaña tiene varios puertos y regiones en nuestra frontera. Si aceptáramos a ellos como un señor podrían estar inclinados a dárnoslos."
+
+#USE Journals
+je_forming_USE:0 "Formando los Estados Unidos de Europa"
+je_forming_USE_custom_complete:0 "Eligió perseguir o desestimar los Estados Unidos de Europa"
+je_button_dismiss_USE:0 "Desestimar la Idea"
+je_button_dismiss_USE_desc:0 "La idea de formar los Estados Unidos de Europa será desestimada."
+je_button_pursue_USE:0 "Perseguir la Idea"
+je_button_pursue_USE_desc:0 "Perseguiremos la idea de formar unos Estados Unidos de Europa más grandes."
+je_forming_USE_reason:0 "La idea de formar unos Estados Unidos de Europa ha estado ganando tracción y deberíamos decidir si esto es algo que queremos perseguir más."
+je_button_dismiss_USE_custom:0 "NO veremos nuevo contenido sobre formar los Estados Unidos de Europa. (NOTA: ¡Esto no se puede revertir!)"
+je_button_pursue_USE_custom:0 "SÍ veremos nuevo contenido sobre formar los Estados Unidos de Europa."
+USE_formation.1-title:0 "Primeros Pasos Hacia los EUE"
+USE_formation.1-description:0 "¿Cómo trabajaremos hacia nuestro objetivo?"
+USE_formation.1-flavor:0 "Con nuestro compromiso de formar unos Estados Unidos de Europa debemos elegir cómo comenzaremos este proceso. Podemos elegir hacerlo con la espada, reclamando que ciertos países deberían convertirse en parte de la Unión. O podríamos tratar de convencer diplomáticamente a otras naciones de que nuestro camino hacia adelante es mejor para todos."
+USE-formation-type-aggressive-option-01:0 "¡Europa Caerá Ante Nuestros Pies!"
+USE-formation-type-diplomatic-option-01:0 "Convenceremos a Europa de Nuestro Camino."
+USE-formation-type-aggressive-option-01-custom:0 "Reclamaremos partes de Europa y usaremos la fuerza de las armas para incorporarlas a los EUE."
+USE-formation-type-diplomatic-option-01-custom:0 "Usaremos nuestra influencia y diplomacia para convencer a otras naciones de unirse a los EUE."
+je_forming_USE_diplo:0 "Formando los EUE: Diplomático"
+je_forming_USE_diplo_reason:0 "Un estado europeo más grande es algo que ha estado ganando tracción durante los últimos años. Ahora tenemos la opción de convencer a otras naciones de unirse a la idea de una Europa más grande."
+
+#Diplomatic Buttons
+je_button_pursue_USE_diplo_NL:0 "Invitar a los Países Bajos a los EUE"
+je_button_pursue_USE_diplo_NL_desc:0 "Invitarlos seguramente nos costará, debemos estar preparados."
+je_button_pursue_USE_diplo_BE:0 "Invitar a Bélgica a los EUE"
+je_button_pursue_USE_diplo_BE_desc:0 "Invitarlos seguramente nos costará, debemos estar preparados."
+je_button_pursue_USE_diplo_DE:0 "Invitar a Dinamarca a los EUE"
+je_button_pursue_USE_diplo_DE_desc:0 "Invitarlos seguramente nos costará, debemos estar preparados."
+je_button_pursue_USE_diplo_SWE:0 "Invitar a Suecia a los EUE"
+je_button_pursue_USE_diplo_SWE_desc:0 "Invitarlos seguramente nos costará, debemos estar preparados."
+je_button_pursue_USE_diplo_SWI:0 "Invitar a Suiza a los EUE"
+je_button_pursue_USE_diplo_SWI_desc:0 "Invitarlos seguramente nos costará, debemos estar preparados."
+je_button_pursue_USE_diplo_POR:0 "Invitar a Portugal a los EUE"
+je_button_pursue_USE_diplo_POR_desc:0 "Invitarlos seguramente nos costará, debemos estar preparados."
+je_button_pursue_USE_diplo_SAR:0 "Invitar a Cerdeña-Piamonte a los EUE"
+je_button_pursue_USE_diplo_SAR_desc:0 "Invitarlos seguramente nos costará, debemos estar preparados."
+je_button_pursue_USE_diplo_SIC:0 "Invitar a las Dos Sicilias a los EUE"
+je_button_pursue_USE_diplo_SIC_desc:0 "Invitarlos seguramente nos costará, debemos estar preparados."
+je_button_pursue_USE_diplo_BAV:0 "Invitar a Baviera a los EUE"
+je_button_pursue_USE_diplo_BAV_desc:0 "Invitarlos seguramente nos costará, debemos estar preparados."
+je_button_pursue_USE_diplo_SPA:0 "Invitar a España a los EUE"
+je_button_pursue_USE_diplo_SPA_desc:0 "Invitarlos seguramente nos costará, debemos estar preparados."
+je_button_pursue_USE_diplo_FRA:0 "Invitar a Francia a los EUE"
+je_button_pursue_USE_diplo_FRA_desc:0 "Invitarlos seguramente nos costará, debemos estar preparados."
+je_button_pursue_USE_diplo_AUS:0 "Invitar a Austria a los EUE"
+je_button_pursue_USE_diplo_AUS_desc:0 "Invitarlos seguramente nos costará, debemos estar preparados."
+je_button_pursue_USE_diplo_PRU:0 "Invitar a Prusia a los EUE"
+je_button_pursue_USE_diplo_PRU_desc:0 "Invitarlos seguramente nos costará, debemos estar preparados."
+je_button_pursue_USE_diplo_GER:0 "Invitar a Alemania a los EUE"
+je_button_pursue_USE_diplo_GER_desc:0 "Invitarlos seguramente nos costará, debemos estar preparados."
+je_button_pursue_USE_diplo_ITA:0 "Invitar a Italia a los EUE"
+je_button_pursue_USE_diplo_ITA_desc:0 "Invitarlos seguramente nos costará, debemos estar preparados."
+
+#Netherlands Event
+USE_formation.2-title:0 "Invitando a los Países Bajos a los EUE"
+USE_formation.2-description:0 "Las Tierras Bajas están dentro."
+USE_formation.2-flavor:0 "A través de muchas reuniones diplomáticas y algunos favores encubiertos, finalmente logramos convencer a los Países Bajos de unirse a nuestro gran proyecto. Solo necesitan un último empujón, podríamos poner aún más presión diplomática sobre ellos o simplemente ofrecer apoyo económico para su entrada."
+USE_formation_diplo_Netherlands-01:0 "Usar Presión Diplomática"
+USE_formation_diplo_Netherlands-02:0 "Usar Apoyo Económico"
+
+#Belgium Event
+USE_formation.3-title:0 "Invitando a Bélgica a los EUE"
+USE_formation.3-description:0 "Neutralidad no más."
+USE_formation.3-flavor:0 "A través de muchas reuniones diplomáticas y algunos favores encubiertos, finalmente logramos convencer a Bélgica de unirse a nuestro gran proyecto. Solo necesitan un último empujón, podríamos poner aún más presión diplomática sobre ellos o simplemente ofrecer apoyo económico para su entrada."
+USE_formation_diplo_Belgium-01:0 "Usar Presión Diplomática"
+USE_formation_diplo_Belgium-02:0 "Usar Apoyo Económico"
+
+#Denmark Event
+USE_formation.4-title:0 "Invitando a Dinamarca a los EUE"
+USE_formation.4-description:0 "Neutralidad no más."
+USE_formation.4-flavor:0 "A través de muchas reuniones diplomáticas y algunos favores encubiertos, finalmente logramos convencer a Dinamarca de unirse a nuestro gran proyecto. Solo necesitan un último empujón, podríamos poner aún más presión diplomática sobre ellos o simplemente ofrecer apoyo económico para su entrada."
+USE_formation_diplo_Denmark-01:0 "Usar Presión Diplomática"
+USE_formation_diplo_Denmark-02:0 "Usar Apoyo Económico"
+
+#Sweden Event
+USE_formation.5-title:0 "Invitando a Suecia a los EUE"
+USE_formation.5-description:0 "Escandinavia está con nosotros."
+USE_formation.5-flavor:0 "A través de muchas reuniones diplomáticas y algunos favores encubiertos, finalmente logramos convencer a Suecia de unirse a nuestro gran proyecto. Solo necesitan un último empujón, podríamos poner aún más presión diplomática sobre ellos o simplemente ofrecer apoyo económico para su entrada."
+USE_formation_diplo_Sweden-01:0 "Usar Presión Diplomática"
+USE_formation_diplo_Sweden-02:0 "Usar Apoyo Económico"
+
+#Switzerland Event
+USE_formation.6-title:0 "Invitando a Suiza a los EUE"
+USE_formation.6-description:0 "Neutralidad no más."
+USE_formation.6-flavor:0 "A través de muchas reuniones diplomáticas y algunos favores encubiertos, finalmente logramos convencer a Suiza de unirse a nuestro gran proyecto. Solo necesitan un último empujón, podríamos poner aún más presión diplomática sobre ellos o simplemente ofrecer apoyo económico para su entrada."
+USE_formation_diplo_Switzerland-01:0 "Usar Presión Diplomática"
+USE_formation_diplo_Switzerland-02:0 "Usar Apoyo Económico"
+
+#Portugal Event
+USE_formation.7-title:0 "Invitando a Portugal a los EUE"
+USE_formation.7-description:0 "Pronto toda Iberia se unirá."
+USE_formation.7-flavor:0 "A través de muchas reuniones diplomáticas y algunos favores encubiertos, finalmente logramos convencer a Portugal de unirse a nuestro gran proyecto. Solo necesitan un último empujón, podríamos poner aún más presión diplomática sobre ellos o simplemente ofrecer apoyo económico para su entrada."
+USE_formation_diplo_Portugal-01:0 "Usar Presión Diplomática"
+USE_formation_diplo_Portugal-02:0 "Usar Apoyo Económico"
+
+#Sardinia Event
+USE_formation.8-title:0 "Invitando a Cerdeña-Piamonte a los EUE"
+USE_formation.8-description:0 "Pronto toda la Península Italiana se unirá."
+USE_formation.8-flavor:0 "A través de muchas reuniones diplomáticas y algunos favores encubiertos, finalmente logramos convencer a Cerdeña-Piamonte de unirse a nuestro gran proyecto. Solo necesitan un último empujón, podríamos poner aún más presión diplomática sobre ellos o simplemente ofrecer apoyo económico parasu entrada."
+USE_formation_diplo_Sardinia-01:0 "Usar Presión Diplomática"
+USE_formation_diplo_Sardinia-02:0 "Usar Apoyo Económico"
+
+#Sicily Event
+USE_formation.9-title:0 "Invitando a las Dos Sicilias a los EUE"
+USE_formation.9-description:0 "Pronto toda la Península Italiana se unirá."
+USE_formation.9-flavor:0 "A través de muchas reuniones diplomáticas y algunos favores encubiertos, finalmente logramos convencer a las Dos Sicilias de unirse a nuestro gran proyecto. Solo necesitan un último empujón, podríamos poner aún más presión diplomática sobre ellos o simplemente ofrecer apoyo económico para su entrada."
+USE_formation_diplo_Sicily-01:0 "Usar Presión Diplomática"
+USE_formation_diplo_Sicily-02:0 "Usar Apoyo Económico"
+
+#Bavaria Event
+USE_formation.10-title:0 "Invitando a Baviera a los EUE"
+USE_formation.10-description:0 "Todos los germánicos se unirán a nosotros."
+USE_formation.10-flavor:0 "A través de muchas reuniones diplomáticas y algunos favores encubiertos, finalmente logramos convencer a Baviera de unirse a nuestro gran proyecto. Solo necesitan un último empujón, podríamos poner aún más presión diplomática sobre ellos o simplemente ofrecer apoyo económico para su entrada."
+USE_formation_diplo_Bavaria-01:0 "Usar Presión Diplomática"
+USE_formation_diplo_Bavaria-02:0 "Usar Apoyo Económico"
+
+#Spain Event
+USE_formation.11-title:0 "Invitando a España a los EUE"
+USE_formation.11-description:0 "Pronto toda Iberia se unirá."
+USE_formation.11-flavor:0 "A través de muchas reuniones diplomáticas y algunos favores encubiertos, finalmente logramos convencer a España de unirse a nuestro gran proyecto. Solo necesitan un último empujón, podríamos poner aún más presión diplomática sobre ellos o simplemente ofrecer apoyo económico para su entrada."
+USE_formation_diplo_Spain-01:0 "Usar Presión Diplomática"
+USE_formation_diplo_Spain-02:0 "Usar Apoyo Económico"
+
+#France Event
+USE_formation.12-title:0 "Invitando a Francia a los EUE"
+USE_formation.12-description:0 "Francia se ha sometido"
+USE_formation.12-flavor:0 "A través de muchas reuniones diplomáticas y algunos favores encubiertos, finalmente logramos convencer a Francia de unirse a nuestro gran proyecto. Solo necesitan un último empujón, podríamos poner aún más presión diplomática sobre ellos o simplemente ofrecer apoyo económico para su entrada."
+USE_formation_diplo_France-01:0 "Usar Presión Diplomática"
+USE_formation_diplo_France-02:0 "Usar Apoyo Económico"
+
+#Austria Event
+USE_formation.13-title:0 "Invitando a Austria a los EUE"
+USE_formation.13-description:0 "El gigante central está con nosotros."
+USE_formation.13-flavor:0 "A través de muchas reuniones diplomáticas y algunos favores encubiertos, finalmente logramos convencer a Austria de unirse a nuestro gran proyecto. Solo necesitan un último empujón, podríamos poner aún más presión diplomática sobre ellos o simplemente ofrecer apoyo económico para su entrada."
+USE_formation_diplo_Austria-01:0 "Usar Presión Diplomática"
+USE_formation_diplo_Austria-02:0 "Usar Apoyo Económico"
+
+#Prussia Event
+USE_formation.14-title:0 "Invitando a Prusia a los EUE"
+USE_formation.14-description:0 "Todos los germánicos se unirán a nosotros."
+USE_formation.14-flavor:0 "A través de muchas reuniones diplomáticas y algunos favores encubiertos, finalmente logramos convencer a Prusia de unirse a nuestro gran proyecto. Solo necesitan un último empujón, podríamos poner aún más presión diplomática sobre ellos o simplemente ofrecer apoyo económico para su entrada."
+USE_formation_diplo_Prussia-01:0 "Usar Presión Diplomática"
+USE_formation_diplo_Prussia-02:0 "Usar Apoyo Económico"
+
+#Germany Event
+USE_formation.15-title:0 "Invitando a Alemania a los EUE"
+USE_formation.15-description:0 "Todos los germánicos se unirán a nosotros."
+USE_formation.15-flavor:0 "A través de muchas reuniones diplomáticas y algunos favores encubiertos, finalmente logramos convencer a Alemania de unirse a nuestro gran proyecto. Solo necesitan un último empujón, podríamos poner aún más presión diplomática sobre ellos o simplemente ofrecer apoyo económico para su entrada."
+USE_formation_diplo_Germany-01:0 "Usar Presión Diplomática"
+USE_formation_diplo_Germany-02:0 "Usar Apoyo Económico"
+
+#Italy Event
+USE_formation.16-title:0 "Invitando a Italia a los EUE"
+USE_formation.16-description:0 "Pronto toda la Península Italiana se unirá."
+USE_formation.16-flavor:0 "A través de muchas reuniones diplomáticas y algunos favores encubiertos, finalmente logramos convencer a Italia de unirse a nuestro gran proyecto. Solo necesitan un último empujón, podríamos poner aún más presión diplomática sobre ellos o simplemente ofrecer apoyo económico para su entrada."
+USE_formation_diplo_Italy-01:0 "Usar Presión Diplomática"
+USE_formation_diplo_Italy-02:0 "Usar Apoyo Económico"
+
+#Diplo form Event
+USE_formation.17-title:0 "Europa Finalmente Está Junta"
+USE_formation.17-description:0 "Este día histórico ha llegado por fin."
+USE_formation.17-flavor:0 "Diplomáticamente estamos listos para dar este paso histórico y unir Europa bajo un solo país, pero nuestra logística podría no estar lista para esto todavía. Siempre podemos dar este paso en una fecha posterior. (NOTA IMPORTANTE: Esto anexará todos tus súbditos europeos. Asegúrate de que no haya piezas separadas del resto de tu país.)"
+USE_formation_diplo_form_USE-01:0 "Esperar el Momento Adecuado"
+USE_formation_diplo_form_USE-02:0 "¡Estamos Listos, Formar los Estados Unidos de Europa!"
+USE-can-form-diplo:0 "Se desbloqueará una decisión para formar los EUE cuando estés listo."
+
+je_forming_USE_diplo_button_form:0 "Formar los Estados Unidos de Europa"
+je_forming_USE_diplo_button_form_desc:0 "Controlamos suficiente del continente para poder reclamar el manto de Maestro de Europa."
+
+#culture event
+USE_formation.18-title:0 "Eligiendo las Culturas de Este Nuevo País"
+USE_formation.18-description:0 "¿Cuántas personas serán integradas en esta nueva unión?"
+USE_formation.18-flavor:0 "Reunir a un grupo tan diverso de personas será una tarea larga y difícil. ¿Cuántos recursos deberíamos gastar en integrar los diferentes grupos en esta unión?"
+small_culture_investment:0 "Inversión Cultural Pequeña"
+medium_culture_investment:0 "Inversión Cultural Media"
+large_culture_investment:0 "Inversión Cultural Grande"
+
+USE_formation_diplo_cultures-01:0 "Solo Integrar Los Grupos Más Grandes"
+USE_formation_diplo_cultures-02:0 "También Integrar Algunas de Las Subculturas Más Grandes"
+USE_formation_diplo_cultures-03:0 "Enfocarse En Tantas Personas Como Sea Posible"
+
+invite_with_influence:0 "Diplomáticos y Ministros Ocupados"
+invite_with_money:0 "Asistencia Económica"
+
+#Decisions
+form_USE:0 "Formar los EUE"
+form_USE_desc:0 "Estamos preparados, es hora de formar los EUE."
+expand_USE_east:0 "Expandir los Estados Unidos de Europa al Este"
+expand_USE_east_desc:0 "Podríamos expandir los EUE al este e incorporar más de Europa."
+
+#Aggressive
+je_forming_USE_aggresive:0 "Formando los EUE: Agresivo"
+je_forming_USE_aggresive_reason:0 "Un estado europeo más grande es algo que ha estado ganando tracción durante los últimos años. Es hora de que mostremos a las otras naciones por qué deberíamos liderar esta unión mayor."
+
+small_claim:0 "Reclamaciones Europeas Pequeñas"
+medium_claim:0 "Reclamaciones Europeas Significativas"
+large_claim:0 "Reclamaciones Europeas Enormes"
+
+je_forming_USE_aggresive_NL:0 "Reclamar los Países Bajos"
+je_forming_USE_aggresive_NL_desc:0 "¡Al resto de Europa no le va a gustar que reclamemos grandes porciones de tierra, deberíamos estar listos!"
+je_forming_USE_aggresive_BE:0 "Reclamar Bélgica"
+je_forming_USE_aggresive_BE_desc:0 "¡Al resto de Europa no le va a gustar que reclamemos grandes porciones de tierra, deberíamos estar listos!"
+je_forming_USE_aggresive_DE:0 "Reclamar Dinamarca"
+je_forming_USE_aggresive_DE_desc:0 "¡Al resto de Europa no le va a gustar que reclamemos grandes porciones de tierra, deberíamos estar listos!"
+je_forming_USE_aggresive_SWE:0 "Reclamar Suecia"
+je_forming_USE_aggresive_SWE_desc:0 "¡Al resto de Europa no le va a gustar que reclamemos grandes porciones de tierra, deberíamos estar listos!"
+je_forming_USE_aggresive_NOR:0 "Reclamar Noruega"
+je_forming_USE_aggresive_NOR_desc:0 "¡Al resto de Europa no le va a gustar que reclamemos grandes porciones de tierra, deberíamos estar listos!"
+je_forming_USE_aggresive_SWI:0 "Reclamar Suiza"
+je_forming_USE_aggresive_SWI_desc:0 "¡Al resto de Europa no le va a gustar que reclamemos grandes porciones de tierra, deberíamos estar listos!"
+je_forming_USE_aggresive_POR:0 "Reclamar Portugal"
+je_forming_USE_aggresive_POR_desc:0 "¡Al resto de Europa no le va a gustar que reclamemos grandes porciones de tierra, deberíamos estar listos!"
+je_forming_USE_aggresive_SPA:0 "Reclamar España"
+je_forming_USE_aggresive_SPA_desc:0 "¡Al resto de Europa no le va a gustar que reclamemos grandes porciones de tierra, deberíamos estar listos!"
+je_forming_USE_aggresive_FRA:0 "Reclamar Francia"
+je_forming_USE_aggresive_FRA_desc:0 "¡Al resto de Europa no le va a gustar que reclamemos grandes porciones de tierra, deberíamos estar listos!"
+je_forming_USE_aggresive_AUS:0 "Reclamar Austria"
+je_forming_USE_aggresive_AUS_desc:0 "¡Al resto de Europa no le va a gustar que reclamemos grandes porciones de tierra, deberíamos estar listos!"
+je_forming_USE_aggresive_BLK:0 "Reclamar los Balcanes"
+je_forming_USE_aggresive_BLK_desc:0 "¡Al resto de Europa no le va a gustar que reclamemos grandes porciones de tierra, deberíamos estar listos!"
+je_forming_USE_aggresive_NGER:0 "Reclamar el Norte de Alemania"
+je_forming_USE_aggresive_NGER_desc:0 "¡Al resto de Europa no le va a gustar que reclamemos grandes porciones de tierra, deberíamos estar listos!"
+je_forming_USE_aggresive_SGER:0 "Reclamar el Sur de Alemania"
+je_forming_USE_aggresive_SGER_desc:0 "¡Al resto de Europa no le va a gustar que reclamemos grandes porciones de tierra, deberíamos estar listos!"
+je_forming_USE_aggresive_NITA:0 "Reclamar el Norte de Italia"
+je_forming_USE_aggresive_NITA_desc:0 "¡Al resto de Europa no le va a gustar que reclamemos grandes porciones de tierra, deberíamos estar listos!"
+je_forming_USE_aggresive_SITA:0 "Reclamar el Sur de Italia"
+je_forming_USE_aggresive_SITA_desc:0 "¡Al resto de Europa no le va a gustar que reclamemos grandes porciones de tierra, deberíamos estar listos!"
+je_forming_USE_aggresive_GBR:0 "Reclamar Inglaterra"
+je_forming_USE_aggresive_GBR_desc:0 "¡Al resto de Europa no le va a gustar que reclamemos grandes porciones de tierra, deberíamos estar listos!"
+je_forming_USE_aggresive_button_form:0 "Formar los Estados Unidos de Europa"
+je_forming_USE_aggresive_button_form_desc:0 "Lo logramos, controlamos suficiente de Europa que nadie puede quitarnos este logro ya. Es hora de reclamar el manto de Europa. (NOTA: Una vez que decidamos formar los EUE, no podemos reclamar más tierra. ¡Debemos estar seguros antes de elegir!)"
+
+formed_USE_aggressive_custom_text:0 "Ha formado los Estados Unidos de Europa"
+
+USE:0 "Estados Unidos de Europa"
+USE_ADJ:0 "Estados Unidos de Europa"
+USE_FLAVOR_TEXT:0 ""
+
+#South America
+form_south_america:0 "Formar Sudamérica"
+form_south_america_desc:0 "Unir el Continente Sudamericano"
+
+UNSA:0 "Sudamérica Unida"
+UNSA_ADJ:0 "Sudamérica Unida"
+UNSA_FLAVOR_TEXT:0 ""
+ 
+UNSA-formation-modifier-01:0 "Abastecer al Mundo"
+
+UNSA-unification-event-title:0 "Unidos Por Nuestras Diferencias"
+UNSA-unification-event-description:0 "Nuestro Nuevo Lugar en el Mundo"
+UNSA-unification-event-flavor:0 "Del país más grande del continente al continente mismo. Con tantas personas de ideas afines juntas será imposible que Sudamérica caiga. Nuestras tierras son ricas así que deberíamos convertirnos en el proveedor mundial de cualquier cosa cultivada en la tierra."
+UNSA-unification-option-01:0 "Producción Ante Todo"
+
+UNSA-unification-journal_reason:0 "Formando Sudamérica Unida"
+
+#Austrasia
+je_button_carolingia_north_germany:0 "Reclamar el Norte de Alemania"
+je_button_carolingia_north_germany_desc:0 ""
+je_button_carolingia_south_germany:0 "Reclamar el Sur de Alemania"
+je_button_carolingia_south_germany_desc:0 ""
+je_button_carolingia_north_france:0 "Reclamar el Norte de Francia"
+je_button_carolingia_north_france_desc:0 ""
+je_button_carolingia_south_france:0 "Reclamar el Sur de Francia"
+je_button_carolingia_south_france_desc:0 ""
+je_button_carolingia_italy:0 "Reclamar Italia"
+je_button_carolingia_italy_desc:0 ""
+je_button_carolingia_spain:0 "Reclamar España"
+je_button_carolingia_spaind_desc:0 ""
+
+forming_corolingia_complete:0 "Ha formado el Imperio Carolingio"
+
+je_formation_of_the_carolingian_empire: "#bold Formando el Imperio Carolingio"
+je_formation_of_the_carolingian_empire_reason: "Se ha dado un primer paso, pero todavía queda mucho trabajo por delante antes de que podamos seguir los pasos de #bold el Gran Carlomagno."
+je_button_caro_south_france_claim_states: "#bold Obtener reclamaciones sobre todos los estados requeridos en el sur de Francia"
+je_button_caro_north_france_claim_states: "#bold Obtener reclamaciones sobre todos los estados requeridos en el norte de Francia"
+je_button_caro_italy_claim_states: "#bold Obtener reclamaciones sobre todos los estados requeridos en Italia"
+je_button_caro_spain_claim_states: "#bold Obtener reclamaciones sobre todos los estados requeridos en España"
+je_button_caro_south_germany_claim_states: "#bold Obtener reclamaciones sobre todos los estados requeridos en el sur de Alemania"
+je_button_caro_north_germany_claim_states: "#bold Obtener reclamaciones sobre todos los estados requeridos en el norte de Alemania"
+caro_land_claim:0 "Tierra Recientemente Reclamada"
+
+#Custom Game Rule
+rule_formable_nations_plus:0 "Formable Nations: Plus"
+setting_fnp_all_formable_nations:0 "All Formable Nations"
+setting_fnp_all_formable_nations_desc:0 "No restriction on fictional formable nations"
+setting_fnp_no_fictional_nations:0 "No Fictional Nations"
+setting_fnp_no_fictional_nations_desc:0 "Remove formable nations which are based on fiction instead of history"
+
+#Custom DLC icon
+MDF_MOD_DLC_BUTTON_TOOLTIP: "#T [Dlc.GetName]#!\n[Dlc.GetDesc]\n\n#low;emphasis @information! This DLC has been added by a #blue;bold mod#!#!"
+fnp_dlc: "Formable Nations: Plus"
+fnp_dlc_desc: "Adding many new formable nations for all over the world. For more details on which ones, visit the Steam Workshop page. For more news about this mod, join the Discord."

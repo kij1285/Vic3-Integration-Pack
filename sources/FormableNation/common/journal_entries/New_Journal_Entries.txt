@@ -1,0 +1,3545 @@
+﻿HRE-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:north_german
+			country_has_primary_culture = cu:south_german
+			country_has_primary_culture = cu:dutch
+			country_has_primary_culture = cu:north_italian
+			country_has_primary_culture = cu:french
+			country_has_primary_culture = cu:alemannic
+			country_has_primary_culture = cu:francoprovencal
+			country_has_primary_culture = cu:czech
+			country_has_primary_culture = cu:flemish
+			country_has_primary_culture = cu:wallonian
+		}
+	}
+	
+	possible = {
+		country_rank >= rank_value:great_power
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = HRE-unification-journal-complete
+			exists = c:HRE
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = HRE_unification.1
+			popup = yes
+		}
+		hidden_effect = {
+			set_variable = formed_hegemon
+		}		
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = HRE-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}	
+	}
+}
+
+BNL-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:dutch
+			country_has_primary_culture = cu:flemish
+			country_has_primary_culture = cu:wallonian
+		}
+	}
+	
+	possible = {
+		country_rank >= rank_value:minor_power
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = BNL-unification-journal-complete
+			exists = c:BNL
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = BNL_unification.1
+			popup = yes
+		}
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = BNL-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+}
+
+UCB-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:afro_caribeno
+			country_has_primary_culture = cu:afro_antillean
+			country_has_primary_culture = cu:caribeno
+		}
+	}
+	
+	possible = {
+		country_rank >= rank_value:minor_power
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = UCB-unification-journal-complete
+			exists = c:UCB
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = UCB_unification.1
+			popup = yes
+		}
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = UCB-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+}
+
+IFR-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:british
+			country_has_primary_culture = cu:scottish
+			country_has_primary_culture = cu:franco_canadian
+			country_has_primary_culture = cu:anglo_canadian
+			country_has_primary_culture = cu:australian
+			country_has_primary_culture = cu:irish
+		}
+	}
+	
+	possible = {
+		country_rank >= rank_value:great_power
+		is_subject = no
+	}
+	
+	immediate = {
+
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = IFR-unification-journal-complete
+			exists = c:IFR
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = IFR_unification.1
+			popup = yes
+		}
+		set_variable = formed_hegemon
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = IFR-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+}
+
+INC-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:lao
+			country_has_primary_culture = cu:vietnamese
+			country_has_primary_culture = cu:khmer
+		}
+	}
+
+	possible = {
+		country_rank >= rank_value:unrecognized_regional_power  
+		is_subject = no
+	}
+	
+	immediate = {
+
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = INC-unification-journal-complete
+			exists = c:INC
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = INC_unification.1
+			popup = yes
+		}
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = INC-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+}
+
+TCC-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:north_caucasian
+			country_has_primary_culture = cu:georgian
+			country_has_primary_culture = cu:armenian
+			country_has_primary_culture = cu:azerbaijani
+			country_has_primary_culture = cu:circassian
+		}
+	}
+
+	possible = {
+		# country_rank >= rank_value:unrecognized_regional_power  
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = TCC-unification-journal-complete
+			exists = c:TCC
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = TCC_unification.1
+			popup = yes
+		}
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = TCC-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+}
+
+RME-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:north_italian
+			country_has_primary_culture = cu:south_italian
+		}
+	}
+	
+	possible = {
+		country_rank >= rank_value:great_power
+		is_subject = no
+	}
+	
+	immediate = {
+
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = RME-unification-journal-complete
+			exists = c:RME
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = RME_unification.1
+			popup = yes
+		}
+		set_variable = formed_hegemon
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = RME-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+}
+
+MGB-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:maghrebi
+			country_has_primary_culture = cu:bedouin
+			country_has_primary_culture = cu:tuareg
+		}
+	}
+	
+	possible = {
+		country_rank >= rank_value:unrecognized_regional_power 
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = MGB-unification-journal-complete
+			exists = c:MGB
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = MGB_unification.1
+			popup = yes
+		}
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = MGB-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+}
+
+BSA-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+				country_has_primary_culture = cu:icelandic
+				country_has_primary_culture = cu:swedish
+				country_has_primary_culture = cu:norwegian
+				country_has_primary_culture = cu:finnish
+				country_has_primary_culture = cu:danish
+				country_has_primary_culture = cu:estonian
+				country_has_primary_culture = cu:latvian
+				country_has_primary_culture = cu:lithuanian
+		}
+	}
+	
+	possible = {
+		country_rank >= rank_value:minor_power 
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = BSA-unification-journal-complete
+			exists = c:BSA
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = BSA_unification.1
+			popup = yes
+		}
+		set_variable = formed_hegemon
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = BSA-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+}
+
+BKU-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+				country_has_primary_culture = cu:serb
+				country_has_primary_culture = cu:croat
+				country_has_primary_culture = cu:slovene
+				country_has_primary_culture = cu:greek
+				country_has_primary_culture = cu:bulgarian
+				country_has_primary_culture = cu:romanian
+				country_has_primary_culture = cu:albanian
+				country_has_primary_culture = cu:bosniak
+		}
+	}
+	
+	possible = {
+		country_rank >= rank_value:minor_power 
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = BKU-unification-journal-complete
+			exists = c:BKU
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = BKU_unification.1
+			popup = yes
+		}
+		set_variable = formed_hegemon
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = BKU-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+}
+
+NSE-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+				country_has_primary_culture = cu:british
+				country_has_primary_culture = cu:danish
+				country_has_primary_culture = cu:norwegian
+		}
+	}
+	
+	possible = {
+		country_rank >= rank_value:major_power 
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = NSE-unification-journal-complete
+			exists = c:NSE
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = NSE_unification.1
+			popup = yes
+		}
+		set_variable = formed_hegemon
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = NSE-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+}
+
+FBU-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+				country_has_primary_culture = cu:british
+				country_has_primary_culture = cu:scottish
+				country_has_primary_culture = cu:french
+		}
+	}
+	
+	possible = {
+		country_rank >= rank_value:great_power 
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = FBU-unification-journal-complete
+			exists = c:FBU
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = FBU_unification.1
+			popup = yes
+		}
+		set_variable = formed_hegemon
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = FBU-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+}
+
+ICE-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+				country_has_primary_culture = cu:south_andean
+				country_has_primary_culture = cu:quechua
+		}
+	}
+	
+	possible = {
+		country_rank >= rank_value:unrecognized_regional_power  
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = ICE-unification-journal-complete
+			exists = c:ICE
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = ICE_unification.1
+			popup = yes
+		}
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = ICE-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+}
+
+CRT-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+				country_has_primary_culture = cu:maghrebi
+				country_has_primary_culture = cu:spanish
+				country_has_primary_culture = cu:south_italian
+		}
+	}
+	
+	possible = {
+		country_rank >= rank_value:unrecognized_regional_power  
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = CRT-unification-journal-complete
+			exists = c:CRT
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = CRT_unification.1
+			popup = yes
+		}
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = CRT-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+}
+
+APCF-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:alemannic
+			country_has_primary_culture = cu:francoprovencal
+		}
+	}
+	
+	possible = {
+		country_rank >= rank_value:minor_power  
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = APCF-unification-journal-complete
+			exists = c:APCF
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = APCF_unification.1
+			popup = yes
+		}
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = APCF-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+}
+
+LTR-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:dutch
+			country_has_primary_culture = cu:wallonian
+			country_has_primary_culture = cu:flemish
+		}
+	}
+	
+	possible = {
+		country_rank >= rank_value:minor_power  
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = LTR-unification-journal-complete
+			exists = c:LTR
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = LTR_unification.1
+			popup = yes
+		}
+		hidden_effect = {
+			set_variable = formed_lotharingia
+		}
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = LTR-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+}
+
+MDZ-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+				country_has_primary_culture = cu:polish
+				country_has_primary_culture = cu:ukrainian
+				country_has_primary_culture = cu:byelorussian
+				country_has_primary_culture = cu:czech
+				country_has_primary_culture = cu:slovak
+				country_has_primary_culture = cu:romanian
+				country_has_primary_culture = cu:hungarian
+				country_has_primary_culture = cu:serb
+				country_has_primary_culture = cu:lithuanian
+				country_has_primary_culture = cu:latvian
+				country_has_primary_culture = cu:estonian
+		}
+	}
+	
+	possible = {
+		country_rank >= rank_value:major_power  
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = MDZ-unification-journal-complete
+			exists = c:MDZ
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = MDZ_unification.1
+			popup = yes
+		}
+		set_variable = formed_hegemon
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = MDZ-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+}
+
+TMD-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+				country_has_primary_culture = cu:persian
+				country_has_primary_culture = cu:pashtun
+				country_has_primary_culture = cu:turkmen
+				country_has_primary_culture = cu:uzbek
+				country_has_primary_culture = cu:azerbaijani
+				country_has_primary_culture = cu:kurdish
+				country_has_primary_culture = cu:baluchi
+				country_has_primary_culture = cu:tajik
+				country_has_primary_culture = cu:armenian
+		}
+	}
+	
+	possible = {
+		country_rank >= rank_value:unrecognized_major_power
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = TMD-unification-journal-complete
+			exists = c:TMD
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = TMD_unification.1
+			popup = yes
+		}
+		set_variable = formed_hegemon
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = TMD-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+}
+
+MCE-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+				country_has_primary_culture = cu:greek
+		}
+	}
+	
+	possible = {
+		country_rank >= rank_value:major_power
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = MCE-unification-journal-complete
+			exists = c:MCE
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = MCE_unification.1
+			popup = yes
+		}
+		set_variable = formed_hegemon
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = MCE-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+}
+
+FUG-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+				country_has_primary_culture = cu:finnish
+				country_has_primary_culture = cu:ugrian
+		}
+	}
+	
+	possible = {
+		country_rank >= rank_value:minor_power
+		is_subject = no
+	}
+	
+	immediate = {
+
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = FUG-unification-journal-complete
+			exists = c:FUG
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = FUG_unification.1
+			popup = yes
+		}
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = FUG-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+}
+
+POLY-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:hawaiian
+			country_has_primary_culture = cu:micronesian
+			country_has_primary_culture = cu:polynesian
+		}
+	}
+	
+	possible = {
+		country_rank >= rank_value:unrecognized_regional_power
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = POLY-unification-journal-complete
+			exists = c:POLY
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = POLY_unification.1
+			popup = yes
+		}
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = POLY-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+}
+
+GLE-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+				country_has_primary_culture = cu:baganda
+				country_has_primary_culture = cu:lacustrine_bantu
+				country_has_primary_culture = cu:ruanda
+				country_has_primary_culture = cu:nilotic
+				country_has_primary_culture = cu:fluvian_bantu
+		}
+	}
+	
+	possible = {
+		country_rank >= rank_value:unrecognized_regional_power
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = GLE-unification-journal-complete
+			exists = c:GLE
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = GLE_unification.1
+			popup = yes
+		}
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = GLE-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+}
+
+HAF-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:oromo
+			country_has_primary_culture = cu:amhara
+			country_has_primary_culture = cu:somali
+			country_has_primary_culture = cu:tigray
+			country_has_primary_culture = cu:yemenite
+		}
+	}
+	
+	possible = {
+		country_rank >= rank_value:unrecognized_regional_power
+		is_subject = no
+	}
+	
+	immediate = {
+
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = HAF-unification-journal-complete
+			exists = c:HAF
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = HAF_unification.1
+			popup = yes
+		}
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = HAF-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+}
+
+CLE-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+				country_has_primary_culture = cu:french
+				country_has_primary_culture = cu:wallonian
+				country_has_primary_culture = cu:north_italian
+				country_has_primary_culture = cu:dutch
+				country_has_primary_culture = cu:north_german
+		}
+	}
+	
+	possible = {
+		country_rank >= rank_value:major_power
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = CLE-unification-journal-complete
+			exists = c:CLE
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = CLE_unification.1
+			popup = yes
+		}
+		set_variable = formed_hegemon
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = CLE-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+}
+
+BRM-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+				country_has_primary_culture = cu:romanian
+				country_has_primary_culture = cu:bulgarian
+		}
+	}
+	
+	possible = {
+		country_rank >= rank_value:minor_power
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = BRM-unification-journal-complete
+			exists = c:BRM
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = BRM_unification.1
+			popup = yes
+		}
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = BRM-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+}
+
+SLU-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:ukrainian
+			country_has_primary_culture = cu:russian
+			country_has_primary_culture = cu:polish
+			country_has_primary_culture = cu:byelorussian
+			country_has_primary_culture = cu:bulgarian
+			country_has_primary_culture = cu:serb
+			country_has_primary_culture = cu:croat
+			country_has_primary_culture = cu:slovak
+			country_has_primary_culture = cu:czech
+			country_has_primary_culture = cu:slovene
+			country_has_primary_culture = cu:bosniak
+		}
+	}
+	
+	possible = {
+		country_rank >= rank_value:major_power
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = SLU-unification-journal-complete
+			exists = c:SLU
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = SLU_unification.1
+			popup = yes
+		}
+		set_variable = formed_hegemon
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = SLU-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+}
+
+GAC-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:yankee
+			country_has_primary_culture = cu:dixie
+			country_has_primary_culture = cu:anglo_canadian
+			country_has_primary_culture = cu:franco_canadian
+		}
+	}
+	
+	possible = {
+		country_rank >= rank_value:major_power
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = GAC-unification-journal-complete
+			exists = c:GAC
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = GAC_unification.1
+			popup = yes
+		}
+		set_variable = formed_hegemon
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = GAC-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+}
+
+GOGU-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:korean
+		}
+	}
+	
+	possible = {
+		country_rank >= rank_value:unrecognized_regional_power
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = GOGU-unification-journal-complete
+			exists = c:GOGU
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = GOGU_unification.1
+			popup = yes
+		}
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = GOGU-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+}
+
+CPH-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+				country_has_primary_culture = cu:turkish 
+				country_has_primary_culture = cu:mashriqi
+				country_has_primary_culture = cu:persian
+				country_has_primary_culture = cu:azerbaijani
+				country_has_primary_culture = cu:maghrebi
+				country_has_primary_culture = cu:misri
+				country_has_primary_culture = cu:bedouin
+				country_has_primary_culture = cu:kurdish
+		}
+	}
+	
+	possible = {
+		country_rank >= rank_value:unrecognized_major_power
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = CPH-unification-journal-complete
+			exists = c:CPH
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = CPH_unification.1
+			popup = yes
+		}
+		set_variable = formed_hegemon
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = CPH-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+}
+
+GCA-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+				country_has_primary_culture = cu:cherokee 
+				country_has_primary_culture = cu:siouan
+				country_has_primary_culture = cu:dakota
+				country_has_primary_culture = cu:caddoan
+				country_has_primary_culture = cu:paiute
+				country_has_primary_culture = cu:navajo
+				country_has_primary_culture = cu:hokan
+				country_has_primary_culture = cu:salish
+		}
+	}
+
+	possible = {
+		country_rank >= rank_value:unrecognized_major_power
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = GCA-unification-journal-complete
+			exists = c:GCA
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = GCA_unification.1
+			popup = yes
+		}
+		set_variable = formed_hegemon
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = GCA-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+}
+
+TUGO-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+				country_has_primary_culture = cu:burmese 
+				country_has_primary_culture = cu:thai
+		}
+	}
+
+	possible = {
+		country_rank >= rank_value:unrecognized_regional_power
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = TUGO-unification-journal-complete
+			exists = c:TUGO
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = TUGO_unification.1
+			popup = yes
+		}
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = TUGO-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+}
+
+TURA-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+				country_has_primary_culture = cu:turkish 
+				country_has_primary_culture = cu:tuvan
+				country_has_primary_culture = cu:tatar
+				country_has_primary_culture = cu:azerbaijani
+				country_has_primary_culture = cu:turkmen
+				country_has_primary_culture = cu:uzbek
+				country_has_primary_culture = cu:kazak
+				country_has_primary_culture = cu:uighur
+		}
+	}		
+
+	possible = {
+		country_rank >= rank_value:unrecognized_major_power
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = TURA-unification-journal-complete
+			exists = c:TURA
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = TURA_unification.1
+			popup = yes
+		}
+		set_variable = formed_hegemon
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = TURA-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+}
+
+NEPR-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+				country_has_primary_culture = cu:dutch 
+				country_has_primary_culture = cu:north_german
+		}
+	}		
+
+	possible = {
+		country_rank >= rank_value:unrecognized_major_power
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = NEPR-unification-journal-complete
+			exists = c:NEPR
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = NEPR_unification.1
+			popup = yes
+		}
+		set_variable = formed_hegemon
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = NEPR-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+
+	fail = {
+		custom_tooltip = {
+			text = NEPR-has-formed-germany
+			c:GER ?= THIS
+		}
+	}
+}
+
+BMY-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+				country_has_primary_culture = cu:malay 
+				country_has_primary_culture = cu:british
+		}
+	}		
+
+	possible = {
+		country_rank >= rank_value:unrecognized_regional_power
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = BMY-unification-journal-complete
+			exists = c:BMY
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = BMY_unification.1
+			popup = yes
+		}
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = BMY-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+}
+
+BMY-greater-malaysia = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		c:BMY ?= THIS
+	}		
+
+	possible = {
+		
+	}
+	
+	immediate = {
+
+	}
+	
+	complete = {
+		country_or_subject_owns_entire_state_region = STATE_EAST_BORNEO
+		country_or_subject_owns_entire_state_region = STATE_WEST_BORNEO
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = BMY_unification.2
+			popup = yes
+		}		
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = BMY-journal-completed-effects_tt.2
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+}
+
+IJP-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+				country_has_primary_culture = cu:japanese 
+		}
+	}		
+
+	possible = {
+		country_rank >= rank_value:unrecognized_major_power
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = IJP-unification-journal-complete
+			exists = c:IJP
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = IJP_unification.1
+			popup = yes
+		}
+		set_variable = formed_hegemon
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = IJP-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+}
+
+SIKH-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:panjabi
+		}
+		country_has_state_religion = rel:sikh
+	}
+	
+	possible = {
+		country_rank >= rank_value:unrecognized_major_power
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = SIKH-unification-journal-complete
+			exists = c:SIKH
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = SIKH_unification.1
+			popup = yes
+		}
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = SIKH-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+}
+
+GCAN-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:anglo_canadian
+			country_has_primary_culture = cu:franco_canadian
+		}
+	}
+	
+	possible = {
+		country_rank >= rank_value:major_power
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = GCAN-unification-journal-complete
+			exists = c:GCAN
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = GCAN_unification.1
+			popup = yes
+		}
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = GCAN-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+}
+
+BREP-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:boer
+		}
+	}
+	
+	possible = {
+		country_rank >= rank_value:minor_power
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = BREP-unification-journal-complete
+			exists = c:BREP
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = BREP_unification.1
+			popup = yes
+		}		
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = BREP-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+}
+
+PAGR-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:mexican
+			country_has_primary_culture = cu:central_american
+			country_has_primary_culture = cu:north_andean
+			country_has_primary_culture = cu:afro_caribeno
+			country_has_primary_culture = cu:south_andean
+			country_has_primary_culture = cu:caribeno
+		}
+	}		
+	
+	possible = {
+		country_rank >= rank_value:major_power
+		is_subject = no
+	}
+	
+	immediate = {
+
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = PAGR-unification-journal-complete
+			exists = c:PAGR
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = PAGR_unification.1
+			popup = yes
+		}
+		set_variable = formed_hegemon
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = PAGR-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+}
+
+HURO-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:romanian
+			country_has_primary_culture = cu:hungarian
+		}
+	}		
+	
+	possible = {
+		country_rank >= rank_value:major_power
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = HURO-unification-journal-complete
+			exists = c:HURO
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = HURO_unification.1
+			popup = yes
+		}
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = HURO-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+}
+
+GRBR-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:brazilian
+		}
+	}		
+	
+	possible = {
+		country_rank >= rank_value:major_power
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = GRBR-unification-journal-complete
+			exists = c:GRBR
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = GRBR_unification.1
+			popup = yes
+		}
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = GRBR-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}
+	}
+}
+
+AUST-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:dutch
+			country_has_primary_culture = cu:flemish
+			country_has_primary_culture = cu:wallonian
+			country_has_primary_culture = cu:north_german		
+		}
+	}		
+	
+	possible = {
+		country_rank >= rank_value:major_power
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = AUST-unification-journal-complete
+			exists = c:AUST
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = AUST_unification.1
+			popup = yes
+		}
+		hidden_effect = {
+			set_variable = {
+				name = formed_austrasia
+				value = yes
+			}
+		}		
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = AUST-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}	
+	}
+}
+
+TIPE-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:tibetan	
+		}
+	}		
+	
+	possible = {
+		country_rank >= rank_value:unrecognized_major_power
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = TIPE-unification-journal-complete
+			exists = c:TIPE
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = TIPE_unification.1
+			popup = yes
+		}		
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = TIPE-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}	
+	}
+}
+
+SONG-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:songhai
+			country_has_primary_culture = cu:hausa
+			country_has_primary_culture = cu:mande
+			country_has_primary_culture = cu:fulbe		
+		}
+	}		
+	
+	possible = {
+		country_rank >= rank_value:unrecognized_major_power
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = SONG-unification-journal-complete
+			exists = c:SONG
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = SONG_unification.1
+			popup = yes
+		}		
+	}
+	
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = SONG-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}	
+	}
+}
+
+EASA-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:han
+			country_has_primary_culture = cu:japanese
+			country_has_primary_culture = cu:korean
+			country_has_primary_culture = cu:vietnamese		
+		}
+	}		
+	
+	possible = {
+		country_rank >= rank_value:unrecognized_major_power
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = EASA-unification-journal-complete
+			exists = c:EASA
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = EASA_unification.1
+			popup = yes
+		}	
+		set_variable = formed_hegemon	
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = EASA-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}	
+	}
+}
+
+EUSA-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:russian
+			country_has_primary_culture = cu:north_german
+			country_has_primary_culture = cu:french
+			country_has_primary_culture = cu:south_german		
+		}
+	}			
+	
+	possible = {
+		country_rank >= rank_value:major_power
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = EUSA-unification-journal-complete
+			exists = c:EUSA
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = EUSA_unification.1
+			popup = yes
+		}	
+		set_variable = formed_hegemon	
+		set_variable = formed_eurasia
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = EUSA-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}	
+	}
+}
+
+OCIA-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:yankee
+			country_has_primary_culture = cu:dixie
+			country_has_primary_culture = cu:british
+		}
+	}			
+	
+	possible = {
+		country_rank >= rank_value:major_power
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = OCIA-unification-journal-complete
+			exists = c:OCIA
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = OCIA_unification.1
+			popup = yes
+		}	
+		set_variable = formed_hegemon	
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = OCIA-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}	
+	}
+}
+
+GZUL-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:zulu
+		}
+	}			
+	
+	possible = {
+		country_rank >= rank_value:unrecognized_regional_power
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = GZUL-unification-journal-complete
+			exists = c:GZUL
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = GZUL_unification.1
+			popup = yes
+		}	
+		set_variable = formed_hegemon	
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = GZUL-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}	
+	}
+}
+
+GZUL_south_africa = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:zulu
+		}
+	}
+	
+	possible = {
+		OR = {
+			c:GZUL ?= THIS
+		}
+		is_subject = no
+	}
+
+	complete = {
+		owns_entire_state_region = STATE_EASTERN_CAPE
+		owns_entire_state_region = STATE_NORTHERN_CAPE
+		owns_entire_state_region = STATE_CAPE_COLONY
+		owns_entire_state_region = STATE_NAMAQUALAND
+		owns_entire_state_region = STATE_BOTSWANA
+		owns_entire_state_region = STATE_HEREROLAND
+		owns_entire_state_region = STATE_ZAMBEZI
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = GZUL_conquest.1
+			popup = yes
+		}	
+	}
+
+	transferable = no
+}
+
+MAPH-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:bornean
+			country_has_primary_culture = cu:sumatran
+			country_has_primary_culture = cu:javan
+			country_has_primary_culture = cu:filipino
+			country_has_primary_culture = cu:moluccan
+			country_has_primary_culture = cu:malay
+			country_has_primary_culture = cu:melanesian
+		}
+	}		
+		
+	possible = {
+		country_rank >= rank_value:unrecognized_major_power
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = MAPH-unification-journal-complete
+			exists = c:MAPH
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = MAPH_unification.1
+			popup = yes
+		}	
+		set_variable = formed_hegemon	
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = MAPH-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}	
+	}
+}
+
+FRSP-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:spanish
+			country_has_primary_culture = cu:french
+		}
+	}		
+		
+	possible = {
+		country_rank >= rank_value:major_power
+		is_subject = no
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = FRSP-unification-journal-complete
+			exists = c:FRSP
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = FRSP_unification.1
+			popup = yes
+		}	
+		set_variable = formed_hegemon	
+	}
+
+	event_outcome_completed_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = FRSP-journal-completed-effects_tt.1
+            }
+        }
+    }
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_hegemon
+		}	
+	}
+}
+
+#Rome stuff
+je_formation_of_the_roman_empire = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	group = je_formable_nations_plus
+
+	is_shown_when_inactive = {
+		#has_variable = claimed_rome
+		has_modifier = claimed_roman_heritage
+	}		
+
+	possible = {
+		country_rank >= rank_value:major_power
+		is_subject = no
+	}
+
+	immediate = {
+		
+	}
+
+	complete = {
+		custom_tooltip = {
+			text = forming_rome_complete
+			exists = c:RME
+		}
+	}
+
+	on_complete = {
+		
+	}
+
+	on_timeout = {
+		
+	}
+
+	scripted_button = je_button_rome_iberia
+	scripted_button = je_button_rome_gaul
+	scripted_button = je_button_rome_north_africa
+	scripted_button = je_button_rome_byzantium
+	scripted_button = je_button_rome_levant
+	scripted_button = je_button_rome_balkans
+	scripted_button = je_button_rome_britain
+	scripted_button = je_button_rome_germania
+
+	weight = 100
+
+	should_be_pinned_by_default = yes
+}
+
+je_form_rome = {
+	should_be_pinned_by_default = yes
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	is_shown_when_inactive = { 
+		OR = {
+			c:BYZ ?= THIS
+			c:HRE ?= THIS
+			c:CLE ?= THIS
+		}
+	}
+
+	group = je_formable_nations_plus
+
+	complete = {
+        custom_tooltip = {
+            text = je_form_rome_tt_1
+            country_or_subject_owns_entire_state_region = STATE_CATALONIA
+            country_or_subject_owns_entire_state_region = STATE_ARAGON
+            country_or_subject_owns_entire_state_region = STATE_VALENCIA
+            country_or_subject_owns_entire_state_region = STATE_ANDALUSIA
+            country_or_subject_owns_entire_state_region = STATE_BADAJOZ
+            country_or_subject_owns_entire_state_region = STATE_TOLEDO
+            country_or_subject_owns_entire_state_region = STATE_CASTILE
+			country_or_subject_owns_entire_state_region = STATE_ASTURIAS
+			country_or_subject_owns_entire_state_region = STATE_GALICIA
+			country_or_subject_owns_entire_state_region = STATE_BEIRA
+			country_or_subject_owns_entire_state_region = STATE_ESTREMADURA
+			country_or_subject_owns_entire_state_region = STATE_ALENTEJO
+			country_or_subject_owns_entire_state_region = STATE_BALEARES
+			country_or_subject_owns_entire_state_region = STATE_GRANADA
+        }
+        custom_tooltip = {
+            text = je_form_rome_tt_2
+            country_or_subject_owns_entire_state_region = STATE_PROVENCE
+            country_or_subject_owns_entire_state_region = STATE_RHONE
+			country_or_subject_owns_entire_state_region = STATE_LANGUEDOC
+            country_or_subject_owns_entire_state_region = STATE_AQUITAINE
+			country_or_subject_owns_entire_state_region = STATE_GUYENNE
+            country_or_subject_owns_entire_state_region = STATE_AUVERGNE_LIMOUSIN
+			country_or_subject_owns_entire_state_region = STATE_POITOU
+            country_or_subject_owns_entire_state_region = STATE_BRITTANY
+			country_or_subject_owns_entire_state_region = STATE_MAINE_ANJOU
+            country_or_subject_owns_entire_state_region = STATE_NORMANDY
+			country_or_subject_owns_entire_state_region = STATE_ORLEANS
+            country_or_subject_owns_entire_state_region = STATE_BURGUNDY
+			country_or_subject_owns_entire_state_region = STATE_FRANCHE_COMTE
+            country_or_subject_owns_entire_state_region = STATE_ALSACE_LORRAINE
+			country_or_subject_owns_entire_state_region = STATE_LORRAINE
+            country_or_subject_owns_entire_state_region = STATE_CHAMPAGNE
+			country_or_subject_owns_entire_state_region = STATE_PICARDY
+            country_or_subject_owns_entire_state_region = STATE_FRENCH_LOW_COUNTRIES
+			country_or_subject_owns_entire_state_region = STATE_ILE_DE_FRANCE
+        }
+        custom_tooltip = {
+            text = je_form_rome_tt_3 # Todo PRCAL-14501 Needs state highlighting
+            country_or_subject_owns_entire_state_region = STATE_TUNISIA
+            country_or_subject_owns_entire_state_region = STATE_CONSTANTINE
+            country_or_subject_owns_entire_state_region = STATE_ALGIERS
+			country_or_subject_owns_entire_state_region = STATE_ORAN
+            country_or_subject_owns_entire_state_region = STATE_AL_RIF
+            country_or_subject_owns_entire_state_region = STATE_TRIPOLI
+			country_or_subject_owns_entire_state_region = STATE_LIBYA
+            country_or_subject_owns_entire_state_region = STATE_MATRUH
+            country_or_subject_owns_entire_state_region = STATE_LOWER_EGYPT
+			country_or_subject_owns_entire_state_region = STATE_MIDDLE_EGYPT
+            country_or_subject_owns_entire_state_region = STATE_UPPER_EGYPT
+            country_or_subject_owns_entire_state_region = STATE_SINAI
+			country_or_subject_owns_entire_state_region = STATE_MALTA
+        }
+		custom_tooltip = {
+            text = je_form_rome_tt_4
+            country_or_subject_owns_entire_state_region = STATE_PELOPONNESE
+            country_or_subject_owns_entire_state_region = STATE_ATTICA
+			country_or_subject_owns_entire_state_region = STATE_IONIAN_ISLANDS
+            country_or_subject_owns_entire_state_region = STATE_THESSALIA
+			country_or_subject_owns_entire_state_region = STATE_MACEDONIA
+            country_or_subject_owns_entire_state_region = STATE_WESTERN_THRACE
+			country_or_subject_owns_entire_state_region = STATE_EASTERN_THRACE
+            country_or_subject_owns_entire_state_region = STATE_WEST_AEGEAN_ISLANDS
+			country_or_subject_owns_entire_state_region = STATE_EAST_AEGEAN_ISLANDS
+            country_or_subject_owns_entire_state_region = STATE_CRETE
+			country_or_subject_owns_entire_state_region = STATE_KONYA
+            country_or_subject_owns_entire_state_region = STATE_ANKARA
+			country_or_subject_owns_entire_state_region = STATE_NORTHERN_THRACE
+            country_or_subject_owns_entire_state_region = STATE_SKOPIA
+			country_or_subject_owns_entire_state_region = STATE_ALBANIA
+            country_or_subject_owns_entire_state_region = STATE_AYDIN
+			country_or_subject_owns_entire_state_region = STATE_HUDAVENDIGAR
+            country_or_subject_owns_entire_state_region = STATE_KASTAMONU
+        }
+		custom_tooltip = {
+            text = je_form_rome_tt_5
+            country_or_subject_owns_entire_state_region = STATE_PALESTINE
+            country_or_subject_owns_entire_state_region = STATE_TRANSJORDAN
+			country_or_subject_owns_entire_state_region = STATE_LEBANON
+            country_or_subject_owns_entire_state_region = STATE_SYRIA
+			country_or_subject_owns_entire_state_region = STATE_ALEPPO
+            country_or_subject_owns_entire_state_region = STATE_ADANA
+			country_or_subject_owns_entire_state_region = STATE_DIYARBAKIR
+            country_or_subject_owns_entire_state_region = STATE_ERZURUM
+			country_or_subject_owns_entire_state_region = STATE_TRABZON
+            country_or_subject_owns_entire_state_region = STATE_DEIR_EZ_ZOR
+			country_or_subject_owns_entire_state_region = STATE_MOSUL
+            country_or_subject_owns_entire_state_region = STATE_BAGHDAD
+			country_or_subject_owns_entire_state_region = STATE_BASRA
+            country_or_subject_owns_entire_state_region = STATE_KARS
+			country_or_subject_owns_entire_state_region = STATE_ARMENIA
+            country_or_subject_owns_entire_state_region = STATE_GREATER_CAUCASUS
+			country_or_subject_owns_entire_state_region = STATE_URMIA
+			country_or_subject_owns_entire_state_region = STATE_ELIZAVETPOL
+            country_or_subject_owns_entire_state_region = STATE_CYPRUS
+        }
+		custom_tooltip = {
+            text = je_form_rome_tt_6
+            country_or_subject_owns_entire_state_region = STATE_BULGARIA
+            country_or_subject_owns_entire_state_region = STATE_EASTERN_SERBIA
+			country_or_subject_owns_entire_state_region = STATE_WALLACHIA
+            country_or_subject_owns_entire_state_region = STATE_DOBRUDJA
+			country_or_subject_owns_entire_state_region = STATE_WESTERN_SERBIA
+			country_or_subject_owns_entire_state_region = STATE_KOSOVO
+            country_or_subject_owns_entire_state_region = STATE_MONTENEGRO
+			country_or_subject_owns_entire_state_region = STATE_BOSNIA
+            country_or_subject_owns_entire_state_region = STATE_DALMATIA
+			country_or_subject_owns_entire_state_region = STATE_CROATIA
+            country_or_subject_owns_entire_state_region = STATE_SLAVONIA
+			country_or_subject_owns_entire_state_region = STATE_BANAT
+			country_or_subject_owns_entire_state_region = STATE_DELVIDEK
+            country_or_subject_owns_entire_state_region = STATE_SOUTHERN_TRANSYLVANIA
+			country_or_subject_owns_entire_state_region = STATE_NORTHERN_TRANSYLVANIA
+            country_or_subject_owns_entire_state_region = STATE_BEKES
+			country_or_subject_owns_entire_state_region = STATE_CENTRAL_HUNGARY
+			country_or_subject_owns_entire_state_region = STATE_TRANSDANUBIA
+            country_or_subject_owns_entire_state_region = STATE_SLOVENIA
+        }
+		custom_tooltip = {
+            text = je_form_rome_tt_7
+            country_or_subject_owns_entire_state_region = STATE_HOME_COUNTIES
+            country_or_subject_owns_entire_state_region = STATE_WEST_COUNTRY
+			country_or_subject_owns_entire_state_region = STATE_EAST_ANGLIA
+            country_or_subject_owns_entire_state_region = STATE_MIDLANDS
+			country_or_subject_owns_entire_state_region = STATE_WALES
+            country_or_subject_owns_entire_state_region = STATE_YORKSHIRE
+			country_or_subject_owns_entire_state_region = STATE_LANCASHIRE
+        }
+		custom_tooltip = {
+            text = je_form_rome_tt_8
+            country_or_subject_owns_entire_state_region = STATE_AUSTRIA
+            country_or_subject_owns_entire_state_region = STATE_STYRIA
+			country_or_subject_owns_entire_state_region = STATE_TYROL
+            country_or_subject_owns_entire_state_region = STATE_WEST_SWITZERLAND
+			country_or_subject_owns_entire_state_region = STATE_EAST_SWITZERLAND
+            country_or_subject_owns_entire_state_region = STATE_BAVARIA
+			country_or_subject_owns_entire_state_region = STATE_BADEN
+            country_or_subject_owns_entire_state_region = STATE_WURTTEMBERG
+			country_or_subject_owns_entire_state_region = STATE_RHINELAND
+            country_or_subject_owns_entire_state_region = STATE_NORTH_RHINE
+			country_or_subject_owns_entire_state_region = STATE_RUHR
+            country_or_subject_owns_entire_state_region = STATE_WALLONIA
+			country_or_subject_owns_entire_state_region = STATE_FLANDERS
+            country_or_subject_owns_entire_state_region = STATE_GELRE
+			country_or_subject_owns_entire_state_region = STATE_HOLLAND
+        }
+		custom_tooltip = {
+            text = je_form_rome_tt_9
+            country_or_subject_owns_entire_state_region = STATE_PIEDMONT
+            country_or_subject_owns_entire_state_region = STATE_LOMBARDY
+			country_or_subject_owns_entire_state_region = STATE_VENETIA
+            country_or_subject_owns_entire_state_region = STATE_ISTRIA
+			country_or_subject_owns_entire_state_region = STATE_EMILIA
+            country_or_subject_owns_entire_state_region = STATE_ROMAGNA
+			country_or_subject_owns_entire_state_region = STATE_TUSCANY
+            country_or_subject_owns_entire_state_region = STATE_UMBRIA
+			country_or_subject_owns_entire_state_region = STATE_LAZIO
+            country_or_subject_owns_entire_state_region = STATE_ABRUZZO
+			country_or_subject_owns_entire_state_region = STATE_CAMPANIA
+            country_or_subject_owns_entire_state_region = STATE_APULIA
+			country_or_subject_owns_entire_state_region = STATE_CALABRIA
+            country_or_subject_owns_entire_state_region = STATE_SICILY
+			country_or_subject_owns_entire_state_region = STATE_SARDINIA
+			country_or_subject_owns_entire_state_region = STATE_CORSICA
+        }
+	}
+
+	on_complete = {
+        trigger_event = { id = RME_unification.1 popup = yes }
+		change_tag = RME
+
+		set_variable = {
+			name = formed_rome
+			value = yes
+		}
+	}
+}
+#Benelux extra content
+je_bnl_religion = {
+	icon = "gfx\interface\icons\generic_icons\unused\religion_icons.dds"
+	
+	group = je_formable_nations_plus
+
+	is_shown_when_inactive = {
+		c:BNL ?= THIS
+	}
+
+	possible = {
+		OR = {
+			has_law = law_type:law_freedom_of_conscience	
+			has_law = law_type:law_state_religion					
+		}
+	}
+
+	immediate = {
+		set_variable = {
+			name = bnl_relegion
+			value = 0
+		}
+	}
+
+	on_monthly_pulse = {
+		effect = {
+			if = {
+				limit = {
+					OR = {
+						has_law = law_type:law_freedom_of_conscience	
+						has_law = law_type:law_state_religion					
+					}
+					s:STATE_HOLLAND = {
+						trigger_if = {
+							limit = {
+								NOT = { root = { has_state_in_state_region = STATE_HOLLAND } }
+							}
+							root = { has_state_in_state_region = STATE_HOLLAND }
+						}
+						region_state:BNL ?= {
+							turmoil <= 0.25
+						}
+					}
+					s:STATE_GELRE = {
+						trigger_if = {
+							limit = {
+								NOT = { root = { has_state_in_state_region = STATE_GELRE } }
+							}
+							root = { has_state_in_state_region = STATE_GELRE }
+						}
+						region_state:BNL ?= {
+							turmoil <= 0.25
+						}
+					}
+					s:STATE_FRIESLAND = {
+						trigger_if = {
+							limit = {
+								NOT = { root = { has_state_in_state_region = STATE_FRIESLAND } }
+							}
+							root = { has_state_in_state_region = STATE_FRIESLAND }
+						}
+						region_state:BNL ?= {
+							turmoil <= 0.25
+						}
+					}
+					s:STATE_FLANDERS = {
+						trigger_if = {
+							limit = {
+								NOT = { root = { has_state_in_state_region = STATE_FLANDERS } }
+							}
+							root = { has_state_in_state_region = STATE_FLANDERS }
+						}
+						region_state:BNL ?= {
+							turmoil <= 0.25
+						}
+					}
+					s:STATE_WALLONIA = {
+						trigger_if = {
+							limit = {
+								NOT = { root = { has_state_in_state_region = STATE_WALLONIA } }
+							}
+							root = { has_state_in_state_region = STATE_WALLONIA }
+						}
+						region_state:BNL ?= {
+							turmoil <= 0.25
+						}
+					}
+					s:STATE_FRENCH_LOW_COUNTRIES = {
+						trigger_if = {
+							limit = {
+								NOT = { root = { has_state_in_state_region = STATE_FRENCH_LOW_COUNTRIES } }
+							}
+							root = { has_state_in_state_region = STATE_FRENCH_LOW_COUNTRIES }
+						}
+						region_state:BNL ?= {
+							turmoil <= 0.25
+						}
+					}
+				}
+				change_variable = {
+					name = bnl_relegion
+					add = 1
+				}
+			}
+		}
+	}
+
+	complete = {
+		or = {
+			has_law = law_type:law_total_separation
+
+			scope:journal_entry = { is_goal_complete = yes }			
+		}
+	}
+
+	on_complete = {		
+		trigger_event = {
+			id = BNL_religion.1 
+		}
+	}
+
+	current_value = {
+		value = root.var:bnl_relegion
+	}
+
+	goal_add_value = {
+		value = 120
+	}
+
+	 progressbar = yes
+
+	weight = 10000
+	should_be_pinned_by_default = yes
+}
+
+je_bnl_trade_or_industry = {
+	should_be_pinned_by_default = yes
+	icon = "gfx/interface/icons/diplo_play_icons/stance_on_the_fence.dds"
+
+	is_shown_when_inactive = { 
+		OR = {
+			c:BNL ?= THIS 
+		}
+	}
+
+	immediate = {
+
+	}
+
+	group = je_formable_nations_plus
+
+	complete = {
+		or = {
+			custom_tooltip = {
+				text = bnl_trade_or_industry_industry
+				has_variable = bnl_industry_focus
+			}
+			custom_tooltip = {
+				text = bnl_trade_or_industry_trade
+				has_variable = bnl_trade_focus
+			}
+		}       
+	}
+
+	on_complete = {
+    
+	}
+}
+
+je_bnl_trade = {
+	should_be_pinned_by_default = yes
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	is_shown_when_inactive = { 
+		OR = {
+			c:BNL ?= THIS
+		}
+	}
+
+	immediate = {
+		set_variable = {
+			name = bnl_trade
+			value = 0
+		}
+	}
+
+	group = je_formable_nations_plus
+
+	complete = {
+        scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	invalid = {
+		has_variable = bnl_industry_focus
+	}
+
+	goal_add_value = {
+		value = 3
+	}
+
+	current_value = {
+		value = root.var:bnl_trade
+	}
+
+	progressbar = yes
+
+	on_complete = {
+        trigger_event = { id = BNL_trade.1 popup = yes }
+
+		set_variable = {
+			name = bnl_trade_focus
+		}
+	}
+}
+
+je_bnl_industry = {
+	should_be_pinned_by_default = yes
+	icon = "gfx/interface/icons/event_icons/event_industry.dds"
+
+	is_shown_when_inactive = { 
+		OR = {
+			c:BNL ?= THIS
+		}
+	}
+
+	immediate = {
+		set_variable = {
+			name = bnl_industry
+			value = 0
+		}
+	}
+
+	group = je_formable_nations_plus
+
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	goal_add_value = {
+		value = 3
+	}
+
+	invalid = {
+		has_variable = bnl_trade_focus
+	}
+
+	current_value = {
+		value = root.var:bnl_industry
+	}
+
+	progressbar = yes
+
+	on_complete = {
+        trigger_event = { id = BNL_industry.1 popup = yes }
+
+		set_variable = {
+			name = bnl_industry_focus
+		}
+	}
+}
+
+je_bnl_industry_1 = {
+	should_be_pinned_by_default = yes
+	icon = "gfx/interface/icons/event_icons/event_industry.dds"
+
+	is_shown_when_inactive = { 
+		OR = {
+			c:BNL ?= THIS
+		}
+	}
+
+	group = je_formable_nations_plus
+
+	complete = {
+        any_scope_building = {
+			is_building_type = building_iron_mine
+			level >= 10
+			occupancy >= 0.9
+			is_subsidized = no
+		}
+		any_scope_building = {
+			is_building_type = building_coal_mine
+			level >= 10
+			occupancy >= 0.9
+			is_subsidized = no
+		}
+	}
+
+	invalid = {
+		has_variable = bnl_trade_focus
+	}
+
+	on_complete = {
+		custom_tooltip = {
+			text = bnl_industry_complete
+			change_variable = {
+				name = bnl_industry
+				add = 1
+			}
+		}		
+	}
+}
+
+je_bnl_industry_2 = {
+	should_be_pinned_by_default = yes
+	icon = "gfx/interface/icons/event_icons/event_industry.dds"
+
+	is_shown_when_inactive = { 
+		OR = {
+			c:BNL ?= THIS
+		}
+	}
+
+	group = je_formable_nations_plus
+
+	complete = {
+        gdp > {
+			value = global_gdp
+			multiply = 0.05
+		}	
+	}
+
+	invalid = {
+		has_variable = bnl_trade_focus
+	}
+
+	on_complete = {
+		custom_tooltip = {
+			text = bnl_industry_complete
+			change_variable = {
+				name = bnl_industry
+				add = 1
+			}
+		}		
+	}
+}
+
+je_bnl_industry_3 = {
+	should_be_pinned_by_default = yes
+	icon = "gfx/interface/icons/event_icons/event_industry.dds"
+
+	is_shown_when_inactive = { 
+		OR = {
+			c:BNL ?= THIS
+		}
+	}
+
+	group = je_formable_nations_plus
+
+	complete = {
+        has_law = law_type:law_protectionism
+	}
+
+	invalid = {
+		has_variable = bnl_trade_focus
+	}
+
+	on_complete = {
+		custom_tooltip = {
+			text = bnl_industry_complete
+			change_variable = {
+				name = bnl_industry
+				add = 1
+			}
+		}
+	}
+}
+
+je_bnl_trade_1 = {
+	should_be_pinned_by_default = yes
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	is_shown_when_inactive = { 
+		OR = {
+			c:BNL ?= THIS			
+		}
+	}
+
+	immediate = {
+		
+	}
+
+	group = je_formable_nations_plus
+
+	complete = {
+        any_scope_building = {
+			is_building_type = building_port
+			level >= 10
+			occupancy >= 0.9
+			is_subsidized = no
+		}
+	}
+
+	invalid = {
+		has_variable = bnl_industry_focus
+	}
+
+	on_complete = {
+		custom_tooltip = {
+			text = bnl_trade_complete
+			change_variable = {
+				name = bnl_trade
+				add = 1
+			}
+		}
+	}
+}
+
+je_bnl_trade_2 = {
+	should_be_pinned_by_default = yes
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	is_shown_when_inactive = { 
+		OR = {
+			c:BNL ?= THIS
+		}
+	}
+
+	group = je_formable_nations_plus
+
+	complete = {
+        any_scope_building = {
+			is_building_type = building_trade_center
+			level >= 50
+			occupancy >= 0.9
+			is_subsidized = no
+		}
+	}
+
+	invalid = {
+		has_variable = bnl_industry_focus
+	}
+
+	on_complete = {
+		custom_tooltip = {
+			text = bnl_trade_complete
+			change_variable = {
+				name = bnl_trade
+				add = 1
+			}
+		}
+	}
+}
+
+je_bnl_trade_3 = {
+	should_be_pinned_by_default = yes
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	is_shown_when_inactive = { 
+		OR = {
+			c:BNL ?= THIS
+		}
+	}
+
+	group = je_formable_nations_plus
+
+	complete = {
+        has_law = law_type:law_free_trade
+	}
+
+	invalid = {
+		has_variable = bnl_industry_focus
+	}
+
+	on_complete = {
+		custom_tooltip = {
+			text = bnl_trade_complete
+			change_variable = {
+				name = bnl_trade
+				add = 1
+			}
+		}
+	}
+}
+#United States of Europe
+je_forming_USE = {
+	should_be_pinned_by_default = yes
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	is_shown_when_inactive = { 
+		country_rank >= rank_value:great_power
+		is_subject = no		
+	}
+	possible = {
+		country_is_in_europe = yes
+	}
+
+	group = je_formable_nations_plus
+
+	complete = {
+		custom_tooltip = {
+			OR = {
+				has_variable = dismissed_USE
+				has_variable = pursued_USE
+			}
+			text = je_forming_USE_custom_complete
+		}
+	}
+
+	invalid = {
+		hidden_trigger = {
+			has_variable = formed_eurasia
+		}	
+	}
+
+	on_complete = {
+		
+	}
+
+	scripted_button = je_button_dismiss_USE
+	scripted_button = je_button_pursue_USE
+}
+
+je_forming_USE_aggresive = {
+	should_be_pinned_by_default = yes
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	is_shown_when_inactive = { 
+		has_variable = aggresive_USE
+	}
+
+	group = je_formable_nations_plus
+
+	complete = {
+		custom_tooltip = {
+			text = formed_USE_aggressive_custom_text
+			has_variable = formed_USE_aggressive
+		}
+	}
+
+	invalid = {
+		
+	}
+
+	on_complete = {
+		set_variable = formed_hegemon
+	}
+
+	scripted_button = je_forming_USE_aggresive_NL
+	scripted_button = je_forming_USE_aggresive_BE
+	scripted_button = je_forming_USE_aggresive_DE
+	scripted_button = je_forming_USE_aggresive_SWE
+	scripted_button = je_forming_USE_aggresive_SWI
+	scripted_button = je_forming_USE_aggresive_POR
+	scripted_button = je_forming_USE_aggresive_NOR
+	scripted_button = je_forming_USE_aggresive_SPA
+	scripted_button = je_forming_USE_aggresive_FRA
+	scripted_button = je_forming_USE_aggresive_AUS
+	scripted_button = je_forming_USE_aggresive_BLK
+	scripted_button = je_forming_USE_aggresive_NGER
+	scripted_button = je_forming_USE_aggresive_SGER
+	scripted_button = je_forming_USE_aggresive_NITA
+	scripted_button = je_forming_USE_aggresive_SITA
+	scripted_button = je_forming_USE_aggresive_GBR
+	scripted_button = je_forming_USE_aggresive_button_form
+}
+
+je_forming_USE_diplo = {
+	should_be_pinned_by_default = yes
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	is_shown_when_inactive = { 
+		has_variable = diplomatic_USE
+	}
+
+	group = je_formable_nations_plus
+
+	complete = {
+		hidden_trigger = {
+			has_variable = ready_to_form_europe_diplo
+		}
+	}
+
+	invalid = {
+		
+	}
+
+	on_complete = {
+		set_variable = formed_hegemon
+	}
+
+	scripted_button = je_forming_USE_diplo_NL
+	scripted_button = je_forming_USE_diplo_BE
+	scripted_button = je_forming_USE_diplo_DE
+	scripted_button = je_forming_USE_diplo_SWE
+	scripted_button = je_forming_USE_diplo_SWI
+	scripted_button = je_forming_USE_diplo_POR
+	scripted_button = je_forming_USE_diplo_SAR
+	scripted_button = je_forming_USE_diplo_SIC
+	scripted_button = je_forming_USE_diplo_BAV
+	scripted_button = je_forming_USE_diplo_SPA
+	scripted_button = je_forming_USE_diplo_FRA
+	scripted_button = je_forming_USE_diplo_AUS
+	scripted_button = je_forming_USE_diplo_PRU
+	scripted_button = je_forming_USE_diplo_GER
+	scripted_button = je_forming_USE_diplo_ITA
+	scripted_button = je_forming_USE_diplo_button_form
+}
+
+#Austrasia 
+je_formation_of_the_carolingian_empire = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	group = je_formable_nations_plus
+
+	is_shown_when_inactive = {
+		OR = {
+			has_variable = formed_austrasia
+			has_variable =  formed_lotharingia
+		}
+		
+	}		
+
+	possible = {
+		country_rank >= rank_value:major_power
+		is_subject = no
+	}
+
+	immediate = {
+		
+	}
+
+	complete = {
+		custom_tooltip = {
+			text = forming_corolingia_complete
+			exists = c:CLE
+		}
+	}
+
+	on_complete = {
+		
+	}
+
+	on_timeout = {
+		
+	}
+
+	scripted_button = je_button_austrasia_north_germany
+	scripted_button = je_button_austrasia_south_germany
+	scripted_button = je_button_austrasia_north_france
+	scripted_button = je_button_austrasia_south_france
+	scripted_button = je_button_austrasia_italy
+	scripted_button = je_button_austrasia_spain
+
+	weight = 100
+
+	should_be_pinned_by_default = yes
+}

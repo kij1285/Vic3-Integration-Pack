@@ -1,0 +1,6 @@
+fnp_dlc = {
+	name = "Formable Nations Plus"
+	steam_id = ""
+	type = minor
+	priority = 0
+}
