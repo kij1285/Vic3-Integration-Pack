@@ -1,0 +1,1311 @@
+﻿l_german:
+je_formable_nations_plus: "Formable Nations Plus"
+#HRE
+ HRE:0 "Heiliges Römisches Reich"
+ HRE_ADJ:0 "Das Heiliges Römisches Reich"
+ HRE_FLAVOR_TEXT:0 "Dieses Reich ist mächtig, groß und vielfältig. Wird es in der Lage sein, zusammenzubleiben und den Kontinent wie in vergangenen Zeiten zu beherrschen?"
+
+ HRE-formation-modifier-01:0 "Im Herzen Von Europa"
+  
+ HRE-unification-journal:0 "Ein Wiedergeborenes Reich"
+ HRE-unification-journal-complete:0 "Ist Das Heiliges Römisches Reich"
+ 
+ HRE-unification-event-title:0 "Das Wiedergeborene Heilige Römische Reich"
+ HRE-unification-event-description:0 "Die Wiedergeburt des Doppelkopfadlers."
+ HRE-unification-event-flavor:0 "Fast ein Jahrtausend lang wuchs und fiel das Heilige Römische Reich, bis Napoleon ihm den Todesstoß versetzte. Dieser Fehler ist nun endlich korrigiert worden, und alle Völker dieses Reiches werden gemeinsam stärker sein. Die Zukunft sieht für uns alle günstig aus."
+ HRE-unification-option-01:0 "Die Geburt einer europäischen Supermacht."
+ HRE-unification-journal_reason:0 "Die Gründung des Heiligen Römischen Reiches"
+
+#Benelux
+ BNL:0 "Benelux"
+ BNL_ADJ:0 "Benelux"
+ BNL_FLAVOR_TEXT:0 "Es mag klein erscheinen, aber die Benelux haben die Chance, ein großer Akteur in Europa zu werden. Sie müssen sie nur ergreifen. "
+
+ BNL-formation-modifier-01:0 "In die Enge getrieben zwischen Großmächten"
+  
+ BNL-unification-journal:0 "Die Vereinigten Niederungen"
+ BNL-unification-journal-complete:0 "Ist Die Benelux"
+ 
+ BNL-unification-event-title:0 "Die Benelux Endlich Wiedervereint"
+ BNL-unification-event-description:0 "Der neue Löwe brüllt."
+ BNL-unification-event-flavor:0 "Das Flachland ist endlich wieder vereint, nachdem es gewaltsam auseinandergerissen wurde. Es ist klar, dass wir gemeinsam stärker sind, aber wir sind jung und umzingelt. Wir müssen Allianzen finden und Rivalen vernichten, wenn wir den kommenden Ansturm überleben wollen. "
+ BNL-unification-option-01:0 "Wie werden wir mit den anderen Großmächten in Europa konkurrieren?"
+ BNL-unification-journal_reason:0 "Die Gründung der Benelux"
+
+#UCB
+ UCB:0 "Vereinigte Karibik"
+ UCB_ADJ:0 "Vereinigte Karibik"
+ UCB_FLAVOR_TEXT:0 "Mit all ihren Inseln unter einer Flagge steht die Vereinigte Karibik vor einer schwierigen Zukunft. Sie ist von Großmächten umgeben, die mehr als bereit sind, die Kontrolle über sie auszuüben. "
+
+ UCB-formation-modifier-01:0 "Ein Modernes Piratenkönigreich"
+  
+ UCB-unification-journal:0 "Vereinheitlichung Der Karibik"
+ UCB-unification-journal-complete:0 "Ist Die Vereinigte Karibik"
+ 
+ UCB-unification-event-title:0 "Die Karibik Unter Einer Flagge"
+ UCB-unification-event-description:0 "Das zweite goldene Zeitalter der Piraterie hat begonnen."
+ UCB-unification-event-flavor:0 "Die Karibik war jahrhundertelang unter der Kontrolle von Außenseitern, nicht länger! Wir halten einige der ältesten Piratenhauptstädte der Welt, und sie sollen es wieder werden. Wir leiten ein neues Zeitalter der Piraterie ein! "
+ UCB-unification-option-01:0 "Baut die Werften und bildet die Seeleute aus!"
+ UCB-unification-journal_reason:0 "Die Gründung der Vereinigten Karibik"
+
+#IFR
+ IFR:0 "Kaiserliche Föderation"
+ IFR_ADJ:0 "Kaiserliche Föderation"
+ IFR_FLAVOR_TEXT:0 "Ein globales föderales Imperium, das erste seiner Art. Es hat viel Macht, aber das bringt auch viele Probleme und Kontrollbereiche mit sich. Kann das Imperium zusammenbleiben und wirklich die Wellen beherrschen? "
+
+ IFR-formation-modifier-01:0 "Ein Globales Föderales Imperium"
+  
+ IFR-unification-journal:0 "Ein Globales Imperium"
+ IFR-unification-journal-complete:0 "Ist Die Imperiale Föderation"
+ 
+ IFR-unification-event-title:0 "Das Ganze Reich Unter Einer Flagge"
+ IFR-unification-event-description:0 "Ein neues Zeitalter der Diplomatie hat begonnen."
+ IFR-unification-event-flavor:0 "Je mehr das Imperium wuchs, desto schwieriger wurde es zu kontrollieren. Wir haben jetzt alle Länder des Reiches im selben Parlament. Gemeinsam werden wir alle unter eine Identität und ein Land bringen. "
+ IFR-unification-option-01:0 "Wir müssen das Haus des Volkes erweitern!"
+ IFR-unification-journal_reason:0 "Die Gründung der Kaiserlichen Föderation"
+
+#INC
+ INC:0 "Indochina"
+ INC_ADJ:0 "Indochina"
+ INC_FLAVOR_TEXT:0 "Die Menschen in Indochina haben sich lange Zeit gegenseitig bekämpft, aber diese Zeit ist vorbei. Vereint werden wir uns der Welt und ihren Schwierigkeiten stellen."
+
+ INC-formation-modifier-01:0 "Ein Vielfältiges Land"
+  
+ INC-unification-journal:0 "Eine Neue Macht In Asien"
+ INC-unification-journal-complete:0 "Ist Indochina"
+ 
+ INC-unification-event-title:0 "Aufstehen Gegen Unsere Unterdrücker"
+ INC-unification-event-description:0 "Ein schwieriger Weg liegt vor uns."
+ INC-unification-event-flavor:0 "Zu lange sind die Länder Indochinas von größeren Mächten außerhalb der Halbinsel schikaniert und unterdrückt worden. Trotz unserer Unterschiede müssen wir zusammenarbeiten, um den Gefahren von außen zu begegnen. "
+ INC-unification-option-01:0 "Werden unsere Kulturen in der Lage sein, zusammenzuarbeiten?"
+ INC-unification-journal_reason:0 "Die Gründung Indochinas"
+ 
+#TCC
+ TCC:0 "Transkaukasien"
+ TCC_ADJ:0 "Transkaukasien"
+ TCC_FLAVOR_TEXT:0 "Die Menschen im Kaukasus wurden lange Zeit vom russischen Volk unterdrückt, doch damit ist jetzt Schluss! Sie haben sich zusammengeschlossen, um ihrem letzten Feind in diesen unruhigen Zeiten entgegenzutreten. "
+
+ TCC-formation-modifier-01:0 "Bereit Für Einen Kampf"
+  
+ TCC-unification-journal:0 "Der Kaukasus Ist vereint"
+ TCC-unification-journal-complete:0 "Ist Transkaukasien"
+ 
+ TCC-unification-event-title:0 "Unserem Letzten Feind Entgegentreten"
+ TCC-unification-event-description:0 "Der Russe wird uns nicht mehr lange unterjochen."
+ TCC-unification-event-flavor:0 "Seit vielen Jahren sind die Völker hier im Kaukasus vielen anderen Gruppen unterworfen, wobei die Russen die Haupttäter sind. Wir werden uns nicht länger beugen, wir werden uns auf ihre Invasion vorbereiten. Denn wir wissen, dass sie kommen wird. "
+ TCC-unification-option-01:0 "Gemeinsam werden wir stark genug sein, um jeder Bedrohung zu begegnen. "
+ TCC-unification-journal_reason:0 "Die Gründung Transkaukasien"
+ 
+#RME
+ RME:0 "Römisches Reich"
+ RME_ADJ:0 "Römisches Reich"
+ RME_FLAVOR_TEXT:0 "Das Römische Reich bestand über tausend Jahre lang... und unter unserer neuen Führung wird es noch weitere tausend Jahre bestehen. Dennoch dürfen wir die Veränderungen in dieser neuen industriellen Welt nicht unterschätzen. "
+
+ RME-formation-modifier-01:0 "Für Den Ruhm Roms"
+  
+ RME-unification-journal:0 "Die Wiedergeburt Eines Imperiums"
+ RME-unification-journal-complete:0 "Ist Das Römische Reich"
+ 
+ RME-unification-event-title:0 "Der Adler Steigt Noch Einmal Auf"
+ RME-unification-event-description:0 "Was einst verloren war, wurde wiedergefunden"
+ RME-unification-event-flavor:0 "Vor über 1500 Jahren wurde Rom von unserer versagenden Bürokratie und den Germanen zerstört. Mit der Wiedergeburt des Reiches werden wir aus unseren Fehlern lernen und uns rächen!"
+ RME-unification-option-01:0 "Diese Barabaren aus dem Norden sollen bekommen, was sie verdienen!"
+ RME-unification-journal_reason:0 "Die Gründung des Römischen Reiches"
+ 
+#MGB
+ MGB:0 "Maghreb"
+ MGB_ADJ:0 "Maghreb"
+ MGB_FLAVOR_TEXT:0 "Die Muslime in Westafrika sind sich einig und es liegt nun an ihnen, worauf sie ihre Aufmerksamkeit richten werden. Nach Norden zum Mittelmeer oder nach Süden zum Rest Afrikas"
+
+ MGB-formation-modifier-01:0 "Herausforderung Für Den Mittelmeerraum"
+ MGB-formation-modifier-02:0 "Westafrika Gehört Uns"
+  
+ MGB-unification-journal:0 "Die Vereinigung Der Westlichen Muslime"
+ MGB-unification-journal-complete:0 "Ist Maghreb"
+ 
+ MGB-unification-event-title:0 "Eine Neue Macht In Nordafrika"
+ MGB-unification-event-description:0 "Worauf werden wir uns konzentrieren?"
+ MGB-unification-event-flavor:0 "Wenn die westlichen Muslime vereint sind, müssen wir uns entscheiden, worauf wir unsere Aufmerksamkeit richten wollen. Wir könnten uns auf den Norden und unsere Kontrolle über das Mittelmeer konzentrieren. Oder wir könnten uns auf den Süden konzentrieren und weiter nach Afrika vordringen"
+ MGB-unification-option-01:0 "Die neue Macht im Mittelmeerraum."
+ MGB-unification-option-02:0 "Wir werden ganz Westafrika kontrollieren."
+ MGB-unification-journal_reason:0 "Die Gründung Maghreb"
+ 
+#BSA
+ BSA:0 "Baltoskandien"
+ BSA_ADJ:0 "Baltoskandien"
+ BSA_FLAVOR_TEXT:0 "Die Menschen in den nordischen Ländern haben sich zusammengeschlossen, um sich gegen äußere Bedrohungen ihrer Existenz zu wehren. Sie werden sich der Welt gemeinsam stellen, aber wie wird die Welt darauf reagieren?"
+
+ BSA-formation-modifier-01:0 "Vereint Stehen Wir"
+  
+ BSA-unification-journal:0 "Die Vereinigung Aller Nordischen Völker"
+ BSA-unification-journal-complete:0 "Ist Baltoskandien"
+ 
+ BSA-unification-event-title:0 "Der Nordstaat Beugt Sich Niemandem"
+ BSA-unification-event-description:0 "Nur vereint werden wir halten."
+ BSA-unification-event-flavor:0 "Im Norden Europas leben viele verschiedene Kulturen, und allein sind wir anfällig für Eroberungen. Aber gemeinsam sind wir eine Macht, mit der man rechnen muss. Niemand soll uns mehr aufhalten.  "
+ BSA-unification-option-01:0 "Wir müssen unser Volk vereinen"
+ BSA-unification-journal_reason:0 "Die Gründung von Baltoscandia"
+ 
+#BKU
+ BKU:0 "Balkan Union"
+ BKU_ADJ:0 "Balkan Union"
+ BKU_FLAVOR_TEXT:0 "Viele Jahrhunderte lang haben sie sich bekämpft, aber ihre Differenzen wurden beiseite geschoben, um eine Union zu bilden. Viele Staaten betrachten den Balkan als ein geteiltes Land, aber er wird ihnen das Gegenteil beweisen."
+
+ BKU-formation-modifier-01:0 "Keiner Soll Uns Mehr überfallen"
+  
+ BKU-unification-journal:0 "Die Menschen Auf Dem Balkan Sind Vereint"
+ BKU-unification-journal-complete:0 "Is Der Balkan Union"
+ 
+ BKU-unification-event-title:0 "Nicht Mehr Länger Ein Pulverfass"
+ BKU-unification-event-description:0 "Wir müssen lernen, uns der Welt gemeinsam zu stellen."
+ BKU-unification-event-flavor:0 "Zu lange haben sich die Völker auf dem Balkan untereinander bekämpft. Das hat uns schwach und anfällig für Invasionen von außen gemacht. Unter dieser Union soll das nicht mehr passieren."
+ BKU-unification-option-01:0 "Wir müssen unsere Souveränität bewahren"
+ BKU-unification-journal_reason:0 "Die Gründung der Balkan Union"
+ 
+#NSE
+ NSE:0 "Nordsee-Imperium"
+ NSE_ADJ:0 "Nordsee-Imperium"
+ NSE_FLAVOR_TEXT:0 "Das alte Wikingerreich formiert sich, aber wird es zusammenbleiben und seine Kontrolle über die Nordsee behalten können?"
+
+ NSE-formation-modifier-01:0 "Die Macht Unserer Marine"
+  
+ NSE-unification-journal:0 "Ein Neues Wikingerzeitalter Wird Eingeläutet"
+ NSE-unification-journal-complete:0 "Ist Das Nordseeimperium"
+ 
+ NSE-unification-event-title:0 "Das Alte Wikingerreich Steht Wieder"
+ NSE-unification-event-description:0 "König Knut wäre stolz."
+ NSE-unification-event-flavor:0 "Auf dem Höhepunkt der Wikingerzeit waren die Königreiche Norwegen, Dänemark und England unter einer Wikingerkrone vereint. Diese Union war damals eine der stärksten in Europa. Jetzt müssen wir diesen Titel zurückgewinnen und unser Meer schützen."
+ NSE-unification-option-01:0 "Die Nordsee ist unser Revier"
+ NSE-unification-journal_reason:0 "Die Gründung des Nordseeimperiums"
+
+#FBU
+ FBU:0 "Französisch-Britische Union"
+ FBU_ADJ:0 "Französisch-Britische Union"
+ FBU_FLAVOR_TEXT:0 "Sie mögen seit tausend Jahren Rivalen sein, aber ihre Länder waren immer miteinander verbunden. Diese Verbindung wurde schließlich zu einer echten Union formalisiert."
+
+ FBU-formation-modifier-01:0 "Unser Volk Müssen Zusammenarbeiten"
+  
+ FBU-unification-journal:0 "Die Folgen Der Normannischen Eroberung"
+ FBU-unification-journal-complete:0 "Ist Die Französisch-Britische Union"
+ 
+ FBU-unification-event-title:0 "Jahrhunderte Des Konflikts Sind Zu Ende"
+ FBU-unification-event-description:0 "Eine historische Vereinigung endlich verwirklicht"
+ FBU-unification-event-flavor:0 "Seit der normannischen Eroberung sind England und Frankreich auf irgendeine Weise miteinander verbunden. Jetzt ist diese Verbindung verwirklicht und ihre Völker sind in einer Union vereint. Werden die anderen Länder in Europa diesen Zusammenschluss akzeptieren?"
+ FBU-unification-option-01:0 "Wir müssen diese Union zusammenhalten."
+ FBU-unification-journal_reason:0 "Die Gründung der französisch-britischen Union"
+ 
+#ICE
+ ICE:0 "Inkareich"
+ ICE_ADJ:0 "Inkareich"
+ ICE_FLAVOR_TEXT:0 "Vor ein paar hundert Jahren wurde das Inka-Reich von Invasoren zerstört. Jetzt ist es wieder zusammen und es ist an ihnen zu sehen, ob sie bereit sind, mit ihnen zu arbeiten oder sie zu bekämpfen."
+ 
+ ICE-formation-modifier-01:0 "Wir Müssen Daran Arbeiten, Sie Zu Assimilieren"
+ ICE-formation-modifier-02:0 "Tod Den Kolonisatoren"
+  
+ ICE-unification-journal:0 "Das Antike Reich Formt Sich Neu"
+ ICE-unification-journal-complete:0 "Ist Das Inkareich"
+ 
+ ICE-unification-event-title:0 "Große Veränderungen Sind Im Gange"
+ ICE-unification-event-description:0 "Wie werden wir in die Zukunft blicken?"
+ ICE-unification-event-flavor:0 "Als die Spanier kamen, um dieses Land zu kolonisieren, herrschte das Inkareich über dieses Land. Jetzt sind sie wieder vereint. Bei der Diskussion über das weitere Vorgehen versuchten mehrere indigene Mitglieder, in mehrere Regierungsgebäude einzudringen und diese zu übernehmen. Sollte man dies zulassen?"
+ ICE-unification-option-01:0 "Nein, wir werden ihnen zeigen, wie wir zusammenarbeiten können."
+ ICE-unification-option-02:0 "Ja, wir werden uns an den Kolonisatoren rächen!"
+ ICE-culture-warning:0 "WARNUNG! GROSSER KULTURWANDEL"
+ ICE-unification-journal_reason:0 "Die Gründung des Inkareiches"
+ 
+#CRT
+ CRT:0 "Karthago"
+ CRT_ADJ:0 "Karthago"
+ CRT_FLAVOR_TEXT:0 "Zu seiner Blütezeit war Karthago der Herrscher des Mittelmeers und wird es wieder sein. Es gibt jedoch mehrere ältere und größere Nationen, die Ähnliches anstreben. Wir müssen sie zurückhalten!"
+ 
+ CRT-formation-modifier-01:0 "Wir Müssen Zu Unseren Wurzeln Zurückkehren"
+  
+ CRT-unification-journal:0 "Die Reformen Des Handelsimperiums"
+ CRT-unification-journal-complete:0 "Ist Karthago"
+ 
+ CRT-unification-event-title:0 "Wir Müssen Die Volle Kontrolle Über Das Mittelmeer Erlangen"
+ CRT-unification-event-description:0 "Der gesamte Handel wird über uns laufen."
+ CRT-unification-event-flavor:0 "Vor über 2000 Jahren wurde das karthagische Reich von den Römern zerstört. Aber wir sind endlich wieder auferstanden, um unseren rechtmäßigen Platz rund um das Mittelmeer einzunehmen. Unsere Stärke waren Handel und Gewerbe, und so soll es auch wieder sein."
+ CRT-unification-option-01:0 "Die Macht unseres Handels wird dominieren"
+ CRT-unification-journal_reason:0 "Die Gründung Karthago "
+ 
+#APC
+ APCF:0 "Alpenkonföderation"
+ APCF_ADJ:0 "Alpenkonföderation"
+ APCF_FLAVOR_TEXT:0 "Die Völker rund um die Alpen haben sich zu einer Konföderation zusammengeschlossen. Wird dieser Zusammenschluss stark genug sein, um fremde Mächte abzuwehren, die es auf ihr wertvolles Land abgesehen haben?"
+ 
+ APCF-formation-modifier-01:0 "Eine Bergwirtschaft"
+  
+ APCF-unification-journal:0 "Die Gebirgskonföderation"
+ APCF-unification-journal-complete:0 "Ist Die Alpenkonföderation"
+ 
+ APCF-unification-event-title:0 "Unser Land Im Himmel"
+ APCF-unification-event-description:0 "Niemandem außer uns wird der Berg gehören."
+ APCF-unification-event-flavor:0 "Die Alpen in der Mitte Europas sind seit Jahrhunderten eine Trennlinie. Viele fremde Mächte haben versucht, sie zu kontrollieren, um auf die andere Seite zu gelangen. Damit ist heute Schluss, die Völker rund um die Alpen haben sich zu einer einzigen Konföderation zusammengeschlossen."
+ APCF-unification-option-01:0 "Wir werden die Reichtümer unter unseren Füßen nutzen"
+ APCF-unification-journal_reason:0 "Die Gründung der Alpenkonföderation"
+ 
+#LTR
+ LTR:0 "Lotharingien"
+ LTR_ADJ:0 "Lotharingien"
+ LTR_FLAVOR_TEXT:0 ""
+ 
+ LTR-formation-modifier-01:0 "Zwischen Großmächten"
+  
+ LTR-unification-journal:0 "Das Karolingische Erbe"
+ LTR-unification-journal-complete:0 "Ist Lotharingien"
+ 
+ LTR-unification-event-title:0 "Lotharingien Formiert Sich Neu"
+ LTR-unification-event-description:0 "Das Reich der Mitte lebt."
+ LTR-unification-event-flavor:0 "Nach der Zeit des karolingischen Reiches war Lotharingien die Mitte der abgespaltenen Königreiche. Zwischen den fränkischen und germanischen Königreichen. Irgendwann wurde Lotharingien von diesen Königreichen aufgefressen, aber nicht mehr. Wir werden als Grenzstaat zwischen den Franzosen und den Germanen agieren."
+ LTR-unification-option-01:0 "Werden wir in der Lage sein, Angriffe von beiden Seiten abzuwehren?"
+ LTR-unification-journal_reason:0 "Die Gründung Lotharingien "
+
+#MDZ
+ MDZ:0 "Międzymorze"
+ MDZ_ADJ:0 "Międzymorze"
+ MDZ_FLAVOR_TEXT:0 ""
+ 
+ MDZ-formation-modifier-01:0 "Unsere Differenzen Ausgleichen"
+  
+ MDZ-unification-journal:0 "Ein Modernes Commonwealth"
+ MDZ-unification-journal-complete:0 "Ist Der Międzymorze"
+ 
+ MDZ-unification-event-title:0 "Ein Panslawischer Staat"
+ MDZ-unification-event-description:0 "Osteuropa Vereinigt Sich."
+ MDZ-unification-event-flavor:0 "Die Idee der Międzymorze war ursprünglich als Nachfolgestaat des polnisch-litauischen Commonwealth gedacht, und das werden wir auch sein. Wir werden jedoch alle verschiedenen slawischen Völker für eine stärkere Union akzeptieren."
+ MDZ-unification-option-01:0 "Wird dieses Experiment Bestand haben?"
+ MDZ-unification-journal_reason:0 "Die Bildung der Międzymorze"
+ 
+#TMD
+ TMD:0 "Timuridenreich"
+ TMD_ADJ:0 "Timuridenreich"
+ TMD_FLAVOR_TEXT:0 "Der ursprüngliche Gründer des Timuridenreichs sah sich als offizieller Erbe des Mongolenreichs. Da diese Länder nun wieder vereint sind, werden wir uns sowohl nach Osten als auch nach Westen orientieren."
+ 
+ TMD-formation-modifier-01:0 "Brücke Zwischen Ost Und West"
+  
+ TMD-unification-journal:0 "Erbe Des Mongolenreichs"
+ TMD-unification-journal-complete:0 "Ist das Timuridenreich"
+ 
+ TMD-unification-event-title:0 "Das Alte Reich Wieder Vereint"
+ TMD-unification-event-description:0 "Iran-u-Turan regiert wieder."
+ TMD-unification-event-flavor:0 "Der ursprüngliche Gründer des Timuridenreichs sah sich als Erbe des Mongolenreichs, und er hatte Recht. Genau wie wir heute. Wenn unser Reich steht, werden wir als Brücke zwischen Ost und West fungieren, wir werden das Land sein, das alle anderen Länder miteinander verbindet."
+ TMD-unification-option-01:0 "Die Welt verbinden"
+ TMD-unification-journal_reason:0 "Die Gründung des Timuridenreiches"
+
+#MCE
+ MCE:0 "Makedonisches Reich"
+ MCE_ADJ:0 "Makedonisches Reich"
+ MCE_FLAVOR_TEXT:0 "Vor über 2000 Jahren gründete Alexander der Große eines der größten Reiche der antiken Welt. Seine Zeit war kurz und sein Reich zerfiel. Es wurde wieder gegründet und hat die Geschichte für immer verändert."
+ 
+ MCE-formation-modifier-01:0 "Alte Mazedonische Stärke"
+  
+ MCE-unification-journal:0 "Der Erbe Von Alexander"
+ MCE-unification-journal-complete:0 "Ist das Makedonische Reich"
+ 
+ MCE-unification-event-title:0 "Alexander Würde Stolz Sein"
+ MCE-unification-event-description:0 "Die Macht von Macadonia zeigt sich wieder."
+ MCE-unification-event-flavor:0 "Alexander der Große gründete eines der größten Reiche der antiken Welt. Doch durch seinen frühen Tod wurde es zersplittert und brach zusammen. Wir werden sein Erbe fortsetzen!"
+ MCE-unification-option-01:0 "Alexanders Erbe"
+ MCE-unification-journal_reason:0 "Die Gründung des Makedonischen Reiches"
+
+#FUG
+ FUG:0 "Finno-Ugria"
+ FUG_ADJ:0 "Finno-Ugria"
+ FUG_FLAVOR_TEXT:0 "Die Völker Nordskandinaviens und Nordrusslands sind seit langem durch die Geschichte miteinander verbunden. Wird es ihnen gelingen, die anderen Großmächte in ihrer nördlichen Hochburg in Schach zu halten?"
+ 
+ FUG-formation-modifier-01:0 "Nördliche Stärke"
+  
+ FUG-unification-journal:0 "Die Menschen Im Norden Vereinen"
+ FUG-unification-journal-complete:0 "Ist Finno-Ugria"
+ 
+ FUG-unification-event-title:0 "Zwei Kulturen Verschmelzen"
+ FUG-unification-event-description:0 "Wir sind ein hartes Volk."
+ FUG-unification-event-flavor:0 "Das finnische und das ugiesische Volk haben eine kulturelle und sprachliche Verbindung, die Tausende von Jahren zurückreicht. Wir sind nun zu einem Staat verbunden, um den Gefahren von außen zu begegnen."
+ FUG-unification-option-01:0 "Schützen Sie unsere Kutluren"
+ FUG-unification-journal_reason:0 "Die gründung von Forming Finno-Ugria"
+
+#POLY
+ POLY:0 "Polynesien"
+ POLY_ADJ:0 "Polynesien"
+ POLY_FLAVOR_TEXT:0 "Polynesien kontrolliert ein großes Gebiet auf dem Globus, aber nur wenig Land. Viele fremde Mächte versuchen, dies für ihre Zwecke auszunutzen. Wird Polynesien in der Lage sein, die Invasoren abzuwehren und in eine unabhängige Zukunft zu blicken?"
+ 
+ POLY-formation-modifier-01:0 "Unsere Inseln Sind Unsere Stärke"
+  
+ POLY-unification-journal:0 "Die Vereinigung Der Polynesischen Inseln"
+ POLY-unification-journal-complete:0 "Ist Polynesien"
+ 
+ POLY-unification-event-title:0 "Ein gemeinsamer Ozean"
+ POLY-unification-event-description:0 "Wir werden nicht kolonisiert werden."
+ POLY-unification-event-flavor:0 "Die Völker in Polynesien sind nur wenige, aber gemeinsam haben wir eine Chance, uns gegen mögliche Eindringlinge zu wehren. Wir müssen unsere Kultur schützen, denn sie ist vielfältig. "
+ POLY-unification-option-01:0 "Die Macht des Meeres wird uns beschützen"
+ POLY-unification-journal_reason:0 "Die Gründung Polynesiens"
+
+#GLE
+ GLE:0 "Reich der Großen Seen"
+ GLE_ADJ:0 "Reich der Großen Seen"
+ GLE_FLAVOR_TEXT:0 "Afrika ist ein vielfältiger Ort, und das Land um die großen Seen ist nicht anders. Den Völkern dort ist es gelungen, sich trotz ihrer Unterschiede zu vereinen, und sie müssen nun nach außen schauen, um ihre Unabhängigkeit zu bewahren. "
+ 
+ GLE-formation-modifier-01:0 "Kampf Um Die Seen"
+  
+ GLE-unification-journal:0 "Das Reich Der Seen"
+ GLE-unification-journal-complete:0 "Ist Great Lakes Empire"
+ 
+ GLE-unification-event-title:0 "Vereint Rund Um Den See"
+ GLE-unification-event-description:0 "Das Wasser gibt uns Kraft"
+ GLE-unification-event-flavor:0 "Um die großen Seen herum haben sich viele kleine Königreiche gebildet, doch nun sind sie und die umliegenden Länder zu einem einzigen vereint. Es gibt viele Bedrohungen für unser Land, aber wir werden uns gegen alle durchsetzen, die es wagen, sich uns in den Weg zu stellen. "
+ GLE-unification-option-01:0 "Wir müssen unsere Lebensweise schützen"
+ GLE-unification-journal_reason:0 "Die Gründung des Reichs der Großen Seen"
+
+#HAF
+ HAF:0 "Horn von Afrika"
+ HAF_ADJ:0 "Horn von Afrika"
+ HAF_FLAVOR_TEXT:0 "Das Horn von Afrika hat sich vereinigt und damit viele neue Möglichkeiten geschaffen. Es liegt im Zentrum des Handels zwischen dem Osten und dem Westen. Sollen sie dies nutzen, um unseren Einfluss auf beide Seiten auszuweiten, oder werden sie einen anderen Weg einschlagen?"
+ 
+ HAF-formation-modifier-01:0 "Unsere Handelshäfen Ausbauen"
+  
+ HAF-unification-journal:0 "Das Horn Wird Sich Vereinen"
+ HAF-unification-journal-complete:0 "Ist das Horn von Afrika"
+ 
+ HAF-unification-event-title:0 "Der Scheideweg Des Handels"
+ HAF-unification-event-description:0 "Nicht mehr ausgebeutet"
+ HAF-unification-event-flavor:0 "Lange Zeit war das Horn von Afrika aufgrund seiner Lage die Verbindung zwischen dem Nahen Osten, Europa und Indien im Osten. Dies führte zu Ausbeutung und Eroberung durch fremde Mächte. Damit ist jetzt Schluss, das Horn hat sich vereinigt und wir kontrollieren den Handelsfluss selbst. "
+ HAF-unification-option-01:0 "Der Handel muss fließen"
+ HAF-unification-journal_reason:0 "Die Gründung des Horns von Afrika"
+
+#CLE
+ CLE:0 "Karolingerreich"
+ CLE_ADJ:0 "Karolingerreich"
+ CLE_FLAVOR_TEXT:0 "Das Karolingische Reich ist nach langer Zeit wieder entstanden, Karl der Große wäre stolz darauf. Würde dieser westeuropäische Superstaat den Aufstieg des Radikalismus und eine weitere Aufspaltung verhindern können?"
+ 
+ CLE-formation-modifier-01:0 "Alle Menschen Glücklich Machen"
+  
+ CLE-unification-journal:0 "Das Reich Von Karl Dem Großen"
+ CLE-unification-journal-complete:0 "Ist Das Karolingische Reich"
+ 
+ CLE-unification-event-title:0 "Erbe Des Römischen Reiches"
+ CLE-unification-event-description:0 "Der Aufstieg der Franken"
+ CLE-unification-event-flavor:0 "Nach dem Untergang des Römischen Reiches eroberten die Franken einen Großteil Westeuropas. Dieses Land wurde unter Karl dem Großen stabilisiert und blühte auf. Er wäre stolz, wenn das Karolingische Reich wiedergeboren würde. Doch wie damals besteht das Reich aus vielen verschiedenen Völkern, was zu einer erneuten Spaltung führen könnte."
+ CLE-unification-option-01:0 "Einen weiteren geteilten Staat verhindern"
+ CLE-unification-journal_reason:0 "Die Gründung des Karolingerreichs"
+
+#BRM
+ BRM:0 "Bulgarien-Rumänien"
+ BRM_ADJ:0 "Bulgarien-Rumänien"
+ BRM_FLAVOR_TEXT:0 ""
+ 
+ BRM-formation-modifier-01:0 "Kämpfen Sie weiter für unsere Freiheit"
+  
+ BRM-unification-journal:0 "Gemeinsam besser"
+ BRM-unification-journal-complete:0 "Ist Bulgarien-Rumänien"
+ 
+ BRM-unification-event-title:0 "Vereint Gegen Die Invasoren"
+ BRM-unification-event-description:0 "Brüder vom Balkan"
+ BRM-unification-event-flavor:0 "Sowohl die Rumänen als auch die Bulgaren wurden lange Zeit von Außenstehenden unterdrückt, seien es Russen oder Türken. Doch nun haben sie sich unter einer gemeinsamen Flagge zusammengeschlossen, um zu verhindern, dass dies jemals wieder geschieht!"
+ BRM-unification-option-01:0 "Wir werden weiter kämpfen müssen"
+ BRM-unification-journal_reason:0 "Die Gründung von Bulgarien-Rumänien"
+
+#SLU
+ SLU:0 "Slawische Union"
+ SLU_ADJ:0 "Slawische Union"
+ SLU_FLAVOR_TEXT:0 "Seit langem sind die Slawen über ganz Europa verstreut und bekämpfen Außenstehende und sich selbst. Vereint sind sie eine Macht, die es mit den anderen Großmächten aufnehmen kann, aber werden diese sie akzeptieren?"
+ 
+ SLU-formation-modifier-01:0 "Russische Vorherrschaft"
+ SLU-formation-modifier-02:0 "Multi-Eithische Regel"
+  
+ SLU-unification-journal:0 "Slawen Gemeinsam Stark"
+ SLU-unification-journal-complete:0 "Ist die Slawische Union"
+ 
+ SLU-unification-event-title:0 "Alle Slawen Sind zusammen"
+ SLU-unification-event-description:0 "Keiner wird mehr von einem Pulverfass sprechen"
+ SLU-unification-event-flavor:0 "Die Slawen sind eine große Gruppe verschiedener Kulturen, von denen die Russen die größte sind. Wenn die Slawen vereinigt sind, wer wird dann die Kontrolle über dieses neue Land übernehmen? Die Russen selbst oder eine multiethnische Gruppe, die alle Slawen vertritt?"
+ SLU-unification-option-01:0 "Der Russe wird führen"
+ SLU-unification-option-02:0 "Keine einzelne Gruppe soll führen"
+ SLU-unification-journal_reason:0 "Die Gründung der Slawischen Union"
+
+#GAC
+ GAC:0 "Großraum Amerika"
+ GAC_ADJ:0 "Großraum Amerika"
+ GAC_FLAVOR_TEXT:0 "Die nördlichen Amerikas haben sich unter einer einzigen Flagge vereint. Gemeinsam werden sie das nächste Jahrhundert angehen, aber wird der Rest der Welt sie akzeptieren?"
+ 
+ GAC-formation-modifier-01:0 "Leichter Isolationismus"
+ GAC-formation-modifier-02:0 "Handel Akzeptieren"
+  
+ GAC-unification-journal:0 "Die Einigung Der Neuen Welt"
+ GAC-unification-journal-complete:0 "Ist Großraum Amerika"
+ 
+ GAC-unification-event-title:0 "Die Amerikas Für Die Amerikaner"
+ GAC-unification-event-description:0 "Die alte Welt hat keinen Einfluss auf uns!"
+ GAC-unification-event-flavor:0 "Alle Menschen im Norden Amerikas haben sich zusammengeschlossen, um sich gegen äußere Kräfte zu wehren. Viele Menschen, die durch diese Stimmung verärgert sind, fordern, die Kommunikation mit der alten Welt stark einzuschränken und sich nur noch auf den amerikanischen Kontinent zu konzentrieren. Andere hingegen wollen mehr Handel, um unsere wachsende Nation zu stärken."
+ GAC-unification-option-01:0 "Wir brauchen keine Außenseiter"
+ GAC-unification-option-02:0 "Mehr Handel anstreben"
+ GAC-unification-journal_reason:0 "Die Gründung von Großraum Amerika"
+
+#GOGU
+ GOGU:0 "Goguryeo"
+ GOGU_ADJ:0 "Goguryeo"
+ GOGU_FLAVOR_TEXT:0 "Das koreanische Volk hat das Land zurückerobert, das ihm vor langer Zeit gehörte. Werden die Chinesen dies tolerieren oder versuchen, uns erneut zu vernichten?"
+ 
+ GOGU-formation-modifier-01:0 "Verteidigung Um Jeden Preis"
+  
+ GOGU-unification-journal:0 "Die Wiederherstellung Der Alten Dynastie"
+ GOGU-unification-journal-complete:0 "Ist Goguryeo"
+ 
+ GOGU-unification-event-title:0 "Die Koreaner Erheben Sich Wieder"
+ GOGU-unification-event-description:0 "Die alten Länder sind wieder da. "
+ GOGU-unification-event-flavor:0 "Das koreanische Volk ist schon viel zu lange von dieser Halbinsel abhängig! Vor langer Zeit besaßen wir große Ländereien im Norden, und das tun wir wieder. Aber die Chinesen werden sicher ihr Land zurückfordern. Wir müssen uns vorbereiten und uns schützen. "
+ GOGU-unification-option-01:0 "Unsere Grenzen verteidigen"
+ GOGU-unification-journal_reason:0 "Die Gründung von Goguryeo"
+
+#CPH
+ CPH:0 "Das Kalifat"
+ CPH_ADJ:0 "Das Kalifat"
+ CPH_FLAVOR_TEXT:0 "Das Kalifat war eines der ersten großen Reiche im Nahen Osten, verlor aber schließlich seine Macht und seinen Einfluss. Wiedergeboren, ist das Kalifat bereit, sein Gemetzel, seine Zerstörung und seine Eroberung fortzusetzen. "
+ 
+ CPH-formation-modifier-01:0 "Nieder Mit Den Ungläubigen"
+  
+ CPH-unification-journal:0 "Die Wiederherstellung Der Höhe Des Islam"
+ CPH-unification-journal-complete:0 "Ist das Kalifat"
+ 
+ CPH-unification-event-title:0 "Alle Unter Islam United"
+ CPH-unification-event-description:0 "Ungläubige, fürchtet uns."
+ CPH-unification-event-flavor:0 "Der große Prophet begann vor über einem Jahrtausend mit der Plünderung, Vergewaltigung und Eroberung dieser Länder, und wir haben es wieder getan. Jetzt werden sich alle vor uns beugen oder sterben. "
+ CPH-unification-option-01:0 "Der Islam wird den Nahen Osten beherrschen"
+ CPH-unification-journal_reason:0 "Die Gründung des Kalifats"
+
+#GCA
+ GCA:0 "Große Konföderation von Amerika"
+ GCA_ADJ:0 "Große Konföderation von Amerika"
+ GCA_FLAVOR_TEXT:0 "Die Ureinwohner Amerikas haben ihr Land zurückerobert und führen nun den gesamten Kontinent an. Wird es ihnen gelingen, an der Macht zu bleiben und ein ganz anderes Amerika ins 20. "
+ 
+ GCA-formation-modifier-01:0 "Wir Müssen Uns Selbst Schützen"
+ GCA-formation-modifier-02:0 "Wir Holen Uns Xurück, Was Uns Gehört"
+  
+ GCA-unification-journal:0 "Die Eingeborenen übernehmen wieder die Kontrolle"
+ GCA-unification-journal-complete:0 "Ist die Große Konföderation von Amerika"
+ 
+ GCA-unification-event-title:0 "Ein Wiedervereinigter Kontinent"
+ GCA-unification-event-description:0 "Die Götter sind uns wohlgesonnen."
+ GCA-unification-event-flavor:0 "Das Land im Westen wurde von den Ureinwohnern des Landes zurückerobert. Doch die Herrscher sind unsicher, wie es weitergehen soll. Einige sagen, wir sollten versuchen, mit den Europäern zu koexistieren, während andere dazu aufrufen, unsere Eroberung weiter im Osten fortzusetzen."
+ GCA-unification-option-01:0 "Wir haben weit genug vorgedrungen"
+ GCA-unification-option-02:0 "Wir haben noch nicht einmal angefangen!"
+
+ offer_brittain_new_england_for_help:0 "Angebot Großbritannien Neuengland zur Unterstützung"
+ offer_brittain_new_england_for_help_desc:0 "Wir werden Großbritannien sein ehemaliges Land "Neuengland“ anbieten, in der Hoffnung, dass es unseren Kampf unterstützen wird."
+ GCA-unification-journal_reason:0 "Die Gründung der Großen Konföderation von Amerika"
+
+#TUGO
+ TUGO:0 "Toungoo Reich"
+ TUGO_ADJ:0 "Toungoo Reich"
+ TUGO_FLAVOR_TEXT:0 "Das Toungoo-Imperium ist groß, hat aber noch viele noch größere Nachbarn. Werden sie den kommenden Sturm überleben?"
+ 
+ TUGO-formation-modifier-01:0 "Dieses Land Gehört Uns"
+  
+ TUGO-unification-journal:0 "Das kurzlebige Imperium erhebt sich wieder"
+ TUGO-unification-journal-complete:0 "Ist das Toungoo-Imperium"
+ 
+ TUGO-unification-event-title:0 "Den Zusammenbruch Wiederherstellen"
+ TUGO-unification-event-description:0 "Eine Dynastie wiederhergestellt."
+ TUGO-unification-event-flavor:0 "Das erste Toungoo-Imperium entstand und fiel in kurzer Zeit. Dieses Mal werden wir überleben, aber wir müssen uns vor unseren größeren Nachbarn schützen. Nun erhebt sich das zweite Toungoo-Reich."
+ TUGO-unification-option-01:0 "Wir sind umgeben"
+
+ TUGO-unification-journal_reason:0 "Die Gründung des Toungoo-Imperiums"
+
+#TURA
+ TURA:0 "Turan"
+ TURA_ADJ:0 "Turan"
+ TURA_FLAVOR_TEXT:0 "Turan ist eine große Vereinigung der türkischen Völker. Seine Ländereien erstrecken sich weit und breit und seine Grenzen müssen geschützt werden. "
+ 
+ TURA-formation-modifier-01:0 "Rund um den Globus"
+  
+ TURA-unification-journal:0 "Das Vereinte Turkvolk"
+ TURA-unification-journal-complete:0 "Ist Turan"
+ 
+ TURA-unification-event-title:0 "Gemeinsam, Aber Weit Voneinander Entfernt"
+ TURA-unification-event-description:0 "Wir können uns der Welt nicht allein stellen."
+ TURA-unification-event-flavor:0 "Die Idee, die türkischen Völker zu vereinen, ist alt, aber dies ist das erste Mal, dass sie verwirklicht wurde. Gemeinsam sind wir stark für die Herausforderungen der Zukunft. "
+ TURA-unification-option-01:0 "Nah und doch fern"
+
+ TURA-unification-journal_reason:0 "Die Gründung Turan"
+
+#NEPR
+ NEPR:0 "Niederlande-Preußen"
+ NEPR_ADJ:0 "Niederlande-Preußen"
+ NEPR_FLAVOR_TEXT:0 "Die Niederländer und die Norddeutschen haben sich zu einer Union zusammengeschlossen, die eine mächtige Kombination aus Seefahrt und Armeestärke hervorbringt. Werden sie die neue Großmacht in der Welt sein?"
+ 
+ NEPR-formation-modifier-01:0 "Niederländische Traditionen"
+ NEPR-formation-modifier-02:0 "Preußische Traditionen"
+  
+ NEPR-unification-journal:0 "Verschmelzung der Niedersachsen"
+ NEPR-unification-journal-complete:0 "Ist Niederländisch-Preußen"
+ 
+ NEPR-unification-event-title:0 "Die Nicht Offensichtliche Union"
+ NEPR-unification-event-description:0 "Die Macht der Marine und der Armee."
+ NEPR-unification-event-flavor:0 "Die Integration mit den Süddeutschen hat nicht so funktioniert, wie wir alle gehofft hatten, obwohl die Niederländer und die Norddeutschen seit Jahrhunderten durch Kultur und Sprache verbunden sind. Dies hat zu einer starken, neuen Union geführt, aber welche der beiden Kulturen sollte im Mittelpunkt stehen?"
+ NEPR-unification-option-01:0 "Folgen Sie der Niederländischen maritimen Tradition"
+ NEPR-unification-option-02:0 "Folgen Sie der Tradition der preußischen Armee"
+
+ NEPR-unification-claim-event-title:0 "Ausländische Forderungen?"
+ NEPR-unification-claim-event-description:0 "So viele Möglichkeiten."
+ NEPR-unification-claim-event-flavor:0 "Beide Teile des neuen Reiches erheben fremde Ansprüche aus der Zeit vor der Vereinigung. Bei dieser Formation müssen wir uns entscheiden, welche davon wir weiter verfolgen werden. Andere Länder werden sicherlich müde sein, wenn wir uns entscheiden, zu aggressiv zu sein."
+
+ NEPR-unification-option-claims-01:0 "Verfolgung der Ansprüche der Niederländischen Tiefebene"
+ NEPR-unification-option-claims-02:0 "Verfolgung der preußisch-süddeutschen Ansprüche"
+ NEPR-unification-option-claims-03:0 "Verfolgung aller Ansprüche"
+
+ NEPR-unification-journal_reason:0 "Bildung von Niederländisch-Preußen"
+
+#BMY
+ BMY:0 "Britisch-Malaysia"
+ BMY_ADJ:0 "Britisch-Malaysia"
+ BMY_FLAVOR_TEXT:0 "Britisch-Malaysia ist ein Zusammenschluss südostasiatischer Territorien, die unter dem britischen Empire regiert wurden. Werden diese zersplitterten Territorien in der Lage sein, unter dem Druck dieser Welt zu wachsen und zu gedeihen?"
+ 
+ BMY-formation-modifier-01:0 "Britischer Einfluss"
+  
+ BMY-unification-journal:0 "Eine neue britische Kolonie"
+ BMY-unification-journal-complete:0 "Ist das britische Malaysia"
+ 
+ BMY-unification-event-title:0 "Gemeinsam, Aber Weit Voneinander Entfernt"
+ BMY-unification-event-description:0 "Unsere Brüder auf der anderen Seite des Ozeans."
+ BMY-unification-event-flavor:0 "Die Briten haben in dieser Region schon seit einiger Zeit Fuß gefasst. Es war nur eine Frage der Zeit, bis sie versuchen würden, ihre Expansionsbestrebungen in diesen Gebieten durchzusetzen. "
+ BMY-unification-option-01:0 "Die Briten kommen!"
+
+ BMY-unification-journal_reason:0 "Gründung von British Malaysia"
+
+ BMY-greater-malaysia:0 "Groß-Malaysia"
+
+ BMY-unification-event-title-2:0 "Ausweitung der britischen Kontrolle"
+ BMY-unification-event-description-2:0 "Neue Länder."
+ BMY-unification-event-flavor-2:0 "Mit der Ausdehnung dieser neuen Gebiete auf Borneo müssen wir sicherstellen, dass diese Menschen für die Kolonie produktiv sein können. Es ist an der Zeit, einige Gesetze zu ändern und diese Menschen wie die anderen malaiischen Völker zu akzeptieren."
+ BMY-unification-option-02:0 "Willkommen Unsere Neuen Freunde"
+
+#GBMY
+ GBMY:0 "Groß-Malaysia"
+ GBMY_ADJ:0 "Groß-Malaysia"
+ GBMY_FLAVOR_TEXT:0 "Britisch-Malaysia ist ein Zusammenschluss südostasiatischer Territorien, die unter dem britischen Empire regiert wurden. Werden diese zersplitterten Territorien in der Lage sein, unter dem Druck dieser Welt zu wachsen und zu gedeihen?"
+
+#IJP
+ IJP:0 "Kaiserliches Japan"
+ IJP_ADJ:0 "Kaiserliches Japan"
+ IJP_FLAVOR_TEXT:0 "Das kaiserliche Japan hat sich in Rekordtempo aus seinen vorindustriellen Ketten gelöst und einen großen Teil Asiens erobert. Wird es in der Lage sein, all dieses Land zu halten und mit den westlichen Mächten zu konkurrieren?"
+ 
+ IJP-formation-modifier-01:0 "Träume Von Einer Größeren Sphäre"
+  
+ IJP-unification-journal:0 "Japan Ist Stolz Auf Sich"
+ IJP-unification-journal-complete:0 "Ist Das Kaiserliche Japan"
+ 
+ IJP-unification-event-title:0 "Macht Für Japan Und Sein Volk"
+ IJP-unification-event-description:0 "Keine einzige Macht kann sich gegen uns stellen."
+ IJP-unification-event-flavor:0 "Von den Feuern der Vorindustrialisierung zum Meister Ostasiens. Das japanische Volk ist bereit und in der Lage, den anderen westlichen Imperialmächten ebenbürtig zu sein. Aus dieser Position heraus müssen wir unsere eigene Sphäre schaffen, um unseren Einfluss zu festigen."
+ IJP-unification-option-01:0 "Blick nach außen"
+
+ IJP-unification-journal_reason:0 "Die Gründung Des Kaiserlichen Japans"
+
+#SIKH
+ SIKH:0 "Sikh-Reich"
+ SIKH_ADJ:0 "Sikh-Reich"
+ SIK_FLAVOR_TEXT:0 "Die Sikhs haben ihren Platz in der Welt behauptet, aber sie sind von vielen größeren Feinden umgeben. China und Britisch-Indien sind die schlimmsten von allen. Wird diese junge Nation in der Lage sein, für sich selbst zu sorgen? "
+ 
+ SIKH-formation-modifier-01:0 "Erzwungene Konversionen"
+  
+ SIKH-unification-journal:0 "Wiedergeburt Eines Großen Sikh-Staates"
+ SIKH-unification-journal-complete:0 "Ist Das Sikh-Reich"
+ 
+ SIKH-unification-event-title:0 "Ein Ort, Den Wir Unser Eigen Nennen"
+ SIKH-unification-event-description:0 "Umgeben von anderen Religionen."
+ SIKH-unification-event-flavor:0 "Selbst nach der Ausrufung unseres Sikh-Staates sind wir in einigen Gebieten immer noch eine Minderheit. Wir müssen unsere eigenen Überzeugungen verteidigen, da wir von mehreren anderen Religionen umgeben sind, die uns nicht wohlwollend gegenüberstehen. "
+ SIKH-unification-option-01:0 "Unser Glaube soll uns leiten"
+
+ SIKH-unification-journal_reason:0 "Die Gründung Des Sikh-Reiches"
+
+#GCAN
+ GCAN:0 "Groß-Kanada"
+ GCAN_ADJ:0 "Groß-Kanada"
+ GCAN_FLAVOR_TEXT:0 "Kanada ist weit über die Grenzen des Nordens hinausgewachsen und gehört heute zu den Mächten, die den nordamerikanischen Kontinent beherrschen. Wie wird Kanada diese neue Position auf der Weltbühne nutzen?"
+ 
+ GCAN-formation-modifier-01:0 "Neue Kanadische Kultur"
+  
+ GCAN-unification-journal:0 "Eine Neue Macht In Nordamerika"
+ GCAN-unification-journal-complete:0 "Ist Groß-Kanada"
+ 
+ GCAN-unification-event-title:0 "Die Fesseln Unserer Vergangenheit Hinter Uns Lassen"
+ GCAN-unification-event-description:0 "Das Jahrhundert des Bibers."
+ GCAN-unification-event-flavor:0 "Lange wurden wir von anderen festgehalten und niedergehalten. Die Briten haben uns getrennt und schwach gehalten, während Amerika uns in die kalten Länder des Nordens gezwungen hat, damit ist jetzt Schluss! Wir werden der Welt unsere kanadische Macht zeigen, eh!"
+ GCAN-unification-option-01:0 "Unser Platz in der Welt"
+
+ GCAN-unification-journal_reason:0 "Die Gründung von Groß-Kanada"
+
+#BREP
+ BREP:0 "Burenrepublik"
+ BREP_ADJ:0 "Burenrepublik"
+ BREP_FLAVOR_TEXT:0 "Die Buren, die vor einigen hundert Jahren an der Südspitze Afrikas angekommen sind, haben endlich einen festen Platz, den sie ihr Zuhause nennen können. Wird es ihnen gelingen, dies zu bewahren, oder werden sie unter den Teppich der Geschichte gekehrt?"
+ 
+ BREP-formation-modifier-01:0 "Wenige An Der Zahl"
+  
+ BREP-unification-journal:0 "Die Buren Beanspruchen Ihren Platz In Afrika"
+ BREP-unification-journal-complete:0 "Ist Die Burenrepublik"
+ 
+ BREP-unification-event-title:0 "Zahlenmäßig Und Waffentechnisch Unterlegen"
+ BREP-unification-event-description:0 "Wir haben viel zu beweisen."
+ BREP-unification-event-flavor:0 "Wir waren immer eine Minderheit, seit wir vor ein paar hundert Jahren hierher gezogen sind. Endlich haben wir unser Stückchen Welt für uns beansprucht, aber wir müssen dafür sorgen, dass jeder in dieser Republik das auch so sieht. "
+ BREP-unification-option-01:0 "Zeigen Sie ihnen den Weg"
+
+ BREP-unification-journal_reason:0 "Die Gründung der Burenrepublik"
+
+#PAGR
+ PAGR:0 "Patria Grande"
+ PAGR_ADJ:0 "Patria Grande"
+ PAGR_FLAVOR_TEXT:0 ""
+  
+ PAGR-unification-journal:0 "Spanisch Amerika Gemeinsam Vereint"
+ PAGR-unification-journal-complete:0 "Ist Patria Grande"
+ 
+ PAGR-unification-event-title:0 "Jede Erwartung Übertreffen"
+ PAGR-unification-event-description:0 "Ein großes Reich erreicht"
+ PAGR-unification-event-flavor:0 "Seit unserer Unabhängigkeit von Spanien hat die Idee eines geeinten Spanisch-Amerikas an Zugkraft gewonnen. Mit der Verwirklichung dieser Idee können wir nun den Blick nach außen auf andere Länder richten. "
+ PAGR-unification-option-01:0 "Rückkehr in unsere Heimatländer"
+ PAGR-unification-option-02:0 "Das restliche Südamerika vereinigen"
+
+ PAGR-unification-journal_reason:0 "Die Gründung von Patria Grande"
+
+#HURO
+ HURO:0 "Ungarn-Rumänien"
+ HURO_ADJ:0 "Ungarn-Rumänien"
+ HURO_FLAVOR_TEXT:0 ""
+  
+ HURO-unification-journal:0 "Konkurrenten arbeiten zusammen"
+ HURO-unification-journal-complete:0 "Ist Ungarn-Rumänien"
+ 
+ HURO-unification-event-title:0 "Wird diese Union Bestand haben?"
+ HURO-unification-event-description:0 "Gemeinsame Feinde vereinen sich wirklich"
+ HURO-unification-event-flavor:0 "Das ungarische und das rumänische Volk haben sich in der Vergangenheit selten in die Augen gesehen. Diese turbulenten Zeiten bringen verzweifelte Lösungen hervor. Jetzt müssen wir nur noch entscheiden, wo die Hauptstadt sein wird?"
+ HURO-unification-option-01:0 "Verlegung der Hauptstadt nach Rumänien"
+ HURO-unification-option-02:0 "Verlegung der Hauptstadt nach Ungarn"
+ HURO-unification-option-03:0 "Kompromiss für einen zentralen Standort"
+
+ HURO-unification-journal_reason:0 "Die Gründung Ungarn-Rumänien"
+
+#GRBR
+ GRBR:0 "Großraum Brasilien"
+ GRBR_ADJ:0 "Großraum Brasilien"
+ GRBR_FLAVOR_TEXT:0 "Brasilien war schon immer das größte Land in Südamerika, aber jetzt haben wir den Kontinent so weit unter Kontrolle, dass uns niemand auch nur annähernd Konkurrenz machen kann."
+  
+ GRBR-unification-journal:0 "Hegemonie Über Einen Kontinent"
+ GRBR-unification-journal-complete:0 "Ist Groß-Brasilien"
+ 
+ GRBR-unification-event-title:0 "Brasilien Hat Größe Erlangt"
+ GRBR-unification-event-description:0 "Um Grande Brasil"
+ GRBR-unification-event-flavor:0 "Wir waren zwar eine Zeit lang die größte Macht auf dem Kontinent, aber es gab immer andere Mächte, die mit uns konkurrieren konnten. Das wird nicht mehr passieren, wir sind jetzt am stärksten und können nach außen schauen."
+ GRBR-unification-option-01:0 "Rückkehr in unsere Heimatländer"
+ GRBR-unification-option-02:0 "Das restliche Südamerika vereinigen"
+
+ GRBR-unification-journal_reason:0 "Die Gründung von Groß-Brasilien"
+
+#AUST
+ AUST:0 "Austrasia"
+ AUST_ADJ:0 "Austrasia"
+ AUST_FLAVOR_TEXT:0 ""
+
+ AUST-formation-modifier-01:0 "Das Streben nach Großartigkeit"
+  
+ AUST-unification-journal:0 "Vorfahre von Karl dem Großen"
+ AUST-unification-journal-complete:0 "Ist Austrasia"
+ 
+ AUST-unification-event-title:0 "Die Rückkehr der Merowinger"
+ AUST-unification-event-description:0 "Beginn des Fränkischen Reiches"
+ AUST-unification-event-flavor:0 "Eines der ursprünglichen Königreiche des fränkischen Reiches und Vorläufer der Karolinger. Wir besitzen viele reiche Ländereien entlang des Rheins und der Maas. Wir haben jetzt die Möglichkeit, die Höhen von Karl dem Großen zu verfolgen."
+ AUST-unification-option-01:0 "Rückkehr in unsere Heimatländer"
+
+ AUST-unification-journal_reason:0 "Die Gründung Austrasiens"
+
+#TIPE
+ TIPE:0 "Tibetisches Reich"
+ TIPE_ADJ:0 "Tibetisches Reich"
+ TIPE_FLAVOR_TEXT:0 "Nachdem die Tibeter die Unterdrückung durch ihre chinesischen Oberherren abgeschüttelt haben, müssen sie sich auf der Weltbühne etablieren und sich selbst schützen. "
+
+ TIPE-formation-modifier-01:0 "Unsere Kultur wiederherstellen"
+  
+ TIPE-unification-journal:0 "Eine neue buddhistische Macht erhebt sich"
+ TIPE-unification-journal-complete:0 "Ist das tibetische Reich"
+ 
+ TIPE-unification-event-title:0 "Ein Reich erhebt sich aus dem Himalaya"
+ TIPE-unification-event-description:0 "Das zweite tibetische Reich."
+ TIPE-unification-event-flavor:0 "Viele Jahre lang hielten die Chinesen die tibetische Kultur unter ihrer Fuchtel, aber damit ist jetzt Schluss! Wir Tibeter sind zurückgekommen und sind bereit, uns in der Welt wieder zu etablieren. "
+ TIPE-unification-option-01:0 "Die Rückeroberung unserer Kultur"
+
+ TIPE-unification-journal_reason:0 "Die Gründung des tibetischen Reiches"
+
+#SONG
+ SONG:0 "Songhai-Reich"
+ SONG_ADJ:0 "Songhai-Reich"
+ SONG_FLAVOR_TEXT:0 ""
+
+ SONG-formation-modifier-01:0 "Die Übernahme anderer Stämme"
+  
+ SONG-unification-journal:0 "Am größten in Westafrika"
+ SONG-unification-journal-complete:0 "Ist das Songhai-Reich"
+ 
+ SONG-unification-event-title:0 "Eines der größten Reiche Afrikas"
+ SONG-unification-event-description:0 "In den Fußstapfen von Askia dem Großen."
+ SONG-unification-event-flavor:0 "Das Songhai-Reich konnte mehrere Jahrhunderte lang Westafrika beherrschen und beeinflussen, doch nach einer Spaltung aufgrund von Erbstreitigkeiten brach es zusammen. Es ist an der Zeit, dieses Unrecht zu korrigieren."
+ SONG-unification-option-01:0 "Erweiterung unseres Einflusses"
+
+ SONG-unification-journal_reason:0 "Die Gründung des Songhai-Reiches"
+
+#EASA
+ EASA:0 "Ostasien"
+ EASA_ADJ:0 "Ostasien"
+ EASA_FLAVOR_TEXT:0 "Ostasien hat die Kontrolle über den größten Teil Asiens übernommen, es ist nun an der Zeit, auf den wahren Zustand des Selbst hinzuarbeiten, der „Die Auslöschung des Selbst“ genannt wird. "
+
+ EASA-formation-modifier-01:0 "Aufstehen und vernichten"
+ EASA-formation-modifier-02:0 "Das Selbst muss vernichtet werden"
+  
+ EASA-unification-journal:0 "Der Aufstieg des Todeskultes"
+ EASA-unification-journal-complete:0 "Ist Ostasien"
+ 
+ EASA-unification-event-title:0 "Asien vereinigt"
+ EASA-unification-event-description:0 "Die Macht im Osten."
+ EASA-unification-event-flavor:0 "Ursprünglich sollte Ostasien zu einer Herausforderung für andere Großmächte werden, deren Stärke in der Bevölkerung und der Ideologie liegt. Worauf werden wir uns konzentrieren?"
+ EASA-unification-option-01:0 "Starten Sie den Todeskult"
+ EASA-unification-option-02:0 "Fokus auf unsere Politik"
+
+ EASA-unification-journal_reason:0 "Ostasien formen"
+
+#EUSA
+ EUSA:0 "Eurasien"
+ EUSA_ADJ:0 "Eurasien"
+ EUSA_FLAVOR_TEXT:0 "Eurasien besitzt ganz Europa, wird es sich in Richtung einer Form des Neobolschewismus oder einer Reform für die heutige Welt bewegen? "
+
+ EUSA-formation-modifier-01:0 "Der Aufstieg des neuen Kommunismus"
+ EUSA-formation-modifier-02:0 "Auf einen ständigen Krieg vorbereiten"
+  
+ EUSA-unification-journal:0 "Der Aufstieg des kontinentalen Hegemons"
+ EUSA-unification-journal-complete:0 "Ist Eurasien"
+ 
+ EUSA-unification-event-title:0 "Vereinigtes Europa"
+ EUSA-unification-event-description:0 "Die Macht der Alten Welt."
+ EUSA-unification-event-flavor:0 "Mit dem Aufstieg Eurasiens müssen wir uns entscheiden, worauf wir unseren Schwerpunkt legen: Politik oder Industrie?"
+ EUSA-unification-option-01:0 "Nur Kommunismus ist nicht genug"
+ EUSA-unification-option-02:0 "Die Proleten unten halten"
+
+ EUSA-unification-journal_reason:0 "Ostasien formen"
+
+#OCIA
+ OCIA:0 "Ozeanien"
+ OCIA_ADJ:0 "Ozeanien"
+ OCIA_FLAVOR_TEXT:0 "Angesichts der Verträge auf der Weltbühne haben ein Großteil der englischsprachigen Welt und Amerikas beschlossen, zusammenzuarbeiten und eine einheitliche Front zu bilden."
+
+ OCIA-formation-modifier-01:0 "The Proles Must Be Ruled"
+ OCIA-formation-modifier-02:0 "English Socialism Must Be Achieved"
+  
+ OCIA-unification-journal:0 "Der Aufstieg von Big Brother"
+ OCIA-unification-journal-complete:0 "Ist Ozeanien"
+ 
+ OCIA-unification-event-title:0 "Immer auf der Hut"
+ OCIA-unification-event-description:0 "Die Macht der Welt."
+ OCIA-unification-event-flavor:0 "Ozeanien würde unter der Ideologie des englischen Sozialismus oder INGSOC mit Big Brother als Führer aufsteigen. Wie werden wir uns um unsere Bevölkerung kümmern?"
+ OCIA-unification-option-01:0 "Unwissenheit ist Stärke"
+ OCIA-unification-option-02:0 "Kontrolle der Bevölkerung"
+
+ OCIA-unification-journal_reason:0 "Die Entstehung Ozeaniens"
+
+#ASTO
+ ASTO:0 "Landebahn Eins"
+ ASTO_ADJ:0 "Landebahn Eins"
+ ASTO_FLAVOR_TEXT:0 "Air Strip One ist eines der Gebiete, die zu Ozeanien gehören. Werden sie in der Lage sein, den kommenden Sturm abzuwehren."
+
+#GZUL
+ GZUL:0 "Großes Zulu"
+ GZUL_ADJ:0 "Großes Zulu"
+ GZUL_FLAVOR_TEXT:0 "Große Eroberungen haben das Gebiet der Zulu stark erweitert, aber werden sie angesichts der Nähe der Europäer ihre Unabhängigkeit bewahren können?"
+
+ GZUL-formation-modifier-01:0 "Die Zulu werden expandieren"
+ GZUL-formation-modifier-02:0 "Unsere Nachbarn erobern"
+  
+ GZUL-unification-journal:0 "Shakas Rache"
+ GZUL-unification-journal-complete:0 "Ist Großes Zulu"
+ 
+ GZUL-unification-event-title:0 "Expansionspläne"
+ GZUL-unification-event-description:0 "Wohin wird der Zulu als Nächstes gehen?"
+ GZUL-unification-event-flavor:0 "Durch hyperaggressive und clevere Taktiken, die dem genialen Verstand von Shaka Zulu entsprungen sind, ist es uns gelungen, unsere Grenzen weit über unseren Ausgangspunkt hinaus zu erweitern. Jetzt können wir nur noch nach außen schauen!"
+ GZUL-unification-option-01:0 "Bereiten Sie sich auf den März im Süden vor"
+ GZUL-unification-option-02:0 "In den Westen"
+
+ GZUL-unification-journal_reason:0 "Gründung von Greater Zulu"
+ GZUL-journal-completed-effects_tt.1: "• Erhält #tooltippable;tooltip:[GetPlayer.GetTooltipTag],GZUL-modifier-effect-tt $GZUL-formation-modifier-01$#!\n or \n• Erhält #tooltippable;tooltip:[GetPlayer.GetTooltipTag],GZUL-modifier-effect-tt-2 $GZUL-formation-modifier-02$#!" 
+ GZUL-modifier-effect-tt: "[GetStaticModifier('GZUL-formation-modifier-01').GetName|v]\n[GetStaticModifier('GZUL-formation-modifier-01').GetDesc]"
+ GZUL-modifier-effect-tt-2: "[GetStaticModifier('GZUL-formation-modifier-02').GetName|v]\n[GetStaticModifier('GZUL-formation-modifier-02').GetDesc]"
+
+GZUL_south_africa:0 "Die Vorherrschaft der Zulu festigen"
+GZUL_south_africa_reason:0 "Die Zulu haben ihren Platz an der Südspitze Afrikas eingenommen. Jetzt ist es an der Zeit, zu expandieren und die europäischen Eindringlinge zu vertreiben. "
+
+GZUL-conquest-event-title:0 "Der Süden von Südafrika vereint"
+GZUL-conquest-event-description:0 "Eingeborene erobert und Europäer verbannt."
+GZUL-conquest-event-flavor:0 "Es hat viel Zeit und Mühe gekostet, aber jetzt sind wir die Herren über das südliche Afrika. Wie werden wir weitermachen?"
+
+GZUL-conquest-option-01:0 "Wir Bleiben Zulu!"
+GZUL-conquest-option-02:0 "Wir Werden Unsere neue Zukunft Begrüßen"
+
+SAFR:0 "Südafrika"
+SAFR_ADJ:0 "Südafrika"
+SAFR_FLAVOR_TEXT:0 "Nachdem sie die Europäer aus dem südlichen Teil Afrikas vertrieben haben, liegt es nun an ihnen selbst, eine funktionierende Gesellschaft aufzubauen. "
+
+GZUL-conquest-modifier-01:0 "Alles wird Zulu sein"
+GZUL-conquest-modifier-02:0 "Afrika für die Afrikaner"
+
+#MAPH
+MAPH:0 "Maphilindo"
+MAPH_ADJ:0 "Maphilindo"
+MAPH_FLAVOR_TEXT:0 "Maphilindo umfasst den größten Teil Südostasiens und ist ein unsicherer Zusammenschluss. Wird er die turbulenten viktorianischen Zeiten überstehen?"
+
+MAPH-formation-modifier-01:0 "Östliches Handelsimperium"
+MAPH-formation-modifier-02:0 "Geschichte der Seefahrt"
+ 
+MAPH-unification-journal:0 "Der südostasiatische Inselriese"
+MAPH-unification-journal-complete:0 "Ist Maphilindo"
+ 
+MAPH-unification-event-title:0 "Der Inselriese"
+MAPH-unification-event-description:0 "Zwischen zwei Welten."
+MAPH-unification-event-flavor:0 "Maphilindo fungiert als Brücke zwischen dem prosperierenden Westen und dem Potenzial des Ostens. Wie sollen wir unsere Position nutzen?"
+MAPH-unification-option-01:0 "Handel ist unsere Stärke"
+MAPH-unification-option-02:0 "Schützen wir unsere Küsten"
+
+MAPH-unification-journal_reason:0 "Gründung von Maphilindo"
+MAPH-journal-completed-effects_tt.1: "• Erhält #tooltippable;tooltip:[GetPlayer.GetTooltipTag],MAPH-modifier-effect-tt $MAPH-formation-modifier-01$#!\n oder \n• Erhält #tooltippable;tooltip:[GetPlayer.GetTooltipTag],MAPH-modifier-effect-tt-2 $MAPH-formation-modifier-02$#!" 
+MAPH-modifier-effect-tt: "[GetStaticModifier('MAPH-formation-modifier-01').GetName|v]\n[GetStaticModifier('MAPH-formation-modifier-01').GetDesc]"
+MAPH-modifier-effect-tt-2: "[GetStaticModifier('MAPH-formation-modifier-02').GetName|v]\n[GetStaticModifier('MAPH-formation-modifier-02').GetDesc]"
+
+#FRSP
+FRSP:0 "Französisch-spanische Union"
+FRSP_ADJ:0 "Französisch-spanische Union"
+FRSP_FLAVOR_TEXT:0 "Die Franzosen und Spanier sind seit langem durch Kultur und Sprache verbunden, nur durch die Pyrenäen voneinander getrennt. Jetzt sind sie eins. Wie wird dies die Zukunft Europas verändern? "
+
+FRSP-formation-modifier-01:0 "Alle werden uns folgen"
+ 
+FRSP-unification-journal:0 "Aufschwung der lateinamerikanischen Kultur"
+FRSP-unification-journal-complete:0 "Ist die französisch-spanische Union"
+ 
+FRSP-unification-event-title:0 "Die lateinamerikanische Kultur muss sich verbreiten"
+FRSP-unification-event-description:0 "Mehr Menschen müssen vor uns fallen."
+FRSP-unification-event-flavor:0 "Das französisch-spanische Volk hat die kulturelle Dominanz erkannt, die es im Laufe der Geschichte hatte, und erkannt, dass diese verbreitet werden muss. "
+FRSP-unification-option-01:0 "Alles soll lateinisch sein"
+
+FRSP-unification-journal_reason:0 "Gründung der französisch-spanischen Union"
+FRSP-journal-completed-effects_tt.1: "• Erhält #tooltippable;tooltip:[GetPlayer.GetTooltipTag],FRSP-modifier-effect-tt $FRSP-formation-modifier-01$#!\n oder \n• Erhält #tooltippable;tooltip:[GetPlayer.GetTooltipTag],FRSP-modifier-effect-tt-2 $FRSP-formation-modifier-02$#!" 
+FRSP-modifier-effect-tt: "[GetStaticModifier('FRSP-formation-modifier-01').GetName|v]\n[GetStaticModifier('FRSP-formation-modifier-01').GetDesc]"
+
+#Rome Decisions
+form_rome_BYZ:0 "Rom zu bilden"
+form_rome_BYZ_desc:0 "Um Rom zu gründen, muss man auf dem Höhepunkt der römischen Macht alles Land besitzen."
+form_rome_HRE:0 "Rom zu bilden"
+form_rome_HRE_desc:0 "Um Rom zu gründen, muss man auf dem Höhepunkt der römischen Macht alles Land besitzen."
+claim_the_mantle_of_the_roman_empire:0 "Beanspruchen Sie den Mantel des Römischen Reiches"
+claim_the_mantle_of_the_roman_empire_desc:0 "Wir haben uns unseren Platz auf der Weltbühne gesichert. Jetzt ist es an der Zeit, unser historisches Geburtsrecht auf das Römische Reich wieder einzufordern"
+claimed_roman_heritage:0 "Beanspruchtes römisches Erbe"
+forming_rome_complete:0 "Gegründet Rom"
+je_formation_of_the_roman_empire:0 "Entstehung des Römischen Reiches"
+je_formation_of_the_roman_empire_reason:0 "Unsere verlorenen Länder zu reformieren, wird ein langer und beschwerlicher Weg sein. Wir können offiziell Anspruch auf diese Gebiete erheben, um uns bei der Eroberung zu helfen, aber die umliegenden Nationen könnten sich dagegen wehren."
+
+je_button_rome_iberia:0 "Anspruch auf Iberia erheben"
+je_button_rome_iberia_desc:0 "Die iberische Halbinsel wurde lange Zeit von Rom beherrscht und ist immer noch die Heimat unserer lateinischen Brüder. Sie sollten ihre Integration akzeptieren."
+je_button_rome_iberia_claim_states:0 "Erhalten Sie Ansprüche für alle Staaten in Iberia"
+claimed_iberia:0 "Iberia beansprucht"
+
+je_button_rome_gaul:0 "Anspruch auf Gallien erheben"
+je_button_rome_gaul_desc:0 "Julias Ceaser hatte Gallien ursprünglich für die Republik erobert, nun ist es an der Zeit, dass sie sich Rom wieder anschließen."
+je_button_rome_gaul_claim_states:0 "Erhalten Sie Ansprüche auf alle Staaten in Gallien"
+claimed_gaul:0 "Beanspruchtes Gallien"
+
+je_button_rome_north_africa:0 "Anspruch auf Nordafrika erheben"
+je_button_rome_north_africa_desc:0 "Die Länder Karthago und Ägypten, die einst die Kornkammer unseres Reiches waren, werden wieder ihren Nutzen haben."
+je_button_rome_north_africa_claim_states:0 "Erhalten Sie Ansprüche auf alle Staaten in Nordafrika"
+claimed_north_africa:0 "Beanspruchtes Nordafrika"
+
+je_button_rome_byzantium:0 "Anspruch auf Byzanz erheben"
+je_button_rome_byzantium_desc:0 "Byzanz blieb nach dem Fall Roms lange Zeit stark. Sie müssen wieder eingegliedert werden, um das Prestige dieses historischen Aktes zu erhalten."
+je_button_rome_byzantium_claim_states:0 "Erhalten Sie Ansprüche auf alle griechischen Byzantium-Staaten"
+claimed_byzantium:0 "Beanspruchtes Byzantium"
+
+je_button_rome_levant:0 "Anspruch auf die Levante erheben"
+je_button_rome_levant_desc:0 "Unsere wichtigste Landverbindung zwischen der Nord- und Südseite des Mittelmeers muss gesichert werden."
+je_button_rome_levant_claim_states:0 "Erhalten Sie Ansprüche auf alle Staaten in der Levante"
+claimed_levant:0 "Beansprucht die Levante"
+
+je_button_rome_balkans:0 "Anspruch auf den Balkan erheben"
+je_button_rome_balkans_desc:0 "Der Balkan war eine wichtige Pufferzone zu unseren Kernländern. Wir müssen sie wieder zurückgewinnen."
+je_button_rome_balkans_claim_states:0 "Forderungen an alle Staaten auf dem Balkan stellen"
+claimed_balkans:0 "Beansprucht den Balkan"
+
+je_button_rome_britain:0 "Anspruch auf Großbritannien erheben"
+je_button_rome_britain_desc:0 "In der Vergangenheit waren sie eine teure Expedition, heute sind sie ein industrielles Kernland. Großbritannien wird wieder unser Land sein."
+je_button_rome_britain_claim_states:0 "Erhalten Sie Ansprüche auf alle Staaten im Süden Großbritanniens"
+claimed_britain:0 "Beanspruchtes Großbritannien"
+
+je_button_rome_germania:0 "Anspruch auf Germania erheben"
+je_button_rome_germania_desc:0 "In der Vergangenheit waren die Gebiete nördlich von uns von germanischen Stämmen besiedelt, aber jetzt sind sie Teil des Landes, das Deutschland genannt wird. Es ist die letzte Grenze, die wir für uns beanspruchen können."
+je_button_rome_germania_claim_states:0 "Erhalten Sie Ansprüche auf alle Staaten im alten römischen Germanien"
+claimed_germania:0 "Beanspruchte Germania"
+
+integrate_magrebi_into_rome:0 "Maghrebiner integrieren"
+integrate_magrebi_into_rome_desc:0 "Die Nordafrikaner haben sich in den Jahrhunderten nach dem Fall Roms immer weiter von uns entfernt. Wir müssen uns bemühen, sie in das Imperium zu integrieren. "
+RME_magrebi_integration-title:0 "Die Integration der Maghrebiner"
+RME_magrebi_integration-description:0 "Es müssen neue Anstrengungen unternommen werden, damit die Nordafrikaner unsere Herrschaft akzeptieren."
+RME_magrebi_integration-flavor:0 "Die Nordafrikaner haben sich weit von der ursprünglichen römischen Kultur entfernt, aber sie sind ein wesentlicher Bestandteil des Reiches. Einige Änderungen müssen vorgenommen werden."
+RME_magrebi_integration-option-01:0 "Unsere Bürokraten werden ihr Bestes tun, um die Gesetze zu ändern."
+RME_magrebi_integration-option-02:0 "Massive Investitionen in maghrebinische Länder tätigen"
+RME_magrebi_integration-option-03:0 "Wir sind nicht interessiert"
+maghrebi_integration_efforts_1:0 "Integration der Maghrebiner"
+maghrebi_integration_efforts_2:0 "Integration der Maghrebiner"
+
+je_form_rome:0 "Rom zu bilden"
+je_form_rome_reason:0 "In unserem derzeitigen Zustand sind wir ein Nachfolger des alten Roms. Sollten wir sein angestammtes Land in Besitz nehmen, dann könnten wir die Wiedergeburt des Steinadlers noch einmal für uns beanspruchen." 
+je_form_rome_tt_1: "#tooltippable #tooltip:iberia_tt #bold Iberia#!#!#! ist im Besitz von [SCOPE.GetRootScope.GetCountry.GetName] oder seine Untertanen."
+iberia_tt: "Erforderlich [Concept('concept_state_region','$concept_state_regions$')]:\n$STATE_CATALONIA$\n$STATE_ARAGON$\n$STATE_VALENCIA$\n$STATE_ANDALUSIA$\n$STATE_BADAJOZ$\n$STATE_ASTURIAS$\n$STATE_TOLEDO$\n$STATE_CASTILE$\n$STATE_GALICIA$\n$STATE_BEIRA$\n$STATE_ESTREMADURA$\n$STATE_ALENTEJO$\n$STATE_BALEARES$\n$STATE_GRANADA$"
+je_form_rome_tt_2: "#tooltippable #tooltip:gaul_tt #bold Gallien#!#!#! ist im Besitz von [SCOPE.GetRootScope.GetCountry.GetName] oder seine Untertanen."
+gaul_tt: "Erforderlich [Concept('concept_state_region','$concept_state_regions$')]:\n$STATE_PROVENCE$\n$STATE_RHONE$\n$STATE_LANGUEDOC$\n$STATE_AQUITAINE$\n$STATE_GUYENNE$\n$STATE_AUVERGNE_LIMOUSIN$\n$STATE_POITOU$\n$STATE_BRITTANY$\n$STATE_MAINE_ANJOU$\n$STATE_NORMANDY$\n$STATE_ORLEANS$\n$STATE_BURGUNDY$\n$STATE_FRANCHE_COMTE$\n$STATE_ALSACE_LORRAINE$\n$STATE_LORRAINE$\n$STATE_CHAMPAGNE$\n$STATE_PICARDY$\n$STATE_FRENCH_LOW_COUNTRIES$\n$STATE_ILE_DE_FRANCE$"
+je_form_rome_tt_3: "#tooltippable #tooltip:north_africa_tt #bold Nordafrika#!#!#! ist im Besitz von [SCOPE.GetRootScope.GetCountry.GetName] oder seine Untertanen."
+north_africa_tt: "Erforderlich [Concept('concept_state_region','$concept_state_regions$')]:\n$STATE_TUNISIA$\n$STATE_CONSTANTINE$\n$STATE_ALGIERS$\n$STATE_ORAN$\n$STATE_AL_RIF$\n$STATE_TRIPOLI$\n$STATE_LIBYA$\n$STATE_MATRUH$\n$STATE_LOWER_EGYPT$\n$STATE_MIDDLE_EGYPT$\n$STATE_UPPER_EGYPT$\n$STATE_SINAI$\n$STATE_MALTA$"
+je_form_rome_tt_4: "#tooltippable #tooltip:byzantium_tt #bold Byzantium#!#!#! ist im Besitz von [SCOPE.GetRootScope.GetCountry.GetName] oder seine Untertanen."
+byzantium_tt: "Erforderlich [Concept('concept_state_region','$concept_state_regions$')]:\n$STATE_PELOPONNESE$\n$STATE_ATTICA$\n$STATE_IONIAN_ISLANDS$\n$STATE_THESSALIA$\n$STATE_MACEDONIA$\n$STATE_WESTERN_THRACE$\n$STATE_EASTERN_THRACE$\n$STATE_WEST_AEGEAN_ISLANDS$\n$STATE_EAST_AEGEAN_ISLANDS$\n$STATE_CRETE$\n$STATE_KONYA$\n$STATE_ANKARA$\n$STATE_NORTHERN_THRACE$\n$STATE_SKOPIA$\n$STATE_ALBANIA$\n$STATE_AYDIN$\n$STATE_HUDAVENDIGAR$\n$STATE_KASTAMONU$"
+je_form_rome_tt_5: "#tooltippable #tooltip:levant_tt #bold Levant#!#!#! ist im Besitz von [SCOPE.GetRootScope.GetCountry.GetName] oder seine Untertanen."
+levant_tt: "Erforderlich [Concept('concept_state_region','$concept_state_regions$')]:\n$STATE_PALESTINE$\n$STATE_TRANSJORDAN$\n$STATE_LEBANON$\n$STATE_SYRIA$\n$STATE_ALEPPO$\n$STATE_ADANA$\n$STATE_DIYARBAKIR$\n$STATE_ERZURUM$\n$STATE_TRABZON$\n$STATE_DEIR_EZ_ZOR$\n$STATE_MOSUL$\n$STATE_BAGHDAD$\n$STATE_BASRA$\n$STATE_KARS$\n$STATE_ARMENIA$\n$STATE_GREATER_CAUCASUS$\n$STATE_AZERBAIJAN$\n$STATE_CYPRUS$\n$STATE_ELIZAVETPOL$"
+je_form_rome_tt_6: "#tooltippable #tooltip:balkans_tt #bold Balkans#!#!#! ist im Besitz von [SCOPE.GetRootScope.GetCountry.GetName] oder seine Untertanen."
+balkans_tt: "Erforderlich [Concept('concept_state_region','$concept_state_regions$')]:\n$STATE_BULGARIA$\n$STATE_EASTERN_SERBIA$\n$STATE_WALLACHIA$\n$STATE_DOBRUDJA$\n$STATE_WESTERN_SERBIA$\n$STATE_KOSOVO$\n$STATE_MONTENEGRO$\n$STATE_BOSNIA$\n$STATE_DALMATIA$\n$STATE_CROATIA$\n$STATE_SLAVONIA$\n$STATE_BANAT$\n$STATE_DELVIDEK$\n$STATE_SOUTHERN_TRANSYLVANIA$\n$STATE_NORTHERN_TRANSYLVANIA$\n$STATE_BEKES$\n$STATE_CENTRAL_HUNGARY$\n$STATE_TRANSDANUBIA$\n$STATE_SLOVENIA$"
+je_form_rome_tt_7: "#tooltippable #tooltip:britain_tt #bold Britain#!#!#! ist im Besitz von [SCOPE.GetRootScope.GetCountry.GetName] oder seine Untertanen."
+britain_tt: "RequErforderlichired [Concept('concept_state_region','$concept_state_regions$')]:\n$STATE_WALES$\n$STATE_WEST_COUNTRY$\n$STATE_EAST_ANGLIA$\n$STATE_MIDLANDS$\n$STATE_WALES$\n$STATE_YORKSHIRE$\n$STATE_LANCASHIRE$"
+je_form_rome_tt_8: "#tooltippable #tooltip:germania_tt #bold Germania#!#!#! ist im Besitz von [SCOPE.GetRootScope.GetCountry.GetName] oder seine Untertanen."
+germania_tt: "Erforderlich [Concept('concept_state_region','$concept_state_regions$')]:\n$STATE_AUSTRIA$\n$STATE_STYRIA$\n$STATE_TYROL$\n$STATE_WEST_SWITZERLAND$\n$STATE_EAST_SWITZERLAND$\n$STATE_BAVARIA$\n$STATE_BADEN$\n$STATE_WURTTEMBERG$\n$STATE_RHINELAND$\n$STATE_NORTH_RHINE$\n$STATE_RUHR$\n$STATE_WALLONIA$\n$STATE_FLANDERS$\n$STATE_GELRE$\n$STATE_HOLLAND$"
+je_form_rome_tt_9: "#tooltippable #tooltip:italia_tt #bold Italia#!#!#! ist im Besitz von [SCOPE.GetRootScope.GetCountry.GetName] oder seine Untertanen."
+italia_tt: "Erforderlich [Concept('concept_state_region','$concept_state_regions$')]:\n$STATE_PIEDMONT$\n$STATE_LOMBARDY$\n$STATE_VENETIA$\n$STATE_ISTRIA$\n$STATE_EMILIA$\n$STATE_ROMAGNA$\n$STATE_TUSCANY$\n$STATE_UMBRIA$\n$STATE_LAZIO$\n$STATE_ABRUZZO$\n$STATE_CAMPANIA$\n$STATE_APULIA$\n$STATE_CALABRIA$\n$STATE_SICILY$\n$STATE_SARDINIA$\n$STATE_CORSICA$"
+
+je_bnl_religion:0 "Die Angelegenheit der Religion"
+je_bnl_religion_reason:0 "In der Vergangenheit waren wir geeint, aber es kam schnell zu Konflikten über die Religion. Diese Probleme müssen angegangen werden, denn erst dann werden wir wirklich eine geeinte Nation sein. "
+je_bnl_religion_goal: "Weniger als 25% Aufruhr in #tooltippable #tooltip:bnl_core #bold core#!#!#!  [SCOPE.GetRootScope.GetCountry.GetName] regionen seit 10 Jahren."
+bnl_core: "$STATE_HOLLAND$\n$STATE_FRIESLAND$\n$STATE_GELRE$\n$STATE_FLANDERS$\n$STATE_WALLONIA$\n$STATE_FRENCH_LOW_COUNTRIES$"
+
+BNL-religion-event-title:0 "Die Schlimmsten Konflikte Sind Vorbei"
+BNL-religion-event-description:0 "Religiöse Konflikte werden auf ein Minimum reduziert."
+BNL-religion-event-flavor:0 "Der protestantische Norden und der katholische Süden standen sich lange Zeit feindlich gegenüber. Aber durch fleißige Arbeit haben sich die meisten Konflikte gelegt. Kann sich die Nation jemals wirklich weiterentwickeln?"
+BNL-religion-option-01:0 "Unified Under Different Religions"
+BNL-religion-modifier-01:0 "Reduced Religous Conflicts"
+
+je_bnl_trade_or_industry:0 "Trade or Industry Focus?"
+je_bnl_trade_or_industry_reason: "The north of our country has focussed on trade for the past 200 years, but our south has been an industrial powerhouse since the middle ages.\n\nWhich of these identities will we pursue to boost us into this new age? We can only choose one so we must choose carefully."
+bnl_trade_or_industry_industry:0 "Wir haben uns auf die Industrie konzentriert"
+bnl_trade_or_industry_trade:0 "Wir haben uns auf den Handel konzentriert"
+
+je_bnl_industry: "Schwerpunkt: Industrie"
+je_bnl_industry_reason:0 "Die Industrie ist es, die es Ländern wie Großbritannien und Frankreich ermöglicht, zu wachsen und echte Großmächte zu werden. Wir müssen diesem Beispiel folgen und unserer Industrie erlauben, uns in die nächste Ära zu führen."
+je_bnl_industry_goal:0 "Vervollständigen Sie alle industriepolitischen Maßnahmen."
+je_bnl_industry_1: "Industriepolitik: Inländische Produktion"
+je_bnl_industry_1_reason:0 "Um unsere lokale Industrie anzukurbeln, müssen wir bei den beiden wichtigsten Gütern dieser Zeit, Eisen und Kohle, weitgehend autark werden."
+je_bnl_industry_2: "Industriepolitik: Wirtschaftliches Wachstum"
+je_bnl_industry_2_reason:0 "Um mit den anderen Großmächten konkurrieren zu können, müssen wir ein gewisses Wachstum aufrechterhalten, um uns einen Platz am Verhandlungstisch zu sichern. "
+je_bnl_industry_3: "Industriepolitik: Schützt unsere Industrie"
+je_bnl_industry_3_reason:0 "Wir können nicht zulassen, dass andere Länder ihre gesamte Ware zu einem niedrigeren Preis an uns verkaufen. Das wird unsere eigene Industrie untergraben, wir müssen Schutzmaßnahmen ergreifen."
+
+je_bnl_trade: "Schwerpunkt: Handel"
+je_bnl_trade_reason:0 "Die Welt wird immer globaler und der Handel erleichtert dies. Wenn wir zu den Pionieren dieser Bewegung gehören, können wir der Zeit voraus sein und davon profitieren."
+je_bnl_trade_goal:0 "Schließen Sie alle Handelspolitiken ab."
+
+bnl_industry_complete:0 "Fortschritte auf dem Weg der Industrie"
+bnl_trade_complete:0 "Fortschritte auf dem Weg des Handels"
+
+je_bnl_trade_1: "Handelspolitik: Handelsschiffe"
+je_bnl_trade_1_reason:0 "Für den Welthandel brauchen wir genügend Schiffe, um dieses erhöhte Volumen zu bewältigen."
+je_bnl_trade_2: "Handelspolitik: Handelskapazität"
+je_bnl_trade_2_reason:0 "Die Verwaltung des Handels und die Erzielung von Gewinnen erfordert Zeit und Menschen, und wir müssen sicherstellen, dass wir über die erforderliche Infrastruktur verfügen, um dies zu ermöglichen."
+je_bnl_trade_3: "Handelspolitik: Freihandel"
+je_bnl_trade_3_reason:0 "Die Freiheit des globalen Handels ist die Zukunft. Unsere Gesetze müssen auf diese neue Welt vorbereitet sein. "
+
+BNL-industry-event-title:0 "Ein Industrielles Kraftzentrum"
+BNL-industry-event-description:0 "Wir haben uns für den Weg der Massenindustrialisierung entschieden."
+BNL-industry-event-flavor:0 "Das geschäftige Treiben der Industrie und die Geräusche der gewaltigen Dampfmaschinen. Dies ist im ganzen Land zu hören. Es hat viel Zeit und Mühe gekostet, aber wir können uns zu den industriellen Kraftzentren der Welt zählen."
+BNL-industry-option-01:0 "Ein Toast auf die Kraft der Dampfmaschine"
+BNL-industry-modifier-01:0 "Die Schwerindustrie ist die Zukunft"
+
+BNL-trade-event-title:0 "Das Erste Zentrum Des Welthandels"
+BNL-trade-event-description:0 "Wir haben den Weg des globalen Handels gewählt."
+BNL-trade-event-flavor:0 "Unsere Schiffe erreichen jeden Winkel der Welt, von den kalten Einöden Sibiriens bis zu den geschäftigen Häfen von London und New York. Unser Logo ist in jedem Haushalt bekannt, da die meisten Produkte mindestens einmal unsere Häfen durchlaufen. "
+BNL-trade-option-01:0 "Niemand wird uns zu Fall bringen"
+BNL-trade-modifier-01:0 "Unendlicher Handel"
+
+#Malay Decisions
+trade_malay_for_subject:0 "Betreten Sie die britische Sphäre"
+trade_malay_for_subject_desc:0 "Britannien besitzt mehrere Häfen und Regionen an unserer Grenze. Wenn wir sie als Oberherrn akzeptieren würden, wären sie vielleicht bereit, sie uns zu überlassen."
+
+#USE Journals
+je_forming_USE:0 "Die Gründung der Vereinigten Staaten von Europa"
+je_forming_USE_custom_complete:0 "Entscheidung für oder gegen die Vereinigten Staaten von Europa"
+je_button_dismiss_USE:0 "Verwerfen Sie die Idee"
+je_button_dismiss_USE_desc:0 "Die Idee, die Vereinigten Staaten von Europa zu gründen, wird verworfen werden."
+je_button_pursue_USE:0 "Verfolgen Sie die Idee"
+je_button_pursue_USE_desc:0 "Wir werden die Idee der Bildung einer größeren Vereinigten Staaten von Europa verfolgen."
+je_forming_USE_reason:0 "Der Gedanke, die Vereinigten Staaten von Europa zu gründen, hat an Zugkraft gewonnen, und wir sollten entscheiden, ob wir diesen Gedanken weiterverfolgen wollen."
+je_button_dismiss_USE_custom:0 "Wir werden KEINE neuen Inhalte zur Gründung der Vereinigten Staaten von Europa sehen. (HINWEIS: Dies kann nicht rückgängig gemacht werden!)"
+je_button_pursue_USE_custom:0 "Wir WERDEN neue Inhalte über die Gründung der Vereinigten Staaten von Europa sehen."
+USE_formation.1-title:0 "Erste Schritte auf dem Weg zum VSE"
+USE_formation.1-description:0 "Wie werden wir auf unser Ziel hinarbeiten?"
+USE_formation.1-flavor:0 "Mit unserer Verpflichtung, die Vereinigten Staaten von Europa zu gründen, müssen wir entscheiden, wie wir diesen Prozess beginnen wollen. Wir können es mit dem Schwert tun und fordern, dass bestimmte Länder Teil der Union werden sollten. Oder wir können versuchen, andere Nationen auf diplomatischem Wege davon zu überzeugen, dass unser Weg der beste für alle ist."
+USE-formation-type-aggressive-option-01:0 "Europa wird vor unseren Füßen fallen!"
+USE-formation-type-diplomatic-option-01:0 "Wir werden Europa von unserem Weg überzeugen."
+USE-formation-type-aggressive-option-01-custom:0 "Wir werden Teile Europas für uns beanspruchen und sie mit Waffengewalt in die USE eingliedern."
+USE-formation-type-diplomatic-option-01-custom:0 "Wir werden unseren Einfluss und unsere Diplomatie nutzen, um andere Nationen zu überzeugen, sich der USE anzuschließen."
+je_forming_USE_diplo:0 "Die Gründung des VSE: Diplomatisch"
+je_forming_USE_diplo_reason:0 "Ein größerer europäischer Staat ist etwas, das in den letzten Jahren immer mehr an Bedeutung gewonnen hat. Wir haben jetzt die Möglichkeit, andere Nationen davon zu überzeugen, sich der Idee eines größeren Europas anzuschließen."
+
+#Diplomatic Buttons
+je_button_pursue_USE_diplo_NL:0 "Einladung an die Niederlande zur VSE"
+je_button_pursue_USE_diplo_NL_desc:0 "Sie einzuladen wird uns sicherlich etwas kosten, wir müssen darauf vorbereitet sein."
+je_button_pursue_USE_diplo_BE:0 "Belgien zur VSE einladen"
+je_button_pursue_USE_diplo_BE_desc:0 "Sie einzuladen wird uns sicherlich etwas kosten, wir müssen darauf vorbereitet sein."
+je_button_pursue_USE_diplo_DE:0 "Dänemark zur VSE einladen"
+je_button_pursue_USE_diplo_DE_desc:0 "Sie einzuladen wird uns sicherlich etwas kosten, wir müssen darauf vorbereitet sein."
+je_button_pursue_USE_diplo_SWE:0 "Schweden zur VSE einladen"
+je_button_pursue_USE_diplo_SWE_desc:0 "Sie einzuladen wird uns sicherlich etwas kosten, wir müssen darauf vorbereitet sein."
+je_button_pursue_USE_diplo_SWI:0 "Die Schweiz zur VSE einladen"
+je_button_pursue_USE_diplo_SWI_desc:0 "Sie einzuladen wird uns sicherlich etwas kosten, wir müssen darauf vorbereitet sein."
+je_button_pursue_USE_diplo_POR:0 "Portugal zur VSE einladen"
+je_button_pursue_USE_diplo_POR_desc:0 "Sie einzuladen wird uns sicherlich etwas kosten, wir müssen darauf vorbereitet sein."
+je_button_pursue_USE_diplo_SAR:0 "Sardinien-Piemont in die VSE einladen"
+je_button_pursue_USE_diplo_SAR_desc:0 "Sie einzuladen wird uns sicherlich etwas kosten, wir müssen darauf vorbereitet sein."
+je_button_pursue_USE_diplo_SIC:0 "Laden Sie die Zwei-Sizilianer zur VSE ein"
+je_button_pursue_USE_diplo_SIC_desc:0 "Sie einzuladen wird uns sicherlich etwas kosten, wir müssen darauf vorbereitet sein."
+je_button_pursue_USE_diplo_BAV:0 "Bayern zur VSE einladen"
+je_button_pursue_USE_diplo_BAV_desc:0 "Sie einzuladen wird uns sicherlich etwas kosten, wir müssen darauf vorbereitet sein."
+je_button_pursue_USE_diplo_SPA:0 "Spanien in die VSE einladen"
+je_button_pursue_USE_diplo_SPA_desc:0 "Sie einzuladen wird uns sicherlich etwas kosten, wir müssen darauf vorbereitet sein."
+je_button_pursue_USE_diplo_FRA:0 "Frankreich in die VSE einladen"
+je_button_pursue_USE_diplo_FRA_desc:0 "Sie einzuladen wird uns sicherlich etwas kosten, wir müssen darauf vorbereitet sein."
+je_button_pursue_USE_diplo_AUS:0 "Österreich zur VSE einladen"
+je_button_pursue_USE_diplo_AUS_desc:0 "Sie einzuladen wird uns sicherlich etwas kosten, wir müssen darauf vorbereitet sein."
+je_button_pursue_USE_diplo_PRU:0 "Preußen in die VSE einladen"
+je_button_pursue_USE_diplo_PRU_desc:0 "Sie einzuladen wird uns sicherlich etwas kosten, wir müssen darauf vorbereitet sein."
+je_button_pursue_USE_diplo_GER:0 "Deutschland in die VSE einladen"
+je_button_pursue_USE_diplo_GER_desc:0 "Sie einzuladen wird uns sicherlich etwas kosten, wir müssen darauf vorbereitet sein."
+je_button_pursue_USE_diplo_ITA:0 "Italien in die VSE einladen"
+je_button_pursue_USE_diplo_ITA_desc:0 "Sie einzuladen wird uns sicherlich etwas kosten, wir müssen darauf vorbereitet sein."
+#Netherlands Event
+USE_formation.2-title:0 "Einladung an die Niederlande zur VSE"
+USE_formation.2-description:0 "Die Lowlands sind dabei."
+USE_formation.2-flavor:0 "Durch viele diplomatische Treffen und einige hinterhältige Gefälligkeiten ist es uns schließlich gelungen, die Niederlande zu überzeugen, sich unserem großen Projekt anzuschließen. Sie brauchen nur noch einen letzten Anstoß, wir könnten noch mehr diplomatischen Druck auf sie ausüben oder einfach wirtschaftliche Unterstützung für ihren Beitritt anbieten."
+USE_formation_diplo_Netherlands-01:0 "Diplomatischen Druck ausüben"
+USE_formation_diplo_Netherlands-02:0 "Wirtschaftliche Unterstützung nutzen"
+#Belgium Event
+USE_formation.3-title:0 "Belgien zur VSE einladen"
+USE_formation.3-description:0 "Keine Neutralität mehr."
+USE_formation.3-flavor:0 "Durch viele diplomatische Treffen und einige hinterhältige Gefälligkeiten ist es uns schließlich gelungen, Belgien davon zu überzeugen, sich unserem großen Projekt anzuschließen. Sie brauchen nur noch einen letzten Anstoß, wir könnten noch mehr diplomatischen Druck auf sie ausüben oder einfach wirtschaftliche Unterstützung für ihren Beitritt anbieten."
+USE_formation_diplo_Belgium-01:0 "Diplomatischen Druck ausüben"
+USE_formation_diplo_Belgium-02:0 "Wirtschaftliche Unterstützung nutzen"
+#Denmark Event
+USE_formation.4-title:0 "Einladung Dänemarks an die VSE"
+USE_formation.4-description:0 "Keine Neutralität mehr."
+USE_formation.4-flavor:0 "Durch viele diplomatische Treffen und einige hinterhältige Gefälligkeiten ist es uns schließlich gelungen, Dänemark davon zu überzeugen, sich unserem großen Projekt anzuschließen. Sie brauchen nur noch einen letzten Anstoß, wir könnten noch mehr diplomatischen Druck auf sie ausüben oder einfach wirtschaftliche Unterstützung für ihren Beitritt anbieten."
+USE_formation_diplo_Denmark-01:0 "Diplomatischen Druck ausüben"
+USE_formation_diplo_Denmark-02:0 "Wirtschaftliche Unterstützung nutzen"
+#Sweden Event
+USE_formation.5-title:0 "Schweden zur VSE einladen"
+USE_formation.5-description:0 "Skandinavien ist bei uns."
+USE_formation.5-flavor:0 "Durch viele diplomatische Treffen und einige hinterhältige Gefälligkeiten ist es uns schließlich gelungen, Schweden davon zu überzeugen, sich unserem großen Projekt anzuschließen. Sie brauchen nur noch einen letzten Anstoß, wir könnten noch mehr diplomatischen Druck auf sie ausüben oder einfach wirtschaftliche Unterstützung für ihren Beitritt anbieten."
+USE_formation_diplo_Sweden-01:0 "Diplomatischen Druck ausüben"
+USE_formation_diplo_Sweden-02:0 "Wirtschaftliche Unterstützung nutzen"
+#Switzerland Event
+USE_formation.6-title:0 "Einladung der Schweiz an die VSE"
+USE_formation.6-description:0 "Keine Neutralität mehr."
+USE_formation.6-flavor:0 "Durch viele diplomatische Treffen und einige hinterhältige Gefälligkeiten ist es uns schließlich gelungen, die Schweiz davon zu überzeugen, sich unserem großen Projekt anzuschließen. Sie braucht nur noch einen letzten Anstoß. Wir könnten noch mehr diplomatischen Druck auf sie ausüben oder einfach wirtschaftliche Unterstützung für ihren Beitritt anbieten."
+USE_formation_diplo_Switzerland-01:0 "Diplomatischen Druck ausüben"
+USE_formation_diplo_Switzerland-02:0 "Wirtschaftliche Unterstützung nutzen"
+#Portugal Event
+USE_formation.7-title:0 "Einladung Portugals an die VSE"
+USE_formation.7-description:0 "Bald wird sich ganz Iberien anschließen."
+USE_formation.7-flavor:0 "Durch viele diplomatische Treffen und einige hinterhältige Gefälligkeiten ist es uns schließlich gelungen, Portugal davon zu überzeugen, sich unserem großen Projekt anzuschließen. Sie brauchen nur noch einen letzten Anstoß, wir könnten noch mehr diplomatischen Druck auf sie ausüben oder einfach wirtschaftliche Unterstützung für ihren Beitritt anbieten."
+USE_formation_diplo_Portugal-01:0 "Diplomatischen Druck ausüben"
+USE_formation_diplo_Portugal-02:0 "Wirtschaftliche Unterstützung nutzen"
+#Sardinia Event
+USE_formation.8-title:0 "Einladung von Sardinien-Piemont an die VSE"
+USE_formation.8-description:0 "Bald wird sich die gesamte italienische Halbinsel anschließen."
+USE_formation.8-flavor:0 "Durch viele diplomatische Treffen und einige hinterhältige Gefälligkeiten ist es uns schließlich gelungen, Sardinien-Piemont davon zu überzeugen, sich unserem großen Projekt anzuschließen. Sie brauchen nur noch einen letzten Anstoß, wir könnten noch mehr diplomatischen Druck auf sie ausüben oder einfach wirtschaftliche Unterstützung für ihren Beitritt anbieten."
+USE_formation_diplo_Sardinia-01:0 "Diplomatischen Druck ausüben"
+USE_formation_diplo_Sardinia-02:0 "Wirtschaftliche Unterstützung nutzen"
+#Sicily Event
+USE_formation.9-title:0 "Die Zwei-Sizilianer in die VSE einladen"
+USE_formation.9-description:0 "Bald wird sich die gesamte italienische Halbinsel anschließen."
+USE_formation.9-flavor:0 "Durch viele diplomatische Treffen und einige hinterhältige Gefälligkeiten ist es uns schließlich gelungen, die Zwei-Sizilianer davon zu überzeugen, sich unserem großen Projekt anzuschließen. Sie brauchen nur noch einen letzten Anstoß, wir könnten noch mehr diplomatischen Druck auf sie ausüben oder einfach wirtschaftliche Unterstützung für ihren Beitritt anbieten."
+USE_formation_diplo_Sicily-01:0 "Diplomatischen Druck ausüben"
+USE_formation_diplo_Sicily-02:0 "Wirtschaftliche Unterstützung nutzen"
+#Bavaria Event
+USE_formation.10-title:0 "Einladung an Bayern zur VSE"
+USE_formation.10-description:0 "Alle Germanen werden sich uns anschließen."
+USE_formation.10-flavor:0 "Durch viele diplomatische Treffen und einige hinterhältige Gefälligkeiten ist es uns schließlich gelungen, Bayern davon zu überzeugen, sich unserem großen Projekt anzuschließen. Sie brauchen nur noch einen letzten Anstoß, wir könnten noch mehr diplomatischen Druck auf sie ausüben oder einfach wirtschaftliche Unterstützung für ihren Beitritt anbieten."
+USE_formation_diplo_Bavaria-01:0 "Diplomatischen Druck ausüben"
+USE_formation_diplo_Bavaria-02:0 "Wirtschaftliche Unterstützung nutzen"
+#Spain Event
+USE_formation.11-title:0 "Spanien in die VSE einladen"
+USE_formation.11-description:0 "Bald wird sich ganz Iberien anschließen."
+USE_formation.11-flavor:0 "Durch viele diplomatische Treffen und einige hinterhältige Gefälligkeiten ist es uns schließlich gelungen, Spanien davon zu überzeugen, sich unserem großen Projekt anzuschließen. Sie brauchen nur noch einen letzten Anstoß, wir könnten noch mehr diplomatischen Druck auf sie ausüben oder einfach wirtschaftliche Unterstützung für ihren Beitritt anbieten."
+USE_formation_diplo_Spain-01:0 "Diplomatischen Druck ausüben"
+USE_formation_diplo_Spain-02:0 "Wirtschaftliche Unterstützung nutzen"
+#France Event
+USE_formation.12-title:0 "Frankreich in die VSE einladen"
+USE_formation.12-description:0 "Frankreich hat vorgelegt"
+USE_formation.12-flavor:0 "Durch viele diplomatische Treffen und einige hinterhältige Gefälligkeiten ist es uns schließlich gelungen, Frankreich davon zu überzeugen, sich unserem großen Projekt anzuschließen. Sie brauchen nur noch einen letzten Anstoß. Wir könnten noch mehr diplomatischen Druck auf sie ausüben oder einfach wirtschaftliche Unterstützung für ihren Beitritt anbieten."
+USE_formation_diplo_France-01:0 "Diplomatischen Druck ausüben"
+USE_formation_diplo_France-02:0 "Wirtschaftliche Unterstützung nutzen"
+#Austria Event
+USE_formation.13-title:0 "Österreich zur VSE einladen"
+USE_formation.13-description:0 "Der zentrale Riese ist bei uns."
+USE_formation.13-flavor:0 "Durch viele diplomatische Treffen und einige hinterhältige Gefälligkeiten ist es uns schließlich gelungen, Österreich davon zu überzeugen, sich unserem großen Projekt anzuschließen. Sie brauchen nur noch einen letzten Anstoß, wir könnten noch mehr diplomatischen Druck auf sie ausüben oder einfach wirtschaftliche Unterstützung für ihren Beitritt anbieten."
+USE_formation_diplo_Austria-01:0 "Diplomatischen Druck ausüben"
+USE_formation_diplo_Austria-02:0 "Wirtschaftliche Unterstützung nutzen"
+#Prussia Event
+USE_formation.14-title:0 "Einladung Preußens an die VSE"
+USE_formation.14-description:0 "Alle Germanen werden sich uns anschließen."
+USE_formation.14-flavor:0 "Durch viele diplomatische Treffen und einige hinterhältige Gefälligkeiten ist es uns schließlich gelungen, Preußen davon zu überzeugen, sich unserem großen Projekt anzuschließen. Sie brauchen nur noch einen letzten Anstoß, wir könnten noch mehr diplomatischen Druck auf sie ausüben oder einfach wirtschaftliche Unterstützung für ihren Beitritt anbieten."
+USE_formation_diplo_Prussia-01:0 "Diplomatischen Druck ausüben"
+USE_formation_diplo_Prussia-02:0 "Wirtschaftliche Unterstützung nutzen"
+#Germany Event
+USE_formation.15-title:0 "Deutschland in die VSE einladen"
+USE_formation.15-description:0 "Alle Germanen werden sich uns anschließen."
+USE_formation.15-flavor:0 "Durch viele diplomatische Treffen und einige hinterhältige Gefälligkeiten ist es uns schließlich gelungen, Deutschland davon zu überzeugen, sich unserem großen Projekt anzuschließen. Sie brauchen nur noch einen letzten Anstoß. Wir könnten noch mehr diplomatischen Druck auf sie ausüben oder einfach wirtschaftliche Unterstützung für ihren Beitritt anbieten."
+USE_formation_diplo_Germany-01:0 "Diplomatischen Druck ausüben"
+USE_formation_diplo_Germany-02:0 "Wirtschaftliche Unterstützung nutzen"
+#Italy Event
+USE_formation.16-title:0 "Italien in die VSE einladen"
+USE_formation.16-description:0 "Bald wird sich die gesamte italienische Halbinsel anschließen."
+USE_formation.16-flavor:0 "Durch viele diplomatische Treffen und einige hinterhältige Gefälligkeiten ist es uns schließlich gelungen, Italien davon zu überzeugen, sich unserem großen Projekt anzuschließen. Sie brauchen nur noch einen letzten Anstoß, wir könnten noch mehr diplomatischen Druck auf sie ausüben oder einfach wirtschaftliche Unterstützung für ihren Beitritt anbieten."
+USE_formation_diplo_Italy-01:0 "Diplomatischen Druck ausüben"
+USE_formation_diplo_Italy-02:0 "Wirtschaftliche Unterstützung nutzen"
+
+#Diplo form Event
+USE_formation.17-title:0 "Europa ist endlich vereint"
+USE_formation.17-description:0 "Dieser historische Tag ist nun endlich gekommen."
+USE_formation.17-flavor:0 "Auf diplomatischer Ebene sind wir bereit, diesen historischen Schritt zu tun und Europa unter einem einzigen Land zu vereinen, aber unsere Logistik ist vielleicht noch nicht bereit dafür. Wir können diesen Schritt jederzeit zu einem späteren Zeitpunkt tun. (WICHTIGER HINWEIS: Dies wird alle Ihre europäischen Untertanen annektieren. Achten Sie darauf, dass sie nicht vom Rest Ihres Landes abgetrennt werden.)"
+USE_formation_diplo_form_USE-01:0 "Auf den richtigen Moment warten"
+USE_formation_diplo_form_USE-02:0 "Wir sind bereit, die Vereinigten Staaten von Europa zu bilden!"
+USE-can-form-diplo:0 "Eine Entscheidung zur Bildung der USE wird freigeschaltet, wenn Sie bereit sind."
+
+je_forming_USE_diplo_button_form:0 "Bilden Sie die Vereinigten Staaten von Europa"
+je_forming_USE_diplo_button_form_desc:0 "Wir kontrollieren genug von dem Kontinent, um den Mantel des Meisters von Europa beanspruchen zu können."
+#culture event
+USE_formation.18-title:0 "Die Auswahl der Kulturen dieses neuen Landes"
+USE_formation.18-description:0 "Wie viele Menschen werden in diese neue Gewerkschaft integriert werden?"
+USE_formation.18-flavor:0 "Es wird eine lange und schwierige Aufgabe sein, eine so unterschiedliche Gruppe von Menschen zusammenzubringen. Wie viele Ressourcen sollten wir für die Integration der verschiedenen Gruppen in dieser Gewerkschaft aufwenden?"
+small_culture_investment:0 "Kleine Investitionen in die Kultur"
+medium_culture_investment:0 "Mittlere Kulturinvestitionen"
+large_culture_investment:0 "Große Investitionen in die Kultur"
+
+USE_formation_diplo_cultures-01:0 "Nur die größeren Gruppen integrieren"
+USE_formation_diplo_cultures-02:0 "Integrieren Sie auch einige der größeren Subkulturen"
+USE_formation_diplo_cultures-03:0 "Konzentrieren Sie sich auf so viele Menschen wie möglich"
+
+Diplomaten und Minister haben viel zu tun:0 "Diplomats and Ministers Busy"
+invite_with_money:0 "Wirtschaftliche Unterstützung"
+#Decisions
+form_USE:0 "Bilden Sie die VSE"
+form_USE_desc:0 "Wir sind vorbereitet, es ist an der Zeit, die USE zu bilden."
+expand_USE_east:0 "Erweitern Sie die Vereinigten Staaten von Europa nach Osten"
+expand_USE_east_desc:0 "Wir könnten die USE nach Osten ausweiten und weitere Teile Europas einbeziehen."
+
+#Aggressive
+je_forming_USE_aggresive:0 "Die Bildung der VSE: Aggressiv"
+je_forming_USE_aggresive_reason:0 "Ein größerer europäischer Staat ist etwas, das in den letzten Jahren immer mehr an Bedeutung gewonnen hat. Es ist an der Zeit, dass wir den anderen Nationen zeigen, warum wir diese größere Union anführen sollten. "
+
+small_claim:0 "Kleine europäische Forderungen"
+medium_claim:0 "Bedeutende europäische Forderungen"
+large_claim:0 "Enorme europäische Forderungen"
+
+je_forming_USE_aggresive_NL:0 "Beanspruchen Sie die Niederlande"
+je_forming_USE_aggresive_NL_desc:0 "Der Rest Europas wird es nicht mögen, wenn wir große Teile des Landes für uns beanspruchen, wir sollten darauf vorbereitet sein!"
+je_forming_USE_aggresive_BE:0 "Antrag Belgien"
+je_forming_USE_aggresive_BE_desc:0 "Der Rest Europas wird es nicht mögen, wenn wir große Teile des Landes für uns beanspruchen, wir sollten darauf vorbereitet sein!"
+je_forming_USE_aggresive_DE:0 "Antrag Dänemark"
+je_forming_USE_aggresive_DE_desc:0 "Der Rest Europas wird es nicht mögen, wenn wir große Teile des Landes für uns beanspruchen, wir sollten darauf vorbereitet sein!"
+je_forming_USE_aggresive_SWE:0 "Antrag Schweden"
+je_forming_USE_aggresive_SWE_desc:0 "Der Rest Europas wird es nicht mögen, wenn wir große Teile des Landes für uns beanspruchen, wir sollten darauf vorbereitet sein!"
+je_forming_USE_aggresive_NOR:0 "Antrag Norwegen"
+je_forming_USE_aggresive_NOR_desc:0 "Der Rest Europas wird es nicht mögen, wenn wir große Teile des Landes für uns beanspruchen, wir sollten darauf vorbereitet sein!"
+je_forming_USE_aggresive_SWI:0 "Anspruch Schweiz"
+je_forming_USE_aggresive_SWI_desc:0 "Der Rest Europas wird es nicht mögen, wenn wir große Teile des Landes für uns beanspruchen, wir sollten darauf vorbereitet sein!"
+je_forming_USE_aggresive_POR:0 "Antrag Portugal"
+je_forming_USE_aggresive_POR_desc:0 "Der Rest Europas wird es nicht mögen, wenn wir große Teile des Landes für uns beanspruchen, wir sollten darauf vorbereitet sein!"
+je_forming_USE_aggresive_SPA:0 "Anspruch Spanien"
+je_forming_USE_aggresive_SPA_desc:0 "Der Rest Europas wird es nicht mögen, wenn wir große Teile des Landes für uns beanspruchen, wir sollten darauf vorbereitet sein!"
+je_forming_USE_aggresive_FRA:0 "Anspruch Frankreich"
+je_forming_USE_aggresive_FRA_desc:0 "Der Rest Europas wird es nicht mögen, wenn wir große Teile des Landes für uns beanspruchen, wir sollten darauf vorbereitet sein!"
+je_forming_USE_aggresive_AUS:0 "Antrag Österreich"
+je_forming_USE_aggresive_AUS_desc:0 "Der Rest Europas wird es nicht mögen, wenn wir große Teile des Landes für uns beanspruchen, wir sollten darauf vorbereitet sein!"
+je_forming_USE_aggresive_BLK:0 "Beanspruchen Sie den Balkan"
+je_forming_USE_aggresive_BLK_desc:0 "Der Rest Europas wird es nicht mögen, wenn wir große Teile des Landes für uns beanspruchen, wir sollten darauf vorbereitet sein!"
+je_forming_USE_aggresive_NGER:0 "Anspruch Norddeutschland"
+je_forming_USE_aggresive_NGER_desc:0 "Der Rest Europas wird es nicht mögen, wenn wir große Teile des Landes für uns beanspruchen, wir sollten darauf vorbereitet sein!"
+je_forming_USE_aggresive_SGER:0 "Anspruch auf Süddeutschland"
+je_forming_USE_aggresive_SGER_desc:0 "Der Rest Europas wird es nicht mögen, wenn wir große Teile des Landes für uns beanspruchen, wir sollten darauf vorbereitet sein!"
+je_forming_USE_aggresive_NITA:0 "Anspruch auf Norditalien"
+je_forming_USE_aggresive_NITA_desc:0 "Der Rest Europas wird es nicht mögen, wenn wir große Teile des Landes für uns beanspruchen, wir sollten darauf vorbereitet sein!"
+je_forming_USE_aggresive_SITA:0 "Anspruch auf Süditalien"
+je_forming_USE_aggresive_SITA_desc:0 "Der Rest Europas wird es nicht mögen, wenn wir große Teile des Landes für uns beanspruchen, wir sollten darauf vorbereitet sein!"
+je_forming_USE_aggresive_GBR:0 "Anspruch England"
+je_forming_USE_aggresive_GBR_desc:0 "Der Rest Europas wird es nicht mögen, wenn wir große Teile des Landes für uns beanspruchen, wir sollten darauf vorbereitet sein!"
+je_forming_USE_aggresive_button_form:0 "Bilden Sie die Vereinigten Staaten von Europa"
+je_forming_USE_aggresive_button_form_desc:0 "Wir haben es geschafft, wir kontrollieren genug von Europa, dass uns niemand mehr diese Errungenschaft wegnehmen kann. Es ist an der Zeit, den Mantel von Europa zu beanspruchen. (HINWEIS: Sobald wir uns für die Gründung der USE entscheiden, können wir kein weiteres Land mehr beanspruchen. Wir müssen sicher sein, bevor wir uns entscheiden!)"
+
+formed_USE_aggressive_custom_text:0 "Hat die Vereinigten Staaten von Europa gegründet"
+
+ USE:0 "Vereinigte Staaten von Europa"
+ USE_ADJ:0 "Vereinigte Staaten von Europa"
+ USE_FLAVOR_TEXT:0 ""
+
+#South America
+form_south_america:0 "Formular Südamerika"
+form_south_america_desc:0 "Den südamerikanischen Kontinent vereinen"
+
+UNSA:0 "Vereinigtes Südamerika"
+UNSA_ADJ:0 "Vereinigtes Südamerika"
+UNSA_FLAVOR_TEXT:0 ""
+ 
+UNSA-formation-modifier-01:0 "Versorgung der Welt"
+
+UNSA-unification-event-title:0 "Vereint durch unsere Differenzen"
+UNSA-unification-event-description:0 "Unser neuer Platz in der Welt"
+UNSA-unification-event-flavor:0 "Vom größten Land des Kontinents bis zum Kontinent selbst. Mit so vielen gleichgesinnten Menschen zusammen wird es für Südamerika unmöglich sein, zu fallen. Unsere Ländereien sind reich, also sollten wir die Weltversorgung mit allem, was auf dem Land wächst, werden. "
+UNSA-unification-option-01:0 "Leistung über alles"
+
+UNSA-unification-journal_reason:0 "Bildung des Vereinigten Südamerikas"
+
+#Austrasia
+je_button_carolingia_north_germany:0 "Anspruch Norddeutschland"
+je_button_carolingia_north_germany_desc:0 ""
+je_button_carolingia_south_germany:0 "Anspruch auf Süddeutschland"
+je_button_carolingia_south_germany_desc:0 ""
+je_button_carolingia_north_france:0 "Anspruch auf Nordfrankreich"
+je_button_carolingia_north_france_desc:0 ""
+je_button_carolingia_south_france:0 "Anspruch auf Südfrankreich"
+je_button_carolingia_south_france_desc:0 ""
+je_button_carolingia_italy:0 "Antrag Italien"
+je_button_carolingia_italy_desc:0 ""
+je_button_carolingia_spain:0 "Anspruch Spanien"
+je_button_carolingia_spaind_desc:0 ""
+
+forming_corolingia_complete:0 "Hat das Karolingische Reich gegründet"
+
+je_formation_of_the_carolingian_empire: "#bold Die Gründung des Karolingerreichs"
+je_formation_of_the_carolingian_empire_reason: "Ein erster Schritt ist getan, aber es liegt noch viel Arbeit vor uns, bis wir in die Fußstapfen von #bold, dem großen Karl dem Großen, treten können."
+je_button_caro_south_france_claim_states: "#bold Erhalten Sie Ansprüche für alle erforderlichen Staaten in Südfrankreich"
+je_button_caro_north_france_claim_states: "#bold Erhalten Sie Ansprüche für alle erforderlichen Staaten in Nordfrankreich"
+je_button_caro_italy_claim_states: "#bold Erhalten Sie Ansprüche für alle erforderlichen Staaten in Italien"
+je_button_caro_spain_claim_states: "#bold Erhalten Sie Ansprüche für alle erforderlichen Staaten in Spanien"
+je_button_caro_south_germany_claim_states: "#bold Holen Sie sich Ansprüche auf alle benötigten Staaten in Süddeutschland"
+je_button_caro_north_germany_claim_states: "#bold Holen Sie sich Ansprüche auf alle erforderlichen Staaten in Norddeutschland"
+caro_land_claim:0 "Kürzlich beanspruchtes Land"
+
+#Custom Game Rule
+rule_formable_nations_plus:0 "Formable Nations: Plus"
+setting_fnp_all_formable_nations:0 "Alle formbaren Nationen"
+setting_fnp_all_formable_nations_desc:0 "Keine Beschränkung auf fiktive formbare Nationen"
+setting_fnp_no_fictional_nations:0 "Keine fiktiven Nationen"
+setting_fnp_no_fictional_nations_desc:0 "Entferne formbare Nationen, die auf fiktiven statt auf historischen Ländern beruhen"
+
+#Custom DLC icon
+MDF_MOD_DLC_BUTTON_TOOLTIP: "#T [Dlc.GetName]#!\n[Dlc.GetDesc]\n\n#low;emphasis @information! Dieser DLC wurde durch einen #blue;bold mod#!# hinzugefügt!"
+fnp_dlc: "Formable Nations: Plus"
+fnp_dlc_desc: "Es wurden viele neue formbare Nationen aus aller Welt hinzugefügt. Weitere Informationen dazu findest du auf der Steam-Workshop-Seite. Weitere Neuigkeiten zu diesem Mod findest du auf Discord."

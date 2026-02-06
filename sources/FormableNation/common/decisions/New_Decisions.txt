@@ -1,0 +1,480 @@
+offer_brittain_new_england_for_help = {
+	is_shown = {
+		exists = c:GCA
+		this = c:GCA
+		hidden_trigger = {
+			has_variable = offensive_plans
+		}
+	}
+
+	possible = {
+		this = c:GCA
+		hidden_trigger = {
+			NOT = { has_variable = asked_for_help }
+		}
+		hidden_trigger = {
+			has_variable = offensive_plans
+		}
+	}
+	
+	when_taken = {
+		set_variable = {
+			name = asked_for_help
+			value = yes
+		}
+		change_relations = {
+			country = c:GBR
+			value = 50
+		}
+		change_relations = {
+			country = c:USA
+			value = -30
+		}
+		s:STATE_NEW_YORK = {
+			add_claim = c:GBR
+		}
+		s:STATE_CONNECTICUT = {
+			add_claim = c:GBR
+		}
+		s:STATE_MASSACHUSETTS = {
+			add_claim = c:GBR
+		}
+		s:STATE_RHODE_ISLAND = {
+			add_claim = c:GBR
+		}
+		s:STATE_VERMONT = {
+			add_claim = c:GBR
+		}
+		s:STATE_NEW_HAMPSHIRE = {
+			add_claim = c:GBR
+		}
+		s:STATE_MAINE = {
+			add_claim = c:GBR
+		}
+	}
+
+	ai_chance = {
+		base = 0		
+	}
+}
+
+claim_the_mantle_of_the_roman_empire = {
+	is_shown = {
+		NOT = { has_variable = claimed_rome }
+		OR = {
+			c:BYZ ?= THIS			
+
+			AND = {
+				
+				country_rank = rank_value:great_power
+				OR = {
+					country_has_primary_culture = cu:north_italian
+					country_has_primary_culture = cu:south_italian
+				}
+			}			
+		}
+			
+	}
+
+	possible = { 
+		country_rank = rank_value:great_power
+		OR = {
+			country_has_primary_culture = cu:north_italian
+			country_has_primary_culture = cu:south_italian
+			c:BYZ ?= THIS
+		}
+	}
+	
+	when_taken = {
+		set_variable = {
+			name = claimed_rome
+			value = yes
+		}
+		add_modifier = {
+			name = claimed_roman_heritage
+		}
+		add_journal_entry = {
+			type = je_formation_of_the_roman_empire
+		}
+	}
+
+	ai_chance = {
+		base = 0		
+	}
+}
+
+integrate_magrebi_into_rome = {
+	is_shown = {
+		has_variable = claimed_rome
+		NOT = { has_variable = integrated_magrebi }
+		country_rank = rank_value:great_power
+		OR = {
+			country_has_primary_culture = cu:north_italian
+			country_has_primary_culture = cu:south_italian
+		}	
+	}
+
+	possible = { 
+		country_rank = rank_value:great_power
+		OR = {
+			country_has_primary_culture = cu:north_italian
+			country_has_primary_culture = cu:south_italian
+		}
+	}
+	
+	when_taken = {
+		set_variable = {
+			name = integrated_magrebi
+			value = yes
+		}
+		trigger_event = {
+			id = RME_magrebi_integration.1
+			popup = yes
+		}
+		custom_tooltip = {
+			text =  RME-decision-maghrebi-explanation
+		}
+	}
+
+	
+
+	ai_chance = {
+		base = 0		
+	}
+}
+
+trade_malay_for_subject = {
+	is_shown = { 
+		OR = {
+			country_has_primary_culture = cu:malay
+			country_has_primary_culture = cu:bornean
+		}		
+		is_subject = no
+	}
+
+	possible = {
+		NOT = {
+			is_at_war = yes
+			c:GBR = {
+				is_at_war = yes
+			}
+		}
+
+		country_rank >= rank_value:unrecognized_regional_power
+		is_subject = no
+
+		c:GBR = {
+			relations:root >= relations_threshold:amicable
+		}
+	}
+	
+	when_taken = {
+		this = { save_scope_as = country }
+
+		s:STATE_MALAYA.region_state:BIC = { set_state_owner = scope:country }
+		
+		c:GBR = {
+			create_diplomatic_pact = {
+				country = scope:country
+				type = protectorate
+			}
+		}	
+		
+	}
+
+	ai_chance = {
+		base = 0		
+	}
+}
+
+form_USE = {
+	is_shown = { 
+		country_is_in_europe = yes
+		NOT = {
+			has_variable = has_formed_USE_diplo
+		}
+		NOT = {
+			has_variable = aggresive_USE
+		}
+	}
+
+	possible = {
+		has_variable = can_form_USE_diplo
+	}
+	
+	when_taken = {	
+		if = {
+			limit = { 
+				c:NET ?= {
+					exists = yes
+					is_subject_of = root
+				}
+			}
+			annex = c:NET
+		}
+
+		if = {
+			limit = { 
+				c:BEL ?= {
+					exists = yes
+					is_subject_of = root
+				}
+			}
+			annex = c:BEL
+		}
+
+		if = {
+			limit = { 
+				c:DEN ?= {
+					exists = yes
+					is_subject_of = root
+				}
+			}
+			annex = c:DEN
+		}
+
+		if = {
+			limit = { 
+				c:SWE ?= {
+					exists = yes
+					is_subject_of = root
+				}
+			}
+			annex = c:SWE
+		}
+
+		if = {
+			limit = { 
+				c:NOR ?= {
+					exists = yes
+					is_subject_of = root
+				}
+			}
+			annex = c:NOR
+		}
+
+		if = {
+			limit = { 
+				c:FRA ?= {
+					exists = yes
+					is_subject_of = root
+				}
+			}
+			annex = c:FRA
+		}
+
+		if = {
+			limit = { 
+				c:SWI ?= {
+					exists = yes
+					is_subject_of = root
+				}
+			}
+			annex = c:SWI
+		}
+
+		if = {
+			limit = { 
+				c:SAR ?= {
+					exists = yes
+					is_subject_of = root
+				}
+			}
+			annex = c:SAR
+		}
+
+		if = {
+			limit = { 
+				c:SIC ?= {
+					exists = yes
+					is_subject_of = root
+				}
+			}
+			annex = c:SIC
+		}
+
+		if = {
+			limit = { 
+				c:POR ?= {
+					exists = yes
+					is_subject_of = root
+				}
+			}
+			annex = c:POR
+		}
+
+		if = {
+			limit = { 
+				c:SPA ?= {
+					exists = yes
+					is_subject_of = root
+				}
+			}
+			annex = c:SPA
+		}
+
+		if = {
+			limit = { 
+				c:AUS ?= {
+					exists = yes
+					is_subject_of = root
+				}
+			}
+			annex = c:AUS
+		}
+
+		if = {
+			limit = { 
+				c:PRU ?= {
+					exists = yes
+					is_subject_of = root
+				}
+			}
+			annex = c:PRU
+		}
+
+		if = {
+			limit = { 
+				c:BAV ?= {
+					exists = yes
+					is_subject_of = root
+				}
+			}
+			annex = c:BAV
+		}
+
+		if = {
+			limit = { 
+				c:GER ?= {
+					exists = yes
+					is_subject_of = root
+				}
+			}
+			annex = c:GER
+		}
+
+		if = {
+			limit = { 
+				c:ITA ?= {
+					exists = yes
+					is_subject_of = root
+				}
+			}
+			annex = c:ITA
+		}
+
+		set_variable = has_formed_USE_diplo
+
+		change_tag = USE
+
+		trigger_event = USE_formation.18
+	}
+
+	ai_chance = {
+		base = 0		
+	}
+}
+
+expand_USE_east = {
+	is_shown = { 
+		OR = {
+			has_variable = has_formed_USE_diplo
+			has_variable = formed_USE_aggressive
+		}
+		
+		NOT = {
+			has_variable = has_expanded_east
+		}	
+	}
+
+	possible = {
+		country_or_subject_owns_entire_state_region = STATE_GREATER_POLAND
+		OR = {
+			country_or_subject_owns_entire_state_region = STATE_TALINN
+			country_or_subject_owns_entire_state_region = STATE_RIGA 
+		}
+		OR = {
+			country_or_subject_owns_entire_state_region = STATE_MINSK
+			country_or_subject_owns_entire_state_region = STATE_KIEV
+		}		
+	}
+	
+	when_taken = {
+		if = {
+			limit = { country_or_subject_owns_entire_state_region = STATE_TALINN }
+			add_primary_culture = cu:estonian
+		}
+		if = {
+			limit = { country_or_subject_owns_entire_state_region = STATE_RIGA }
+			add_primary_culture = cu:latvian
+		}	
+		if = {
+			limit = { country_or_subject_owns_entire_state_region = STATE_KIEV }
+			add_primary_culture = cu:ukrainian
+		}
+		if = {
+			limit = { country_or_subject_owns_entire_state_region = STATE_MINSK }
+			add_primary_culture = cu:byelorussian
+		}	
+		
+		add_primary_culture = cu:polish	
+		set_variable = has_expanded_east	
+	}
+
+	ai_chance = {
+		base = 0		
+	}
+}
+
+#Form South America
+form_south_america = {
+	is_shown = { 
+		exists = c:GRBR
+		this = c:GRBR 
+	}
+
+	possible = {		         
+		owns_entire_state_region = STATE_RIO_DE_JANEIRO owns_entire_state_region = STATE_MINAS_GERAIS 
+		owns_entire_state_region = STATE_BAHIA owns_entire_state_region = STATE_PERNAMBUCO 
+		owns_entire_state_region = STATE_PARAIBA owns_entire_state_region = STATE_RIO_GRANDE_DO_NORTE 
+		owns_entire_state_region = STATE_SAO_PAULO owns_entire_state_region = STATE_PARANA 
+		owns_entire_state_region = STATE_SANTA_CATARINA owns_entire_state_region = STATE_RIO_GRANDE_DO_SUL 
+		owns_entire_state_region = STATE_URUGUAY owns_entire_state_region = STATE_CEARA 
+		owns_entire_state_region = STATE_GOIAS owns_entire_state_region = STATE_MATO_GROSSO 
+		owns_entire_state_region = STATE_PARA owns_entire_state_region = STATE_AMAZONAS 
+		owns_entire_state_region = STATE_GUAYANA owns_entire_state_region = STATE_BAJO_PARAGUAY 
+		owns_entire_state_region = STATE_CORRIENTES owns_entire_state_region = STATE_ALTO_PARAGUAY 
+		owns_entire_state_region = STATE_CHACO owns_entire_state_region = STATE_SANTA_FE 
+		owns_entire_state_region = STATE_BUENOS_AIRES owns_entire_state_region = STATE_ACRE 
+		owns_entire_state_region = STATE_LA_PAZ owns_entire_state_region = STATE_SANTA_CRUZ 
+		owns_entire_state_region = STATE_JUJUY owns_entire_state_region = STATE_SANTIAGO 
+		owns_entire_state_region = STATE_LOS_RIOS owns_entire_state_region = STATE_ARAUCANIA
+		owns_entire_state_region = STATE_PATAGONIA owns_entire_state_region = STATE_ANTOFAGASTA
+		owns_entire_state_region = STATE_POTOSI owns_entire_state_region = STATE_TARAPACA
+		owns_entire_state_region = STATE_AREQUIPA owns_entire_state_region = STATE_ICA 
+		owns_entire_state_region = STATE_LIMA owns_entire_state_region = STATE_CAJAMARCA 
+		owns_entire_state_region = STATE_PASTAZA owns_entire_state_region = STATE_ECUADOR 
+		owns_entire_state_region = STATE_GUAVIARE owns_entire_state_region = STATE_CAUCA 
+		owns_entire_state_region = STATE_CUNDINAMARCA owns_entire_state_region = STATE_ANTIOQUIA 
+		owns_entire_state_region = STATE_ZULIA owns_entire_state_region = STATE_MIRANDA 
+		owns_entire_state_region = STATE_BOLIVAR
+
+		hidden_trigger = {
+			NOT = { has_variable = formed_south_america }
+		}
+	}
+	
+	when_taken = {
+		set_variable = {
+			name = formed_south_america
+			value = yes
+		}
+		change_tag = UNSA
+
+		trigger_event = { id = UNSA_unification.1 popup = yes }
+	}
+
+	ai_chance = {
+		base = 0		
+	}
+}

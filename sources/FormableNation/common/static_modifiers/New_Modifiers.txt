@@ -1,0 +1,554 @@
+HRE-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_bureaucracy_mult = 0.1
+	country_influence_mult = 0.1
+}
+
+BNL-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_conscription_rate_mult = 0.1
+	state_migration_pull_mult = 0.1
+	country_influence_mult = 0.1
+}
+
+BNL-religion-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_radicalism_increases_violent_hostility_mult = -0.1
+	state_radicalism_increases_cultural_erasure_mult = -0.1
+	state_radicalism_increases_open_prejudice_mult = -0.1
+}
+
+BNL-industry-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_max_companies_add = 1
+	country_company_throughput_bonus_add = 0.1
+}
+
+BNL-trade-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_bureaucracy_mult = 0.1
+	country_free_trade_routes_add = 5
+}
+
+UCB-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	unit_navy_defense_mult = 0.1
+	unit_navy_offense_mult = 0.1
+	country_navy_power_projection_mult = 0.1
+}
+
+IFR-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_bureaucracy_mult = 0.1
+	state_assimilation_mult = 0.2
+}
+
+INC-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_assimilation_mult = 0.1
+	state_radicalism_increases_violent_hostility_mult = -0.1
+	state_radicalism_increases_cultural_erasure_mult = -0.1
+	state_radicalism_increases_open_prejudice_mult = -0.1
+}
+
+TCC-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	unit_army_offense_add = 5.0
+	unit_army_defense_add = 5.0
+	unit_kill_rate_add = 0.05
+}
+
+RME-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	unit_army_offense_add = 5.0
+	unit_army_defense_add = 5.0
+	country_bureaucracy_mult = 0.1
+}
+
+MGB-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	unit_navy_defense_mult = 0.1
+	unit_navy_offense_mult = 0.1
+	country_influence_mult = 0.1
+}
+
+MGB-formation-modifier-02 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_colony_growth_speed_mult = 0.2
+	state_colony_growth_creation_mult = 0.1
+}
+
+BSA-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_assimilation_mult = 0.1
+	state_loyalists_from_political_movements_mult = 0.1
+}
+
+BKU-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	unit_army_offense_add = 5.0
+	unit_army_defense_add = 5.0
+	state_radicalism_increases_violent_hostility_mult = -0.1
+	state_radicalism_increases_cultural_erasure_mult = -0.1
+	state_radicalism_increases_open_prejudice_mult = -0.1
+}
+
+NSE-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	unit_navy_defense_mult = 0.1
+	unit_navy_offense_mult = 0.1
+	country_navy_power_projection_mult = 0.1
+}
+
+FBU-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_assimilation_mult = 0.2
+	state_radicalism_increases_second_rate_citizen_mult = -0.1
+	state_radicalism_increases_full_acceptance_mult = -0.1
+}
+
+ICE-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_assimilation_mult = 0.2
+	state_loyalists_from_political_movements_mult = 0.1
+}
+
+ICE-formation-modifier-02 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	unit_army_offense_add = 5.0
+	unit_army_defense_add = 5.0
+	unit_kill_rate_add = 0.1
+}
+
+CRT-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_bureaucracy_mult = 0.2
+	building_port_throughput_add = 0.2
+}
+
+APCF-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	building_group_bg_mining_throughput_add = 0.2
+}
+
+LTR-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	unit_army_defense_add = 10.0
+	state_conscription_rate_mult = 0.1
+}
+
+MDZ-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_bureaucracy_mult = 0.2
+	state_loyalists_from_political_movements_mult = 0.1
+}
+
+TMD-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_bureaucracy_mult = 0.1
+	country_influence_mult = 0.1
+}
+
+MCE-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	unit_army_offense_add = 10
+	state_assimilation_mult = 0.1
+}
+
+GIN-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	unit_army_offense_add = 10
+	state_assimilation_mult = 0.1
+}
+
+FUG-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	unit_army_defense_add = 10
+	state_assimilation_mult = 0.2
+}
+
+POLY-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	unit_army_defense_add = 10
+	state_assimilation_mult = 0.2
+}
+
+GLE-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	unit_army_defense_add = 10
+	unit_army_offense_add = 10
+	unit_kill_rate_add = 0.05
+}
+
+HAF-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_bureaucracy_mult = 0.1
+	building_port_throughput_add = 0.2
+}
+
+CLE-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_bureaucracy_mult = 0.1
+	state_assimilation_mult = 0.1
+	state_radicalism_increases_violent_hostility_mult = -0.1
+	state_radicalism_increases_cultural_erasure_mult = -0.1
+	state_radicalism_increases_open_prejudice_mult = -0.1
+}
+
+BRM-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	unit_army_defense_add = 5
+	unit_army_offense_add = 5
+	state_loyalists_from_political_movements_mult = 0.1
+}
+
+SLU-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_assimilation_mult = 0.25
+	state_loyalists_from_political_movements_mult = -0.1
+	state_radicalism_increases_violent_hostility_mult = -0.05
+	state_radicalism_increases_cultural_erasure_mult = -0.05
+	state_radicalism_increases_open_prejudice_mult = -0.05
+}
+
+SLU-formation-modifier-02 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_assimilation_mult = -0.1
+	state_loyalists_from_political_movements_mult = 0.1
+	state_radicalism_increases_violent_hostility_mult = -0.1
+	state_radicalism_increases_cultural_erasure_mult = -0.1
+	state_radicalism_increases_open_prejudice_mult = -0.1
+}
+
+GAC-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	building_port_throughput_add = -0.5
+	building_group_bg_mining_throughput_add = 0.15
+	building_group_bg_heavy_industry_throughput_add = 0.15
+	state_loyalists_from_political_movements_mult = 0.1
+}
+
+GAC-formation-modifier-02 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	building_port_throughput_add = 0.15
+	state_assimilation_mult = 0.1
+	building_trade_center_throughput_add = 0.1
+}
+
+GOGU-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	unit_army_defense_add = 15
+}
+
+CPH-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	unit_army_offense_add = 5
+	unit_kill_rate_add = 0.15
+}
+
+GCA-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	unit_army_defense_add = 10
+	state_migration_pull_mult = 0.25
+}
+
+GCA-formation-modifier-02 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	unit_army_offense_add = 10
+	unit_kill_rate_add = 0.05
+}
+
+TUGO-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	unit_army_defense_add = 10
+	state_assimilation_mult = 0.1
+}
+
+TURA-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	unit_army_defense_add = 10
+	state_radicalism_increases_violent_hostility_mult = -0.1
+	state_radicalism_increases_cultural_erasure_mult = -0.1
+	state_radicalism_increases_open_prejudice_mult = -0.1
+}
+
+NEPR-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	unit_navy_offense_add = 10
+	country_trade_route_cost_mult = -0.1
+}
+
+NEPR-formation-modifier-02 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	unit_army_offense_add = 10
+	country_prestige_from_army_power_projection_mult = 0.05
+}
+
+BMY-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_migration_pull_mult = 0.1
+	country_legitimacy_base_add = 5
+}
+
+IJP-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_influence_mult = 0.1
+	country_prestige_from_army_power_projection_mult = 0.05
+	country_prestige_from_navy_power_projection_mult = 0.05
+}
+
+SIKH-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_conversion_mult = 0.25
+	state_radicalism_increases_violent_hostility_mult = -0.1
+	state_radicalism_increases_cultural_erasure_mult = -0.1
+	state_radicalism_increases_open_prejudice_mult = -0.1
+}
+
+GCAN-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	building_port_throughput_add = 0.15
+	state_assimilation_mult = 0.1
+	building_group_bg_whaling_throughput_add = 0.1
+}
+
+BREP-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_assimilation_mult = 0.2
+	state_conversion_mult = 0.1
+}
+
+PAGR-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_assimilation_mult = 0.2
+	state_conversion_mult = 0.1
+}
+
+GRBR-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_assimilation_mult = 0.2
+	state_conversion_mult = 0.1
+}
+
+UNSA-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	building_group_bg_plantations_throughput_add = 0.2
+}
+
+AUST-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_infamy_decay_mult = 0.1
+	unit_army_offense_add = 5
+}
+
+TIPE-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_assimilation_mult = 0.4
+	state_radicalism_increases_violent_hostility_mult = 0.05
+	state_radicalism_increases_cultural_erasure_mult = 0.05
+	state_radicalism_increases_open_prejudice_mult = 0.05
+}
+
+SONG-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_colony_growth_speed_mult = 0.25
+}
+
+EASA-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_mortality_mult = 0.02
+	state_birth_rate_mult = 0.05	
+}
+
+EASA-formation-modifier-02 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_pop_support_movement_fascist_mult = 0.10
+	state_loyalists_from_political_movements_mult = 0.1
+}
+
+EUSA-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_pop_support_movement_communist_mult = 0.10
+	state_loyalists_from_political_movements_mult = 0.1
+}
+
+EUSA-formation-modifier-02 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	building_group_bg_heavy_industry_throughput_add = 0.10
+	building_automotive_industry_throughput_add = 0.10
+}
+
+OCIA-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_loyalists_from_political_movements_mult = 0.2
+	country_tech_research_speed_mult = -0.05
+}
+
+GZUL-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_assimilation_mult = 0.25
+}
+
+GZUL-formation-modifier-02 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_assimilation_mult = 0.1
+	state_colony_growth_speed_mult = 0.20
+}
+
+GZUL-conquest-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_assimilation_mult = 0.40
+	state_radicalism_increases_violent_hostility_mult = 0.05
+	state_radicalism_increases_cultural_erasure_mult = 0.05
+	state_radicalism_increases_open_prejudice_mult = 0.05
+}
+
+GZUL-conquest-modifier-02 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_loyalists_from_political_movements_mult = 0.1
+	state_radicalism_increases_violent_hostility_mult = -0.05
+	state_radicalism_increases_cultural_erasure_mult = -0.05
+	state_radicalism_increases_open_prejudice_mult = -0.05
+}
+
+MAPH-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_trade_advantage_mult = 0.2
+	building_trade_center_throughput_add = 0.1
+}
+
+MAPH-formation-modifier-02 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	unit_navy_offense_add = 5
+	unit_navy_defense_add = 5
+	unit_navy_experience_gain_add = 5
+}
+
+FRSP-formation-modifier-01 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_assimilation_mult = 0.25
+}
+
+FRSP-formation-modifier-02 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_trade_advantage_mult = 0.2
+	building_trade_center_throughput_add = 0.1
+}
+
+#Rome stuff
+claimed_roman_heritage = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_infamy_decay_mult = 0.33
+	country_authority_add = -100
+}
+
+claimed_iberia = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_infamy_decay_mult = -0.1
+	country_influence_add = -100
+}
+
+claimed_north_africa = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_infamy_decay_mult = -0.1
+	country_influence_add = -100
+}
+
+claimed_byzantium = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_infamy_decay_mult = -0.1
+	country_influence_add = -100
+}
+
+claimed_levant = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_infamy_decay_mult = -0.1
+	country_influence_add = -100
+}
+
+claimed_balkans = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_infamy_decay_mult = -0.1
+	country_influence_add = -100
+}
+
+claimed_britain = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_infamy_decay_mult = -0.1
+	country_influence_add = -100
+}
+
+claimed_germania = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_infamy_decay_mult = -0.1
+	country_influence_add = -100
+}
+
+claimed_gaul = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_infamy_decay_mult = -0.1
+	country_influence_add = -100
+}
+
+maghrebi_integration_efforts_1 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_bureaucracy_mult = -0.2
+	country_authority_add = -200
+}
+
+maghrebi_integration_efforts_2 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_bureaucracy_mult = -0.2
+	state_tax_capacity_mult = -0.15
+}
+
+invite_with_influence = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	country_influence_mult = -0.25
+	country_authority_add = -200
+}
+
+invite_with_money = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	country_expenses_add = 1
+}
+
+small_culture_investment = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	country_influence_mult = -0.1
+	country_bureaucracy_mult = -0.1
+}
+
+medium_culture_investment = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	country_influence_mult = -0.2
+	country_bureaucracy_mult = -0.2
+}
+
+large_culture_investment = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	country_influence_mult = -0.3
+	country_bureaucracy_mult = -0.3
+	country_authority_add = -100
+}
+
+small_claim = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds
+	country_influence_add = -50
+}
+
+medium_claim = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds
+	country_influence_add = -100
+}
+
+large_claim = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds
+	country_influence_add = -150
+}
+
+caro_land_claim = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds
+	country_influence_add = -100
+	country_infamy_decay_mult = -0.1
+}

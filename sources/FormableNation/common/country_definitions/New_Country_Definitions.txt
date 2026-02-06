@@ -1,0 +1,969 @@
+BKU = {
+	#Balkan Union
+	color = { 10 10 10 }
+	
+	country_type = recognized
+
+	tier = hegemony
+	
+	cultures = {
+		serb
+		croat
+		slovene
+		greek
+		bulgarian
+		romanian
+		albanian
+		bosniak
+	}
+	capital = STATE_EASTERN_SERBIA
+}
+
+BSA = {
+	#Baltoscandia
+	color = { 4 52 92 }
+	
+	country_type = recognized
+
+	tier = hegemony
+	
+	cultures = {
+		swedish
+		norwegian
+		finnish
+		danish
+		estonian
+		latvian
+		lithuanian
+		icelandic
+	}
+	capital = STATE_SVEALAND
+}
+
+BNL = {
+	#Benelux
+	color = { 201 117 20 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = {
+		dutch
+		flemish
+		wallonian
+	}
+	capital = STATE_HOLLAND
+}
+
+FBU = {
+	#Franco-British Unions
+	color = { 69 14 120 }
+	
+	country_type = recognized
+
+	tier = hegemony
+	
+	cultures = {
+		british
+		scottish
+		french
+	}
+	capital = STATE_HOME_COUNTIES
+}
+
+HRE = {
+	#Holy Roman Empire
+	color = { 245 245 255 }
+	
+	country_type = recognized
+
+	tier = hegemony
+	
+	cultures = {
+		north_german
+		south_german
+		dutch
+		north_italian
+		french
+		slovene
+		czech
+		flemish
+		wallonian
+	}
+	capital = STATE_NORTH_RHINE
+}
+
+IFR = {
+	#Imperial Federation
+	color = { 120 0 0 }
+	
+	country_type = recognized
+
+	tier = hegemony
+	
+	cultures = {
+		british 
+		scottish
+		franco_canadian
+		anglo_canadian
+		australian
+		irish
+	}
+	capital = STATE_HOME_COUNTIES
+}
+
+ICE = {
+	#Incan Empire
+	color = { 150 12 67 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = {
+		south_andean
+		quechua
+	}
+	capital = STATE_LIMA
+}
+
+INC = {
+	#Indochina
+	color = { 245 245 255 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = {
+		vietnamese
+		khmer
+		lao
+	}
+	capital = STATE_TONKIN
+}
+
+MGB = {
+	#Maghreb
+	color = { 7 79 36 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = {
+		maghrebi
+		bedouin
+		tuareg
+	}
+	capital = STATE_FEZ
+}
+
+NSE = {
+	#North Sea Empire
+	color = { 122 12 12 }
+	
+	country_type = recognized
+
+	tier = hegemony
+	
+	cultures = {
+		british
+		danish
+		norwegian
+	}
+	capital = STATE_ZEALAND
+}
+
+RME = {
+	#Roman Empire
+	color = { 105 4 11 }
+	
+	country_type = recognized
+
+	tier = hegemony
+	
+	cultures = {
+		north_italian
+		south_italian
+	}
+	capital = STATE_LAZIO
+}
+
+TCC = {
+	#Transcaucasia
+	color = { 19 22 191 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = {
+		north_caucasian
+		georgian
+		armenian
+		azerbaijani
+		circassian
+	}
+	capital = STATE_GREATER_CAUCASUS
+}
+
+UCB = {
+	#United Caribbean
+	color = { 79 69 69 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = {
+		caribeno
+		afro_antillean
+		afro_caribbean
+	}
+	capital = STATE_CUBA
+}
+
+CRT = {
+	#Carthage
+	color = { 78 76 212 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = {
+		maghrebi
+		spanish
+		south_italian
+	}
+	capital = STATE_TUNISIA
+}
+
+APCF = {
+	#Alpine Confederation
+	color = { 58 69 57 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = {
+		alemannic
+		francoprovencal
+	}
+	capital = STATE_WEST_SWITZERLAND
+}
+
+LTR = {
+	#Lotharingia
+	color = { 114 118 158 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = {
+		dutch
+		french
+		wallonian
+		flemish
+		north_german
+	}
+	capital = STATE_HOLLAND
+}
+
+MDZ = {
+	#Międzymorze
+	color = { 110 47 64 }
+	
+	country_type = recognized
+
+	tier = hegemony
+	
+	cultures = {
+		polish
+		ukrainian
+		byelorussian
+		czech
+		slovak
+		romanian
+		hungarian
+		serb
+		lithuanian
+		latvian
+		estonian
+	}
+	capital = STATE_HOLLAND
+}
+
+TMD = {
+	#Timurid Empire
+	color = { 31 3 3 }
+	
+	country_type = recognized
+
+	tier = hegemony
+	
+	cultures = {
+		persian
+		pashtun
+		turkmen
+		uzbek
+		azerbaijani
+		kurdish
+		baluchi
+		tajik
+		armenian
+	}
+	capital = STATE_MAZANDARAN
+}
+
+MCE = {
+	#Macedonian Empire
+	color = { 16 117 143 }
+	
+	country_type = recognized
+
+	tier = hegemony
+	
+	cultures = {
+		greek
+		bulgarian
+		turkish
+		persian
+		pashtun
+		mashriqi
+		baluchi
+	}
+	capital = STATE_MACEDONIA
+}
+
+FUG = {
+	#Finno-Ugria
+	color = { 10 112 97 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = {
+		finnish
+		ugrian
+	}
+	capital = STATE_UUSIMAA
+}
+
+POLY = {
+	#Polynesia
+	color = { 25 99 168 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = {
+		hawaiian
+		micronesian
+		polynesian
+	}
+	capital = STATE_HAWAIIAN_ISLANDS
+}
+
+GLE = {
+	#Great Lakes Empire
+	color = { 19 27 143 }
+
+	country_type = recognized
+
+	tier = empire
+
+	cultures = {
+		baganda
+		lacustrine_bantu
+		ruanda
+		nilotic
+		fluvian_bantu
+	}
+
+	capital = STATE_TANGANYIKA
+}
+
+HAF = {
+	#Horn of Africa
+	color = { 218 237 242 }
+
+	country_type = recognized
+
+	tier = hegemony
+
+	cultures = {
+		oromo
+		amhara
+		somali
+		tigray
+		yemenite
+	}
+
+	capital = STATE_OROMIA
+}
+
+CLE = {
+	#Carolingian Empire
+	color = { 12 130 65 }
+
+	country_type = recognized
+
+	tier = hegemony
+
+	cultures = {
+		french
+		wallonian
+		north_italian
+		dutch
+		north_german
+	}
+
+	capital = STATE_RHINELAND
+}
+
+BRM = {
+	#Bulgaria-Romania
+	color = { 40 81 128 }
+
+	country_type = recognized
+
+	tier = empire
+
+	cultures = {
+		romanian
+		bulgarian
+	}
+
+	capital = STATE_WALLACHIA
+}
+
+SLU = {
+	#Slavic Union
+	color = { 7 74 47 }
+
+	country_type = recognized
+
+	tier = hegemony
+
+	cultures = {
+		russian
+		ukrainian
+		polish
+		byelorussian
+		bulgarian
+		serb
+		croat
+		slovak
+		czech
+		slovene
+		bosniak
+	}
+
+	capital = STATE_MOSCOW
+}
+
+GAC = {
+	#Greater America
+	color = { 12 58 156 }
+
+	country_type = recognized
+
+	tier = hegemony
+
+	cultures = {
+		yankee
+		dixie
+		anglo_canadian
+		franco_canadian
+	}
+
+	capital = STATE_DISTRICT_OF_COLUMBIA
+}
+
+GOGU = {
+	#Goguryeo
+	color = { 90 10 10 }
+
+	country_type = recognized
+
+	tier = empire
+
+	cultures = {
+		korean
+	}
+
+	capital = STATE_PYONGYANG
+}
+
+CPH = {
+	#Caliphate
+	color = { 26 102 12 }
+
+	country_type = recognized
+
+	tier = hegemony
+
+	cultures = {
+		turkish
+		mashriqi
+		persian
+		azerbaijani
+		maghrebi
+		misri
+		bedouin
+		kurdish
+	}
+
+	capital = STATE_BAGHDAD
+}
+
+GCA = {
+	#Greater Confederation of America
+	color = { 176 176 176 }
+
+	country_type = recognized
+
+	tier = hegemony
+
+	cultures = {
+		cherokee
+		siouan
+		dakota
+		caddoan
+		paiute
+		navajo
+		hokan
+		salish
+	}
+
+	capital = STATE_BAGHDAD
+}
+
+TUGO = {
+	#Toungoo Empire
+	color = { 129 194 54 }
+
+	country_type = recognized	
+
+	tier = empire
+
+	cultures = {
+		burmese
+		thai
+	}
+
+	capital = STATE_PEGU
+}
+
+TURA = {
+	#Turan
+	color = {17 241 245}
+
+	country_type = recognized	
+
+	tier = hegemony
+
+	cultures = {
+		turkish
+		tuvan
+		tatar
+		azerbaijani
+		turkmen
+		uzbek
+		kazak
+		uighur
+	}
+
+	capital = STATE_ANKARA
+}
+
+NEPR = {
+	#Netherlands-Prussia
+	color = {92 65 38}
+
+	country_type = recognized	
+
+	tier = hegemony
+
+	cultures = {
+		dutch
+		north_german
+	}
+
+	capital = STATE_BRANDENBURG
+}
+
+BMY = {
+	#British Mayalysia
+	color = hsv{0.95  0.7  0.8}
+
+	country_type = recognized	
+
+	tier = kingdom
+
+	cultures = {
+		british
+		malay
+	}
+
+	capital = STATE_MALAYA
+}
+
+GBMY = {
+	#Greater Mayalysia
+	color = hsv{0.95  0.7  0.8}
+
+	country_type = recognized	
+
+	tier = kingdom
+
+	cultures = {
+		british
+		malay
+	}
+
+	capital = STATE_MALAYA
+}
+
+IJP = {
+	#Imperial Japan
+	color = hsv{0.95  0.7  0.8}
+
+	country_type = recognized	
+
+	tier = hegemony
+
+	cultures = {
+		japanese
+	}
+
+	capital = STATE_KANSAI
+}
+
+USE = {
+	#United States of Europe
+	color = {0 68 148}
+
+	country_type = recognized	
+
+	tier = hegemony
+
+	cultures = {
+		
+	}
+
+	capital = STATE_BRANDENBURG
+}
+
+SIKH = {
+	#Sikh Empire
+	color = {171 179 0}
+
+	country_type = recognized	
+
+	tier = empire
+
+	cultures = {
+		panjabi
+	}
+
+	capital = STATE_PUNJAB
+}
+
+GCAN = {
+	#Greater Canada
+	color = {138 22 41}
+
+	country_type = recognized	
+
+	tier = empire
+
+	cultures = {
+		anglo_canadian
+		franco_canadian
+	}
+
+	capital = STATE_ONTARIO
+}
+
+BREP = {
+	#Boer Republic
+	color = {201 106 30}
+
+	country_type = recognized	
+
+	tier = empire
+
+	cultures = {
+		boer
+	}
+
+	capital = STATE_VRYSTAAT
+}
+
+PAGR = {
+	#Patria Grande
+	color = {201 106 30}
+
+	country_type = recognized	
+
+	tier = hegemony
+
+	cultures = {
+		mexican
+		central_american
+		north_andean
+		afro_caribeno
+		south_andean
+		caribeno
+	}
+
+	capital = STATE_MEXICO
+}
+
+HURO = {
+	#Hungary-Romania
+	color = {222 149 50}
+
+	country_type = recognized	
+
+	tier = empire
+
+	cultures = {
+		hungarian
+		romanian
+	}
+
+	capital = STATE_NORTHERN_TRANSYLVANIA
+}
+
+GRBR = {
+	#Greater Brazil
+	color = {16 112 14}
+
+	country_type = recognized	
+
+	tier = hegemony
+
+	cultures = {
+		brazilian
+	}
+
+	capital = STATE_RIO_DE_JANEIRO
+}
+
+UNSA = {
+	#United South America
+	color = {47 237 213}
+
+	country_type = recognized	
+
+	tier = hegemony
+
+	cultures = {
+		brazilian
+		north_andean
+		south_andean
+	}
+
+	capital = STATE_RIO_DE_JANEIRO
+}
+
+AUST = {
+	#Austrasia
+	color = {93 140 13}
+
+	country_type = recognized	
+
+	tier = empire
+
+	cultures = {
+		dutch
+		flemish
+		wallonian
+		north_german
+	}
+
+	capital = STATE_FLANDERS
+}
+
+TIPE = {
+	#Tibetan Empire
+	color = {19 56 143}
+
+	country_type = recognized	
+
+	tier = empire
+
+	cultures = {
+		tibetan
+	}
+
+	capital = STATE_LHASA
+}
+
+SONG = {
+	#Songhai Empire
+	color = {153 47 0}
+
+	country_type = recognized	
+
+	tier = empire
+
+	cultures = {
+		songhai
+		hausa
+		mande
+		fulbe
+	}
+
+	capital = STATE_TIMBUKTU
+}
+
+EASA = {
+	#East Asia
+	color = {229 224 26}
+
+	country_type = recognized	
+
+	tier = hegemony
+
+	cultures = {
+		han
+		japanese
+		korean
+		vietnamese
+	}
+
+	capital = STATE_GUANGDONG
+}
+
+EUSA = {
+	#Eurasia
+	color = { 177  44  29 } 
+
+	country_type = recognized	
+
+	tier = hegemony
+
+	cultures = {
+		russian
+		north_german
+		french
+		south_german
+	}
+
+	capital = STATE_MOSCOW
+}
+
+OCIA = {
+	#Oceania
+	color = {0 0 0}
+
+	country_type = recognized	
+
+	tier = hegemony
+
+	cultures = {
+		british
+		yankee
+		dixie
+	}
+
+	capital = STATE_DISTRICT_OF_COLUMBIA
+}
+
+ASTO = {
+	#Air Strip One
+	color = {66 8 8}
+
+	country_type = recognized	
+
+	tier = empire
+
+	cultures = {
+		british
+		irish
+		scottish
+	}
+
+	capital = STATE_EAST_ANGLIA
+}
+
+GZUL = {
+	#Greater Zulu
+	color = {175 106 189}
+
+	country_type = recognized	
+
+	tier = empire
+
+	cultures = {
+		zulu
+	}
+
+	capital = STATE_ZULULAND
+}
+
+SAFR = {
+	#South Africa
+	color = {150 207 95}
+
+	country_type = recognized	
+
+	tier = empire
+
+	cultures = {
+		zulu
+		sotho
+		nguni
+		shona
+		khoisan
+	}
+
+	capital = STATE_CAPE_COLONY
+}
+
+MAPH = {
+	#Maphilindo
+	color = {32 155 189}
+
+	country_type = recognized	
+
+	tier = hegemony
+
+	cultures = {
+		bornean
+		sumatran
+		javan
+		filipino
+		moluccan
+		malay
+		melanesian
+	}
+
+	capital = STATE_WEST_JAVA
+}
+
+FRSP = {
+	#Franco-Spanish Union
+	color = {202 108 95}
+
+	country_type = recognized	
+
+	tier = hegemony
+
+	cultures = {
+		spanish
+		french
+	}
+
+	capital = STATE_ILE_DE_FRANCE
+}
