@@ -1,6 +1,6 @@
 ﻿KDH_FLAG = {
     pattern = "pattern_solid.tga"
-    color1 = { 79 5 18 }   # 0.31 0.02 0.07을 0~255로 환산한 값(대략)
+    color1 = { 79 5 18 }
 
     textured_emblem = {
         texture = "KDH.dds"

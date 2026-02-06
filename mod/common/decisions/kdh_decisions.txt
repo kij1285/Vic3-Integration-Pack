@@ -1,21 +1,17 @@
-﻿namespace = formation
+﻿kdh_acceptance_decision = {
+    icon = "gfx/interface/icons/decisions/decision_generic.dds"
 
-formation.99 = {
-    type = country_event
-    placement = ROOT
-    title = formation.kdh.t
-    desc  = formation.kdh.d
-    is_triggered_only = yes
-
-    trigger = {
+    possible = {
+        is_ai = no
         c:KDH ?= ROOT
-        NOT = { has_global_variable = has_formed_kdh }
+        NOT = { has_global_variable = vip_kdh_acceptance_done }
     }
 
-    option = {
-        name = formation.kdh.a
-        default_option = yes
+    when = {
+        always = yes
+    }
 
+    effect = {
         add_acceptance = { culture = cu:manchu   value = 10 }
         add_acceptance = { culture = cu:han      value = 10 }
         add_acceptance = { culture = cu:mongol   value = 10 }
@@ -23,6 +19,26 @@ formation.99 = {
         add_acceptance = { culture = cu:siberian value = 10 }
         add_acceptance = { culture = cu:ainu     value = 10 }
 
+        set_global_variable = vip_kdh_acceptance_done
+    }
+
+    ai_will_do = { always = no }
+}
+
+kdh_claims_decision = {
+    icon = "gfx/interface/icons/decisions/decision_generic.dds"
+
+    possible = {
+        is_ai = no
+        c:KDH ?= ROOT
+        NOT = { has_global_variable = vip_kdh_claims_done }
+    }
+
+    when = {
+        always = yes
+    }
+
+    effect = {
         add_claim = { state_region = s:STATE_SAKHALIN }
         add_claim = { state_region = s:STATE_HOKKAIDO }
         add_claim = { state_region = s:STATE_TOHOKU }
@@ -33,7 +49,8 @@ formation.99 = {
         add_claim = { state_region = s:STATE_KYUSHU }
         add_claim = { state_region = s:STATE_RYUKYU_ISLANDS }
 
-
-        set_global_variable = has_formed_kdh
+        set_global_variable = vip_kdh_claims_done
     }
+
+    ai_will_do = { always = no }
 }
