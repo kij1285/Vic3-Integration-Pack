@@ -1,0 +1,8 @@
+﻿bg_aggregate_mining = {
+    parent_group = bg_mining
+    urbanization = 5
+
+    default_building = building_aggregate_mine
+
+    can_use_slaves = yes
+}

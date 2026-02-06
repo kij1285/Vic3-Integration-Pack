@@ -1,0 +1,50 @@
+﻿#AGGREGATE MINE
+pmg_mining_equipment_building_aggregate_mine = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds" 
+    production_methods = {
+        pm_picks_and_shovels_building_aggregate_mine
+        pm_steam_drills_building_aggregate_mine
+        pm_pneumatic_drills_building_aggregate_mine
+     }
+}
+
+pmg_steam_automation_building_aggregate_mine = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+    production_methods = {
+        pm_no_steam_automation_bem
+        pm_steam_powered_hoists_building_aggregate_mine
+    }
+}
+
+pmg_material_handling_building_aggregate_mine = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    production_methods = {
+        pm_manual_material_handling
+        pm_rail_cart_transport
+        pm_conveyor_systems
+        pm_grading_and_sorting
+    }
+}
+
+#AGGREGATE MINE END
+
+#CONSTRUCTION MATERIALS FACTORY
+pmg_material_processing_building_materials_factory = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    production_methods = {
+        pm_manual_crushing
+        pm_steam_powered_crushing
+        pm_rotary_kiln_processing
+        pm_dry_kiln_electrification
+    }
+}
+pmg_material_additives_building_materials_factory = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    production_methods = {
+        pm_no_additives
+        pm_reinforced_materials
+        pm_high_quality_refinement
+    }
+}
+#END CONSTRUCTION MATERIALS FACTORY
+

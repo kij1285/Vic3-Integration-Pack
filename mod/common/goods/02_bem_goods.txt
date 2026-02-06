@@ -1,0 +1,11 @@
+﻿#AGGREGATE FACILITY
+aggregate = {
+    texture = "gfx/interface/icons/goods_icons/aggregate.dds"
+    cost = 20
+    category = industrial
+
+    prestige_factor = 3
+    traded_quantity = 5
+    convoy_cost_multiplier = 0.5
+}
+#AGGREGATE FACILITY END

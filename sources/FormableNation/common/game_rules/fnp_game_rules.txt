@@ -1,0 +1,9 @@
+formable_nations_plus = {
+	default = fnp_all_formable_nations
+
+	fnp_all_formable_nations = {
+	}
+
+	fnp_no_fictional_nations = {
+	}
+}

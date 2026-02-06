@@ -1,0 +1,2803 @@
+je_button_rome_iberia = {
+	name = "je_button_rome_iberia"
+	desc = "je_button_rome_iberia_desc"
+
+	visible = { always = yes }
+
+	possible = { 
+		hidden_trigger = {
+			NOT = { has_variable = claimed_iberia_check }
+		}
+	}
+
+	effect = {
+		change_infamy = 10
+		add_modifier = {
+			name = claimed_iberia
+			months = 61
+		}
+
+		custom_tooltip = {
+			set_variable = {
+				name = claimed_iberia_check
+				value = yes
+			}
+			text = je_button_rome_iberia_claim_states
+
+			s:STATE_LEON = {
+				add_claim = root
+			}
+			s:STATE_OLD_CASTILE = {
+				add_claim = root
+			}
+			s:STATE_BASQUE_COUNTRY = {
+				add_claim = root
+			}
+			s:STATE_CATALONIA = {
+				add_claim = root
+			}
+			s:STATE_ARAGON = {
+				add_claim = root
+			}
+			s:STATE_VALENCIA = {
+				add_claim = root
+			}
+			s:STATE_NEW_CASTILE  = {
+				add_claim = root
+			}
+			s:STATE_EXTREMADURA = {
+				add_claim = root
+			}
+			s:STATE_MURCIA  = {
+				add_claim = root
+			}
+			s:STATE_UPPER_ANDALUSIA  = {
+				add_claim = root
+			}
+			s:STATE_ASTURIAS = {
+				add_claim = root
+			}
+			s:STATE_GALICIA = {
+				add_claim = root
+			}
+			s:STATE_BEIRA = {
+				add_claim = root
+			}
+			s:STATE_ESTREMADURA = {
+				add_claim = root
+			}
+			s:STATE_ALENTEJO = {
+				add_claim = root
+			}
+			s:STATE_BALEARIC_ISLANDS = {
+				add_claim = root
+			}
+			s:STATE_LOWER_ANDALUSIA  = {
+				add_claim = root
+			}
+			s:STATE_ENTRE_DOURO_E_MINHO = {
+				add_claim = root
+			}
+		}
+
+		change_relations = {
+			country = c:SPA
+			value = -30
+		}
+		change_relations = {
+			country = c:POR
+			value = -30
+		}
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_button_rome_gaul = {
+	name = "je_button_rome_gaul"
+	desc = "je_button_rome_gaul_desc"
+
+	visible = { always = yes }
+
+	possible = { 
+		hidden_trigger = {
+			NOT = { has_variable = claimed_gaul_check }
+		}
+	}
+
+	effect = {
+		change_infamy = 10
+		add_modifier = {
+			name = claimed_gaul
+			months = 61
+		}
+
+		custom_tooltip = {
+			set_variable = {
+				name = claimed_gaul_check
+				value = yes
+			}
+			text = je_button_rome_gaul_claim_states
+			
+			s:STATE_PROVENCE = {
+				add_claim = root
+			}
+			s:STATE_RHONE = {
+				add_claim = root
+			}
+			s:STATE_LANGUEDOC = {
+				add_claim = root
+			}
+			s:STATE_AQUITAINE = {
+				add_claim = root
+			}
+			s:STATE_GUYENNE = {
+				add_claim = root
+			}
+			s:STATE_AUVERGNE_LIMOUSIN =  {
+				add_claim = root
+			}
+			s:STATE_POITOU = {
+				add_claim = root
+			}
+			s:STATE_BRITTANY ={
+				add_claim = root
+			}
+			s:STATE_MAINE_ANJOU = {
+				add_claim = root
+			}
+			s:STATE_NORMANDY = {
+				add_claim = root
+			}
+			s:STATE_ORLEANS =  {
+				add_claim = root
+			}
+			s:STATE_BURGUNDY = {
+				add_claim = root
+			}
+			s:STATE_FRANCHE_COMTE = {
+				add_claim = root
+			}
+			s:STATE_ALSACE_LORRAINE = {
+				add_claim = root
+			}
+			s:STATE_LORRAINE = {
+				add_claim = root
+			}
+			s:STATE_CHAMPAGNE = {
+				add_claim = root
+			}
+			s:STATE_PICARDY = {
+				add_claim = root
+			}
+			s:STATE_FRENCH_LOW_COUNTRIES = {
+				add_claim = root
+			}
+			s:STATE_ILE_DE_FRANCE = {
+				add_claim = root
+			}
+		}
+		change_relations = {
+			country = c:FRA
+			value = -30
+		}
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_button_rome_north_africa = {
+	name = "je_button_rome_north_africa"
+	desc = "je_button_rome_north_africa_desc"
+
+	visible = { always = yes }
+
+	possible = { 
+		hidden_trigger = {
+			NOT = { has_variable = claimed_north_africa_check }
+		}
+	}
+
+	effect = {
+		change_infamy = 10
+		add_modifier = {
+			name = claimed_north_africa
+			months = 61
+		}
+
+		custom_tooltip = {
+			set_variable = {
+				name = claimed_north_africa_check
+				value = yes
+			}
+			text = je_button_rome_north_africa_claim_states
+			
+			s:STATE_TUNISIA = {
+				add_claim = root
+			}
+			s:STATE_CONSTANTINE = {
+				add_claim = root
+			}
+			s:STATE_ALGIERS = {
+				add_claim = root
+			}
+			s:STATE_ORAN = {
+				add_claim = root
+			}
+			s:STATE_AL_RIF = {
+				add_claim = root
+			}
+			s:STATE_TRIPOLI = {
+				add_claim = root
+			}
+			s:STATE_LIBYA = {
+				add_claim = root
+			}
+			s:STATE_MATRUH = {
+				add_claim = root
+			}
+			s:STATE_LOWER_EGYPT = {
+				add_claim = root
+			}
+			s:STATE_MIDDLE_EGYPT = {
+				add_claim = root
+			}
+			s:STATE_UPPER_EGYPT = {
+				add_claim = root
+			}
+			s:STATE_SINAI = {
+				add_claim = root
+			}
+			s:STATE_MALTA = {
+				add_claim = root
+			}
+		}
+		change_relations = {
+			country = c:EGY
+			value = -30
+		}
+		change_relations = {
+			country = c:TUN
+			value = -30
+		}
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_button_rome_byzantium = {
+	name = "je_button_rome_byzantium"
+	desc = "je_button_rome_byzantium_desc"
+
+	visible = { always = yes }
+
+	possible = { 
+		hidden_trigger = {
+			NOT = { has_variable = claimed_byzantium_check }
+		}
+	}
+
+	effect = {
+		change_infamy = 10
+		add_modifier = {
+			name = claimed_byzantium
+			months = 61
+		}
+
+		custom_tooltip = {
+			set_variable = {
+				name = claimed_byzantium_check
+				value = yes
+			}
+			text = je_button_rome_byzantium_claim_states
+			
+			s:STATE_PELOPONNESE = {
+				add_claim = root
+			}
+			s:STATE_ATTICA = {
+				add_claim = root
+			}
+			s:STATE_IONIAN_ISLANDS = {
+				add_claim = root
+			}
+			s:STATE_THESSALIA = {
+				add_claim = root
+			}
+			s:STATE_MACEDONIA = {
+				add_claim = root
+			}
+			s:STATE_WESTERN_THRACE = {
+				add_claim = root
+			}
+			s:STATE_EASTERN_THRACE = {
+				add_claim = root
+			}
+			s:STATE_WEST_AEGEAN_ISLANDS = {
+				add_claim = root
+			}
+			s:STATE_EAST_AEGEAN_ISLANDS = {
+				add_claim = root
+			}
+			s:STATE_CRETE = {
+				add_claim = root
+			}
+			s:STATE_KONYA = {
+				add_claim = root
+			}
+			s:STATE_ANKARA = {
+				add_claim = root
+			}
+			s:STATE_NORTHERN_THRACE = {
+				add_claim = root
+			}
+			s:STATE_SKOPIA = {
+				add_claim = root
+			}
+			s:STATE_ALBANIA = {
+				add_claim = root
+			}
+			s:STATE_AYDIN = {
+				add_claim = root
+			}
+			s:STATE_HUDAVENDIGAR = {
+				add_claim = root
+			}
+			s:STATE_KASTAMONU = {
+				add_claim = root
+			}
+		}
+		change_relations = {
+			country = c:GRE
+			value = -30
+		}
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_button_rome_levant = {
+	name = "je_button_rome_levant"
+	desc = "je_button_rome_levant_desc"
+
+	visible = { always = yes }
+
+	possible = { 
+		hidden_trigger = {
+			NOT = { has_variable = claimed_levant_check }
+		}
+	}
+
+	effect = {
+		change_infamy = 10
+		add_modifier = {
+			name = claimed_levant
+			months = 61
+		}
+
+		custom_tooltip = {
+			set_variable = {
+				name = claimed_levant_check
+				value = yes
+			}
+			text = je_button_rome_levant_claim_states
+			
+			s:STATE_PALESTINE = {
+				add_claim = root
+			}
+			s:STATE_TRANSJORDAN = {
+				add_claim = root
+			}
+			s:STATE_LEBANON = {
+				add_claim = root
+			}
+			s:STATE_SYRIA = {
+				add_claim = root
+			}
+			s:STATE_ALEPPO = {
+				add_claim = root
+			}
+			s:STATE_ADANA = {
+				add_claim = root
+			}
+			s:STATE_DIYARBAKIR = {
+				add_claim = root
+			}
+			s:STATE_ERZURUM = {
+				add_claim = root
+			}
+			s:STATE_TRABZON = {
+				add_claim = root
+			}
+			s:STATE_DEIR_EZ_ZOR = {
+				add_claim = root
+			}
+			s:STATE_MOSUL = {
+				add_claim = root
+			}
+			s:STATE_BAGHDAD = {
+				add_claim = root
+			}
+			s:STATE_BASRA = {
+				add_claim = root
+			}
+			s:STATE_KARS = {
+				add_claim = root
+			}
+			s:STATE_ARMENIA = {
+				add_claim = root
+			}
+			s:STATE_GREATER_CAUCASUS = {
+				add_claim = root
+			}
+			s:STATE_URMIA = {
+				add_claim = root
+			}
+			s:STATE_ELIZAVETPOL = {
+				add_claim = root
+			}
+			s:STATE_CYPRUS = {
+				add_claim = root
+			}
+		}
+		change_relations = {
+			country = c:TUR
+			value = -30
+		}
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_button_rome_balkans = {
+	name = "je_button_rome_balkans"
+	desc = "je_button_rome_balkans_desc"
+
+	visible = { always = yes }
+
+	possible = { 
+		hidden_trigger = {
+			NOT = { has_variable = claimed_balkans_check }
+		}
+	}
+
+	effect = {
+		change_infamy = 10
+		add_modifier = {
+			name = claimed_balkans
+			months = 61
+		}
+
+		custom_tooltip = {
+			set_variable = {
+				name = claimed_balkans_check
+				value = yes
+			}
+			text = je_button_rome_balkans_claim_states
+			
+			s:STATE_BULGARIA = {
+				add_claim = root
+			}
+			s:STATE_EASTERN_SERBIA = {
+				add_claim = root
+			}
+			s:STATE_WALLACHIA = {
+				add_claim = root
+			}
+			s:STATE_DOBRUDJA = {
+				add_claim = root
+			}
+			s:STATE_WESTERN_SERBIA = {
+				add_claim = root
+			}
+			s:STATE_KOSOVO = {
+				add_claim = root
+			}
+			s:STATE_MONTENEGRO = {
+				add_claim = root
+			}
+			s:STATE_BOSNIA = {
+				add_claim = root
+			}
+			s:STATE_DALMATIA = {
+				add_claim = root
+			}
+			s:STATE_CROATIA = {
+				add_claim = root
+			}
+			s:STATE_SLAVONIA = {
+				add_claim = root
+			}
+			s:STATE_BANAT = {
+				add_claim = root
+			}
+			s:STATE_DELVIDEK = {
+				add_claim = root
+			}
+			s:STATE_SOUTHERN_TRANSYLVANIA = {
+				add_claim = root
+			}
+			s:STATE_NORTHERN_TRANSYLVANIA = {
+				add_claim = root
+			}
+			s:STATE_BEKES = {
+				add_claim = root
+			}
+			s:STATE_CENTRAL_HUNGARY = {
+				add_claim = root
+			}
+			s:STATE_TRANSDANUBIA = {
+				add_claim = root
+			}
+			s:STATE_SLOVENIA = {
+				add_claim = root
+			}
+		}
+		change_relations = {
+			country = c:AUS
+			value = -30
+		}
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_button_rome_britain = {
+	name = "je_button_rome_britain"
+	desc = "je_button_rome_britain_desc"
+
+	visible = { always = yes }
+
+	possible = { 
+		hidden_trigger = {
+			NOT = { has_variable = claimed_britain_check }
+		}
+	}
+
+	effect = {
+		change_infamy = 10
+		add_modifier = {
+			name = claimed_britain
+			months = 61
+		}
+
+		custom_tooltip = {
+			set_variable = {
+				name = claimed_cbritain_check
+				value = yes
+			}
+			text = je_button_rome_britain_claim_states
+			
+			s:STATE_HOME_COUNTIES = {
+				add_claim = root
+			}
+			s:STATE_WEST_COUNTRY = {
+				add_claim = root
+			}
+			s:STATE_EAST_ANGLIA = {
+				add_claim = root
+			}
+			s:STATE_MIDLANDS = {
+				add_claim = root
+			}
+			s:STATE_WALES = {
+				add_claim = root
+			}
+			s:STATE_YORKSHIRE = {
+				add_claim = root
+			}
+			s:STATE_LANCASHIRE = {
+				add_claim = root
+			}
+		}
+		change_relations = {
+			country = c:GBR
+			value = -30
+		}
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_button_rome_germania = {
+	name = "je_button_rome_germania"
+	desc = "je_button_rome_germania_desc"
+
+	visible = { always = yes }
+
+	possible = { 
+		hidden_trigger = {
+			NOT = { has_variable = claimed_germania_check }
+		}
+	}
+
+	effect = {
+		change_infamy = 10
+		add_modifier = {
+			name = claimed_germania
+			months = 61
+		}
+
+		custom_tooltip = {
+			set_variable = {
+				name = claimed_germania_check
+				value = yes
+			}
+			text = je_button_rome_germania_claim_states
+			
+			s:STATE_AUSTRIA = {
+				add_claim = root
+			}
+			s:STATE_STYRIA = {
+				add_claim = root
+			}
+			s:STATE_TYROL = {
+				add_claim = root
+			}
+			s:STATE_WEST_SWITZERLAND = {
+				add_claim = root
+			}
+			s:STATE_EAST_SWITZERLAND = {
+				add_claim = root
+			}
+			s:STATE_BAVARIA = {
+				add_claim = root
+			}
+			s:STATE_BADEN = {
+				add_claim = root
+			}
+			s:STATE_WURTTEMBERG = {
+				add_claim = root
+			}
+			s:STATE_RHINELAND = {
+				add_claim = root
+			}
+			s:STATE_NORTH_RHINE = {
+				add_claim = root
+			}
+			s:STATE_RUHR = {
+				add_claim = root
+			}
+			s:STATE_WALLONIA = {
+				add_claim = root
+			}
+			s:STATE_FLANDERS = {
+				add_claim = root
+			}
+			s:STATE_GELRE = {
+				add_claim = root
+			}
+			s:STATE_HOLLAND = {
+				add_claim = root
+			}
+		}
+		change_relations = {
+			country = c:PRU
+			value = -30
+		}
+		change_relations = {
+			country = c:NET
+			value = -30
+		}
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_button_dismiss_USE = {
+	name = "je_button_dismiss_USE"
+	desc = "je_button_dismiss_USE_desc"
+
+	visible = { always = yes }
+
+	possible = { 
+		hidden_trigger = {
+			NOT = { has_variable = dismissed_USE }
+		}
+	}
+
+	effect = {
+		custom_tooltip = {
+			set_variable = {
+				name = dismissed_USE
+				value = yes
+			}
+			text = je_button_dismiss_USE_custom
+		}
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_button_pursue_USE = {
+	name = "je_button_pursue_USE"
+	desc = "je_button_pursue_USE_desc"
+
+	visible = { always = yes }
+
+	possible = { 
+		hidden_trigger = {
+			NOT = { has_variable = pursued_USE }
+		}
+	}
+
+	effect = {
+		custom_tooltip = {
+			set_variable = {
+				name = pursued_USE
+				value = yes
+			}
+			text = je_button_pursue_USE_custom
+		}
+		trigger_event = USE_formation.1
+	}
+
+	ai_chance = {
+		base = 0
+	}
+}
+
+je_forming_USE_diplo_NL = {
+	name = "je_button_pursue_USE_diplo_NL"
+	desc = "je_button_pursue_USE_diplo_NL_desc"
+
+	visible = { exists = c:NET }
+
+	possible = { 
+		c:NET ?={
+			relations:root >= 80
+			is_at_war = no
+			NOT = {
+				country_rank >= rank_value:major_power
+			}
+			is_subject = no
+		}
+		hidden_trigger = {
+			NOT = {
+				has_variable = added_netherlands
+			}
+		}
+	}
+
+	effect = {
+		trigger_event = USE_formation.2
+		set_variable = added_netherlands
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_forming_USE_diplo_BE = {
+	name = "je_button_pursue_USE_diplo_BE"
+	desc = "je_button_pursue_USE_diplo_BE_desc"
+
+	visible = { exists = c:BEL }
+
+	possible = { 
+		c:BEL ?={
+			relations:root >= 80
+			is_at_war = no
+			NOT = {
+				country_rank >= rank_value:major_power
+			}
+			is_subject = no
+			exists = yes
+		}
+		hidden_trigger = {
+			NOT = {
+				has_variable = added_belgium
+			}
+		}
+	}
+
+	effect = {
+		trigger_event = USE_formation.3
+		set_variable = added_belgium
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_forming_USE_diplo_DE = {
+	name = "je_button_pursue_USE_diplo_DE"
+	desc = "je_button_pursue_USE_diplo_DE_desc"
+
+	visible = { exists = c:DEN }
+
+	possible = { 
+		c:DEN ?={
+			relations:root >= 80
+			is_at_war = no
+			NOT = {
+				country_rank >= rank_value:major_power
+			}
+			is_subject = no
+		}
+		hidden_trigger = {
+			NOT = {
+				has_variable = added_denmark
+			}
+		}
+	}
+
+	effect = {
+		trigger_event = USE_formation.4
+		set_variable = added_denmark
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_forming_USE_diplo_SWE = {
+	name = "je_button_pursue_USE_diplo_SWE"
+	desc = "je_button_pursue_USE_diplo_SWE_desc"
+
+	visible = { exists = c:SWE }
+
+	possible = { 
+		c:SWE ?={
+			relations:root >= 80
+			is_at_war = no
+			NOT = {
+				country_rank >= rank_value:major_power
+			}
+			is_subject = no
+		}
+		hidden_trigger = {
+			NOT = {
+				has_variable = added_sweden
+			}
+		}
+	}
+
+	effect = {
+		trigger_event = USE_formation.5
+		set_variable = added_sweden
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_forming_USE_diplo_SWI = {
+	name = "je_button_pursue_USE_diplo_SWI"
+	desc = "je_button_pursue_USE_diplo_SWI_desc"
+
+	visible = { exists = c:SWI }
+
+	possible = { 
+		c:SWI ?={
+			relations:root >= 80
+			is_at_war = no
+			NOT = {
+				country_rank >= rank_value:major_power
+			}
+			is_subject = no
+		}
+		hidden_trigger = {
+			NOT = {
+				has_variable = added_switzerland
+			}
+		}
+	}
+
+	effect = {
+		trigger_event = USE_formation.6
+		set_variable = added_switzerland
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_forming_USE_diplo_POR = {
+	name = "je_button_pursue_USE_diplo_POR"
+	desc = "je_button_pursue_USE_diplo_POR_desc"
+
+	visible = { exists = c:POR }
+
+	possible = { 
+		c:POR ?={
+			relations:root >= 80
+			is_at_war = no
+			NOT = {
+				country_rank >= rank_value:major_power
+			}
+			is_subject = no
+		}
+		hidden_trigger = {
+			NOT = {
+				has_variable = added_portugal
+			}
+		}
+	}
+
+	effect = {
+		trigger_event = USE_formation.7
+		set_variable = added_portugal
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_forming_USE_diplo_SAR = {
+	name = "je_button_pursue_USE_diplo_SAR"
+	desc = "je_button_pursue_USE_diplo_SAR_desc"
+
+	visible = { exists = c:SAR }
+
+	possible = { 
+		c:SAR ?={
+			relations:root >= 80
+			is_at_war = no
+			NOT = {
+				country_rank >= rank_value:major_power
+			}
+			is_subject = no
+		}
+		hidden_trigger = {
+			NOT = {
+				has_variable = added_sardinia
+			}
+		}
+	}
+
+	effect = {
+		trigger_event = USE_formation.8
+		set_variable = added_sardinia
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_forming_USE_diplo_SIC = {
+	name = "je_button_pursue_USE_diplo_SIC"
+	desc = "je_button_pursue_USE_diplo_SIC_desc"
+
+	visible = { exists = c:SIC }
+
+	possible = { 
+		c:SIC ?={
+			relations:root >= 80
+			is_at_war = no
+			NOT = {
+				country_rank >= rank_value:major_power
+			}
+			is_subject = no
+		}
+		hidden_trigger = {
+			NOT = {
+				has_variable = added_sicily
+			}
+		}
+	}
+
+	effect = {
+		trigger_event = USE_formation.9
+		set_variable = added_sicily
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_forming_USE_diplo_BAV = {
+	name = "je_button_pursue_USE_diplo_BAV"
+	desc = "je_button_pursue_USE_diplo_BAV_desc"
+
+	visible = { exists = c:BAV }
+
+	possible = { 
+		c:BAV ?={
+			relations:root >= 80
+			is_at_war = no
+			NOT = {
+				country_rank >= rank_value:major_power
+			}
+			is_subject = no
+		}
+		hidden_trigger = {
+			NOT = {
+				has_variable = added_bavaria
+			}
+		}
+	}
+
+	effect = {
+		trigger_event = USE_formation.10
+		set_variable = added_bavaria
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_forming_USE_diplo_SPA = {
+	name = "je_button_pursue_USE_diplo_SPA"
+	desc = "je_button_pursue_USE_diplo_SPA_desc"
+
+	visible = { exists = c:SPA }
+
+	possible = { 
+		c:SPA ?={
+			relations:root >= 80
+			is_at_war = no
+			NOT = {
+				country_rank >= rank_value:major_power
+			}
+			is_subject = no
+		}
+		hidden_trigger = {
+			NOT = {
+				has_variable = added_spain
+			}
+		}
+	}
+
+	effect = {
+		trigger_event = USE_formation.11
+		set_variable = added_spain
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_forming_USE_diplo_FRA = {
+	name = "je_button_pursue_USE_diplo_FRA"
+	desc = "je_button_pursue_USE_diplo_FRA_desc"
+
+	visible = { exists = c:FRA }
+
+	possible = { 
+		c:FRA ?={
+			relations:root >= 80
+			is_at_war = no
+			NOT = {
+				country_rank >= rank_value:major_power
+			}
+			is_subject = no
+		}
+		hidden_trigger = {
+			NOT = {
+				has_variable = added_france
+			}
+		}
+	}
+
+	effect = {
+		trigger_event = USE_formation.12
+		set_variable = added_france
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_forming_USE_diplo_AUS = {
+	name = "je_button_pursue_USE_diplo_AUS"
+	desc = "je_button_pursue_USE_diplo_AUS_desc"
+
+	visible = { exists = c:AUS }
+
+	possible = { 
+		c:AUS ?={
+			relations:root >= 80
+			is_at_war = no
+			NOT = {
+				country_rank >= rank_value:major_power
+			}
+			is_subject = no
+		}
+		hidden_trigger = {
+			NOT = {
+				has_variable = added_austria
+			}
+		}
+	}
+
+	effect = {
+		trigger_event = USE_formation.13
+		set_variable = added_austria
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_forming_USE_diplo_PRU = {
+	name = "je_button_pursue_USE_diplo_PRU"
+	desc = "je_button_pursue_USE_diplo_PRU_desc"
+
+	visible = { exists = c:PRU }
+
+	possible = { 
+		c:PRU ?={
+			relations:root >= 80
+			is_at_war = no
+			NOT = {
+				country_rank >= rank_value:major_power
+			}
+			is_subject = no
+		}
+		hidden_trigger = {
+			NOT = {
+				has_variable = added_prussia
+			}
+		}
+	}
+
+	effect = {
+		trigger_event = USE_formation.14
+		set_variable = added_prussia
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_forming_USE_diplo_GER = {
+	name = "je_button_pursue_USE_diplo_GER"
+	desc = "je_button_pursue_USE_diplo_GER_desc"
+
+	visible = { exists = c:GER }
+
+	possible = { 
+		c:GER ?={
+			relations:root >= 80
+			is_at_war = no
+			NOT = {
+				country_rank >= rank_value:major_power
+			}
+			is_subject = no
+		}
+		hidden_trigger = {
+			NOT = {
+				has_variable = added_germany
+			}
+		}
+	}
+
+	effect = {
+		trigger_event = USE_formation.15
+		set_variable = added_germany
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_forming_USE_diplo_ITA = {
+	name = "je_button_pursue_USE_diplo_ITA"
+	desc = "je_button_pursue_USE_diplo_ITA_desc"
+
+	visible = { exists = c:ITA }
+
+	possible = { 
+		c:ITA ?={
+			relations:root >= 80
+			is_at_war = no
+			NOT = {
+				country_rank >= rank_value:major_power
+			}
+			is_subject = no
+		}
+		hidden_trigger = {
+			NOT = {
+				has_variable = added_italy
+			}
+		}
+	}
+
+	effect = {
+		trigger_event = USE_formation.16
+		set_variable = added_italy
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_forming_USE_diplo_button_form = {
+	name = "je_forming_USE_diplo_button_form"
+	desc = "je_forming_USE_diplo_button_form_desc"
+
+	visible = { }
+
+	possible = { 
+		OR = {
+			c:NET ?= {
+				is_subject_of = root
+			}
+			country_or_subject_owns_entire_state_region = STATE_HOLLAND
+		}
+		OR = {
+			c:BEL ?= {
+				is_subject_of = root
+			}
+			country_or_subject_owns_entire_state_region = STATE_FLANDERS
+		}		
+
+		OR = {
+			c:DEN ?= {
+				is_subject_of = root
+			}
+			country_or_subject_owns_entire_state_region = STATE_ZEALAND
+		}
+		OR = {
+			c:SWE ?= {
+				is_subject_of = root
+			}
+			country_or_subject_owns_entire_state_region = STATE_SVEALAND
+		}
+		OR = {
+			c:NOR ?= {
+				is_subject_of = root
+			}
+			country_or_subject_owns_entire_state_region = STATE_EASTERN_NORWAY
+		}		
+
+		OR = {
+			c:POR ?= {
+				is_subject_of = root
+			}
+			country_or_subject_owns_entire_state_region = STATE_NEW_CASTILE 
+		}
+
+		OR = {
+			c:SAR ?= {
+				is_subject_of = root
+			}
+			c:SIC ?= {
+				is_subject_of = root
+			}
+			country_or_subject_owns_entire_state_region = STATE_LAZIO
+		}
+
+		OR = {
+			c:AUS ?= {
+				is_subject_of = root
+			}
+			country_or_subject_owns_entire_state_region = STATE_AUSTRIA
+		}
+
+		OR = {
+			if = {
+				limit = {
+					c:PRU ?={
+						exists = yes
+					}
+				}
+				c:PRU ?= {
+					is_subject_of = root
+				}
+			}
+			
+			AND = {
+				country_or_subject_owns_entire_state_region = STATE_BRANDENBURG
+				country_or_subject_owns_entire_state_region = STATE_WESTPHALIA
+			}
+		}
+
+		OR = {
+			if ={
+				limit = {
+					c:BAV ?= {
+						exists = yes
+					}
+				}
+				c:BAV ?= {
+					is_subject_of = root
+				}
+			}
+			
+			country_or_subject_owns_entire_state_region = STATE_BAVARIA
+		}
+
+		OR = {
+			country_or_subject_owns_entire_state_region = STATE_HOME_COUNTIES
+
+			c:GBR ?={
+				relations:root >= 50
+			}
+		}
+
+		OR = {
+			country_or_subject_owns_entire_state_region = STATE_ILE_DE_FRANCE
+			c:FRA ?= {
+				is_subject_of = root
+			}
+		}
+	}
+
+	effect = {
+		trigger_event = USE_formation.17
+		set_variable = ready_to_form_europe_diplo		
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_forming_USE_aggresive_NL = {
+	name = "je_forming_USE_aggresive_NL"
+	desc = "je_forming_USE_aggresive_NL_desc"
+
+	visible = { 
+		exists = c:NET
+		NOT = {
+			root = c:NET
+		}
+	 }
+
+	possible = { 
+		c:NET ?={
+			relations:root <= -50
+		}
+		hidden_trigger = {
+			NOT = {
+				has_variable = claimed_netherlands
+			}
+		}
+	}
+
+	effect = {
+		s:STATE_GELRE = {
+				add_claim = root
+			}
+			s:STATE_HOLLAND = {
+				add_claim = root
+			}
+			s:STATE_FRIESLAND = {
+				add_claim = root
+			}
+		set_variable = claimed_netherlands
+
+		add_modifier = {
+			name = small_claim
+			months = 61
+		}
+
+		change_infamy = 5
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_forming_USE_aggresive_BE = {
+	name = "je_forming_USE_aggresive_BE"
+	desc = "je_forming_USE_aggresive_BE_desc"
+
+	visible = { 
+		exists = c:BEL
+		NOT = {
+			root = c:BEL
+		}
+	 }
+
+	possible = { 
+		c:BEL ?={
+			relations:root <= -50
+		}
+		hidden_trigger = {
+			NOT = {
+				has_variable = claimed_belgium
+			}
+		}
+	}
+
+	effect = {
+		s:STATE_FLANDERS = {
+			add_claim = root
+		}
+		s:STATE_WALLONIA = {
+			add_claim = root
+		}
+		set_variable = claimed_belgium
+
+		add_modifier = {
+			name = small_claim
+			months = 61
+		}
+
+		change_infamy = 5
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_forming_USE_aggresive_DE = {
+	name = "je_forming_USE_aggresive_DE"
+	desc = "je_forming_USE_aggresive_DE_desc"
+
+	visible = { 
+		exists = c:DEN
+		NOT = {
+			root = c:DEN
+		}
+	 }
+
+	possible = { 
+		c:DEN ?={
+			relations:root <= -50
+		}
+		hidden_trigger = {
+			NOT = {
+				has_variable = claimed_denmark
+			}
+		}
+	}
+
+	effect = {
+		s:STATE_ZEALAND = {
+			add_claim = root
+		}
+		s:STATE_JUTLAND = {
+			add_claim = root
+		}
+		s:STATE_SCHLESWIG_HOLSTEIN = {
+			add_claim = root
+		}
+		set_variable = claimed_denmark
+
+		add_modifier = {
+			name = small_claim
+			months = 61
+		}
+
+		change_infamy = 5
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_forming_USE_aggresive_SWE = {
+	name = "je_forming_USE_aggresive_SWE"
+	desc = "je_forming_USE_aggresive_SWE_desc"
+
+	visible = { 
+		exists = c:SWE
+		NOT = {
+			root = c:SWE
+		}
+	 }
+
+	possible = { 
+		c:SWE ?={
+			relations:root <= -50
+		}
+		hidden_trigger = {
+			NOT = {
+				has_variable = claimed_sweden
+			}
+		}
+	}
+
+	effect = {
+		s:STATE_SCANIA = {
+			add_claim = root
+		}
+		s:STATE_GOTALAND = {
+			add_claim = root
+		}
+		s:STATE_SVEALAND = {
+			add_claim = root
+		}
+		s:STATE_NORRLAND = {
+			add_claim = root
+		}
+		set_variable = claimed_sweden
+
+		add_modifier = {
+			name = small_claim
+			months = 61
+		}
+
+		change_infamy = 5
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_forming_USE_aggresive_NOR = {
+	name = "je_forming_USE_aggresive_NOR"
+	desc = "je_forming_USE_aggresive_NOR_desc"
+
+	visible = { 
+		exists = c:NOR
+		NOT = {
+			root = c:NOR
+		}
+	 }
+
+	possible = { 
+		c:NOR ?={
+			relations:root <= -50
+		}
+		hidden_trigger = {
+			NOT = {
+				has_variable = claimed_norway
+			}
+		}
+	}
+
+	effect = {
+		s:STATE_WESTERN_NORWAY = {
+			add_claim = root
+		}
+		s:STATE_EASTERN_NORWAY = {
+			add_claim = root
+		}
+		s:STATE_NORTHERN_NORWAY = {
+			add_claim = root
+		}
+		set_variable = claimed_norway
+
+		add_modifier = {
+			name = small_claim
+			months = 61
+		}
+
+		change_infamy = 5
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_forming_USE_aggresive_SWI = {
+	name = "je_forming_USE_aggresive_SWI"
+	desc = "je_forming_USE_aggresive_SWI_desc"
+
+	visible = { 
+		exists = c:SWI
+		NOT = {
+			root = c:SWI
+		}
+	 }
+
+	possible = { 
+		c:SWI ?={
+			relations:root <= -50
+		}
+		hidden_trigger = {
+			NOT = {
+				has_variable = claimed_switzerland
+			}
+		}
+	}
+
+	effect = {
+		s:STATE_EAST_SWITZERLAND = {
+			add_claim = root
+		}
+		s:STATE_WEST_SWITZERLAND = {
+			add_claim = root
+		}
+		set_variable = claimed_switzerland
+
+		add_modifier = {
+			name = small_claim
+			months = 61
+		}
+
+		change_infamy = 5
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_forming_USE_aggresive_POR = {
+	name = "je_forming_USE_aggresive_POR"
+	desc = "je_forming_USE_aggresive_POR_desc"
+
+	visible = { 
+		exists = c:POR
+		NOT = {
+			root = c:POR
+		}
+	 }
+
+	possible = { 
+		c:POR ?={
+			relations:root <= -50
+		}
+		hidden_trigger = {
+			NOT = {
+				has_variable = claimed_portual
+			}
+		}
+	}
+
+	effect = {
+		s:STATE_BEIRA = {
+			add_claim = root
+		}
+		s:STATE_ESTREMADURA = {
+			add_claim = root
+		}
+		s:STATE_ALENTEJO = {
+			add_claim = root
+		}
+		s:STATE_ENTRE_DOURO_E_MINHO = {
+			add_claim = root
+		}
+		set_variable = claimed_portual
+
+		add_modifier = {
+			name = small_claim
+			months = 61
+		}
+
+		change_infamy = 5
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_forming_USE_aggresive_SPA = {
+	name = "je_forming_USE_aggresive_SPA"
+	desc = "je_forming_USE_aggresive_SPA_desc"
+
+	visible = { 
+		exists = c:SPA
+		NOT = {
+			root = c:SPA
+		}
+	 }
+
+	possible = { 
+		c:SPA ?={
+			relations:root <= -50
+		}
+		hidden_trigger = {
+			NOT = {
+				has_variable = claimed_spain
+			}
+		}
+	}
+
+	effect = {
+		s:STATE_GALICIA = {
+			add_claim = root
+		}
+		s:STATE_ASTURIAS = {
+			add_claim = root
+		}
+		s:STATE_BASQUE_COUNTRY  = {
+			add_claim = root
+		}
+		s:STATE_NEW_CASTILE  = {
+			add_claim = root
+		}
+		s:STATE_EXTREMADURA = {
+			add_claim = root
+		}
+		s:STATE_MURCIA  = {
+			add_claim = root
+		}
+		s:STATE_OLD_CASTILE  = {
+			add_claim = root
+		}
+		s:STATE_VALENCIA = {
+			add_claim = root
+		}
+		s:STATE_LEON  = {
+			add_claim = root
+		}
+		s:STATE_ARAGON = {
+			add_claim = root
+		}
+		s:STATE_CATALONIA = {
+			add_claim = root
+		}
+		s:STATE_UPPER_ANDALUSIA  = {
+			add_claim = root
+		}
+		s:STATE_LOWER_ANDALUSIA   = {
+			add_claim = root
+		}
+		s:STATE_BALEARIC_ISLANDS   = {
+			add_claim = root
+		}
+		set_variable = claimed_spain
+
+		add_modifier = {
+			name = large_claim
+			months = 61
+		}
+
+		change_infamy = 15
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_forming_USE_aggresive_FRA = {
+	name = "je_forming_USE_aggresive_FRA"
+	desc = "je_forming_USE_aggresive_FRA_desc"
+
+	visible = { 
+		exists = c:FRA
+		NOT = {
+			root = c:FRA
+		}
+	 }
+
+	possible = { 
+		c:FRA ?={
+			relations:root <= -50
+		}
+		hidden_trigger = {
+			NOT = {
+				has_variable = claimed_france
+			}
+		}
+	}
+
+	effect = {
+		s:STATE_FRENCH_LOW_COUNTRIES = {
+			add_claim = root
+		}
+		s:STATE_PICARDY = {
+			add_claim = root
+		}
+		s:STATE_CHAMPAGNE = {
+			add_claim = root
+		}
+		s:STATE_LORRAINE = {
+			add_claim = root
+		}
+		s:STATE_ALSACE_LORRAINE = {
+			add_claim = root
+		}
+		s:STATE_FRANCHE_COMTE = {
+			add_claim = root
+		}
+		s:STATE_BURGUNDY = {
+			add_claim = root
+		}
+		s:STATE_ILE_DE_FRANCE = {
+			add_claim = root
+		}
+		s:STATE_NORMANDY = {
+			add_claim = root
+		}
+		s:STATE_BRITTANY = {
+			add_claim = root
+		}
+		s:STATE_MAINE_ANJOU = {
+			add_claim = root
+		}
+		s:STATE_ORLEANS = {
+			add_claim = root
+		}
+		s:STATE_POITOU = {
+			add_claim = root
+		}
+		s:STATE_AQUITAINE = {
+			add_claim = root
+		}
+		s:STATE_GUYENNE = {
+			add_claim = root
+		}
+		s:STATE_LANGUEDOC = {
+			add_claim = root
+		}
+		s:STATE_PROVENCE = {
+			add_claim = root
+		}
+		s:STATE_RHONE = {
+			add_claim = root
+		}
+		s:STATE_AUVERGNE_LIMOUSIN = {
+			add_claim = root
+		}
+		s:STATE_SAVOY = {
+			add_claim = root
+		}
+		set_variable = claimed_france
+
+		add_modifier = {
+			name = large_claim
+			months = 61
+		}
+
+		change_infamy = 15
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_forming_USE_aggresive_NGER = {
+	name = "je_forming_USE_aggresive_NGER"
+	desc = "je_forming_USE_aggresive_NGER_desc"
+
+	visible = { 
+		OR = {
+			exists = c:PRU
+			exists = c:GER
+		}	
+		NOT = {
+			root = c:PRU
+		}
+	}
+
+	possible = { 
+		c:PRU ?={
+			relations:root <= -50
+		}
+		hidden_trigger = {
+			NOT = {
+				has_variable = claimed_north_germany
+			}
+		}
+	}
+
+	effect = {
+		s:STATE_HANNOVER = {
+			add_claim = root
+		}
+		s:STATE_WESTPHALIA = {
+			add_claim = root
+		}
+		s:STATE_MECKLENBURG = {
+			add_claim = root
+		}
+		s:STATE_POMERANIA = {
+			add_claim = root
+		}
+		s:STATE_WEST_PRUSSIA = {
+			add_claim = root
+		}
+		s:STATE_EAST_PRUSSIA = {
+			add_claim = root
+		}
+		s:STATE_POSEN = {
+			add_claim = root
+		}
+		s:STATE_UPPER_SILESIA = {
+			add_claim = root
+		}
+		s:STATE_LOWER_SILESIA = {
+			add_claim = root
+		}
+		s:STATE_BRANDENBURG = {
+			add_claim = root
+		}
+		s:STATE_ANHALT = {
+			add_claim = root
+		}
+		s:STATE_BRUNSWICK = {
+			add_claim = root
+		}
+		s:STATE_HESSE = {
+			add_claim = root
+		}
+		s:STATE_RUHR = {
+			add_claim = root
+		}
+		s:STATE_SAXONY = {
+			add_claim = root
+		}
+		s:STATE_ELBE = {
+			add_claim = root
+		}
+
+		set_variable = claimed_north_germany
+
+		add_modifier = {
+			name = large_claim
+			months = 61
+		}
+
+		change_infamy = 15
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_forming_USE_aggresive_SGER = {
+	name = "je_forming_USE_aggresive_SGER"
+	desc = "je_forming_USE_aggresive_SGER_desc"
+
+	visible = { 
+		OR = {
+			exists = c:BAV 
+			exists = c:GER 
+		}
+
+		NOT = {
+			root = c:BAV
+		}
+	}
+
+	possible = { 
+		c:BAV ?={
+			relations:root <= -50
+		}
+		hidden_trigger = {
+			NOT = {
+				has_variable = claimed_south_germany
+			}
+		}
+	}
+
+	effect = {
+		s:STATE_FRANCONIA = {
+			add_claim = root
+		}
+		s:STATE_BAVARIA = {
+			add_claim = root
+		}
+		s:STATE_WURTTEMBERG = {
+			add_claim = root
+		}
+		s:STATE_BADEN = {
+			add_claim = root
+		}
+		s:STATE_RHINELAND = {
+			add_claim = root
+		}
+		s:STATE_NORTH_RHINE = {
+			add_claim = root
+		}
+
+		set_variable = claimed_south_germany
+
+		add_modifier = {
+			name = medium_claim
+			months = 61
+		}
+
+		change_infamy = 10
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_forming_USE_aggresive_AUS = {
+	name = "je_forming_USE_aggresive_AUS"
+	desc = "je_forming_USE_aggresive_AUS_desc"
+
+	visible = { 
+		OR = {
+			exists = c:AUS 
+		}
+
+		NOT = {
+			root = c:AUS
+		}
+	}
+
+	possible = { 
+		c:AUS ?={
+			relations:root <= -50
+		}
+		hidden_trigger = {
+			NOT = {
+				has_variable = claimed_austria
+			}
+		}
+	}
+
+	effect = {
+		s:STATE_AUSTRIA = {
+			add_claim = root
+		}
+		s:STATE_STYRIA = {
+			add_claim = root
+		}
+		s:STATE_TYROL = {
+			add_claim = root
+		}
+		s:STATE_BOHEMIA = {
+			add_claim = root
+		}
+		s:STATE_MORAVIA = {
+			add_claim = root
+		}
+		s:STATE_SLOVENIA = {
+			add_claim = root
+		}
+		s:STATE_ISTRIA = {
+			add_claim = root
+		}
+
+		set_variable = claimed_austria
+
+		add_modifier = {
+			name = medium_claim
+			months = 61
+		}
+
+		change_infamy = 10
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_forming_USE_aggresive_BLK = {
+	name = "je_forming_USE_aggresive_BLK"
+	desc = "je_forming_USE_aggresive_BLK_desc"
+
+	visible = { 
+		OR = {
+			exists = c:AUS 
+		}
+
+		NOT = {
+			root = c:AUS
+		}
+	}
+
+	possible = { 
+		c:AUS ?={
+			relations:root <= -50
+		}
+		hidden_trigger = {
+			NOT = {
+				has_variable = claimed_balkan
+			}
+		}
+	}
+
+	effect = {
+		s:STATE_TRANSDANUBIA = {
+			add_claim = root
+		}
+		s:STATE_CENTRAL_HUNGARY = {
+			add_claim = root
+		}
+		s:STATE_WEST_SLOVAKIA = {
+			add_claim = root
+		}
+		s:STATE_EAST_SLOVAKIA = {
+			add_claim = root
+		}
+		s:STATE_CROATIA = {
+			add_claim = root
+		}
+		s:STATE_WEST_GALICIA = {
+			add_claim = root
+		}
+		s:STATE_EAST_GALICIA = {
+			add_claim = root
+		}
+
+		set_variable = claimed_balkan
+
+		add_modifier = {
+			name = medium_claim
+			months = 61
+		}
+
+		change_infamy = 10
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_forming_USE_aggresive_NITA = {
+	name = "je_forming_USE_aggresive_NITA"
+	desc = "je_forming_USE_aggresive_NITA_desc"
+
+	visible = { 
+		OR = {
+			exists = c:SAR 
+			exists = c:ITA 
+		}
+
+		NOT = {
+			root = c:SAR
+		}
+	}
+
+	possible = { 
+		c:SAR ?={
+			relations:root <= -50
+		}
+		hidden_trigger = {
+			NOT = {
+				has_variable = claimed_north_italy
+			}
+		}
+	}
+
+	effect = {
+		s:STATE_PIEDMONT = {
+			add_claim = root
+		}
+		s:STATE_LOMBARDY = {
+			add_claim = root
+		}
+		s:STATE_VENETIA = {
+			add_claim = root
+		}
+		s:STATE_SOUTH_TYROL = {
+			add_claim = root
+		}
+		s:STATE_ROMAGNA = {
+			add_claim = root
+		}
+		s:STATE_EMILIA = {
+			add_claim = root
+		}
+		s:STATE_TUSCANY = {
+			add_claim = root
+		}
+		s:STATE_UMBRIA = {
+			add_claim = root
+		}
+		s:STATE_LAZIO = {
+			add_claim = root
+		}
+
+		set_variable = claimed_north_italy
+
+		add_modifier = {
+			name = medium_claim
+			months = 61
+		}
+
+		change_infamy = 10
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_forming_USE_aggresive_SITA = {
+	name = "je_forming_USE_aggresive_SITA"
+	desc = "je_forming_USE_aggresive_SITA_desc"
+
+	visible = { 
+		OR = {
+			exists = c:SIC 
+			exists = c:ITA 
+		}
+
+		NOT = {
+			root = c:SIC
+		}
+	}
+
+	possible = { 
+		c:SIC ?={
+			relations:root <= -50
+		}
+		hidden_trigger = {
+			NOT = {
+				has_variable = claimed_south_italy
+			}
+		}
+	}
+
+	effect = {
+		s:STATE_ABRUZZO = {
+			add_claim = root
+		}
+		s:STATE_CAMPANIA = {
+			add_claim = root
+		}
+		s:STATE_APULIA = {
+			add_claim = root
+		}
+		s:STATE_CALABRIA = {
+			add_claim = root
+		}
+		s:STATE_SICILY = {
+			add_claim = root
+		}
+		s:STATE_SARDINIA = {
+			add_claim = root
+		}
+
+		set_variable = claimed_south_italy
+
+		add_modifier = {
+			name = medium_claim
+			months = 61
+		}
+
+		change_infamy = 10
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_forming_USE_aggresive_GBR = {
+	name = "je_forming_USE_aggresive_GBR"
+	desc = "je_forming_USE_aggresive_GBR_desc"
+
+	visible = { 
+		OR = {
+			exists = c:GBR 
+		}
+
+		NOT = {
+			root = c:GBR
+		}
+	}
+
+	possible = { 
+		c:GBR ?={
+			relations:root <= -50
+		}
+		hidden_trigger = {
+			NOT = {
+				has_variable = claimed_england
+			}
+		}
+	}
+
+	effect = {
+		s:STATE_HOME_COUNTIES = {
+			add_claim = root
+		}
+		s:STATE_WEST_COUNTRY = {
+			add_claim = root
+		}
+		s:STATE_EAST_ANGLIA = {
+			add_claim = root
+		}
+		s:STATE_MIDLANDS = {
+			add_claim = root
+		}
+		s:STATE_YORKSHIRE = {
+			add_claim = root
+		}
+		s:STATE_LANCASHIRE = {
+			add_claim = root
+		}
+
+		set_variable = claimed_england
+
+		add_modifier = {
+			name = large_claim
+			months = 61
+		}
+
+		change_infamy = 15
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_forming_USE_aggresive_button_form = {
+	name = "je_forming_USE_aggresive_button_form"
+	desc = "je_forming_USE_aggresive_button_form_desc"
+
+	visible = { 
+	}
+
+	possible = { 
+		country_or_subject_owns_entire_state_region = STATE_SVEALAND
+		country_or_subject_owns_entire_state_region = STATE_FLANDERS
+		country_or_subject_owns_entire_state_region = STATE_HOLLAND
+		country_or_subject_owns_entire_state_region = STATE_ILE_DE_FRANCE
+		country_or_subject_owns_entire_state_region = STATE_BRANDENBURG
+		country_or_subject_owns_entire_state_region = STATE_ZEALAND
+		country_or_subject_owns_entire_state_region = STATE_BAVARIA
+		country_or_subject_owns_entire_state_region = STATE_TOLEDO
+		country_or_subject_owns_entire_state_region = STATE_ESTREMADURA
+		OR = {
+			country_or_subject_owns_entire_state_region = STATE_LAZIO
+			country_or_subject_owns_entire_state_region = STATE_SARDINIA
+		}
+		OR = {
+			country_or_subject_owns_entire_state_region = STATE_LAZIO
+			country_or_subject_owns_entire_state_region = STATE_CAMPANIA
+		}
+		country_or_subject_owns_entire_state_region = STATE_WEST_SWITZERLAND
+		country_or_subject_owns_entire_state_region = STATE_AUSTRIA
+	}
+
+	effect = {
+		change_tag = USE
+
+		set_variable = formed_USE_aggressive
+		trigger_event = USE_formation.18
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+#Austrasia
+je_button_austrasia_north_germany = {
+	name = "je_button_carolingia_north_germany"
+	desc = "je_button_carolingia_north_germany_desc"
+
+	visible = { always = yes }
+
+	possible = { 
+		hidden_trigger = {
+			NOT = { has_variable = caro_claimed_north_germany_check }
+		}
+	}
+
+	effect = {
+		change_infamy = 10
+		add_modifier = {
+			name = caro_land_claim
+			months = 61
+		}
+
+		custom_tooltip = {
+			set_variable = {
+				name = caro_claimed_north_germany_check
+				value = yes
+			}
+			text = je_button_caro_north_germany_claim_states
+			
+			s:STATE_WESTPHALIA= {
+				add_claim = root
+			}
+			s:STATE_BRUNSWICK = {
+				add_claim = root
+			}
+			s:STATE_HANNOVER= {
+				add_claim = root
+			}
+			s:STATE_ELBE = {
+				add_claim = root
+			}
+			s:STATE_FRIESLAND = {
+				add_claim = root
+			}
+			s:STATE_HOLLAND= {
+				add_claim = root
+			}
+		}
+
+		if = {
+			limit = { exists = c:PRU }
+
+			change_relations = {
+				country = c:PRU
+				value = -30
+			}
+		}
+		if = {
+			limit = { exists = c:GER }
+
+			change_relations = {
+				country = c:GER
+				value = -30
+			}
+		}
+		if = {
+			limit = { exists = c:NET }
+
+			change_relations = {
+				country = c:NET
+				value = -30
+			}
+		}
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_button_austrasia_south_germany = {
+	name = "je_button_carolingia_south_germany"
+	desc = "je_button_carolingia_south_germany_desc"
+
+	visible = { always = yes }
+
+	possible = { 
+		hidden_trigger = {
+			NOT = { has_variable = caro_claimed_south_germany_check }
+		}
+	}
+
+	effect = {
+		change_infamy = 10
+		add_modifier = {
+			name = caro_land_claim
+			months = 61
+		}
+
+		custom_tooltip = {
+			set_variable = {
+				name = caro_claimed_south_germany_check
+				value = yes
+			}
+			text = je_button_caro_south_germany_claim_states
+			
+			s:STATE_WEST_SWITZERLAND= {
+				add_claim = root
+			}
+			s:STATE_EAST_SWITZERLAND = {
+				add_claim = root
+			}
+			s:STATE_TYROL= {
+				add_claim = root
+			}
+			s:STATE_BAVARIA= {
+				add_claim = root
+			}
+			s:STATE_FRANCONIA = {
+				add_claim = root
+			}
+			s:STATE_WURTTEMBERG = {
+				add_claim = root
+			}
+			s:STATE_BADEN= {
+				add_claim = root
+			}
+			s:STATE_HESSE= {
+				add_claim = root
+			}
+		}
+
+		if = {
+			limit = { exists = c:SWI }
+
+			change_relations = {
+				country = c:SWI
+				value = -30
+			}
+		}
+		if = {
+			limit = { exists = c:BAV }
+
+			change_relations = {
+				country = c:BAV
+				value = -30
+			}
+		}
+		if = {
+			limit = { exists = c:AUS }
+
+			change_relations = {
+				country = c:AUS
+				value = -30
+			}
+		}
+		if = {
+			limit = { exists = c:GER }
+
+			change_relations = {
+				country = c:GER
+				value = -30
+			}
+		}
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_button_austrasia_north_france= {
+	name = "je_button_carolingia_north_france"
+	desc = "je_button_carolingia_north_france_desc"
+
+	visible = { always = yes }
+
+	possible = { 
+		hidden_trigger = {
+			NOT = { has_variable = caro_claimed_north_france_check }
+		}
+	}
+
+	effect = {
+		change_infamy = 10
+		add_modifier = {
+			name = caro_land_claim
+			months = 61
+		}
+
+		custom_tooltip = {
+			set_variable = {
+				name = caro_claimed_north_france_check
+				value = yes
+			}
+			text = je_button_caro_north_france_claim_states
+			
+			s:STATE_FRANCHE_COMTE= {
+				add_claim = root
+			}
+			s:STATE_BURGUNDY = {
+				add_claim = root
+			}
+			s:STATE_MAINE_ANJOU = {
+				add_claim = root
+			}
+			s:STATE_ORLEANS = {
+				add_claim = root
+			}
+			s:STATE_NORMANDY= {
+				add_claim = root
+			}
+			s:STATE_ILE_DE_FRANCE = {
+				add_claim = root
+			}
+			s:STATE_CHAMPAGNE = {
+				add_claim = root
+			}
+			s:STATE_PICARDY= {
+				add_claim = root
+			}			
+		}
+
+		change_relations = {
+			country = c:FRA
+			value = -30
+		}
+	}
+
+	ai_chance = {
+		base = 1
+	}
+} 
+
+je_button_austrasia_south_france = {
+	name = "je_button_carolingia_south_france"
+	desc = "je_button_carolingia_south_france_desc"
+
+	visible = { always = yes }
+
+	possible = { 
+		hidden_trigger = {
+			NOT = { has_variable = caro_claimed_south_france_check }
+		}
+	}
+
+	effect = {
+		change_infamy = 10
+		add_modifier = {
+			name = caro_land_claim
+			months = 61
+		}
+
+		custom_tooltip = {
+			set_variable = {
+				name = caro_claimed_south_france_check
+				value = yes
+			}
+			text = je_button_caro_south_france_claim_states
+			
+			s:STATE_LANGUEDOC= {
+				add_claim = root
+			}
+			s:STATE_AQUITAINE = {
+				add_claim = root
+			}
+			s:STATE_GUYENNE = {
+				add_claim = root
+			}
+			s:STATE_PROVENCE = {
+				add_claim = root
+			}
+			s:STATE_RHONE = {
+				add_claim = root
+			}
+			s:STATE_AUVERGNE_LIMOUSIN = {
+				add_claim = root
+			}
+			s:STATE_POITOU= {
+				add_claim = root
+			}
+			s:STATE_SAVOY = {
+				add_claim = root
+			}	
+			s:STATE_CORSICA = {
+				add_claim = root
+			}			
+		}
+
+		change_relations = {
+			country = c:FRA
+			value = -30
+		}
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_button_austrasia_italy = {
+	name = "je_button_carolingia_italy"
+	desc = "je_button_carolingia_italy_desc"
+
+	visible = { always = yes }
+
+	possible = { 
+		hidden_trigger = {
+			NOT = { has_variable = caro_claimed_italy_check }
+		}
+	}
+
+	effect = {
+		change_infamy = 10
+		add_modifier = {
+			name = caro_land_claim
+			months = 61
+		}
+
+		custom_tooltip = {
+			set_variable = {
+				name = caro_claimed_italy_check
+				value = yes
+			}
+			text = je_button_caro_italy_claim_states
+			
+			s:STATE_PIEDMONT= {
+				add_claim = root
+			}
+			s:STATE_LOMBARDY = {
+				add_claim = root
+			}
+			s:STATE_VENETIA= {
+				add_claim = root
+			}
+			s:STATE_SOUTH_TYROL= {
+				add_claim = root
+			}
+			s:STATE_ISTRIA = {
+				add_claim = root
+			}
+			s:STATE_ROMAGNA = {
+				add_claim = root
+			}
+			s:STATE_EMILIA = {
+				add_claim = root
+			}
+			s:STATE_TUSCANY = {
+				add_claim = root
+			}
+			s:STATE_UMBRIA = {
+				add_claim = root
+			}
+			s:STATE_LAZIO= {
+				add_claim = root
+			}
+		}
+
+		if = {
+			limit = { exists = c:SAR }
+
+			change_relations = {
+				country = c:SAR
+				value = -30
+			}
+		}
+
+		if = {
+			limit = { exists = c:ITA }
+
+			change_relations = {
+				country = c:ITA
+				value = -30
+			}
+		}
+		
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+je_button_austrasia_spain = {
+	name = "je_button_carolingia_spain"
+	desc = "je_button_carolingia_spaind_desc"
+
+	visible = { always = yes }
+
+	possible = { 
+		hidden_trigger = {
+			NOT = { has_variable = caro_claimed_spain_check }
+		}
+	}
+
+	effect = {
+		change_infamy = 5
+		add_modifier = {
+			name = caro_land_claim
+			months = 61
+		}
+
+		custom_tooltip = {
+			set_variable = {
+				name = caro_claimed_spain_check
+				value = yes
+			}
+			text = je_button_caro_spain_claim_states
+			
+			s:STATE_BASQUE_COUNTRY = {
+				add_claim = root
+			}
+			s:STATE_ARAGON = {
+				add_claim = root
+			}
+			s:STATE_CATALONIA= {
+				add_claim = root
+			}
+		}
+
+		change_relations = {
+			country = c:SPA
+			value = -30
+		}
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}

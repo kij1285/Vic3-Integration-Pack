@@ -1,0 +1,23 @@
+﻿KDH = {
+    use_culture_states = yes
+    required_states_fraction = 0.9
+
+    ai_will_do = { always = yes }
+
+    possible = {
+         NOT = { exists = c:KDH }
+        has_technology_researched = pan-nationalism
+        is_country_type = recognized
+        country_has_primary_culture = cu:korean
+    }
+
+    effect = {
+        change_tag = KDH
+
+        if = {
+            limit = { NOT = { has_global_variable = has_formed_kdh } }
+            set_global_variable = has_formed_kdh
+        }
+		
+    }
+}
