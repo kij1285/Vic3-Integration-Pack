@@ -114,3 +114,16 @@ state_trait_Hinggan_Weji = {
 		goods_output_hardwood_mult = 0.1
 	}
 }
+
+state_trait_jinpo = { #진포항
+	icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+	modifier = {
+		building_shipyards_throughput_add = 0.2
+		building_military_shipyards_throughput_add = 0.2
+		building_port_throughput_add = 0.2
+		state_trade_capacity_mult = 0.5
+		state_building_naval_base_max_level_add = 100
+		state_market_access_price_impact = 1
+		goods_output_electricity_mult = 0.3
+	}
+}

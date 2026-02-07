@@ -15,9 +15,9 @@ STATE_HINGGAN = {
     arable_land = 102
     arable_resources = { "building_wheat_farm" "building_livestock_ranch" }
     capped_resources = {
-        building_iron_mine = 36
-        building_lead_mine = 24
-        building_logging_camp = 6
+        building_iron_mine = 46
+        building_lead_mine = 34
+        building_logging_camp = 16
         building_aggregate_mine = 20
     }
 }
@@ -60,16 +60,16 @@ STATE_SHENGJING = {
     arable_land = 250
     arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_tea_plantation" "building_tobacco_plantation" }
     capped_resources = {
-        building_coal_mine = 12
-        building_iron_mine = 16
-        building_lead_mine = 15
+        building_coal_mine = 50
+        building_iron_mine = 60
+        building_lead_mine = 30
         building_logging_camp = 20
         building_fishing_wharf = 8
-        building_aggregate_mine = 36
+        building_aggregate_mine = 30
     }
     resource = {
         type = "building_oil_rig"
-        undiscovered_amount = 20
+        undiscovered_amount = 200
     }
     naval_exit_id = 3057
 }
@@ -93,7 +93,7 @@ STATE_OUTER_MANCHURIA = {
         building_lead_mine = 24
         building_logging_camp = 40
         building_fishing_wharf = 10
-        building_aggregate_mine = 36
+        building_aggregate_mine = 50
     }
     resource = {
         type = "building_gold_field"
@@ -102,7 +102,7 @@ STATE_OUTER_MANCHURIA = {
     }
     resource = {
         type = "building_oil_rig"
-        undiscovered_amount = 20
+        undiscovered_amount = 150
     }
     naval_exit_id = 3059
 }
@@ -119,11 +119,10 @@ STATE_AMUR = {
     arable_land = 40
     arable_resources = { "building_rye_farm" "building_livestock_ranch" }
     capped_resources = {
-        building_iron_mine = 25
-        building_coal_mine = 20
+        building_iron_mine = 55
+        building_coal_mine = 40
         building_logging_camp = 45
         building_fishing_wharf = 6
-        building_aggregate_mine = 36
     }
     resource = {
         type = "building_gold_field"
@@ -145,11 +144,15 @@ STATE_SOUTHERN_MANCHURIA = {
     arable_land = 250
     arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" }
     capped_resources = {
-        building_coal_mine = 23
-        building_iron_mine = 35
-        building_lead_mine = 27
+        building_coal_mine = 50
+        building_iron_mine = 50
+        building_lead_mine = 40
         building_logging_camp = 28
-        building_aggregate_mine = 36
+        building_aggregate_mine = 40
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 50
     }
 }
 
@@ -166,10 +169,13 @@ STATE_NORTHERN_MANCHURIA = {
     arable_land = 250
     arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" }
     capped_resources = {
-        building_coal_mine = 22
-        building_iron_mine = 20
+        building_coal_mine = 50
+        building_iron_mine = 50
         building_logging_camp = 30
-        building_aggregate_mine = 36
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 50
     }
 }
 #내몽골 3주 - 남만주 북만주 성경 3주 외적인 보너스 자원 및 경작지
@@ -191,6 +197,10 @@ STATE_JEHOL = {
         building_logging_camp = 24
         building_aggregate_mine = 36
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 80
+    }
 }
 
 
@@ -207,10 +217,14 @@ STATE_YOBUK = {
     arable_land = 121
     arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_tea_plantation" "building_tobacco_plantation" }
     capped_resources = {
-        building_coal_mine = 26
-        building_iron_mine = 22
+        building_coal_mine = 50
+        building_iron_mine = 40
         building_logging_camp = 22
-        building_aggregate_mine = 36
+        building_aggregate_mine = 30
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 150
     }
 }
 
@@ -226,13 +240,12 @@ STATE_HEUNGAN = {
     farm = "xDA9398"
     mine = "xA1ADF0"
     wood = "xEFEFA1"
-    arable_land = 102
+    arable_land = 150
     arable_resources = { "building_wheat_farm" "building_livestock_ranch" }
     capped_resources = {
-        building_coal_mine = 18
-        building_iron_mine = 21
-        building_logging_camp = 58
-        building_aggregate_mine = 36
+        building_coal_mine = 30
+        building_iron_mine = 30
+        building_logging_camp = 60
     }
 }
 #만주 추가된 4개주
@@ -250,11 +263,10 @@ STATE_ANDONG = {
     arable_land = 260
     arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_silk_plantation" }
     capped_resources = {
-        building_coal_mine = 18
-        building_iron_mine = 27
-        building_lead_mine = 11
-        building_logging_camp = 23
-        building_aggregate_mine = 36
+        building_coal_mine = 80
+        building_iron_mine = 60
+        building_lead_mine = 30
+        building_logging_camp = 30
     }
 
     naval_exit_id = 3057
@@ -273,11 +285,14 @@ STATE_SONGGANG = {
     arable_land = 280
     arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" }
     capped_resources = {
-        building_coal_mine = 25
-        building_iron_mine = 25
-        building_lead_mine = 12
+        building_coal_mine = 40
+        building_iron_mine = 40
+        building_lead_mine = 50
         building_logging_camp = 22
-        building_aggregate_mine = 36
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 150
     }
 }
 
@@ -291,14 +306,18 @@ STATE_HAPGANG = {
     farm = "xD5886D"
     mine = "xD44AC1"
     wood = "x559CBD"
-    arable_land = 282
+    arable_land = 280
     arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" }
     capped_resources = {
-        building_coal_mine = 10
-        building_iron_mine = 18
-        building_lead_mine = 13
-        building_logging_camp = 28
-        building_aggregate_mine = 36
+        building_coal_mine = 30
+        building_iron_mine = 30
+        building_lead_mine = 15
+        building_logging_camp = 30
+        building_aggregate_mine = 30
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 150
     }
 }
 
@@ -315,10 +334,9 @@ STATE_BLACK_DRAGON_GANG = {
     arable_land = 52
     arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" }
     capped_resources = {
-        building_coal_mine = 30
-        building_iron_mine = 20
-        building_logging_camp = 46
-        building_aggregate_mine = 36
+        building_coal_mine = 40
+        building_iron_mine = 30
+        building_logging_camp = 50
     }
 }
 #korea
@@ -342,7 +360,6 @@ STATE_SEOUL = {
         building_logging_camp = 13
         building_whaling_station = 5
         building_fishing_wharf = 8
-        building_aggregate_mine = 36
     }
     naval_exit_id = 3057
 }
@@ -361,11 +378,10 @@ STATE_BUSAN = {
     arable_land = 90
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_tobacco_plantation" "building_dye_plantation" "building_tea_plantation" }
     capped_resources = {
-        building_coal_mine = 12
         building_logging_camp = 12
         building_whaling_station = 5
         building_fishing_wharf = 7
-        building_aggregate_mine = 36
+        building_aggregate_mine = 40
     }
     naval_exit_id = 3058
 }
@@ -380,15 +396,13 @@ STATE_YANGHO = {
     farm = "x8ACAAA"
     mine = "xC81C12"
     wood = "xF91D98"
-    arable_land = 80
+    arable_land = 180
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_tobacco_plantation" "building_dye_plantation" "building_tea_plantation" }
     capped_resources = {
-        building_coal_mine = 12
-        building_sulfur_mine = 13
-        building_logging_camp = 12
+        building_sulfur_mine = 30
+        building_logging_camp = 20
         building_whaling_station = 5
         building_fishing_wharf = 7
-        building_aggregate_mine = 36
     }
     naval_exit_id = 3058
 }
@@ -404,16 +418,16 @@ STATE_SARIWON = {
     farm = "xEDB9A8"
     mine = "x00227F"
     wood = "xBD9C6F"
-    arable_land = 75
+    arable_land = 50
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_tobacco_plantation" }
     capped_resources = {
-        building_coal_mine = 36
-        building_iron_mine = 38
-        building_lead_mine = 39
-        building_sulfur_mine = 38
-        building_logging_camp = 13
+        building_coal_mine = 80
+        building_iron_mine = 80
+        building_lead_mine = 40
+        building_sulfur_mine = 50
+        building_logging_camp = 20
         building_fishing_wharf = 6
-        building_aggregate_mine = 36
+        building_aggregate_mine = 20
     }
     resource = {
         type = "building_gold_field"
@@ -428,22 +442,22 @@ STATE_PYONGYANG = {
     id = 539
     subsistence_building = "building_subsistence_rice_farm"
     provinces = { "x12BC01" "x47D537" "x5204B8" "x605101" "x808E39" "x880F26" "xA2DB51" "xB8F465" "xC5EF9A" "xDD6252" "xEAF581" "xF01000" }
-    traits = { "state_trait_unsan_mine" }
+    traits = { "state_trait_unsan_mine" "state_trait_jinpo" }
     city = "xDD6252"
     port = "xDD6252"
     farm = "x5204B8"
     mine = "x880F26"
     wood = "x47D537"
-    arable_land = 75
+    arable_land = 100
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_tobacco_plantation" }
     capped_resources = {
-        building_coal_mine = 35
-        building_iron_mine = 34
-        building_lead_mine = 24
-        building_sulfur_mine = 6
-        building_logging_camp = 7
+        building_coal_mine = 50
+        building_iron_mine = 50
+        building_lead_mine = 40
+        building_sulfur_mine = 30
+        building_logging_camp = 10
         building_fishing_wharf = 2
-        building_aggregate_mine = 36
+        building_aggregate_mine = 30
     }
     resource = {
         type = "building_gold_field"
@@ -467,14 +481,13 @@ STATE_GWANDONG = {
     arable_land = 70
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_tobacco_plantation" }
     capped_resources = {
-        building_coal_mine = 35
-        building_iron_mine = 34
-        building_lead_mine = 24
-        building_sulfur_mine = 6
-        building_logging_camp = 27
+        building_coal_mine = 50
+        building_iron_mine = 50
+        building_lead_mine = 20
+        building_sulfur_mine = 40
+        building_logging_camp = 30
         building_whaling_station = 5
         building_fishing_wharf = 12
-        building_aggregate_mine = 36
     }
     resource = {
         type = "building_gold_field"
@@ -497,12 +510,11 @@ STATE_HOSEO = {
     arable_land = 80
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_tobacco_plantation" }
     capped_resources = {
-        building_coal_mine = 12
-        building_sulfur_mine = 9
-        building_logging_camp = 14
+        building_coal_mine = 30
+        building_sulfur_mine = 50
+        building_logging_camp = 20
         building_whaling_station = 5
         building_fishing_wharf = 8
-        building_aggregate_mine = 36
     }
     naval_exit_id = 3057
 }
@@ -520,13 +532,12 @@ STATE_HAESEO = {
     arable_land = 75
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_tobacco_plantation" }
     capped_resources = {
-        building_coal_mine = 25
-        building_iron_mine = 30
-        building_lead_mine = 22
-        building_sulfur_mine = 17
+        building_coal_mine = 30
+        building_iron_mine = 40
+        building_lead_mine = 25
+        building_sulfur_mine = 40
         building_logging_camp = 12
         building_fishing_wharf = 14
-        building_aggregate_mine = 36
     }
     resource = {
         type = "building_gold_field"
@@ -551,7 +562,6 @@ STATE_JEJU_ISLAND = {
         building_logging_camp = 5
         building_whaling_station = 2
         building_fishing_wharf = 5
-        building_aggregate_mine = 36
     }
     naval_exit_id = 3057
 }

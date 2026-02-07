@@ -6,8 +6,6 @@ KDH = {
 
     possible = {
         NOT = { exists = c:KDH }
-        has_technology_researched = pan-nationalism
-        is_country_type = recognized
         country_has_primary_culture = cu:korean
     }
 
