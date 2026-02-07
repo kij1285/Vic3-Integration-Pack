@@ -1,0 +1,8 @@
+﻿kdh_acceptance_boost = {
+    country_manchu_cultural_acceptance_add = 50
+    country_han_cultural_acceptance_add = 50
+    country_mongol_cultural_acceptance_add = 80
+    country_japanese_cultural_acceptance_add = 65
+    country_siberian_cultural_acceptance_add = 80
+    country_ainu_cultural_acceptance_add = 80
+}
