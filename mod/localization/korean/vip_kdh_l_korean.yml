@@ -11,4 +11,6 @@
   vip_kdh_decisions.1_ok: "제국 통합을 단행한다"
   vip_kdh_decisions.2_ok: "제국의 영유권을 선언한다"
 
+  kdh_acceptance_boost: "제국 통합 조치"
+  kdh_acceptance_boost_desc: "대 한 제국 내 문화 수용도를 증진합니다."
 

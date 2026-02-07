@@ -19,7 +19,6 @@ vip_kdh_decisions.1 = {
 
         add_modifier = {
             name = kdh_acceptance_boost
-            duration = -1
         }
 
         set_global_variable = vip_kdh_acceptance_done
