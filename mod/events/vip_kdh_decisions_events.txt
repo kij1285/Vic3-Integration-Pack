@@ -1,0 +1,46 @@
+﻿namespace = vip_kdh_decisions
+
+vip_kdh_decisions.1 = {
+    type = country_event
+    is_triggered_only = yes
+
+    title = vip_kdh_acceptance_decision
+    desc  = vip_kdh_acceptance_decision_desc
+
+    option = {
+        name = OK
+
+        add_acceptance = { culture = cu:manchu   value = 10 }
+        add_acceptance = { culture = cu:han      value = 10 }
+        add_acceptance = { culture = cu:mongol   value = 10 }
+        add_acceptance = { culture = cu:japanese value = 10 }
+        add_acceptance = { culture = cu:siberian value = 10 }
+        add_acceptance = { culture = cu:ainu     value = 10 }
+
+        set_global_variable = vip_kdh_acceptance_done
+    }
+}
+
+vip_kdh_decisions.2 = {
+    type = country_event
+    is_triggered_only = yes
+
+    title = vip_kdh_claims_decision
+    desc  = vip_kdh_claims_decision_desc
+
+    option = {
+        name = OK
+
+        add_claim = { state_region = s:STATE_SAKHALIN }
+        add_claim = { state_region = s:STATE_HOKKAIDO }
+        add_claim = { state_region = s:STATE_TOHOKU }
+        add_claim = { state_region = s:STATE_CHUBU }
+        add_claim = { state_region = s:STATE_KANSAI }
+        add_claim = { state_region = s:STATE_CHUGOKU }
+        add_claim = { state_region = s:STATE_SHIKOKU }
+        add_claim = { state_region = s:STATE_KYUSHU }
+        add_claim = { state_region = s:STATE_RYUKYU_ISLANDS }
+
+        set_global_variable = vip_kdh_claims_done
+    }
+}

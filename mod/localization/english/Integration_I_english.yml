@@ -1,11 +1,11 @@
 ﻿l_english:
 
-  KDH:0 "Great Han"
-  KDH_ADJ:0 "Great Han"
+  KDH: "Great Han"
+  KDH_ADJ: "Great Han"
 
-  kdh_acceptance_decision:0 "Integrate the Empire"
-  kdh_acceptance_decision_desc:0 "Promote cultural integration across the newly proclaimed empire, easing ethnic tensions and strengthening unity."
+  vip_kdh_acceptance_decision: "Integrate the Empire"
+  vip_kdh_acceptance_decision_desc: "Promote cultural integration across the newly proclaimed empire, easing ethnic tensions and strengthening unity."
 
-  kdh_claims_decision:0 "Assert Imperial Claims"
-  kdh_claims_decision_desc:0 "Formally assert imperial claims over historically and strategically significant regions."
+  vip_kdh_claims_decision: "Assert Imperial Claims"
+  vip_kdh_claims_decision_desc: "Formally assert imperial claims over historically and strategically significant regions."
 

@@ -1,56 +1,33 @@
-﻿kdh_acceptance_decision = {
-    icon = "gfx/interface/icons/decisions/decision_generic.dds"
-
+﻿vip_kdh_acceptance_decision = {
+    is_shown = {
+        c:KDH ?= ROOT
+        NOT = { has_global_variable = vip_kdh_acceptance_done }
+    }
     possible = {
-        is_ai = no
         c:KDH ?= ROOT
         NOT = { has_global_variable = vip_kdh_acceptance_done }
     }
 
-    when = {
-        always = yes
+    when_taken = {
+        trigger_event = { id = vip_kdh_decisions.1 popup = yes }
     }
 
-    effect = {
-        add_acceptance = { culture = cu:manchu   value = 10 }
-        add_acceptance = { culture = cu:han      value = 10 }
-        add_acceptance = { culture = cu:mongol   value = 10 }
-        add_acceptance = { culture = cu:japanese value = 10 }
-        add_acceptance = { culture = cu:siberian value = 10 }
-        add_acceptance = { culture = cu:ainu     value = 10 }
-
-        set_global_variable = vip_kdh_acceptance_done
-    }
-
-    ai_will_do = { always = no }
+    ai_chance = { value = 0 }
 }
 
-kdh_claims_decision = {
-    icon = "gfx/interface/icons/decisions/decision_generic.dds"
-
+vip_kdh_claims_decision = {
+    is_shown = {
+        c:KDH ?= ROOT
+        NOT = { has_global_variable = vip_kdh_claims_done }
+    }
     possible = {
-        is_ai = no
         c:KDH ?= ROOT
         NOT = { has_global_variable = vip_kdh_claims_done }
     }
 
-    when = {
-        always = yes
+    when_taken = {
+        trigger_event = { id = vip_kdh_decisions.2 popup = yes }
     }
 
-    effect = {
-        add_claim = { state_region = s:STATE_SAKHALIN }
-        add_claim = { state_region = s:STATE_HOKKAIDO }
-        add_claim = { state_region = s:STATE_TOHOKU }
-        add_claim = { state_region = s:STATE_CHUBU }
-        add_claim = { state_region = s:STATE_KANSAI }
-        add_claim = { state_region = s:STATE_CHUGOKU }
-        add_claim = { state_region = s:STATE_SHIKOKU }
-        add_claim = { state_region = s:STATE_KYUSHU }
-        add_claim = { state_region = s:STATE_RYUKYU_ISLANDS }
-
-        set_global_variable = vip_kdh_claims_done
-    }
-
-    ai_will_do = { always = no }
+    ai_chance = { value = 0 }
 }

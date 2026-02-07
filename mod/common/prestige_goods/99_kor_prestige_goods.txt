@@ -103,6 +103,6 @@ prestige_good_kor_bituminous_coal = {
 prestige_good_kor_ktx_transportation = {
     base_good = transportation
     prestige_bonus = 0.2
-    texture = "gfx/interface/icons/goods_icons/prestige_goods/ktx_transportation.dds"
+    texture = "gfx/interface/icons/goods_icons/prestige_goods/kor_ktx_transportation.dds"
 }
 
