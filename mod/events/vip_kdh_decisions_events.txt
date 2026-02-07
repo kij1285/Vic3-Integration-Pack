@@ -7,15 +7,24 @@ vip_kdh_decisions.1 = {
     title = vip_kdh_acceptance_decision
     desc  = vip_kdh_acceptance_decision_desc
 
-    option = {
-        name = OK
+    event_image = {
+		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
+	}
+	
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/signed_contract"
+	
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
 
-        add_acceptance = { culture = cu:manchu   value = 10 }
-        add_acceptance = { culture = cu:han      value = 10 }
-        add_acceptance = { culture = cu:mongol   value = 10 }
-        add_acceptance = { culture = cu:japanese value = 10 }
-        add_acceptance = { culture = cu:siberian value = 10 }
-        add_acceptance = { culture = cu:ainu     value = 10 }
+    option = {
+        name = vip_kdh_decisions.1_ok
+
+        add_culture_acceptance_modifier = { culture = cu:manchu   years = 200 value = 10 }
+        add_culture_acceptance_modifier = { culture = cu:han      years = 200 value = 10 }
+        add_culture_acceptance_modifier = { culture = cu:mongol   years = 200 value = 10 }
+        add_culture_acceptance_modifier = { culture = cu:japanese years = 200 value = 10 }
+        add_culture_acceptance_modifier = { culture = cu:siberian years = 200 value = 10 }
+        add_culture_acceptance_modifier = { culture = cu:ainu     years = 200 value = 10 }
 
         set_global_variable = vip_kdh_acceptance_done
     }
@@ -28,18 +37,27 @@ vip_kdh_decisions.2 = {
     title = vip_kdh_claims_decision
     desc  = vip_kdh_claims_decision_desc
 
+    event_image = {
+		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
+	}
+	
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/signed_contract"
+	
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+    
     option = {
-        name = OK
+        name = vip_kdh_decisions.2_ok
 
-        add_claim = { state_region = s:STATE_SAKHALIN }
-        add_claim = { state_region = s:STATE_HOKKAIDO }
-        add_claim = { state_region = s:STATE_TOHOKU }
-        add_claim = { state_region = s:STATE_CHUBU }
-        add_claim = { state_region = s:STATE_KANSAI }
-        add_claim = { state_region = s:STATE_CHUGOKU }
-        add_claim = { state_region = s:STATE_SHIKOKU }
-        add_claim = { state_region = s:STATE_KYUSHU }
-        add_claim = { state_region = s:STATE_RYUKYU_ISLANDS }
+        s:STATE_SAKHALIN      = { add_claim = ROOT }
+        s:STATE_HOKKAIDO      = { add_claim = ROOT }
+        s:STATE_TOHOKU        = { add_claim = ROOT }
+        s:STATE_CHUBU         = { add_claim = ROOT }
+        s:STATE_KANSAI        = { add_claim = ROOT }
+        s:STATE_CHUGOKU       = { add_claim = ROOT }
+        s:STATE_SHIKOKU       = { add_claim = ROOT }
+        s:STATE_KYUSHU        = { add_claim = ROOT }
+        s:STATE_RYUKYU_ISLANDS= { add_claim = ROOT }
 
         set_global_variable = vip_kdh_claims_done
     }

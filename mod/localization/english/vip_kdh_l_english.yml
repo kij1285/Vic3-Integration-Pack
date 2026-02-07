@@ -1,5 +1,4 @@
 ﻿l_english:
-
   KDH: "Great Han"
   KDH_ADJ: "Great Han"
 
@@ -8,4 +7,7 @@
 
   vip_kdh_claims_decision: "Assert Imperial Claims"
   vip_kdh_claims_decision_desc: "Formally assert imperial claims over historically and strategically significant regions."
+
+  vip_kdh_decisions.1_ok: "Proclaim Integration"
+  vip_kdh_decisions.2_ok: "Assert Our Claims"
 

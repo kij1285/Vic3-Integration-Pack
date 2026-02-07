@@ -1,0 +1,13 @@
+﻿KDH_FLAG = {
+    pattern = "pattern_solid.tga"
+    color1 = { 79 5 18 }
+
+    colored_emblem = {
+        texture = "KDH_black.dds"
+        color1 = "black"
+        instance = {
+            scale = { 0.80 0.80 }
+            position = { 0.50 0.50 }
+        }
+    }
+}

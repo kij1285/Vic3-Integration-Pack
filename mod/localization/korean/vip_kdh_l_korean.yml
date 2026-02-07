@@ -1,5 +1,4 @@
 ﻿l_korean:
-
   KDH: "대 한"
   KDH_ADJ: "대 한"
 
@@ -8,3 +7,8 @@
 
   vip_kdh_claims_decision: "제국의 영유권 주장"
   vip_kdh_claims_decision_desc: "역사적·전략적으로 중요한 지역에 대한 제국의 영유권을 공식적으로 주장합니다."
+
+  vip_kdh_decisions.1_ok: "제국 통합을 단행한다"
+  vip_kdh_decisions.2_ok: "제국의 영유권을 선언한다"
+
+
